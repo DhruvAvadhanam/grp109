@@ -2,18 +2,25 @@ body{
   background-color:ivory;
 }
 
-#table{
-  horizontal-align: center;
+table{
+  horizontal-align: left;
+  vertical-align: top;
+  width: 60%;
+  height: 75%;
 }
 
+th, td {
+  border-bottom: 1px solid #ddd;
+}
 
 #title {
  position:fixed;
+ color: ivory;
  top:0px;
  left:0px; 
  padding:10px;
- margin-top:50px;
- margin-bottom:50px;
+ margin-top:75px;
+ margin-bottom:75px;
  width:100%;
  background-color:midnightblue;
  text-align:center; 
