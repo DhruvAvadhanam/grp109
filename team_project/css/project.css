@@ -8,8 +8,9 @@ body{
 #table{
   horizontal-align: left;
   vertical-align: top;
-  width: 50%;
+  width: 70%;
   height: 75%;
+  margin: auto;
 }
 
 th, td {
