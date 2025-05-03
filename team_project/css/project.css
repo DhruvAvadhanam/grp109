@@ -2,7 +2,7 @@ body{
   background-color:ivory;
   top:200px;
   margin-top:300px;
-  width: 50%;
+  width: 90%;
   display: flex;
   justify-content: center;
 }
@@ -20,9 +20,9 @@ body{
 
 #table{
   /*horizontal-align: left;
-  vertical-align: top;*/
+  vertical-align: top;
   width: 80%;
-  height: 75%;
+  height: 75%;*/
   margin: auto;
 }
 
