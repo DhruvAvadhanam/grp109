@@ -1,47 +1,55 @@
-body{
-	background-color: ivory;
-	width: 90%;
-	margin: auto;}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
 
-nav{
-	clear: both;
+body{
+	background-color:ivory;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+#Menu{
 	position: sticky;  
+	top: 60px;
 	color: lightsalmon;
 	background-color: midnightblue;
 	width: 100%;
 	text-align: center; 
-	font-size: 24px;
-	float:none;}
+	font-size: 20px;
+}
 
 #table{
-	width: 90%;
-	margin: auto;}
+	width: 95%;
+	margin: auto;
+}
 
 th, td {
-	border-bottom: 1px solid #ddd;}
+	border-bottom: 1px solid #ddd;
+}
 
-header {
+#title {
 	position: sticky;
 	color: ivory;
-	top:0px;
-	left:0px; 
-	height: 100px;
+	top:0;
+	z-index: 1000;
 	padding:1px;
-	margin-top:10px;
-	margin-bottom:10px;
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; 
-	float:none;}
+	font-size:36px;
+	padding: 10px 0;
+	margin: 0;
+}
 
-footer {
-	position:sticky;
-	bottom:0px;
-	left:0px; 
-	border:solid 1px;
-	padding: 10px;
-	margin:0px;
-	background-color:midnightblue;
-	width:100%;
+#footer {
+	background-color: midnightblue;
+	width: 100%;
 	display: flex;
-	justify-content: center;}
+	justify-content: center;
+	padding: 10px;
+	border-top: 1px solid #000;
+	margin-top: 40px;
+	color: white;
+}
