@@ -17,9 +17,9 @@ body{
 }
 
 #table{
-  horizontal-align: left;
-  vertical-align: top;
-  width: 70%;
+  /*horizontal-align: left;
+  vertical-align: top;*/
+  width: 80%;
   height: 75%;
   margin: auto;
 }
