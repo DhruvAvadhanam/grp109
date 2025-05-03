@@ -1,13 +1,13 @@
 body{
   background-color:ivory;
-  top:300px;
-  margin-top:125px;
+  top:100px;
+  margin-top:250px;
   width: 50%;
 }
 
 #menu{
- position:fixed;
- top:125px;
+ position:fixed;  
+ margin-top:200px;
  color: lightsalmon;
  background-color:midnightblue;
  width:100%;
