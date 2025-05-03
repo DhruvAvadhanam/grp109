@@ -1,6 +1,6 @@
 body{
   background-color:ivory;
-  top:150px;
+  top:200px;
   margin-top:300px;
   width: 50%;
   display: flex;
@@ -9,7 +9,7 @@ body{
 
 #menu{
  position:fixed;  
- margin-top:50px;
+ margin-top:10px;
  color: lightsalmon;
  background-color:midnightblue;
  width:100%;
@@ -36,8 +36,8 @@ th, td {
  top:0px;
  left:0px; 
  padding:10px;
- margin-top:25px;
- margin-bottom:25px;
+ margin-top:15px;
+ margin-bottom:15px;
  width:100%;
  background-color:midnightblue;
  text-align:center; 
