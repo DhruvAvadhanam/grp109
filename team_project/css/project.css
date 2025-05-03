@@ -13,6 +13,20 @@ nav{
 	font-size: 24px;
 	float:none;}
 
+nav ul{
+	margin: 0px;
+	padding: 5px 0px 5px 20px;}
+
+nav li{	
+	display: inline;
+	margin-right: 10px;}
+
+nav li a{
+	color: #ffffff;}
+
+nav li a:hover, nav li a.current{
+	color: ivory;}
+
 #table{
 	width: 90%;
 	margin: auto;}
