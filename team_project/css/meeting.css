@@ -2,11 +2,6 @@ body{
 	font-family: Arial, Verdana, sans-serif;
 	background-color: ivory;
 	margin: auto;}
-
-#content {
-	column-count: 3;
-	overflow: auto;}
-
 nav{
 	clear: both;
 	position: sticky;  
@@ -51,11 +46,6 @@ th, td {
 header {
 	position: sticky;
 	color: tomato;
-	/*top:0px;
-	left:0px; */
-	height: 100px;
-	padding:10px;
-	/*margin-top:0px;*/
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; 
