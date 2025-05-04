@@ -4,6 +4,7 @@ body{
 	margin: auto;}
 
 #content {
+	column-count: 3;
 	overflow: auto;}
 
 nav{
@@ -34,9 +35,7 @@ nav li a:hover, nav li a.current{
 /*#table{
 	width: 90%;
 	margin: auto;}*/
-div {
-  column-count: 3;
-}
+
 .col1, .col2, .col3 {
 	width: 31.3%;
 	float: left;
