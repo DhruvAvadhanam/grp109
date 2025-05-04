@@ -1,7 +1,6 @@
 * {
 	font-family: Arial, Verdana, sans-serif;
-	color: #665544;
-	text-align: center;}
+	color: #665544;}
 body{
 	background-color: ivory;
 	width: 90%;
@@ -33,7 +32,7 @@ nav li a:hover, nav li a.current{
 
 #table{
 	width: 90%;
-	margin: auto;}
+	margin: 40px 40px;}
 
 th, td {
 	border-bottom: 1px solid #ddd;}
@@ -53,13 +52,13 @@ header {
 	float:none;}
 
 footer {
-	position:sticky;
-	bottom:0px;
-	left:0px; 
+	position: sticky;
+	bottom: 0px;
+	left: 0px; 
 	border:solid 1px;
 	padding: 10px;
-	margin:0px;
+	margin-bottom: 0px;
 	background-color:midnightblue;
-	width:100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;}
