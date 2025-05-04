@@ -9,7 +9,7 @@ body{
 nav{
 	clear: both;
 	position: sticky;  
-	color: lightsalmon;
+	color: tomato;
 	background-color: midnightblue;
 	width: 100%;
 	text-align: center; 
@@ -25,10 +25,10 @@ nav li{
 	margin-right: 10px;}
 
 nav li a{
-	color: #ffffff;}
+	color: #ffff80;}
 
 nav li a:hover, nav li a.current{
-	color: ivory;}
+	color: tomato;}
 
 #table{
 	width: 90%;
