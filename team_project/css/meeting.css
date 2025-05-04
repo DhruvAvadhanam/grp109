@@ -23,12 +23,18 @@ nav li{
 
 nav li a{
 	color: #ffffff;}
+
 nav li a:hover, nav li a.current{
 	color: ivory;}
 
 #table{
 	width: 90%;
 	margin: auto;}
+
+.col1, .col2, .col3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;}
 
 th, td {
 	border-bottom: 1px solid #ddd;}
@@ -39,8 +45,8 @@ header {
 	top:0px;
 	left:0px; 
 	height: 100px;
-	padding:1px;
-	margin-top:10px;
+	padding:10px;
+	margin-top:0px;
 	margin-bottom:10px;
 	width:100%;
 	background-color:midnightblue;
@@ -52,7 +58,7 @@ footer {
 	bottom:0px;
 	left:0px; 
 	border:solid 1px;
-	padding: 10px;
+	padding: 5px;
 	margin-bottom:0px;
 	background-color:midnightblue;
 	width:100%;
