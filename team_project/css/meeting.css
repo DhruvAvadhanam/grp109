@@ -28,21 +28,16 @@ nav li a:hover, nav li a.current{
 	color: ivory;}
 
 .column {
+  width: 33.33%;
   float: left;
   padding: 10px;
+  height: 900px;
 }
 
-.left{
-  width: 25%;
+.left{  
   text-align: center;
 }
 
-.middle  {
-  width: 40%;
-}
-.right{
-  width: 35%;
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
