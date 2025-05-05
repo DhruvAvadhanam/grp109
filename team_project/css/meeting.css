@@ -45,14 +45,14 @@ nav li a:hover, nav li a.current{
 	clear: both;}
 
 .container{
-	margin:auto;}
- /*margin-top:10%;
- margin-left:10%;
- margin-right:10%;
- margin-bottom:5%;
+	margin-top:3%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:5%;
 }*/
 
 header {
+	margin-top:0%;
 	position: sticky;
 	color: tomato;
 	width:100%;
