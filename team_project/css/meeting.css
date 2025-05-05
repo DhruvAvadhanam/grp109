@@ -30,8 +30,6 @@ nav li a:hover, nav li a.current{
 .column {
   width: 33.33%;
   float: left;
-  padding: 10px;
-  height: 900px;
 }
 
 .left{  
@@ -40,6 +38,7 @@ nav li a:hover, nav li a.current{
 
 /* Clear floats after the columns */
 .row:after {
+  border-bottom: 1px solid #ddd;
   content: "";
   display: table;
   clear: both;
