@@ -32,41 +32,25 @@ nav li a:hover, nav li a.current{
   float: left;
 }
 
-.left{  
-  text-align: center;
-}
-
+.row{
+	border-bottom: 1px solid #ddd;}
 /* Clear floats after the columns */
 .row:after {
-  border-bottom: 1px solid #ddd;
   content: "";
   display: table;
   clear: both;
 }
+
 .clear{
-clear: both;}
+	clear: both;}
 
 .container{
- margin-top:10%;
+	margin:auto;}
+ /*margin-top:10%;
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
-}
-/*#table{
-	width: 90%;
-	margin: auto;}
-
-.col1, .col2, .col3 {
-	width: 31.3%;
-	float: left;
-	margin: 1%;}
-
-.col1 {
-	
-	margin: 1%;}
-
-th, td {
-	border-bottom: 1px solid #ddd;}*/
+}*/
 
 header {
 	position: sticky;
