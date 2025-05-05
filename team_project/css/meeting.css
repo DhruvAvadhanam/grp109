@@ -53,7 +53,7 @@ nav li a:hover, nav li a.current{
 }*/
 
 header {
-	margin-top:0%;
+	top:0px;
 	position: sticky;
 	color: tomato;
 	width:100%;
