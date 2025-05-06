@@ -12,17 +12,19 @@ nav{
 	font-size: 20px;
 	/*float:none;*/}
 
-/*nav ul{
-	margin: 5px;
-	padding: 10px;}*/
+/*Add padding around navigation*/
+nav ul{
+	/*margin: 5px;*/
+	padding: 10px;}
 
 /*Format navigation in a horizongal line without bullets */
 nav li{	
 	display: inline;
 	margin-right: 10px;}
 
-/*Nav hyperlinks white */
+/*Nav hyperlinks white without underline*/
 nav li a{
+	text-decoration:none;
 	color: #ffffff;}
 
 /*Hover and current page nav link color*/
@@ -62,7 +64,7 @@ nav li a:hover, nav li a.current{
 header {
 	top:0px;
 	position: sticky;
-	color: darksalmon;
+	color: tomato;
 	/*width:100%;*/
 	background-color:midnightblue;
 	text-align:center; 
