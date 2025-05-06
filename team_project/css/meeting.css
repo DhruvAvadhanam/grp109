@@ -5,39 +5,41 @@ body{
 	margin: auto;}
 /*Nav bar with dark blue background, centered text, text size. Stays at top of the page.*/
 nav{
-	clear: both;
-	position: sticky;  
+	/*clear: both;
+	position: sticky;  */
 	background-color: midnightblue;
 	text-align: center; 
 	font-size: 20px;
-	float:none;}
-/*a:link{
-	text-decoration: none;}
+	/*float:none;*/}
 
-a:hover{
-	text-decoration: blue;}*/
-nav ul{
+/*nav ul{
 	margin: 5px;
-	padding: 10px;}
+	padding: 10px;}*/
 
+/*Format navigation in a horizongal line without bullets */
 nav li{	
 	display: inline;
 	margin-right: 10px;}
 
+/*Nav hyperlinks white */
 nav li a{
 	color: #ffffff;}
 
+/*Hover and current page nav link color*/
 nav li a:hover, nav li a.current{
-	color: ivory;}
+	color: lightsalmon;}
 
+/*Set width of table columns*/
 .column {
   width: 33.33%;
   float: left;
 }
 
+/*Bottom border line on rows. Top and bottom padding*/
 .row{
 	border-bottom: 1px solid #ddd;
 	padding: 10px 0px;}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -45,32 +47,36 @@ nav li a:hover, nav li a.current{
   clear: both;
 }
 
+/*Clearing row formatting*/
 .clear{
 	clear: both;}
 
+/*Setting margins for the container close to the top and even on left and right sides*/
 .container{
 	margin-top:3%;
 	margin-left:10%;
 	margin-right:10%;
 	margin-bottom:5%;}
 
+/*Header stays at top of the page when scrolling. Background blue, centered text, salmon colored text.*/
 header {
 	top:0px;
 	position: sticky;
-	color: tomato;
-	width:100%;
+	color: darksalmon;
+	/*width:100%;*/
 	background-color:midnightblue;
 	text-align:center; 
-	float:none;}
+	/*float:none*/;}
 
+/*Footer with a blue background, links centered and side by side, footer stays at botto of display window.*/
 footer {
 	position:sticky;
 	bottom:0px;
-	left:0px; 
+	/*left:0px; 
 	border:solid 1px;
-	padding: 5px;
-	margin-bottom:0px;
+	padding: 5px;*/
+	/*margin-bottom:0px;*/
 	background-color:midnightblue;
-	width:100%;
+	/*width:100%;*/
 	display: flex;
 	justify-content: center;}
