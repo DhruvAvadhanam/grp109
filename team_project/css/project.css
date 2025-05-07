@@ -1,18 +1,19 @@
+/*Set default font and text color for page*/
 * {
 	font-family: Arial, Verdana, sans-serif;
-	color: #665544;
-}
+	color: #665544;}
 
+/*Set body background color, width and center content*/
 body{
 	background-color: ivory;
 	width: 90%;
-	margin: auto;
-}
+	margin: auto;}
 
+/*Set heading text color*/
 h1 {
-	color:tomato;
-}
+	color:tomato;}
 
+/*Set background color for navigation bar to blue, text color, stays at set position and font size*/
 nav {
 	clear: both;
 	position: sticky;  
@@ -21,53 +22,55 @@ nav {
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
-	float:none;
-}
+	float:none;}
 
+/*Set margin and padding for links/nav list.*/
 nav ul {
 	margin: 0px;
-	padding: 5px 0px 5px 20px;
-}
+	padding: 5px 0px 5px 20px;}
 
+/*List nav elements horizontally*/
 nav li {	
 	display: inline;
-	margin-right: 10px;
-}
+	margin-right: 10px;}
 
+/*Remove link underline. Set text color.*/
 nav li a {
-	color: ivory;
-}
+	text-decoration: none
+	color: ivory;}
 
+/*Set hover and current page links.*/
 nav li a:hover, nav li a.current {
-	color: ivory;
-}
+	color: lightsalmon;}
 
+/*Table width, margin, and padding*/
 #table {
 	width: 75%;
 	margin: 40px 40px;
-	padding: 5px;
-}
+	padding: 5px;}
 
+/*Add padding and bottom border to cells*/
 th, td {
 	border-bottom: 1px solid #ddd;
-	padding: 5px;
-}
+	padding: 5px;}
 
+/*Position at top, blue background, text centered*/
 header {
 	position: sticky;
-	color: ivory;
+	/*color: ivory;*/
 	top:0px;
 	left:0px; 
-	height: 100px;
+	/*height: 100px;*/
 	padding:1px;
-	margin-top:10px;
+	/*margin-top:10px;*/
 	margin-bottom:10px;
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; 
-	float:none;
+	/*float:none;*/
 }
 
+/*Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. */
 footer {
 	position: sticky;
 	bottom: 0px;
