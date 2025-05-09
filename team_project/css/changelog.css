@@ -1,5 +1,6 @@
 /* Set default font and text color for page -Deena */
 * {
+  box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;
 }
