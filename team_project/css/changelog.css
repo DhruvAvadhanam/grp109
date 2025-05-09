@@ -1,0 +1,18 @@
+/* Body styling -Ian */
+body {
+  font-family: Arial, sans-serif;
+  background-color: White;
+  color: Black;
+}
+
+/* Page title container -Ian  */
+#page_title {
+  background-color: White;
+  margin: 0 auto;
+}
+
+/* H1 Styling -Ian  */
+h1 {
+  text-align: center;
+  color: #2c3550; /* Bluish Grey text color -Ian  */
+}
