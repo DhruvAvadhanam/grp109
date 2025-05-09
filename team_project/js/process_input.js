@@ -8,6 +8,7 @@
   var accountUsername;
   var accountPassword;
   var creditCard;
+  var output;
 
 
 //Asks the user for their details as an input -Dhruv
@@ -19,12 +20,12 @@ function askForDetails (){
   creditCard = prompt ("Please list your credit card #: "); 
   
   displayDetails();
-  confirmDetails();  
+  confirmDetails(); 
 }
 
 //Displays the details on the HTML page -Dhruv
 function displayDetails (){
-  var output = "Full Name: " + fullName + "\n";
+  output = "Full Name: " + fullName + "\n";
   output += "Address: " + address + "\n";
   output += "Account Username: " + accountUsername + "\n";
   output += "Account Password: " + accountPassword + "\n";
@@ -35,7 +36,7 @@ function displayDetails (){
 
 //Asks the user of confirmation of their inputted details -Dhruv
 function confirmDetails (){
-  var confirm = prompt ("Do these details look correct? (yes/no)");
+  var confirm = prompt ( output + "\n" + "Do these details look correct? (yes/no)");
   
   if (confirm === "yes" || confirm === "Yes") {
     alert ("Thank you for your information!");
