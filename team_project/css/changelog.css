@@ -2,17 +2,18 @@
 body{
 	font-family: Arial, Verdana, sans-serif;
 	background-color: ivory;
-	margin: auto;}
+	margin: auto;
+}
 
 /* Page title container -Ian  */
 #page_title {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 /* H1 Styling -Ian  */
 h1 {
-  text-align: center;
-  color: tomato;
+	text-align: center;
+	color: tomato;
 }
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
@@ -24,23 +25,28 @@ nav {
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
-	float:none;}
+	float:none;
+}
 
 /* Set margin and padding for links/nav list. -Deena */
 nav ul {
 	margin: 0px;
-	padding: 5px 0px 5px 20px;}
+	padding: 5px 0px 5px 20px;
+}
 
 /*List nav elements horizontally -Deena */
 nav li {	
 	display: inline;
-	margin-right: 10px;}
+	margin-right: 10px;
+}
 
 /* Remove link underline. Set text color. -Deena */
 nav li a {
 	text-decoration: none;
-	color: ivory;}
+	color: ivory;
+}
 
 /* Set hover and current page links. -Deena */
 nav li a:hover, nav li a.current {
-	color: lightsalmon;}
+	color: lightsalmon;
+}
