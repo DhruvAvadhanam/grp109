@@ -1,8 +1,6 @@
 // process_input.js
 // This file handles user input logic for the Group 1 Input Form page. -Ian
-// askForDetails, displayDetails, and confirmDetails methods added. -Dhruv
 
-//Variables for user details -Dhruv
   var fullName;
   var address;
   var accountUsername;
@@ -10,8 +8,6 @@
   var creditCard;
   var output;
 
-
-//Asks the user for their details as an input -Dhruv
 function askForDetails (){
   fullName = prompt ("Please list your full name: ");
   address = prompt ("Please list your current address: ");
@@ -20,10 +16,10 @@ function askForDetails (){
   creditCard = prompt ("Please list your credit card #: "); 
   
   displayDetails();
-  confirmDetails(); 
+  confirmDetails();
+  
 }
 
-//Displays the details on the HTML page -Dhruv
 function displayDetails (){
   output = "Full Name: " + fullName + "\n";
   output += "Address: " + address + "\n";
@@ -34,7 +30,6 @@ function displayDetails (){
   document.getElementById("text").innerHTML = output;
 }
 
-//Asks the user of confirmation of their inputted details -Dhruv
 function confirmDetails (){
   var confirm = prompt ( output + "\n" + "Do these details look correct? (yes/no)");
   
