@@ -1,18 +1,46 @@
-/* Body styling -Ian */
-body {
-  font-family: Arial, sans-serif;
-  background-color: White;
-  color: Black;
-}
+/*Setting a light color for the page background and a sans serif font. Center content. -Deena */
+body{
+	font-family: Arial, Verdana, sans-serif;
+	background-color: ivory;
+	margin: auto;}
 
 /* Page title container -Ian  */
 #page_title {
-  background-color: White;
   margin: 0 auto;
 }
 
 /* H1 Styling -Ian  */
 h1 {
   text-align: center;
-  color: #2c3550; /* Bluish Grey text color -Ian  */
+  color: tomato;
 }
+
+/* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
+nav {
+	clear: both;
+	position: sticky;  
+	color: tomato;
+	background-color: midnightblue;
+	width: 100%;
+	text-align: center; 
+	font-size: 20px;
+	float:none;}
+
+/* Set margin and padding for links/nav list. -Deena */
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 20px;}
+
+/*List nav elements horizontally -Deena */
+nav li {	
+	display: inline;
+	margin-right: 10px;}
+
+/* Remove link underline. Set text color. -Deena */
+nav li a {
+	text-decoration: none;
+	color: ivory;}
+
+/* Set hover and current page links. -Deena */
+nav li a:hover, nav li a.current {
+	color: lightsalmon;}
