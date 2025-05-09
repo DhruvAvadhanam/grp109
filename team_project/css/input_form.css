@@ -1,19 +1,20 @@
-/*Setting a light color for the page background and a sans serif font. Center content. -Deena */
-body{
+/* Set default font and text color for page -Deena */
+* {
+  box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+
+/* Set body background color, width and center content -Deena */
+body{
 	background-color: ivory;
+	width: 90%;
 	margin: auto;
 }
 
-/* Page title container -Ian  */
-#page_title {
-	margin: 0 auto;
-}
-
-/* H1 Styling -Ian  */
+/* Set heading text color -Deena */
 h1 {
-	text-align: center;
-	color: tomato;
+	color:tomato;
 }
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
@@ -34,7 +35,7 @@ nav ul {
 	padding: 5px 0px 5px 20px;
 }
 
-/*List nav elements horizontally -Deena */
+/* List nav elements horizontally -Deena */
 nav li {	
 	display: inline;
 	margin-right: 10px;
@@ -49,4 +50,34 @@ nav li a {
 /* Set hover and current page links. -Deena */
 nav li a:hover, nav li a.current {
 	color: lightsalmon;
+}
+
+/* Position at top, blue background, text centered -Deena */
+header {
+	position: sticky;
+	/* color: ivory; -Deena */
+	top:0px;
+	left:0px; 
+	/* height: 100px; -Deena */
+	padding:1px;
+	/* margin-top:10px; -Deena */
+	margin-bottom:10px;
+	width:100%;
+	background-color:midnightblue;
+	text-align:center; 
+	/* float:none; -Deena */
+}
+
+/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
+footer {
+	position: sticky;
+	bottom: 0px;
+	left: 0px; 
+	border:solid 1px;
+	padding: 10px;
+	margin-bottom: 0px;
+	background-color:midnightblue;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
