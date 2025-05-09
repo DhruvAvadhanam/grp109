@@ -5,11 +5,6 @@ body{
 	margin: auto;
 }
 
-/* Page title container -Ian  */
-#page_title {
-	margin: 0 auto;
-}
-
 /* H1 Styling -Ian  */
 h1 {
 	text-align: center;
@@ -49,4 +44,33 @@ nav li a {
 /* Set hover and current page links. -Deena */
 nav li a:hover, nav li a.current {
 	color: lightsalmon;
+}
+/*Position at top, blue background, text centered*/
+header {
+	position: sticky;
+	/*color: ivory;*/
+	top:0px;
+	left:0px; 
+	/*height: 100px;*/
+	padding:1px;
+	/*margin-top:10px;*/
+	margin-bottom:10px;
+	width:100%;
+	background-color:midnightblue;
+	text-align:center; 
+	/*float:none;*/
+}
+
+/*Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. */
+footer {
+	position: sticky;
+	bottom: 0px;
+	left: 0px; 
+	border:solid 1px;
+	padding: 10px;
+	margin-bottom: 0px;
+	background-color:midnightblue;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
