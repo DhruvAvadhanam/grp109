@@ -69,7 +69,8 @@ header {
 	font-weight: bold;
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	float: left;}
+	float: left;
+	text-align: center;}
 .column2 {/*Larger width for second row*/
 	width: 80%;
 	padding: 10px;
