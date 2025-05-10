@@ -69,9 +69,11 @@ header {
 	float: left;}
 .Deena { /*Class distinction for Deena*/
 	background-color: lightcyan;}
-.row {
+.row { /*Add bottom border to row*/
 	border-bottom: 1px solid #ddd;}
-
+/*Clearing row formatting*/
+.clear{
+	clear: both;}
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
 	position: sticky;
