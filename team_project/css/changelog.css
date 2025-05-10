@@ -58,8 +58,9 @@ header {
 	background-color:midnightblue;
 	text-align:center; 
 	/* float:none; -Deena */}
-#heading {
+.heading {
 	font-weight: bold;
+	text-align: center;
 }
 .column1 { /*Small width for first row*/
 	width: 20%;
