@@ -2,20 +2,17 @@
 * {
   box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
-	color: #665544;
-}
+	color: #665544;}
 
 /* Set body background color, width and center content -Deena */
 body{
 	background-color: ivory;
 	width: 90%;
-	margin: auto;
-}
+	margin: auto;}
 
 /* Set heading text color -Deena */
 h1 {
-	color:tomato;
-}
+	color:tomato;}
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
 nav {
@@ -26,31 +23,26 @@ nav {
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
-	float:none;
-}
+	float:none;}
 
 /* Set margin and padding for links/nav list. -Deena */
 nav ul {
 	margin: 0px;
-	padding: 5px 0px 5px 20px;
-}
+	padding: 5px 0px 5px 20px;}
 
 /* List nav elements horizontally -Deena */
 nav li {	
 	display: inline;
-	margin-right: 10px;
-}
+	margin-right: 10px;}
 
 /* Remove link underline. Set text color. -Deena */
 nav li a {
 	text-decoration: none;
-	color: ivory;
-}
+	color: ivory;}
 
 /* Set hover and current page links. -Deena */
 nav li a:hover, nav li a.current {
-	color: lightsalmon;
-}
+	color: lightsalmon;}
 
 /* Position at top, blue background, text centered -Deena */
 header {
@@ -65,8 +57,18 @@ header {
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; 
-	/* float:none; -Deena */
-}
+	/* float:none; -Deena */}
+.column1 { /*Small width for first row*/
+	width: 20%;
+	padding: 10px;
+	border-right: 1px solid #ddd}
+.column2 {/*Larger width for second row*/
+	width: 80%;
+	padding: 10px;}
+.Deena { /*Class distinction for Deena*/
+	background-color: lightcyan;}
+.row {
+	border-bottom: 1px solid #ddd;}
 
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
@@ -79,5 +81,4 @@ footer {
 	background-color:midnightblue;
 	width: 100%;
 	display: flex;
-	justify-content: center;
-}
+	justify-content: center;}
