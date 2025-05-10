@@ -61,10 +61,12 @@ header {
 .column1 { /*Small width for first row*/
 	width: 20%;
 	padding: 10px;
-	border-right: 1px solid #ddd}
+	border-right: 1px solid #ddd;
+	float: left;}
 .column2 {/*Larger width for second row*/
 	width: 80%;
-	padding: 10px;}
+	padding: 10px;
+	float: left;}
 .Deena { /*Class distinction for Deena*/
 	background-color: lightcyan;}
 .row {
