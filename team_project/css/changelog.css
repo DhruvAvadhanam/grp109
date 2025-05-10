@@ -58,11 +58,10 @@ header {
 	background-color:midnightblue;
 	text-align:center; 
 	/* float:none; -Deena */}
-.heading {
+#heading {
 	font-weight: bold;
 	text-align: center;
-	border-bottom: 1px double #ddd;
-}
+	border-bottom: 1px double #ddd;}
 .column1 { /*Small width for first row*/
 	width: 20%;
 	padding: 10px;
@@ -74,7 +73,7 @@ header {
 	float: left;}
 .Deena { /*Class distinction for Deena*/
 	background-color: lightcyan;}
-.row { /*Add bottom border to row*/
+#row { /*Add bottom border to row*/
 	border-bottom: 1px solid #ddd;}
 /*Clearing row formatting*/
 .clear{
