@@ -67,7 +67,13 @@ header {
 	text-align:center; 
 	/* float:none; -Deena */
 }
-
+.validation-section{
+	padding: 0px 10px;
+}
+.html-result{
+	background-color: aliceblue}
+.css-result{
+	background-color: cornsilk;}
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
 	position: sticky;
