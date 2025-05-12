@@ -61,11 +61,13 @@ header {
 #container{
 	padding: 0px 15px;
 	border: 1px dashed;}
-#heading {
+.th {
 	font-weight: bold;
 	text-align: center;
 	font-size: 18px;
 	border: 2px solid #ddd;}
+.row { /*Add bottom border to row*/
+	border-bottom: 1px solid #ddd;}
 .column1 { /*Small width for first row*/
 	width: 20%;
 	padding: 10px;
@@ -81,8 +83,7 @@ header {
 	border-bottom: 1px solid #ddd;}
 .Deena { /*Class distinction for Deena*/
 	background-color: lightcyan;}
-#row { /*Add bottom border to row*/
-	border-bottom: 1px solid #ddd;}
+
 /*Clearing row formatting*/
 .clear{
 	clear: both;}
