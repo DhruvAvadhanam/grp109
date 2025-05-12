@@ -69,8 +69,8 @@ header {
 .row { /*Add bottom border to row*/
 	border-bottom: 1px solid #ddd;}
 .column1 { /*Small width for first row*/
-	width: 20%;
-	height: 40px
+	width: 20%;/*
+	height: 40px;*/
 	padding: 10px;
 	font-weight: bold;
 	border-right: 1px solid #ddd;
