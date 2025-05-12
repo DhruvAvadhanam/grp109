@@ -67,20 +67,21 @@ header {
 	font-size: 18px;
 	/*border: 2px solid #ddd;*/}
 .row { /*Add bottom border to row*/
-	border-bottom: 1px solid #ddd;}
+	/*border-bottom: 1px solid #ddd;*/}
 .column1 { /*Small width for first row*/
 	width: 20%;/*
 	height: 40px;*/
 	padding: 10px;
 	font-weight: bold;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	float: left;
 	text-align: center;}
 .column2 {/*Larger width for second row*/
 	width: 80%;
 	padding: 10px;
 	float: left;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;}
 .Deena { /*Class distinction for Deena*/
 	background-color: lightcyan;}
