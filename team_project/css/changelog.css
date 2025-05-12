@@ -62,7 +62,10 @@ header {
 	font-weight: bold;
 	text-align: center;
 	font-size: 18px;
-	border-bottom: 1px double #ddd;}
+	border: 1px solid #ddd;}
+#container{
+	padding: 0px 15px;
+	border: 1px solid;}
 .column1 { /*Small width for first row*/
 	width: 20%;
 	padding: 10px;
