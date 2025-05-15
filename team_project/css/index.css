@@ -61,7 +61,7 @@ nav li a:hover, nav li a.current {
   float: left;
   width: 360px;}
 /*Shrink images to thumbnail size.*/
-img {
+.image {
   border-radius: 4px;
   padding: 5px;
   width: 350px;
