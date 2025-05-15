@@ -55,25 +55,22 @@ nav li a:hover, nav li a.current {
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
-	/* color: ivory; -Deena */
 	top:0px;
 	left:0px; 
-	/* height: 100px; -Deena */
 	padding:1px;
-	/* margin-top:10px; -Deena */
 	margin-bottom:10px;
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; 
-	/* float:none; -Deena */
-}
-.validation-section{
-	padding: 0px 20px;
-}
-.html-result{
+.validation-section{ /*Adding some padding to page content. -Deena*/
+	padding: 0px 20px;}
+
+.html-result{ /*Adding ID from validation page to allow formatting. -Deena*/
 	background-color: aliceblue}
-.css-result{
+
+.css-result{/*Adding ID from validation page to allow formatting. -Deena*/
 	background-color: cornsilk;}
+
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
 	position: sticky;
