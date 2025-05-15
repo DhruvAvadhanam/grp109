@@ -59,6 +59,11 @@ nav li a:hover, nav li a.current {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
+  width: 180px;}
+/*Shrink images to thumbnail size.*/
+img {
+  border-radius: 4px;
+  padding: 5px;
   width: 150px;}
 /* Position at top, blue background, text centered -Deena */
 header {
