@@ -64,7 +64,8 @@ nav li a:hover, nav li a.current {
 img {
   border-radius: 4px;
   padding: 5px;
-  width: 200px;}
+  width: 350px;
+  height: 275;}
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
