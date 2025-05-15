@@ -43,7 +43,23 @@ nav li a {
 /* Set hover and current page links. -Deena */
 nav li a:hover, nav li a.current {
 	color: lightsalmon;}
-
+/*Left container for filter elements*/
+#container1{
+  width: 20%;
+  margin-top: 100px;
+  float:left;
+  padding: 10px;}
+/*Right container for class images*/
+#container2{
+  float:left;
+  width:80%;
+  padding: 10px;}
+/*Image container formatting*/
+.thumb {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 150px;}
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
