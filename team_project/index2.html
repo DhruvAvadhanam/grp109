@@ -1,100 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head> <!-- Document head containing metadata, title, and link to the CSS stylesheet -Ian -->
-		<meta charset="UTF-8">
-		<meta name="description" content="Changelog for Group 1. It's purpose is to share some simple explanation of work done to complete the project and by whom.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Group 1 - Cooking Class Website</title>
-		<link rel="stylesheet" href="css/index.css">
-	</head>
-	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
-		<header>
-			<h1>Let's Get Cooking</h1> <!-- Page title -->
-			<nav>
-				<ul>
-					<li><a href="index.html">Let's Get Cooking</a></li>
-					<li><a href="project_details.html">Project Details</a></li>
-					<li><a href="kickstart_050225.html">Kickstart</a></li>
-					<li><a href="input_form.html">Input Form</a></li>
-					<li><a href="validation.html">Validations</a></li>
-          				<li><a href="changelog.html">Change Log</a></li>
-				</ul>
-			</nav>
-		</header>
-			
-			<div id="row"><!---->
-              <div class="column1"> <h1>Ready to find a class! </h1></div>
-                <label for="cuisines">Filter by Cuisine interest:</label>
-                <select id="cuisines" name="cuisines">
-                  <option value="All">All</option>
-                  <option value="American">American</option>
-                  <option value="Italian">Italian</option>
-                  <option value="Latin">Latin</option>
-                  <option value="South Asian">South Asian</option>
-                  <option value="East Asian">East Asian</option>
-                  <option value="Mexican">Mexican</option>
-                </select>
-              
-              <br>
-              
-              <label for="times">Filter by day:</label>
-                <select id="days" name="days">
-                  <option value="All">All</option>
-                  <option value="Monday">Monday</option>
-                  <option value="Tuesday">Tuesday</option>
-                  <option value="Wednesday">Wednesday</option>
-                  <option value="Thursday">Thursday</option>
-                  <option value="Friday">Friday</option>
-                  <option value="Saturday">Saturday</option>
-                  <option value="Sunday">Sunday</option>
-                </select>
-         
-         <div id="classList">
-            <div class="class-card" data-cuisine="American" data-day="Wednesday">
-              <h3>Carolina BBQ</h3>
-              <img src="ttps://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
-              <p> <strong> Instructor: </strong> Erin Coopey</p>
-              <p><strong> Time: </strong> 6:30-9:00 PM </p>
-              <p><strong> Price: </strong> $55 - Members | $60 - Non-members </p>
-              <p><strong> Description: </strong> From pulled pork to fresh peaches, nothing speaks of  summer like Southern food! Join Chef  
-Erin for a little down-home Southern summer 
-cooking with all the fixings. You’ll learn to make 
-quick and tasty Pulled Pork with Carolina-style 
-Barbecue Sauce; From-scratch Coleslaw;  
-Perfect Roasted Corn-on-the-Cob with Honey 
-Chile Butter; delicious Pimento Cheese; and 
-Roasted Peaches with Rosemary-infused Brown 
-Sugar. With meat, dairy and eggs; no gluten. </p>
-            </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Changelog for Group 1. Its purpose is to share some simple explanation of work done to complete the project and by whom.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 - Cooking Class Website</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Let's Get Cooking</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Let's Get Cooking</a></li>
+          <li><a href="project_details.html">Project Details</a></li>
+          <li><a href="kickstart_050225.html">Kickstart</a></li>
+          <li><a href="input_form.html">Input Form</a></li>
+          <li><a href="validation.html">Validations</a></li>
+          <li><a href="changelog.html">Change Log</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <div class="class-card" data-cuisine="Italian" data-day="Friday">
-              <h3>Italian Late Summer Table </h3>
-              <img src="ttps://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
-              <p> <strong> Instructor: </strong> Paola Albanesi</p>
-              <p><strong> Time: </strong> 6:30-9:00 PM </p>
-              <p><strong> Price: </strong> $55 - Members | $60 - Non-members </p>
-              <p><strong> Description: </strong> Italians are known for their love of  fresh seafood 
-and flavorful summer vegetables. Join Paola as 
-she shares favorite family recipes and impar ts 
-traditional Italian cooking techniques, such as 
-how to bake fish in a salt crust to keep it moist, 
-evenly cooked and fragrant. Together we'll prepare 
-a simple elegant late summer menu with fresh 
-ingredients: Bruschetta topped with Roasted 
-Grapes, Goat Cheese and Thyme; Risotto alle 
-Zucchine; Whole Fish baked in Sea Salt Crust 
-with Fresh Herbs and Lemon Zest Gremolada; 
-and Pomodori Gratinati (Baked Tomatoes with 
-Breadcrumbs and Fresh Herbs). With seafood, dairy, and eggs. </p>
-            </div>
+    <div id="row">
+      <div class="column1">
+        <h1>Ready to find a class!</h1>
+      </div>
 
-            <div class="class-card" data-cuisine="Latin" data-day="Saturday">
-              <h3>Brazilian Cooking</h3>
-              <img src="ttps://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
-              <p> <strong> Instructor: </strong> Erin Coopey</p>
-              <p><strong> Time: </strong> 6:30-9:00 PM </p>
-              <p><strong> Price: </strong> $55 - Members | $60 - Non-members </p>
-              <p><strong> Description: </strong> With the Olympics just around the corner, why 
+      <label for="cuisines">Filter by Cuisine interest:</label>
+      <select id="cuisines" name="cuisines">
+        <option value="All">All</option>
+        <option value="American">American</option>
+        <option value="Italian">Italian</option>
+        <option value="Latin">Latin</option>
+        <option value="South Asian">South Asian</option>
+        <option value="East Asian">East Asian</option>
+        <option value="Mexican">Mexican</option>
+      </select>
+
+      <br>
+
+      <label for="days">Filter by day:</label>
+      <select id="days" name="days">
+        <option value="All">All</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+    </div>
+
+    <div id="classList">
+      <div class="class-card" data-cuisine="American" data-day="Wednesday">
+        <h3>Carolina BBQ</h3>
+        <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
+        <p><strong>Instructor:</strong> Erin Coopey</p>
+        <p><strong>Time:</strong> 6:30-9:00 PM</p>
+        <p><strong>Price:</strong> $55 - Members | $60 - Non-members</p>
+        <p><strong>Description:</strong> From pulled pork to fresh peaches, nothing speaks of  summer like Southern food! Join Chef Erin for a little down-home Southern summer cooking with all the fixings. You’ll learn to make quick and tasty Pulled Pork with Carolina-style Barbecue Sauce; From-scratch Coleslaw;  Perfect Roasted Corn-on-the-Cob with Honey 
+					 Chile Butter; delicious Pimento Cheese; and Roasted Peaches with Rosemary-infused Brown Sugar. With meat, dairy and eggs; no gluten.</p>
+      </div>
+
+      <div class="class-card" data-cuisine="Italian" data-day="Friday">
+        <h3>Italian Late Summer Table</h3>
+        <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Italian Food">
+        <p><strong>Instructor:</strong> Paola Albanesi</p>
+        <p><strong>Time:</strong> 6:30-9:00 PM</p>
+        <p><strong>Price:</strong> $55 - Members | $60 - Non-members</p>
+        <p><strong>Description:</strong> Italians are known for their love of  fresh seafood and flavorful summer vegetables. Join Paola as she shares favorite family recipes and impar ts traditional Italian cooking techniques, such as how to bake fish in a salt crust to keep it moist, evenly cooked and fragrant. Together we'll prepare a simple elegant late summer
+		menu with fresh ingredients: Bruschetta topped with Roasted Grapes, Goat Cheese and Thyme; Risotto alle Zucchine; Whole Fish baked in Sea Salt Crust with Fresh Herbs and Lemon Zest Gremolada; and Pomodori Gratinati (Baked Tomatoes with Breadcrumbs and Fresh Herbs). With seafood, dairy, and eggs.</p>
+      </div>
+
+      <div class="class-card" data-cuisine="Latin" data-day="Saturday">
+        <h3>Brazilian Cooking</h3>
+        <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Brazilian Food">
+        <p><strong>Instructor:</strong> Erin Coopey</p>
+        <p><strong>Time:</strong> 6:30-9:00 PM</p>
+        <p><strong>Price:</strong> $55 - Members | $60 - Non-members</p>
+        <p><strong>Description:</strong> With the Olympics just around the corner, why 
 not learn a little more about Brazil through 
 food? Join Chef  Erin and learn to make a va-
 riety of  Brazilian dishes, including Pastel de 
@@ -105,21 +91,21 @@ and Coconut Milk Stew served over Steamed
 Rice); Hear ts of  Palm and Avocado Salad; and 
 Brigadeiro (Chocolate Truffles rolled in Toasted 
 Coconut, Pistachios or Almonds). With seafood, 
-dairy and eggs. </p>
-            </div>
+dairy and eggs.</p>
+      </div>
 
-            <div class="class-card" data-cuisine="South Asian" data-day="Sunday">
-              <h3>Indian Curry Workshop</h3>
-              <p>Time: 5:00 PM, Sunday</p>
-            </div>
+      <div class="class-card" data-cuisine="South Asian" data-day="Sunday">
+        <h3>Indian Curry Workshop</h3>
+        <p><strong>Time:</strong> 5:00 PM, Sunday</p>
+      </div>
 
-            <div class="class-card" data-cuisine="East Asian" data-day="Thursday">
-              <h3>Lime and Coconut</h3>
-              <img src="ttps://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
-              <p> <strong> Instructor: </strong> Rachel Duboff</p>
-              <p><strong> Time: </strong> 1:00-3:30 PM </p>
-              <p><strong> Price: </strong> $50 - Members | $55 - Non-members </p>
-              <p><strong> Description: </strong> Rachel brings back her sell-out Lime and  
+      <div class="class-card" data-cuisine="East Asian" data-day="Thursday">
+        <h3>Lime and Coconut</h3>
+        <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Asian Food">
+        <p><strong>Instructor:</strong> Rachel Duboff</p>
+        <p><strong>Time:</strong> 1:00-3:30 PM</p>
+        <p><strong>Price:</strong> $50 - Members | $55 - Non-members</p>
+        <p><strong>Description:</strong> Rachel brings back her sell-out Lime and  
 Coconut series with all new recipes and a twist 
 on healthy (and super tasty) Asian cuisine.  
 We’ll make a full meal using lime and coconut, 
@@ -129,16 +115,16 @@ Dipping Sauce; Coconut Lime Basmati Rice;
 and a special treat of  Coconut Lime Bites, an 
 excellent snack or quick sweet. You’ll walk away 
 with recipes you’ll want to use over and over 
-again. With poultry, seafood and eggs; no dairy. </p>
-            </div>
+again. With poultry, seafood and eggs; no dairy.</p>
+      </div>
 
-            <div class="class-card" data-cuisine="Mexican" data-day="Tuesday">
-              <h3>Tamales and Salsas</h3>
-              <img src="ttps://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ">
-              <p> <strong> Instructor: </strong> Devra Gartenstein</p>
-              <p><strong> Time: </strong> 6:30-9:00 PM </p>
-              <p><strong> Price: </strong> $50 - Members | $55 - Non-members </p>
-              <p><strong> Description: </strong> You look forward to tamales from the farmers 
+      <div class="class-card" data-cuisine="Mexican" data-day="Tuesday">
+        <h3>Tamales and Salsas</h3>
+        <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Tamales">
+        <p><strong>Instructor:</strong> Devra Gartenstein</p>
+        <p><strong>Time:</strong> 6:30-9:00 PM</p>
+        <p><strong>Price:</strong> $50 - Members | $55 - Non-members</p>
+        <p><strong>Description:</strong> You look forward to tamales from the farmers 
 market or food truck; now learn how to make 
 them at home yourself  in this informative 
 hands-on class. Devra will teach you an easy 
@@ -149,15 +135,23 @@ different fillings — Black Bean; and Roasted
 Vegetables with Queso Fresco — and top them 
 with Pico de Gallo; Roasted Tomato Salsa; and 
 Roasted Serrano Hot Sauce. Vegetarian with 
-dairy; no eggs. </p>            
-           </div>
+dairy; no eggs.</p>
+      </div>
+    </div>
 
+    <footer>
+      <p>
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88">
+        </a>
+      </p>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+        </a>
+      </p>
+    </footer>
 
-		<footer>
-			<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88"></a></p>
-			<p><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
-		</footer>
-      		<script src="js/index2.js"></script> <!-- js file for the input form -Ian -->
-
-	</body>
+    <script src="js/index2.js"></script>
+  </body>
 </html>
