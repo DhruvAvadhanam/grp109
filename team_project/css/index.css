@@ -45,7 +45,7 @@ nav li a:hover, nav li a.current {
 	color: lightsalmon;}
 /*Left container for filter elements*/
 #container1{
-  width: 20%;
+  width: 12%;
   margin-top: 100px;
   float:left;
   padding: 10px;}
