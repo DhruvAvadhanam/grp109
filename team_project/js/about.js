@@ -19,7 +19,7 @@ function displayStaff() {
       break;
     case "Dhruv":
       staff = "Dhruv Avadhanam";
-      bio = "";
+      bio = "Dhruv Avadhanam is a senior at Eastlake High School in Sammamish. This is his second year as a member of the running start program at Bellevue College and he plans to study computer science in college.";
       break;
     case "Deena":
       staff = "Deena Randolph";
