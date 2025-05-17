@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;}
 
@@ -49,7 +49,7 @@ nav li a:hover, nav li a.current {
 	background-color:#008B8B;
 	margin: 1%;}
 #feature{
-	background-color:#6495ED;}
+	border: 1px solid;}
 /*.column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
