@@ -7,14 +7,14 @@
 
 /* Set body background color, width and center content -Deena */
 body{
-	background-color: ivory;
+	background-color: #ffffff;
 	width: 90%;
 	margin: auto;
 }
 
 /* Set heading text color -Deena */
 h1 {
-	color:tomato;
+	color:#ffffff;
 }
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
