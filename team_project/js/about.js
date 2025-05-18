@@ -12,7 +12,7 @@ function displayStaff() {
   switch (selected) {
     case "Yuval":
       staff = "Yuval Amitay";
-      bio = "";
+      bio = "Yuval Amitay is currently a junior at Lake Washington High School. She is in the Running Start program, splitting time between high school and Bellevue College, where she is working toward earning an Associate Degree. After graduation, she wants to go to a four-year university to study computer science and machine learning.";
 	  stylesheet = "css/aboutYuval.css";
       break;
     case "Ian":
