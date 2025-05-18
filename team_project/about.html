@@ -10,8 +10,8 @@
 	</head>
 	<body>	  	
 		<div id="header">
-			<h1>Let's Get Cooking</h1>
-			<nav>
+			<h1 role="site name" aria-label="Let's Get Cooking">Let's Get Cooking</h1>
+			<nav aria-label="Main menu">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
@@ -24,23 +24,20 @@
 			</nav>
 		</div>
 		<div id="content">				
-			<h2>About Us</h2>
+			<h2 role="page title" aria-label="About Us">About Us</h2>
 			<br>
-			<label for="staff">Meet Our Staff:</label>
-			<select id="staff" name="staff">              
-				<option value="default" class="default">Select a staff member</option>
-				<option value="Yuval" class="Yuval">Yuval Amitay</option>
-				<option value="Ian" class="Ian">Ian Finley</option>
-				<option value="Dhruv" class="Dhruv">Dhruv Avadhanam</option>
-				<option value="Deena" class="Deena">Deena Randolph</option>			  
+			<label for="staff" role="section" aria-label="Meet Our Staff">Meet Our Staff:</label>
+			<select id="staff" name="staff" role="drop-down menu" aria-label="Select a staff member">              
+				<option value="default" class="default" role="staff" aria-label="default">Select a staff member</option>
+				<option value="Yuval" class="Yuval" role="staff" aria-label="Yuval Amitay">Yuval Amitay</option>
+				<option value="Ian" class="Ian" role="staff" aria-label="Ian Finley">Ian Finley</option>
+				<option value="Dhruv" class="Dhruv" role="staff" aria-label="Dhruv Avadhanam">Dhruv Avadhanam</option>
+				<option value="Deena" class="Deena" role="staff" aria-label="Deena Randolph">Deena Randolph</option>			  
 			</select>
 			<br>
 			<div id="feature">
-				<p>Feature</p>
+				<p></p>
 			</div>
-			<!--<div class="article">
-				<p>Column One</p>
-			</div>-->
 		</div>
 		<footer>
 			<div class="footer-validators">
