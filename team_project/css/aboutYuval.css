@@ -1,13 +1,14 @@
 * {
   	box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
-	color: midnightblue;
+	color: lightblue;
 }
 
 /* Set body background color, width and center content -Deena changed yuval */
 body{
 	background-color: ivory;
-	width: 80%;
+    text-align: center;
+	width: 90%;
 	margin: auto;
 }
 
@@ -16,22 +17,22 @@ h1 {
 	color: pink;
 }
 
-/* Set background color for navigation bar to blue, text color, stays at set position and font size Yuval */
+/* Set background color for navigation bar to blue, text color, stays at set position and font size -Yuval */
 nav {
 	clear: both;
 	position: sticky;  
 	color: pink;
-	background-color: blue;
+	background-color: midnightblue;
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
 	float:none;
 }
 
-/* Set margin and padding for links/nav list. -Deena */
+/* Set margin and padding for links/nav list. -Deena made Yuval changed*/
 nav ul {
 	margin: 0px;
-	padding: 5px 0px 5px 20px;
+	padding: 10px 0px 5px 20px;
 }
 
 /* List nav elements horizontally -Yuval */
@@ -43,7 +44,7 @@ nav li {
 /* Remove link underline. Set text color. -Deena */
 nav li a {
 	text-decoration: none;
-	color: ivory;
+	color: pink;
 }
 
 /* Set hover and current page links. -Yuval */
@@ -55,9 +56,8 @@ nav li a:hover, nav li a.current {
 	overflow: auto;
 }
 
-#nav, #feature, #footer {    
-	/* 	background-color:#008B8B; */
-	margin: 1%;
+#nav, #feature, #footer {  /*Set margins of feature -Yuval*/  
+	margin: 3%;
 }
 
 #feature{
@@ -66,9 +66,9 @@ nav li a:hover, nav li a.current {
 	min-height: 0px;
 }
 
-li {
+li {   /*spaces between words -Yuval*/
 	display: inline;
-	padding: 0.5em;
+	padding: .2em;
 }
 
 #nav, #footer {
@@ -86,7 +86,7 @@ header { /* stayes at the bottom when scrolling, -Yuval*/
 	text-align:center;
 }
 
-/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
+/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena made Yuval changed */
 footer {
 	position: sticky;
 	bottom: 0px;
@@ -102,9 +102,8 @@ footer {
 	text-align: center;
 }
 
-.footer-validators {
+.footer-validators { /*made sure the validators are in the place I want them to be -Yuval*/
 	display: flex;
-	gap: 0.3em;
 	justify-content: center;
 	align-items: center;
 }
@@ -113,6 +112,10 @@ footer {
 	height: 31px;
 }
 
-.footer-copyright p {
+.footer-copyright p { /*centers the @copyright 2025 -Yuval*/
+  text-align: center;
+}
+  
+  
 	color: ivory;
 }
