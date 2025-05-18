@@ -1,7 +1,7 @@
 * {
   	box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
-	color: midnightblue;
+	color: blue;
 }
 
 /* Set body background color, width and center content -Deena */
@@ -13,7 +13,7 @@ body{
 
 /* Set heading text color -Deena */
 h1 {
-	color:tomato;
+	color: blue;
 }
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
