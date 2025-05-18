@@ -69,6 +69,7 @@ nav li a:hover, nav li a.current {
 	padding: 0.8em;
 	min-height: 0px;
 	color: indigo;
+	padding: 50px;
 }
 
 li {
