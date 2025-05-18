@@ -4,24 +4,24 @@
 	color: midnightblue;
 }
 
-/* Set body background color, width and center content -Deena */
+/* Set body background color, width and center content -Deena changed yuval */
 body{
 	background-color: ivory;
-	width: 90%;
+	width: 80%;
 	margin: auto;
 }
 
-/* Set heading text color -Deena */
+/* Set heading text color -Yuval */
 h1 {
-	color:tomato;
+	color: pink;
 }
 
-/* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
+/* Set background color for navigation bar to blue, text color, stays at set position and font size Yuval */
 nav {
 	clear: both;
 	position: sticky;  
-	color: tomato;
-	background-color: midnightblue;
+	color: pink;
+	background-color: blue;
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
@@ -34,7 +34,7 @@ nav ul {
 	padding: 5px 0px 5px 20px;
 }
 
-/* List nav elements horizontally -Deena */
+/* List nav elements horizontally -Yuval */
 nav li {	
 	display: inline;
 	margin-right: 10px;
@@ -46,7 +46,7 @@ nav li a {
 	color: ivory;
 }
 
-/* Set hover and current page links. -Deena */
+/* Set hover and current page links. -Yuval */
 nav li a:hover, nav li a.current {
 	color: lightsalmon;
 }
@@ -55,7 +55,7 @@ nav li a:hover, nav li a.current {
 	overflow: auto;
 }
 
-#nav, #feature, #footer {
+#nav, #feature, #footer {    
 	/* 	background-color:#008B8B; */
 	margin: 1%;
 }
@@ -75,7 +75,7 @@ li {
 	padding: 0.5em 0;
 }
 
-header {
+header { /* stayes at the bottom when scrolling, -Yuval*/
 	position: sticky;
 	top:0px;
 	left:0px; 
