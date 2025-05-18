@@ -27,7 +27,7 @@ function displayStaff() {
       break;
     case "Deena":
       staff = "Deena Randolph";
-      bio = "Deena Randolph has a background in IT Helpdesk Support and is studying Software Development here at BC. She has taken web development and programming courses previously, knows just enough random information to be dangerous, and relies on her valiant coworkers to keep the website running.";
+      bio = "<p role="Deenas bio" aria-label="Deena Randolph has a background in IT Helpdesk Support and is studying Software Development here at Bellevue College; She has taken web development and programming courses previously, knows just enough random information to be dangerous, and relies on her valiant teammates to keep the website running.">Deena Randolph has a background in IT Helpdesk Support and is studying Software Development here at BC. She has taken web development and programming courses previously, knows just enough random information to be dangerous, and relies on her valiant teammates to keep the website running.</p>";
 	  stylesheet = "css/aboutDeena.css";
       break;
     default:
