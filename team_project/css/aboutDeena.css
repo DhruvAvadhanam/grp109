@@ -10,7 +10,10 @@ body{
 	width: 90%;
 	margin: auto;
 }
-
+/*Set accessibility line height*/
+p {
+  line-height: 1.5;
+}
 /* Set heading text color -Deena */
 h1 {
 	color:tomato;
@@ -42,6 +45,8 @@ nav ul {
 nav li {	
 	display: inline;
 	margin-right: 10px;
+	min-width: 44px;
+	min-height: 44px;
 }
 
 /* Remove link underline. Set text color. -Deena */
