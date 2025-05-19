@@ -84,8 +84,19 @@ header {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;}
 .Deena { /*Class distinction for Deena*/
-	background-color: lightcyan;}
-
+	color: indigo;
+	background-color: lightcyan;
+	border: 1px dotted #ddd}
+.dhruv{
+	color: orange;
+	border: 1px dotted #ddd}
+.ian{
+	color: #0D4F4D;
+	border: 1px dotted #ddd}
+.yuval{
+	color: pink;
+	background-color: lavendarblush;
+	border: 1px dotted #ddd}
 /*Clearing row formatting*/
 .clear{
 	clear: both;}
