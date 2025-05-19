@@ -83,20 +83,25 @@ header {
 	border-left: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;}
+
 .Deena { /*Class distinction for Deena*/
-	color: indigo;
-	background-color: lightcyan;
-	border: 1px dotted #ddd}
-.dhruv{
+	color:indigo;
+    	background-color: white;
+	border-bottom: 2px dashed;
+    	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    	padding: 0px 0px 10px 0px;}
+.dhruv{/*Class distinction for Dhruv*/
 	color: orange;
-	border: 1px dotted #ddd}
-.ian{
+	border-bottom: 2px dashed;
+     	padding: 10px 0px 10px 0px;}
+.ian{/*Class distinction for Ian*/
 	color: #0D4F4D;
-	border: 1px dotted #ddd}
-.yuval{
+	border-bottom: 2px dashed;
+      	padding: 10px 0px 10px 0px;}
+.yuval{/*Class distinction for Yuval*/
 	color: pink;
 	background-color: lavendarblush;
-	border: 1px dotted #ddd}
+    	padding: 10px 0px 10px 0px;}
 /*Clearing row formatting*/
 .clear{
 	clear: both;}
