@@ -66,12 +66,10 @@ header {
 	padding: 0px 20px;}
 
 .html-result{ /*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: aliceblue;
-	display:inline;}
+	background-color: aliceblue;}
 
 .css-result{/*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: cornsilk;
-	display:inline;}
+	background-color: cornsilk;}
 
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
