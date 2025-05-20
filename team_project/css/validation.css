@@ -51,7 +51,11 @@ nav li a {
 nav li a:hover, nav li a.current {
 	color: lightsalmon;
 }
-
+#container{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 10% 10% 15% auto auto;
+}
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
