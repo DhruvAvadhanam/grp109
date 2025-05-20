@@ -57,7 +57,7 @@ nav li a:hover, nav li a.current {
   font-weight: bold;
   gap: 10px;
   align-content: center;
-  grid-template-columns: 1f 1f 2f 3f 3f auto;
+  grid-template-columns: 1f 1f 2f 3f 3f;
 }
 .item4, item8, .item12, .item16, .item20, item24{
 	background-color: aliceblue;}
