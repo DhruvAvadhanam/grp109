@@ -59,7 +59,7 @@ nav li a:hover, nav li a.current {
   align-content: center;
   grid-template-columns: 10% 10% 10% 35% 35%;
 }
-.item4, item8, .item12, .item16, .item20, item24{
+#grid-container > .item4, item8, .item12, .item16, .item20, item24{
 	background-color: aliceblue;}
 /* Position at top, blue background, text centered -Deena */
 header {
