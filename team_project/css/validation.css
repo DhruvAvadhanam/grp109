@@ -59,8 +59,8 @@ nav li a:hover, nav li a.current {
   align-content: center;
   grid-template-columns: 10% 10% 10% 35% 35%;
 }
-#grid-container > .item4, item8, .item12, .item16, .item20, item24{
-	background-color: aliceblue;}
+/*#grid-container > .item4, item8, .item12, .item16, .item20, item24{
+	background-color: aliceblue;}*/
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
@@ -74,10 +74,10 @@ header {
 .validation-section{ /*Adding some padding to page content. -Deena*/
 	padding: 0px 20px;}
 
-.html-result{ /*Adding ID from validation page to allow formatting. -Deena*/
+.html{ /*Adding ID from validation page to allow formatting. -Deena*/
 	background-color: aliceblue;}
 
-.css-result{/*Adding ID from validation page to allow formatting. -Deena*/
+.css{/*Adding ID from validation page to allow formatting. -Deena*/
 	background-color: cornsilk;}
 
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
