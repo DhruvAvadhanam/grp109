@@ -59,6 +59,12 @@ nav li a:hover, nav li a.current {
   text-align: center;
   grid-template-columns: 10% 10% 10% 35% 35%;
 }
+.ruled-grid > .card::after{
+	background-color: midnightblue;
+	position: absolute;
+	width:100%;
+	height: 2px;
+}
 .iteration{	
 	border-top: 1px solid #ddd;}
 /*#grid-container > .item4, item8, .item12, .item16, .item20, item24{
