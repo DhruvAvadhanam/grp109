@@ -59,9 +59,9 @@ nav li a:hover, nav li a.current {
   text-align: center;
   grid-template-columns: 10% 10% 10% 35% 35%;
 }
-.ruled-grid > .card{
+#container > .card{
 	position:relative;}
-.ruled-grid > .card::after{
+#container > .card::after{
 	background-color: midnightblue;
 	position: absolute;
 	width:100%;
@@ -82,6 +82,7 @@ header {
 	width:100%;
 	background-color:midnightblue;
 	text-align:center; }
+
 .validation-section{ /*Adding some padding to page content. -Deena*/
 	padding: 0px 20px;}
 
