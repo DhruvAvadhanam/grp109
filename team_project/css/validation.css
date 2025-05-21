@@ -78,7 +78,8 @@ header {
 	background-color: aliceblue;}
 
 .css{/*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: cornsilk;}
+	background-color: cornsilk;
+	border-bottom: 1px solid #ddd;}
 
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
