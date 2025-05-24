@@ -46,18 +46,14 @@ nav li a:hover, nav li a.current {
 
 #content {
 	overflow: auto;}
-#nav, #feature, #footer {
-	background-color:#008B8B;
-	margin: 1%;}
-#feature{
-	background-color:#6495ED;}
 .column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
-#feature, .article {
+#feature {
 	height: 10em;
-	margin-bottom: 1em;}
+	margin-bottom: 1em;
+	text-align: center;}
 /*.column3 {
 	margin-right: 0%;
 	background-color: #8B008B;}
@@ -86,8 +82,8 @@ nav li a:hover, nav li a.current {
 .image {
   border-radius: 4px;
   padding: 5px;
-  width: 350px;
-  height: 275px;}
+  width: 600px;
+  height: 400px;}
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
