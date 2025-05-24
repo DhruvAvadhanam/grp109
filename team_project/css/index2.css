@@ -11,7 +11,7 @@ body{
 
 /* Set heading text color -Deena */
 h1 {
-	color:tomato;}
+	color:Tomato;}
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size -Deena */
 nav {
@@ -43,16 +43,18 @@ nav {
 
 .class-info {
   flex: 1;
+  color: black;
 }
 
 .class-title {
   margin: 0 0 5px 0;
   font-size: 1.2em;
-  color: tomato;
+  color: #8B0000;
 }
 
-.class-description, .class-instructor {
-  margin: 3px 0;
+.class-description, .class-instructor, .class-time, .class-price {
+  margin: 20px 0;
+  color: black;
 }
 
 
