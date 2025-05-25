@@ -19,8 +19,8 @@ body{
 	width:100%;
 	background-color:white;
 	text-align:left;
-  min-width: 44px; 
-  min-height: 44px;
+  min-width: 44px;  /* SiteImprove */
+  min-height: 44px; /* SiteImprove */
 }
 
 #header .branding {
@@ -30,7 +30,7 @@ body{
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.5;  /* SiteImprove */
 }
 
 
@@ -67,9 +67,9 @@ nav li {
 nav li a {
 	text-decoration: none;
 	color: white;
-  display: inline-block;
-  padding: 12px 8px;
-  line-height: 1.5;
+  display: inline-block;  /* SiteImprove */
+  padding: 12px 8px;  /* SiteImprove */
+  line-height: 1.5;  /* SiteImprove */
 }
 
 /* Set hover and current page links. */
@@ -127,6 +127,11 @@ footer {
 
 .footer-validators img {
 	height: 31px;
+}
+
+.footer-validators a {
+  display: inline-block;
+  padding: 7px 0; /* SiteImprove */
 }
 
 .footer-copyright p {
