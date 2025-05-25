@@ -4,7 +4,7 @@
 	color: lightblue;
 }
 
-/* Set body background color, width and center content -Deena changed yuval */
+/* Set body background color, width and center content -Yuval */
 body{
 	background-color: ivory;
     text-align: center;
@@ -29,7 +29,7 @@ nav {
 	float:none;
 }
 
-/* Set margin and padding for links/nav list. -Deena made Yuval changed*/
+/* Set margin and padding for links/nav list. -Yuval */
 nav ul {
 	margin: 0px;
 	padding: 10px 0px 5px 20px;
@@ -41,7 +41,7 @@ nav li {
 	margin-right: 10px;
 }
 
-/* Remove link underline. Set text color. -Deena */
+/* Remove link underline. Set text color. Yuval */
 nav li a {
 	text-decoration: none;
 	color: pink;
@@ -85,7 +85,7 @@ header { /* stayes at the bottom when scrolling, -Yuval*/
 	background-color:midnightblue;
 }
 
-/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena made Yuval changed */
+/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Yuval */
 footer {
 	position: sticky;
 	bottom: 0px;
