@@ -44,34 +44,29 @@ nav li a {
 nav li a:hover, nav li a.current {
 	color: lightsalmon;}
 
-#content {
-	overflow: auto;}
+#container {
+	float: left;}
+
 .column1, .column2, .column3 {
-	width: 31.3%;
 	float: left;
-	margin: 1%;}
-#feature {
-	height: 10em;
+	margin: 1%;
+padding:5px;}
+#feature{
+	height: 4em;
 	margin-bottom: 1em;
+    width: 100%;
 	text-align: center;}
-/*.column3 {
-	margin-right: 0%;
-	background-color: #8B008B;}
+
 .column1{
-	background-color: #2F4F4F;}
+  width: 30%;}
+
 .column2{
-	background-color: #483D8B;}*/
-/*Left container for filter elements*/
-#container1{
-  width: 12%;
-  margin-top: 100px;
-  float:left;
-  padding: 10px;}
-/*Right container for class images*/
-/*#container2{
-  float:left;
-  width:80%;
-  padding: 10px;}*/
+  width: 40%;}
+
+.column3{
+	float: left;
+    width: 20%;
+    text-align:left;}
 /*Image container formatting*/
 /*.thumb {
   margin: 5px;
