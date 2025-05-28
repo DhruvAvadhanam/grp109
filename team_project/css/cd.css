@@ -51,7 +51,7 @@ nav li a:hover, nav li a.current {
 .column1, .column2, .column3 {
 	float: left;
 	margin: 1%;
-padding:5px;}
+	padding:10px;}
 #feature{
 	height: 4em;
 	margin-bottom: 1em;
@@ -67,7 +67,8 @@ padding:5px;}
 .column3{
 	float: left;
     width: 20%;
-    text-align:left;}
+    text-align:left;
+	padding: 15px;}
 table{
   	width: 60%;
 }
