@@ -52,11 +52,13 @@ nav li a:hover, nav li a.current {
 	float: left;
 	margin: 1%;
 	padding: 5px;}
-#feature{
-	height: 3em;
+#breadcrumb{
+	height: 1em;
 	margin-bottom: 1em;
     	width: 100%;
-	text-align: center;}
+	text-align: left;
+	font-size: 14px;
+	}
 
 .column1{
   width: 30%;}
