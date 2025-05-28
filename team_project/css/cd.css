@@ -68,9 +68,10 @@ padding:5px;}
     width: 20%;
     text-align:left;}
 table{
-  width: 60%;
+  	width: 60%;
 }
-
+th, td{
+	text-align: left;}
 /*Left container for filter elements*/
 /*#container1{
   width: 12%;
