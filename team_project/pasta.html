@@ -55,7 +55,7 @@
 		<form action="js/cart.js">      
                     <table>
                         <tr>
-                           <th><label for="Session">Session</label> <!-- Purchase quantity. -->
+                           <th columnspan="2"><label for="Session">Session</label> <!-- Purchase quantity. -->
     				  <select id="sessions" name="sessions">
     					<option value="GA040516">GL Aurora Tuesday 4/5/2016 6:30-9PM</option>
     					<option value="IS040616">Issaquah Wednesday 4/6/2016 6:30-9PM<</option>
@@ -70,7 +70,7 @@
                           </th>
                         </tr>
                         <tr>
-                           <th><label for="Seats">Seats</label> <!-- Purchase quantity. -->
+                           <th columnspan="2"><label for="Seats">Seats</label> <!-- Purchase quantity. -->
     				  <select id="seats" name="seats">
     					<option value="1">1</option>
     					<option value="2">2</option>
@@ -86,23 +86,23 @@
                           </th>
                         </tr>	                          
                       <tr>
-                        <th>Student 1:</th>
+                        <th columnspan="2">Student 1:</th>
                       <tr>
-                        <td><label for="fname1">First name:</label><label for="lname1">Last name:</label></td> 
+                        <td><label for="fname1">First name:</label></td><td><label for="lname1">Last name:</label></td> 
                       <tr>
-                        <td><input type="text" id="fname1" name="fname1" size="15" value=""><input type="text" id="lname1" name="lname1" size="20" value=""></td>
+                        <td><input type="text" id="fname1" name="fname1" size="15" value=""></td><td><input type="text" id="lname1" name="lname1" size="20" value=""></td>
                       </tr>
                       <tr>
                         <th columnspan="2"> Student 2:</th>
                       </tr>
                       <tr>
-                        <td><label for="fname2">First name:</label><label for="lname2">Last name:</label></td> 
+                        <td><label for="fname2">First name:</label></td><td><label for="lname2">Last name:</label></td> 
                       </tr>
                       <tr>
-                        <td><input type="text" id="fname2" name="fname2" size="15" value=""><input type="text" id="lname2" name="lname2" size="20" value=""><br><p></p></td>
+                        <td><input type="text" id="fname2" name="fname2" size="15" value=""></td><td><input type="text" id="lname2" name="lname2" size="20" value=""><br><p></p></td>
                       </tr>
                       <tr>
-                        <td><input type="register" value="Register"></td>
+                        <td columnspan="2"><input type="register" value="Register"></td>
                       </tr>
                    </table>
                 </form>
