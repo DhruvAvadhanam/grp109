@@ -45,7 +45,8 @@ nav li a:hover, nav li a.current {
 	color: lightsalmon;}
 
 #container {
-	float: left;}
+	float: left;
+	width: 90%;}
 
 .column1, .column2, .column3 {
 	float: left;
