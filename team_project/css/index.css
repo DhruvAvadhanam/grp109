@@ -77,6 +77,14 @@ header {
 	background-color:midnightblue;
 	text-align:center;}
 
+/*added cart icon placment and size-Yuval*/
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
 /* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Deena */
 footer {
 	position: sticky;
