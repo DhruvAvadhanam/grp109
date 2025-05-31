@@ -6,7 +6,7 @@
 }
 
 * {
-  	box-sizing: border-box;
+  box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
 	color: black;
 }
@@ -14,8 +14,9 @@
 /* Set body background color, width and center content */
 body {
 	background-color: var(--background-color);
-	width: 99%;
-	margin: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 header {
@@ -33,10 +34,6 @@ header .branding {
   display: flex;
   align-items: center;
    gap: 0.5rem;
-}
-
-p {
-  line-height: 1.5;  /* SiteImprove */
 }
 
 /* Set heading text color */
@@ -58,7 +55,7 @@ nav {
 /* Set margin and padding for links/nav list. */
 nav ul {
 	margin: 0px;
-	padding: 5px 0px 5px 20px;
+	padding: 0px;
 }
 
 /* List nav elements horizontally */
@@ -85,11 +82,6 @@ nav li a:hover, nav li a.current {
 	overflow: auto;
 }
 
-#nav, #feature, #footer {
-	/* 	background-color:#008B8B; */
-	margin: 1%;
-}
-
 #feature{
 	border: 1px solid;
 	padding: 0.8em;
@@ -105,11 +97,9 @@ li {
 footer {
 	position: sticky;
 	bottom: 0px;
-	left: 0px; 
-	border: solid 1px;
-	padding: 10px;
-	margin-bottom: 0px;
-	background-color: var(--main-color);
+	padding-left:10px;
+  	padding-right:10px;
+  	background-color: var(--main-color);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -125,6 +115,7 @@ footer {
 }
 
 .footer-validators img {
+  margin-top: 10px;
 	height: 31px;
 }
 
@@ -135,4 +126,5 @@ footer {
 
 .footer-copyright p {
 	color: white;
+  line-height: 1.5;  /* SiteImprove */
 }
