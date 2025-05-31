@@ -1,51 +1,53 @@
 /* Sets global parameters. - Ian */
 :root {
-  --main-color: #013C4D;
-  --hover-color: orange;
-  --background-color: white;
+	--lgcBlue: #013C4D;                       /* The accent color for panels and decorative elements. Enter as: "var(--lgcBlue)" */
+	--hover-color: orange;                     /* The link hover color, ideally for links over lgcBlue. Enter as: "var(--hover-color)" */
+	--background-color: white;                 /* The global background color, white. Enter as: "var(--background-color)" */
+	--font-family: Arial, Verdana, sans-serif; /* The default font family. Enter as: "var(--font-family)" */
+	--text-on-blue: white;                     /* enter as: "var(--text-on-blue)" */
+	--text-on-white: black;                    /* enter as: "var(text-on-white)" */
 }
 
 * {
-  box-sizing: border-box;
-	font-family: Arial, Verdana, sans-serif;
-	color: black;
+	color: var(--text-on-white);
 }
 
-/* Set body background color, width and center content */
+/* Sets body background color, width and centers content. */
 body {
+	font-family: var(--font-family);
+	box-sizing: border-box;
+	color: var(text-on-white);
 	background-color: var(--background-color);
-	width: 100%;
-	margin: 0;
-	padding: 0;
+	padding-left:5px;
+	padding-right: 5px;
 }
 
+/* Sets body background color, width and centers content. */
 header {
+	box-sizing: border-box;
 	position: sticky;
-	padding-left:10px;
-  padding-right:10px;
-	width:100%;
 	background-color: var(--background-color);
 	text-align:left;
-  min-width: 44px;  /* SiteImprove */
-  min-height: 44px; /* SiteImprove */
+	min-width: 44px;  /* SiteImprove */
+	min-height: 44px; /* SiteImprove */
 }
 
 header .branding {
-  display: flex;
-  align-items: center;
-   gap: 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 /* Set heading text color */
 h1 {
-	color: var(--main-color);
+	color: var(--lgcBlue);
 }
 
 /* Set background color for navigation bar to blue, text color, stays at set position and font size */
 nav {
 	clear: both;
 	position: sticky;  
-	background-color: var(--main-color);
+	background-color: var(--lgcBlue);
 	width: 100%;
 	text-align: center; 
 	font-size: 20px;
@@ -68,9 +70,9 @@ nav li {
 nav li a {
 	text-decoration: none;
 	color: white;
-  display: inline-block;  /* SiteImprove */
-  padding: 12px 8px;  /* SiteImprove */
-  line-height: 1.5;  /* SiteImprove */
+	display: inline-block;  /* SiteImprove */
+	padding: 12px 8px;  /* SiteImprove */
+	line-height: 1.5;  /* SiteImprove */
 }
 
 /* Set hover and current page links. */
@@ -78,18 +80,46 @@ nav li a:hover, nav li a.current {
 	color: var(--hover-color);
 }
 
-/*added cart icon placment and size-Yuval*/
-.cart-icon {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  margin-left: 4px;
+/* Cart Icon with Orange hover behavior. */
+.icon-container {
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	vertical-align: middle;
 }
+
+.cart-link {
+	display: block;
+	width: 44px;
+	height: 44px;
+	position: relative;
+}
+
+.cart-link img {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cart-link img:nth-child(2) {
+	display: none;
+}
+
+.cart-link:hover img:nth-child(1) {
+	display: none;
+}
+
+.cart-link:hover img:nth-child(2) {
+	display: block;
+}
+
 #content {
 	overflow: auto;
 }
 
-#feature{
+#feature {
 	border: 1px solid;
 	padding: 0.8em;
 	min-height: 44px;
@@ -102,11 +132,12 @@ li {
 
 /* Stays at bottom when scrolling, position at bottom of screen, links centered, padding. */
 footer {
+	box-sizing: border-box;
 	position: sticky;
 	bottom: 0px;
 	padding-left:10px;
   	padding-right:10px;
-  	background-color: var(--main-color);
+  	background-color: var(--lgcBlue);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -122,16 +153,16 @@ footer {
 }
 
 .footer-validators img {
-  margin-top: 10px;
+	margin-top: 10px;
 	height: 31px;
 }
 
 .footer-validators a {
-  display: inline-block;
-  padding: 7px 0; /* SiteImprove */
+	display: inline-block;
+	padding: 7px 0; /* SiteImprove */
 }
 
 .footer-copyright p {
 	color: white;
-  line-height: 1.5;  /* SiteImprove */
-}
+	line-height: 1.5;  /* SiteImprove */
+} */
