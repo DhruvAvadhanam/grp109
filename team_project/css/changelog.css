@@ -44,6 +44,14 @@ nav li a {
 nav li a:hover, nav li a.current {
 	color: lightsalmon;}
 
+/*added cart icon placment and size-Yuval*/
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
 /* Position at top, blue background, text centered -Deena */
 header {
 	position: sticky;
