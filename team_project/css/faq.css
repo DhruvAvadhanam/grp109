@@ -106,7 +106,8 @@ main {
 
 /*added cart icon -Yuval*/
 .cart-icon {
-  width: 24px;
-  height: 24px;
+  width: 9px;
+  height: 9px;
   vertical-align: middle;
+  margin-left: 4px;
 }
