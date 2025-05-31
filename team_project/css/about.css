@@ -122,3 +122,11 @@ footer {
 .footer-copyright p {
 	color: ivory;
 }
+
+/*added cart icon placment and size-Yuval*/
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
