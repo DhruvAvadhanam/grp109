@@ -85,7 +85,7 @@ th, td{
   margin: 0;
   display: flex; /* Or flex, grid, etc., based on layout */
   justify-content: space-between; /* Distribute space */
-  color: #00000;
+  color: #000000;
   position: fixed;
   top: 0;
   right: 0;
@@ -119,3 +119,10 @@ th, td{
   }
 }
 
+.search, .account img {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
