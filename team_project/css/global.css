@@ -1,18 +1,14 @@
-/* Sets global parameters. - Ian */
+/* Global Parameters - Ian */
 :root {
-	--lgcBlue: #013C4D;                       /* The accent color for panels and decorative elements. Enter as: "var(--lgcBlue)" */
-	--hover-color: orange;                     /* The link hover color, ideally for links over lgcBlue. Enter as: "var(--hover-color)" */
-	--background-color: white;                 /* The global background color, white. Enter as: "var(--background-color)" */
-	--font-family: Arial, Verdana, sans-serif; /* The default font family. Enter as: "var(--font-family)" */
-	--text-on-blue: white;                     /* enter as: "var(--text-on-blue)" */
-	--text-on-white: black;                    /* enter as: "var(text-on-white)" */
+	--lgcBlue: #013C4D;                         /* The accent color for panels and decorative elements. Enter as: "var(--lgcBlue)" */
+	--hover-color: orange;                      /* The link hover color, ideally for links over lgcBlue. Enter as: "var(--hover-color)" */
+	--background-color: white;                  /* The global background color, white. Enter as: "var(--background-color)" */
+	--font-family: Arial, Verdana, sans-serif;  /* The default font family. Enter as: "var(--font-family)" */
+	--text-on-blue: white;                      /* For use when setting White text with the Blue background. Enter as: "var(--text-on-blue)" */
+	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(text-on-white)" */
 }
 
-* {
-	color: var(--text-on-white);
-}
-
-/* Sets body background color, width and centers content. */
+/* BODY - Sets body background color, width and centers content */
 body {
 	font-family: var(--font-family);
 	box-sizing: border-box;
@@ -22,7 +18,7 @@ body {
 	padding-right: 5px;
 }
 
-/* Sets body background color, width and centers content. */
+/* HEADER - Including logo, page title, and Nav bar */
 header {
 	box-sizing: border-box;
 	position: sticky;
@@ -32,18 +28,19 @@ header {
 	min-height: 44px; /* SiteImprove */
 }
 
+/* HEADER - Branding - Wraps the Logo and Title */
 header .branding {
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
 }
 
-/* Set heading text color */
-h1 {
+/* HEADER - H1 TITLE - Set heading text color for the Title */
+h1.title {
 	color: var(--lgcBlue);
 }
 
-/* Set background color for navigation bar to blue, text color, stays at set position and font size */
+/* NAV BAR - Sets the behavior and background color for the Nav Bar */
 nav {
 	clear: both;
 	position: sticky;  
@@ -54,40 +51,42 @@ nav {
 	float:none;
 }
 
-/* Set margin and padding for links/nav list. */
+/* NAV BAR - Unordered List - Contains the navigation entries */
 nav ul {
 	margin: 0px;
 	padding: 0px;
 }
 
-/* List nav elements horizontally */
+/* NAV BAR - List Items - Sets the elements horizontally */
 nav li {	
 	display: inline;
-	margin-right: 10px;
+	margin-right: 5px;
+	padding: 0.5em;
 }
 
-/* Remove link underline. Set text color. */
+/* NAV BAR - Links - Remove link underline, set text color */
 nav li a {
 	text-decoration: none;
-	color: white;
+	color: var(--text-on-blue);
 	display: inline-block;  /* SiteImprove */
 	padding: 12px 8px;  /* SiteImprove */
 	line-height: 1.5;  /* SiteImprove */
 }
 
-/* Set hover and current page links. */
+/* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
 nav li a:hover, nav li a.current {
 	color: var(--hover-color);
 }
 
-/* Cart Icon with Orange hover behavior. */
+/* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
 .icon-container {
-	width: 44px;
-	height: 44px;
+	width: 35px;
+	height: 35px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
+/* NAV BAR - Cart Icon - Link - Properties for the clickable space, contains the two cart images */
 .cart-link {
 	display: block;
 	width: 44px;
@@ -95,6 +94,7 @@ nav li a:hover, nav li a.current {
 	position: relative;
 }
 
+/* NAV BAR - Cart Icon - Images - Sets properties for both images */
 .cart-link img {
 	width: 35px;
 	height: 35px;
@@ -103,41 +103,41 @@ nav li a:hover, nav li a.current {
 	left: 0;
 }
 
+/* NAV BAR - Cart Icon - Hover Logic 1 - Sets the Orange Cart to invisible */
 .cart-link img:nth-child(2) {
 	display: none;
 }
 
+/* NAV BAR - Cart Icon - Hover Logic 2 - On Hover, sets the White Cart to invisible */
 .cart-link:hover img:nth-child(1) {
 	display: none;
 }
 
+/* NAV BAR - Cart Icon - Hover Logic 3 - On Hover, sets the Orange Cart to be visible */
 .cart-link:hover img:nth-child(2) {
 	display: block;
 }
 
+/* CONTENT - Intended to wrap the Feature of the page */
 #content {
 	overflow: auto;
 }
 
+/* CONTENT - FEATURE - Intended to wrap the Feature Content of the page */
 #feature {
-	border: 1px solid;
+	border: 0px solid; /* Set Border to 1px if necessary for testing, default should be 0px */
 	padding: 0.8em;
 	min-height: 44px;
 }
 
-li {
-	display: inline;
-	padding: 0.5em;
-}
-
-/* Stays at bottom when scrolling, position at bottom of screen, links centered, padding. */
+/* FOOTER - including the Validators and Copyright mark. */
 footer {
 	box-sizing: border-box;
 	position: sticky;
 	bottom: 0px;
 	padding-left:10px;
-  	padding-right:10px;
-  	background-color: var(--lgcBlue);
+	padding-right: 10px;
+	background-color: var(--lgcBlue);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -145,6 +145,7 @@ footer {
 	text-align: center;
 }
 
+/* FOOTER - Validators - Parameters for the Validator links and images. */
 .footer-validators {
 	display: flex;
 	gap: 0.3em;
@@ -152,17 +153,20 @@ footer {
 	align-items: center;
 }
 
+/* FOOTER - Validators Images - Parameters for the Validator images. */
 .footer-validators img {
 	margin-top: 10px;
-	height: 31px;
+	display: inline;
 }
 
+/* FOOTER - Validator Links - Parameters for the Validator links. */
 .footer-validators a {
 	display: inline-block;
 	padding: 7px 0; /* SiteImprove */
 }
 
+/* FOOTER - Copyright */
 .footer-copyright p {
-	color: white;
-	line-height: 1.5;  /* SiteImprove */
-} */
+	color: var(--text-on-blue);
+	line-height: 1.5; /* SiteImprove */
+}
