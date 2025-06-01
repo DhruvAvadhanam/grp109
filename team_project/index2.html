@@ -5,137 +5,154 @@
 		<meta name="description" content="Changelog for Group 1. It's purpose is to share some simple explanation of work done to complete the project and by whom.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Index2</title>
+		<link rel="stylesheet" href="css/global.css"> <!-- Nav and Footer CSS for all pages. Additionally specifies root variables. Should always be the first CSS file listed. -Ian -->
 		<link rel="stylesheet" href="css/index2.css"> 
 	</head>
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
-		<header>
-			<h1>Let's Get Cooking</h1> <!-- Page title -->
+		
+		<header> <!-- Header contains the logo, page title, and Nav bar -->
+			<div class="branding">
+				<img src="images/lgc_logo_blue.png" alt="Let's Get Cooking Logo" height="50" aria-label="Let's Get Cooking Logo">
+				<h1 class="title" aria-label="Let's Get Cooking">Let's Get Cooking</h1>
+			</div>
 			<nav>
 				<ul>
-					<li><a href="index.html">Let's Get Cooking</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index2.html">Class List</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="project_details.html">Project Details</a></li>
 					<li><a href="kickstart_050225.html">Kickstart</a></li>
 					<li><a href="input_form.html">Input Form</a></li>
 					<li><a href="validation.html">Validations</a></li>
-          				<li><a href="changelog.html">Change Log</a></li>
-          				<li><a href="faq.html">FAQ</a></li> <!--added faq link -yuval-->
-					<li>   <!-- added cart icon that moves user to cart page when clicked -Yuval-->
-      						<a href="shoppingcart.html" title="View Cart">
-        					<img src="https://www.citypng.com/public/uploads/preview/hd-shopping-cart-white-logo-icon-transparent-png-701751694973936amdcratijm.png" alt="Shopping Cart" class="cart-icon">
-     		 				</a>
-    					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -Yuval -->
+					<li class="icon-container">   <!-- added cart icon that moves user to cart page when clicked -Yuval-->
+						<a href="shoppingcart.html" title="View Cart" class="cart-link">
+							<img src="images/cart_logo_white.png" alt="Shopping Cart">
+							<img src="images/cart_logo_orange_hover.png" alt="Shopping Cart">
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
 		
-      <p id="noResults" style="display: none; font-weight: bold;">No classes found.</p> <!-- Font displayed if no classes found based on filter -Dhruv -->
+		<p id="noResults" style="display: none; font-weight: bold;">No classes found.</p> <!-- Font displayed if no classes found based on filter -Dhruv -->
+		
+		<div id="row"><!---->
+			<label for="className">Class Name</label>
+			<input type="text" id="className">            
+			
+			<div id="classList"> <!-- Contains div containers for all the classes. Each class has title, description, price, instructor, and time. -Dhruv -->
+				
+				<div class="class-card" data-name="Holiday in Sardinia"> <!-- Class 1 -Dhruv -->
+					<img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
+					<div class="class-info">
+						<h2 class="class-title">Holiday in Sardinia</h2>
+						<p class="class-instructor">Instructor: Paola Albanesi</p>
+						<p class="class-description">Paola spent part of last summer on Carloforte, a tiny tuna-fishing 
+							island in Sardegna, and it was love at first bite. She’ll introduce you to
+							a sample of Sardinian cuisine as you help prepare Torta di Zucchine 
+							(Zucchini Frittata with Lemon Zest) as an appetizer. You will then 
+							make Malloreddus alla Campidanese (Handmade Semolina Pasta 
+							seasoned with Tomato Sauce and Tuna, as they serve it in Carloforte),
+							and sweet little Pardulas (Sun-shaped Ricotta Pies). With seafood, 
+						dairy and eggs.</p>
+						<p class="class-time">Time: 6:30-9:00 PM</p>
+					<p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
+				</div> 
+			</div>
+			
+			<div class="class-card" data-name="The Thrill of the Grill"> <!-- Class 2 -Dhruv -->
+				<img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
+				<div class="class-info">
+					<h2 class="class-title">The Thrill of the Grill</h2>
+					<p class="class-instructor">Instructor: Lynne Vea</p>
+					<p class="class-description">Participate in our regional spring optimism and be at the ready, 
+						spatula in hand, for the first sunny opportunities to start grilling. 
+						Lynne’s irresistible recipes will be paired with cider samplings: 
+						Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, 
+						local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of 
+						Halibut with two Zesty Sauces; Sticky Chicken with Korean 
+						Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, 
+					dairy and eggs.</p>
+					<p class="class-time">Time: 6:30-9:00 PM</p>
+				<p class="class-price">Price: </strong> $55 - Members | $60 - Non-members</p>
+			</div> 
+		</div>
+		
+		<div class="class-card" data-name="New York-Style Bagels"> <!-- Class 3 -Dhruv -->
+			<img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
+			<div class="class-info">
+				<h2 class="class-title">New York-Style Bagels</h2>
+				<p class="class-instructor">Instructor: Shelley Baumgarten</p>
+				<p class="class-description">Surprise and delight your family and friends with authentic New York-
+					style bagels crafted by your very own hands. We’ll prepare dough, 
+					shape, boil and then bake five different flavors: Plain, Poppy Seed, 
+					Sesame Seed, Onion and Everything Bagels. You will also create some
+					complementary cream cheese spreads —  Garlic and Herb; Vegetable;
+					and Honey Walnut — to accompany your bagels. Vegetarian with eggs
+				and optional dairy.</p>
+				<p class="class-time">Time: 6:30-9:00 PM</p>
+			<p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
+		</div> 
+	</div>
 	
-			<div id="row"><!---->
-                <label for="className">Class Name</label>
-                <input type="text" id="className">            
-         
-   <div id="classList"> <!-- Contains div containers for all the classes. Each class has title, description, price, instructor, and time. -Dhruv -->
-           
-       <div class="class-card" data-name="Holiday in Sardinia"> <!-- Class 1 -Dhruv -->
-       <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
-       <div class="class-info">
-       <h2 class="class-title">Holiday in Sardinia</h2>
-       <p class="class-instructor">Instructor: Paola Albanesi</p>
-       <p class="class-description">Paola spent part of last summer on Carloforte, a tiny tuna-fishing 
-island in Sardegna, and it was love at first bite. She’ll introduce you to
-a sample of Sardinian cuisine as you help prepare Torta di Zucchine 
-(Zucchini Frittata with Lemon Zest) as an appetizer. You will then 
-make Malloreddus alla Campidanese (Handmade Semolina Pasta 
-seasoned with Tomato Sauce and Tuna, as they serve it in Carloforte),
-and sweet little Pardulas (Sun-shaped Ricotta Pies). With seafood, 
-dairy and eggs.</p>
-        <p class="class-time">Time: 6:30-9:00 PM</p>
-        <p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
-              </div> 
-                </div>
-
- <div class="class-card" data-name="The Thrill of the Grill"> <!-- Class 2 -Dhruv -->
-       <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
-       <div class="class-info">
-       <h2 class="class-title">The Thrill of the Grill</h2>
-       <p class="class-instructor">Instructor: Lynne Vea</p>
-       <p class="class-description">Participate in our regional spring optimism and be at the ready, 
-spatula in hand, for the first sunny opportunities to start grilling. 
-Lynne’s irresistible recipes will be paired with cider samplings: 
-Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, 
-local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of 
-Halibut with two Zesty Sauces; Sticky Chicken with Korean 
-Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, 
-dairy and eggs.</p>
-        <p class="class-time">Time: 6:30-9:00 PM</p>
-        <p class="class-price">Price: </strong> $55 - Members | $60 - Non-members</p>
-              </div> 
-                </div>
-
-<div class="class-card" data-name="New York-Style Bagels"> <!-- Class 3 -Dhruv -->
-       <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
-       <div class="class-info">
-       <h2 class="class-title">New York-Style Bagels</h2>
-       <p class="class-instructor">Instructor: Shelley Baumgarten</p>
-       <p class="class-description">Surprise and delight your family and friends with authentic New York-
-style bagels crafted by your very own hands. We’ll prepare dough, 
-shape, boil and then bake five different flavors: Plain, Poppy Seed, 
-Sesame Seed, Onion and Everything Bagels. You will also create some
-complementary cream cheese spreads —  Garlic and Herb; Vegetable;
-and Honey Walnut — to accompany your bagels. Vegetarian with eggs
-and optional dairy.</p>
-        <p class="class-time">Time: 6:30-9:00 PM</p>
-        <p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
-              </div> 
-                </div>
-
-<div class="class-card" data-name="The Art of Thai Cuisine"> <!-- Class 4 -Dhruv -->
-       <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
-       <div class="class-info">
-       <h2 class="class-title">The Art of Thai Cuisine</h2>
-       <p class="class-instructor">Instructor: Pranee Halvorsen</p>
-       <p class="class-description">Thai food is a snap for everyday cooking with Pranee’s simple 
-techniques and an abundance of Thai ingredients and fresh herbs 
-within easy reach. Learn how to balance sweet, sour, salty and spicy 
-as Pranee demonstrates four tantalizing Thai dishes, including Laab 
-Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy
-Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai 
-(Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass 
-and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with
-Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with 
-Mango). With meat, poultry and seafood; no dairy or eggs.
-</p>
-        <p class="class-time">Time: 6:30-9:00 PM</p>
-        <p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
-              </div> 
-                </div>
+	<div class="class-card" data-name="The Art of Thai Cuisine"> <!-- Class 4 -Dhruv -->
+		<img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
+		<div class="class-info">
+			<h2 class="class-title">The Art of Thai Cuisine</h2>
+			<p class="class-instructor">Instructor: Pranee Halvorsen</p>
+			<p class="class-description">Thai food is a snap for everyday cooking with Pranee’s simple 
+				techniques and an abundance of Thai ingredients and fresh herbs 
+				within easy reach. Learn how to balance sweet, sour, salty and spicy 
+				as Pranee demonstrates four tantalizing Thai dishes, including Laab 
+				Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy
+				Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai 
+				(Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass 
+				and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with
+				Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with 
+				Mango). With meat, poultry and seafood; no dairy or eggs.
+			</p>
+			<p class="class-time">Time: 6:30-9:00 PM</p>
+		<p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
+	</div> 
+</div>
 
 <div class="class-card" data-name="Pasta Workshop"> <!-- Class 5 -Dhruv -->
-       <img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
-       <div class="class-info">
-       <h2 class="class-title">Pasta Workshop</h2>
-       <p class="class-instructor">Instructor: Iole Aguero</p>
-       <p class="class-description">Iole has been sharing her love of creating handmade pasta with eager 
-PCC students for two decades now. In this lively workshop, Iole will 
-show you how to create fresh pasta, a staple of Italian home-cooked 
-meals. With a batch of pasta dough, expert guidance and a little  
-practice, you’ll become skilled at making Bowtie Pasta with Sugar 
-Plum Tomatoes, Mozzarella and Arugula; Tagliolini with Pesto; and  
-Fettuccine al Burro e Parmigiano. Iole will also demonstrate how to 
-make ravioli and  tortellini. Vegetarian with dairy and eggs.</p>
+	<img src="https://media.newyorker.com/photos/67b64169a260e694fecc9eff/1:1/w_1920,h_1920,c_limit/Monroe_TexasBBQ_Gomez2.jpg" alt="Carolina BBQ" height="400px" width="500pc" alt="Holiday" class="class-image">
+	<div class="class-info">
+		<h2 class="class-title">Pasta Workshop</h2>
+		<p class="class-instructor">Instructor: Iole Aguero</p>
+		<p class="class-description">Iole has been sharing her love of creating handmade pasta with eager 
+			PCC students for two decades now. In this lively workshop, Iole will 
+			show you how to create fresh pasta, a staple of Italian home-cooked 
+			meals. With a batch of pasta dough, expert guidance and a little  
+			practice, you’ll become skilled at making Bowtie Pasta with Sugar 
+			Plum Tomatoes, Mozzarella and Arugula; Tagliolini with Pesto; and  
+			Fettuccine al Burro e Parmigiano. Iole will also demonstrate how to 
+		make ravioli and  tortellini. Vegetarian with dairy and eggs.</p>
         <p class="class-time">Time: 6:30-9:00 PM</p>
-        <p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
-              </div> 
-                </div>
-                    
+	<p class="class-price">Price: </strong> $50 - Members | $55 - Non-members</p>
+</div> 
+</div>
+
 </div> <!-- End of class list -Dhruv -->
 
+<footer> <!-- Contains the Validator link images and the Copyright -->
+	<div class="footer-validators">
+		<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+			<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88">
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+			<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="31" width="88">
+		</a>
+	</div>
+	<div class="footer-copyright">
+		<p>&copy; Copyright 2025</p>
+	</div>
+</footer>
 
-		<footer>
-			<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88"></a></p>
-			<p><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
-		</footer>
-      		<script src="js/index2.js"></script>
+<script src="js/index2.js"></script>
 
-	</body>
+</body>
 </html>
