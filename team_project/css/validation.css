@@ -1,13 +1,16 @@
 #container{
-  display: grid;
-  font-size: 20px;
-  font-weight: bold;
-  gap: 10px;
-  text-align: center;
-  grid-template-columns: 10% 10% 10% 35% 35%;
+	display: grid;
+	font-size: 20px;
+	font-weight: bold;
+	gap: 10px;
+	text-align: center;
+	grid-template-columns: 10% 10% 10% 35% 35%;
 }
+
 #container > .card{
-	position:relative;}
+	position:relative;
+}
+
 #container > .card::after{
 	background-color: midnightblue;
 	position: absolute;
@@ -15,16 +18,22 @@
 	height: 2px;
 	top: 0px;
 }
+
 .iteration{	
-	border-top: 1px solid #ddd;}
+	border-top: 1px solid #ddd;
+}
+
 /*#grid-container > .item4, item8, .item12, .item16, .item20, item24{
-	background-color: aliceblue;}*/
+background-color: aliceblue;}*/
 
 .validation-section{ /*Adding some padding to page content. -Deena*/
-	padding: 0px 20px;}
+	padding: 0px 20px;
+}
 
 .html{ /*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: aliceblue;}
+	background-color: aliceblue;
+}
 
 .css{/*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: cornsilk;}
+	background-color: cornsilk;
+}
