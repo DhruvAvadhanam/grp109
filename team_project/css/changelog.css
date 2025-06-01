@@ -1,9 +1,14 @@
+/* Set default font and text color for page -Deena */
+* {
+  box-sizing: border-box;
+}
 #container{
 	box-sizing: border-box;
 	color: #665544;
 	padding: 0px 15px;
 	/*border: 1px dashed;*/
 }
+
 .th {
 	font-weight: bold;
 	text-align: center;
