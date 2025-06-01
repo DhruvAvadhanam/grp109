@@ -5,14 +5,14 @@
 	--background-color: white;                  /* The global background color, white. Enter as: "var(--background-color)" */
 	--font-family: Arial, Verdana, sans-serif;  /* The default font family. Enter as: "var(--font-family)" */
 	--text-on-blue: white;                      /* For use when setting White text with the Blue background. Enter as: "var(--text-on-blue)" */
-	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(text-on-white)" */
+	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(--text-on-white)" */
 }
 
 /* BODY - Sets body background color, width and centers content */
 body {
 	font-family: var(--font-family);
 	box-sizing: border-box;
-	color: var(text-on-white);
+	color: var(--text-on-white);
 	background-color: var(--background-color);
 	padding-left:5px;
 	padding-right: 5px;
