@@ -130,7 +130,6 @@ th, td{
 ul.breadcrumb {
   padding: 5px 20px;
   list-style: none;
-  background-color: #eee;
 }
 
 /* Display list items side by side */
@@ -148,12 +147,12 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #0275d8;
+  color: #013C4D;
   text-decoration: none;
 }
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: orange;
   text-decoration: underline;
 }
