@@ -1,6 +1,8 @@
-/* Set heading text color -Deena */
-h1 {
-	color: white;
+/* Set default font and text color for page -Deena */
+* {
+  	box-sizing: border-box;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
 }
 
 #container{
