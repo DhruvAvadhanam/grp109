@@ -5,28 +5,37 @@
 		<meta name="description" content="Changelog for Group 1. It's purpose is to share some simple explanation of work done to complete the project and by whom.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Group 1 - Changelog</title>
+		<link rel="stylesheet" href="css/global.css"> <!-- Nav and Footer CSS for all pages. Additionally specifies root variables. Should always be the first CSS file listed. -Ian -->
 		<link rel="stylesheet" href="css/changelog.css">
 	</head>
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -Ian -->
-		<header>
-			<h1>Group 1 - Change Log</h1> <!-- Page title -Ian -->
+		
+		<header> <!-- Header contains the logo, page title, and Nav bar -->
+			<div class="branding">
+				<img src="images/lgc_logo_blue.png" alt="Let's Get Cooking Logo" height="50" aria-label="Let's Get Cooking Logo">
+				<h1 class="title" aria-label="Let's Get Cooking">Let's Get Cooking</h1>
+			</div>
 			<nav>
 				<ul>
-					<li><a href="index.html">Let's Get Cooking</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="index2.html">Class List</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="project_details.html">Project Details</a></li>
 					<li><a href="kickstart_050225.html">Kickstart</a></li>
 					<li><a href="input_form.html">Input Form</a></li>
-          				<li><a href="faq.html">FAQ</a></li> <!--added faq link -yuval-->
 					<li><a href="validation.html">Validations</a></li>
-					<li>   <!-- added cart icon that moves user to cart page when clicked -Yuval-->
-      						<a href="shoppingcart.html" title="View Cart">
-        					<img src="https://www.citypng.com/public/uploads/preview/hd-shopping-cart-white-logo-icon-transparent-png-701751694973936amdcratijm.png" alt="Shopping Cart" class="cart-icon">
-     						</a>
-    					</li>
+					<li><a href="changelog.html">Change Log</a></li>
+					<li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -Yuval -->
+					<li class="icon-container">   <!-- added cart icon that moves user to cart page when clicked -Yuval-->
+						<a href="shoppingcart.html" title="View Cart" class="cart-link">
+							<img src="images/cart_logo_white.png" alt="Shopping Cart">
+							<img src="images/cart_logo_orange_hover.png" alt="Shopping Cart">
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
+		
 		<div class="container"><!--Deena created format here for divs-->
 			<div class="row"><!--Header row-->
 				<div class="th"><!--Table heading-->
@@ -34,7 +43,7 @@
 					<div class="column2">Comment Log</div>
 				</div>
 			</div>
-		  			
+			
 			<div class="row"><!--Iteration 1-->
 				<div class="column1">1</div>
 				<div class="column2">
@@ -90,9 +99,20 @@
 				</div>				
 			</div>
 		</div> <!--End of Deena's contributions-->
-		<footer>
-			<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88"></a></p>
-			<p><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
+		
+		<footer> <!-- Contains the Validator link images and the Copyright -->
+			<div class="footer-validators">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+					<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88">
+				</a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+					<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="31" width="88">
+				</a>
+			</div>
+			<div class="footer-copyright">
+				<p>&copy; Copyright 2025</p>
+			</div>
 		</footer>
+		
 	</body>
 </html>
