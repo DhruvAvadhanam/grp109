@@ -1,1 +1,7 @@
 /* Contains any page-specific CSS */
+#text {
+	overflow: auto;
+	border: 0px solid; /* Set Border to 1px if necessary for testing, default should be 0px */
+	padding: 0.8em;
+	min-height: 44px;
+}
