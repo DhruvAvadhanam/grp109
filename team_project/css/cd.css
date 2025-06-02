@@ -127,13 +127,13 @@ th, td{
 	top: 0;
 	left: 0;
 }
-/*.search, .account img {
+.search, .account img {
 	width: 35px;
 	height: 35px;
 	position: absolute;
 	top: 0;
 	left: 0;
-}*/
+}
 /* Style the list */
 ul.breadcrumb {
   padding: 5px 20px;
