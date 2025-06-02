@@ -97,9 +97,9 @@ th, td{
 }
 
 /*  Individual link styles */
-.top-nav li {
-  padding: 15px 20px; /* Add space around links */
-}
+/*.top-nav li {
+  padding: 15px 20px; /* Add space around links 
+}*/
 
 .top-nav a {
   text-decoration: none; /* Remove underlines */
@@ -131,7 +131,7 @@ th, td{
     margin: 0;
     padding: 14px;
   }*/
-  .topnav input[type=text] {
+  .top-nav input[type=text] {
     border: 1px solid #ccc;
   }
 }
@@ -147,7 +147,8 @@ th, td{
 	height: 35px;
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
+	display: inline;
 }
 /* Style the list */
 ul.breadcrumb {
