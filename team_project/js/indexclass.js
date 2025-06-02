@@ -280,8 +280,8 @@ var details27 = ' </h4> ' + budgetClass.name +  '   ';
 var elClass27 = document.getElementById('Class27');
 elClass27.innerHTML = details27;
 
-var details28 = ' <a href="images/pasta.html"><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"> ';
-    var details28 = ' <h4> ' + sardiniaClass.name +  ' </h4></a> ';
+var details28 = ' <a href="images/pasta.html"><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"><h4>';
+    var details28 = sardiniaClass.name +  ' </h4></a> ';
 var elClass28 = document.getElementById('Class28');
 elClass28.innerHTML = details28;
 
@@ -330,13 +330,13 @@ var details37 = ' </h4> ' + piemonteseClass.name +  '   ';
 var elClass37 = document.getElementById('Class37');
 elClass37.innerHTML = details37;
 
-var details38 = ' </h4> ' + mexClass.name +  '   ';
-    details38+= mexClass.checkAvailability()+  ' </h4>’;
+var details38 = ' <a href="images/pasta.html"><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"> ';
+    details38+= ' </h4> ' + mexClass.name +  '   ';
 var elClass38 = document.getElementById('Class38');
 elClass38.innerHTML = details38;
 
-var details39 = ' </h4> ' + bagelsClass.name +  '   ';
-    details39+= bagelsClass.checkAvailability()+  ' </h4>’;
+var details39 = ' <a href="images/bagels.html"><img src="images/bagels.jpg" class="image" alt="New York Bagels"><h4>';
+    details39+= bagelsClass.name + ' </h4></a>’;
 var elClass39 = document.getElementById('Class39');
 elClass39.innerHTML = details39;
 
@@ -350,8 +350,8 @@ var details41 = ' </h4> ' + pulseClass.name +  '   ';
 var elClass41 = document.getElementById('Class41');
 elClass41.innerHTML = details41;
 
-var details42 = ' </h4> ' + pastaClass.name +  '   ';
-    details42+= pastaClass.checkAvailability()+  ' </h4>’;
+var details42 = '<a href="images/pasta.html"><img src="images/pasta.jpg" class="image" alt="Pasta Workshop"> <h4>';
+    details42+= pastaClass.name +  ' </h4></a>’;
 var elClass42 = document.getElementById('Class42');
 elClass42.innerHTML = details42;
 
@@ -420,8 +420,8 @@ var details55 = ' </h4> ' + tamaleClass.name +  '   ';
 var elClass55 = document.getElementById('Class55');
 elClass55.innerHTML = details55;
 
-var details56 = ' </h4> ' + thaiClass.name +  '   ';
-    details56+= thaiClass.checkAvailability()+  ' </h4>’;
+var details56 = '<a href="images/thai.html"><img src="images/thai.jpg" class="image" alt="The Art of Thai"> <h4>';
+    details56+= thaiClass.name +  ' </h4></a>’;
 var elClass56 = document.getElementById('Class56');
 elClass56.innerHTML = details56;
 
@@ -430,8 +430,8 @@ var details57 = ' </h4> ' + brazilClass.name +  '   ';
 var elClass57 = document.getElementById('Class57');
 elClass57.innerHTML = details57;
 
-var details58 = ' </h4> ' + grillClass.name +  '   ';
-    details58+= grillClass.checkAvailability()+  ' </h4>’;
+var details58 = '<a href="images/thai.html"><img src="images/thai.jpg" class="image" alt="The Art of Thai"> <h4>';
+    details58+= grillClass.name + ' </h4></a>’;
 var elClass58 = document.getElementById('Class58');
 elClass58.innerHTML = details58;
 
