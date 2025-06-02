@@ -36,7 +36,8 @@ th, td{
   border-radius: 4px;
   padding: 5px;
   width: 80%;
-  align: center;
+  display: block;
+  margin: auto;
   /*height: 350px;*/
 }
 /* Dropdown Button */
