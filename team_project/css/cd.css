@@ -35,8 +35,10 @@ th, td{
 .image {
   border-radius: 4px;
   padding: 5px;
-  width: 450px;
-  height: 350px;}
+  width: 30%;
+  align: center;
+  /*height: 350px;*/
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: var(--lgcBlue);
