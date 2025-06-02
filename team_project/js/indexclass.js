@@ -7,7 +7,8 @@ function Class(name, description, instructor, price, seats, booked, flags, locat
   this.seats = seats;
   this.booked = booked;
   this.flags = flags;
-  this.location = location
+  this.location = location;
+  //this.image = image;
   this.checkAvailability = function() {
     return this.seats - this.booked;
   };
@@ -279,8 +280,8 @@ var details27 = ' </h4> ' + budgetClass.name +  '   ';
 var elClass27 = document.getElementById('Class27');
 elClass27.innerHTML = details27;
 
-var details28 = ' </h4> ' + sardiniaClass.name +  '   ';
-    details28+= sardiniaClass.checkAvailability()+  ' </h4>’;
+var details28 = ' <a href="images/pasta.html"><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"> ';
+    var details28 = ' <h4> ' + sardiniaClass.name +  ' </h4></a> ';
 var elClass28 = document.getElementById('Class28');
 elClass28.innerHTML = details28;
 
