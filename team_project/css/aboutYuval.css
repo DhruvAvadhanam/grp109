@@ -1,7 +1,7 @@
 * {
   	box-sizing: border-box;
 	font-family: Arial, Verdana, sans-serif;
-	color: #C71585;
+	color: #800080;
 }
 
 /* Set body background color, width and center content -Yuval */
@@ -15,7 +15,7 @@ p {
 }
 /* Set heading text color -Yuval */
 h1 {
-	color: #C71585;
+	color: #800080;
 }
 
 #content {
