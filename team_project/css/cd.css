@@ -84,14 +84,14 @@ th, td{
 /*  General navigation styles */
 .top-nav {
   list-style: none; /* Remove bullet points */
-  padding: 0;
+  padding: 5px;
   margin: 0;
   display: flex; /* Or flex, grid, etc., based on layout */
   justify-content: space-between; /* Distribute space */
   color: #000000;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 20px;
   width: 25%;
   z-index: 100; /* Ensure it stays on top */
 }
@@ -104,6 +104,7 @@ th, td{
 .top-nav a {
   text-decoration: none; /* Remove underlines */
   color: white; /* Example text color */
+  float: left;
 }
 
 /*  Hover effect */
@@ -137,7 +138,7 @@ th, td{
   }
 
 .icon-container{
-	width: 35px;
+	width: 100px;
 	height: 35px;
 	position: absolute;
 	top: 0;
@@ -149,7 +150,7 @@ th, td{
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
+  /*transition: all 0.3s ease; Add transition for hover effects */
   font-size: 36px; /* Increased font size */
 }
 /*.account img {
