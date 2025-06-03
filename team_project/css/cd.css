@@ -1,7 +1,7 @@
 
 #container {
 	float: left;
-	width: 90%;}
+	width: 100%;}
 
 .column1, .column2, .column3 {
 	float: left;
@@ -16,16 +16,20 @@
 	}
 
 .column1{
-  width: 30%;}
+  width: 30%;
+margin:auto;}
 
 .column2{
-  width: 40%;}
+  width: 40%;
+padding:5px;
+margin: auto;}
 
 .column3{
 	float: left;
     width: 20%;
     text-align:left;
-	padding: 5px;}
+	padding: 5px;
+margin:auto;}
 table{
   	width: 60%;
 }
@@ -136,6 +140,8 @@ p {
   }*/
   .top-nav input[type=text] {
     border: 1px solid #ccc;
+    right: 150px;
+    top: 10px;
   }
 
 .icon-container{
@@ -182,14 +188,14 @@ p {
 ul.breadcrumb {
   padding: 5px 20px;
   list-style: none;
+  height: 44px;
+  width: 44px;
 }
 
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
-  min-width: 44px; 
-  min-height: 44px;
+  font-size: 20px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
