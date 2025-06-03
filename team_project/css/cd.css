@@ -188,14 +188,14 @@ p {
 ul.breadcrumb {
   padding: 5px 20px;
   list-style: none;
-  height: 44px;
-  width: 44px;
 }
 
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
   font-size: 20px;
+  height: 44px;
+  width: 44px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -209,6 +209,8 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
   color: #013C4D;
   text-decoration: none;
+  height: 44px;
+  width: 44px;
 }
 
 /* Add a color on mouse-over */
