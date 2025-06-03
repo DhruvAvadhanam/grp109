@@ -1,9 +1,11 @@
 
 /* Set body background color, width and center content -Deena */
 body{
-	background-color: white;
+	background-color: #F5F5FF;
 	width: 90%;
 	margin: auto;
+	padding: 10px;
+	color: indigo;
 }
 /*Set accessibility line height*/
 p {
@@ -12,8 +14,7 @@ p {
 /* Set heading text color -Deena */
 
 #feature{
-	border: 1px solid;
-	padding: 0.8em;
+	border: 1px solid indigo;
 	min-height: 0px;
 	color: indigo;
 	padding: 50px;
