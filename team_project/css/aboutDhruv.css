@@ -1,7 +1,16 @@
-body{
-	width: 80%;
-	padding: 10px;
+* {
+  	box-sizing: border-box;
+	font-family: Arial, Verdana, sans-serif;
+	color: #0D4F4D;
 }
+
+/* Set body background color, width and center content -Deena */
+body{
+	background-color: #F5F5FF;
+	width: 80%;
+	margin: auto;
+}
+
 #content {
 	overflow: auto;
 }
