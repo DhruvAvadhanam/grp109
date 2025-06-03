@@ -37,8 +37,8 @@
 		</header>
 		
 		<div id="container1"> <!-- Contains all of the dropdowns. <form>? Change to checkboxes.<input type="checkbox"> -Deena-->
-          	<sidebar><br><h3>Filters:</h3></div>
-			 	<label for="Category">Category:</label> <!-- Category Filter. -->
+          	<div id="filters"><br><h3>Filters:</h3></div>
+				<label for="Category">Category:</label> <!-- Category Filter. -->
 				  <select id="category" name="category">
 					<option value="All">All</option>
 					<option value="Global">Global</option>
@@ -51,121 +51,119 @@
 					<option value="To Your Health">To Your Health</option>
 					<option value="Walk, Talk, & Taste">Walk, Talk, & Taste</option>
 				  </select>			
-			      <br>
-			      <label for="Location">Location:</label> <!-- Location Filter. -->
-			      <select id="location" name="location">
-			        <option value="All">All</option>
-			        <option value="Bellevue">Bellevue</option>
-			        <option value="Bothell">Bothell</option>
-			        <option value="Burien">Burien</option>
-			        <option value="Columbia City">Columbia City</option>
-			        <option value="Edmonds">Edmonds</option>
-			        <option value="Greenlake Village">Greenlake Village</option>
-			        <option value="Issaquah">Issaquah</option>
-			      </select>
-			      <br>
-			      <label for="Type">Class Type:</label> <!-- Class Type Filter. -->
-			      <select id="type" name="type">
-			        <option value="All">All</option>
-			        <option value="Adult">Adult</option>
-			        <option value="Kids">Kids</option>
-			        <option value="Kids Camp">Kids Camp</option>
-			        <option value="Holiday">Holiday</option>
-			        <option value="Lecture">Lecture</option>
-			        <option value="Member Only">Member Only</option>
-			        <option value="Multi-day">Multi-day</option>
-			      </select>
-			      <br>
-			      <label for="Month">Month:</label> <!-- Month Filter. -->
-			      <select id="month" name="month">
-			        <option value="All">All</option>
-			        <option value="January">January</option>
-			        <option value="February">February</option>
-			        <option value="March">March</option>
-			        <option value="April">April</option>
-			        <option value="May">May</option>
-			        <option value="June">June</option>
-			        <option value="July">July</option>
-			        <option value="August">August</option>
-			        <option value="September">September</option>
-			        <option value="October">October</option>
-			        <option value="November">November</option>
-			        <option value="December">December</option>
-			      </select>
-			      <br>
-			      <label for="Day">Day of the Week:</label> <!-- Day Filter. -->
-			      <select id="day" name="day">
-			        <option value="All">All</option>
-			        <option value="Monday">Monday</option>
-			        <option value="Tuesday">Tuesday</option>
-			        <option value="Wednesday">Wednesday</option>
-			        <option value="Thursday">Thursday</option>
-			        <option value="Friday">Friday</option>
-			        <option value="Saturday">Saturday</option>
-			        <option value="Sunday">Sunday</option>
-			      </select>
-			      <br>
-			      <label for="Time">Time of Day</label> <!-- Time Filter. -->
-			      <select id="time" name="time">
-                    <option value="All">All</option>
-			        <option value="morning">Morning 7-12</option>
-			        <option value="afternoon">Afternoon 12-5</option>
-			        <option value="evening">Evening 5-10pm</option>
-				  </select>
-			      <br>
-			      <label for="Diet">Dietary Restrictions</label> <!-- Restrictions Filter. -->
-			      <select id="allergen" name="allergen">
-                    		<option value="None">None</option>
-			        <option value="Dairy-Free">Dairy-Free</option>
-			        <option value="Gluten-Free">Gluten-Free</option>
-			        <option value="No Shellfish">No Shellfish</option>
-			        <option value="Nut-Free">Nut-Free</option>			
-			        <option value="Vegan">Vegan</option>
-				  </select>
-			      <br>
+				  <br>
+				<label for="Location">Location:</label> <!-- Location Filter. -->
+				<select id="location" name="location">
+					<option value="All">All</option>
+					<option value="Bellevue">Bellevue</option>
+					<option value="Bothell">Bothell</option>
+					<option value="Burien">Burien</option>
+					<option value="Columbia City">Columbia City</option>
+					<option value="Edmonds">Edmonds</option>
+					<option value="Greenlake Village">Greenlake Village</option>
+					<option value="Issaquah">Issaquah</option>
+				</select>
+				<br>
+				<label for="Type">Class Type:</label> <!-- Class Type Filter. -->
+				<select id="type" name="type">
+					<option value="All">All</option>
+					<option value="Adult">Adult</option>
+					<option value="Kids">Kids</option>
+					<option value="Kids Camp">Kids Camp</option>
+					<option value="Holiday">Holiday</option>
+					<option value="Lecture">Lecture</option>
+					<option value="Member Only">Member Only</option>
+					<option value="Multi-day">Multi-day</option>
+				</select>
+				<br>
+				<label for="Month">Month:</label> <!-- Month Filter. -->
+				<select id="month" name="month">
+					<option value="All">All</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+					<option value="April">April</option>
+					<option value="May">May</option>
+					<option value="June">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="December">December</option>
+				</select>
+				<br>
+				<label for="Day">Day of the Week:</label> <!-- Day Filter. -->
+				<select id="day" name="day">
+					<option value="All">All</option>
+					<option value="Monday">Monday</option>
+					<option value="Tuesday">Tuesday</option>
+					<option value="Wednesday">Wednesday</option>
+					<option value="Thursday">Thursday</option>
+					<option value="Friday">Friday</option>
+					<option value="Saturday">Saturday</option>
+					<option value="Sunday">Sunday</option>
+				</select>
+				<br>
+				<label for="Time">Time of Day</label> <!-- Time Filter. -->
+				<select id="time" name="time">
+								<option value="All">All</option>
+					<option value="morning">Morning 7-12</option>
+					<option value="afternoon">Afternoon 12-5</option>
+					<option value="evening">Evening 5-10pm</option>
+			</select>
+				<br>
+				<label for="Diet">Dietary Restrictions</label> <!-- Restrictions Filter. -->
+				<select id="allergen" name="allergen">
+										<option value="None">None</option>
+					<option value="Dairy-Free">Dairy-Free</option>
+					<option value="Gluten-Free">Gluten-Free</option>
+					<option value="No Shellfish">No Shellfish</option>
+					<option value="Nut-Free">Nut-Free</option>			
+					<option value="Vegan">Vegan</option>
+			</select>
+				<br>
 			<!-- <label for="clear"><input type="button">Clear</label><label for="search"><input type="button">Search</label> </form>-->
-			  </sidebar>
-			<feature>
-		
-<div class="row"> <!-- Container with first 4 cooking classes. Each class is assigned category, location, type, month, day, time, and restriction data. -DR -->
-  <div class="column2">
-    <div class="thumb" data-category="Global" data-location="Bellevue" data-type="Adult" data-month="January" data-day="Monday" data-time="Morning 7-12" data-restrictions="Dairy-Free">
-      <a href=""><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"></a><h4>Holiday in Sardinia</h4>
-    </div>
-    <div class="thumb" data-category="Chef's Table" data-location="Bothell" data-type="Kids" data-month="February" data-day="Tuesday" data-time="Afternoon 12-5" data-restrictions="Gluten-Free">
-      <a href=""><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"></a><h4>The Thrill of the Grill</h4>
-    </div>
-    <div class="thumb" data-category="Baking" data-location="Edmonds" data-type="Adult" data-month="March" data-day="Wednesday" data-time="Morning 7-12" data-restrictions="Nut-Free">
-      <a href=""><img src="images/bagels.jpg" class="image" alt="New York Bagels"></a><h4>New York Bagels</h4>
-    </div>
-    <div class="thumb" data-category="Global" data-location="Columbia City" data-type="Adult" data-month="April" data-day="Thursday" data-time="Evening 5-10pm" data-restrictions="Vegan">
-      <a href=""><img src="images/thai.jpg" class="image" alt="The Art of Thai"></a><h4>The Art of Thai</h4>
-    </div>
-    <!--<div id="details28"></div>
-    <div id="details58"></div>
-    <div id="details39"></div>
-    <div id="details56"></div>-->
-  </div>
-</div>
-
-<div class="row"> <!-- Container with next 4 cooking classes.  -DR-->
-  <div class="column2">
-   <!--<div id="details42"></div>-->
-    <div class="thumb" data-category="Baking" data-location="Issaquah" data-type="Adult" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
-      <a href="pasta.html"><img src="images/pasta2.jpg" class="image" alt="Pasta Workshop"><h4>Pasta Workshop</h4></a>
-    </div>
-    <div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
-      <a href=""><img src="images/chefclass.jpg" class="image" alt="Guest Chef Experience"></a><h4>Guest Chef Experience</h4>
-    </div>
-    <div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
-      <a href=""><img src="images/kidscook.jpg" class="image" alt="Kids Summer Fun"></a><h4>Kids Summer Fun</h4>
-    </div>
-    <div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
-      <a href=""><img src="images/healthclass.jpg" class="image" alt="Healthy Cooking Habits"></a><h4>Healthy Cooking Habits</h4>
-    </div>
-  </div>
-</div>
-	</feature>
+		</div>
+		<div id="container2">		
+			<div class="row"> <!-- Container with first 4 cooking classes. Each class is assigned category, location, type, month, day, time, and restriction data. -DR -->
+			  <div class="column2">
+			    <div class="thumb" data-category="Global" data-location="Bellevue" data-type="Adult" data-month="January" data-day="Monday" data-time="Morning 7-12" data-restrictions="Dairy-Free">
+			      <a href=""><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"></a><h4>Holiday in Sardinia</h4>
+			    </div>
+			    <div class="thumb" data-category="Chef's Table" data-location="Bothell" data-type="Kids" data-month="February" data-day="Tuesday" data-time="Afternoon 12-5" data-restrictions="Gluten-Free">
+			      <a href=""><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"></a><h4>The Thrill of the Grill</h4>
+			    </div>
+			    <div class="thumb" data-category="Baking" data-location="Edmonds" data-type="Adult" data-month="March" data-day="Wednesday" data-time="Morning 7-12" data-restrictions="Nut-Free">
+			      <a href=""><img src="images/bagels.jpg" class="image" alt="New York Bagels"></a><h4>New York Bagels</h4>
+			    </div>
+			    <div class="thumb" data-category="Global" data-location="Columbia City" data-type="Adult" data-month="April" data-day="Thursday" data-time="Evening 5-10pm" data-restrictions="Vegan">
+			      <a href=""><img src="images/thai.jpg" class="image" alt="The Art of Thai"></a><h4>The Art of Thai</h4>
+			    </div>
+			    <!--<div id="details28"></div>
+			    <div id="details58"></div>
+			    <div id="details39"></div>
+			    <div id="details56"></div>-->
+			  </div>
+			</div>			
+			<div class="row"> <!-- Container with next 4 cooking classes.  -DR-->
+			  <div class="column2">
+			   <!--<div id="details42"></div>-->
+			    <div class="thumb" data-category="Baking" data-location="Issaquah" data-type="Adult" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
+			      <a href="pasta.html"><img src="images/pasta2.jpg" class="image" alt="Pasta Workshop"><h4>Pasta Workshop</h4></a>
+			    </div>
+			    <div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
+			      <a href=""><img src="images/chefclass.jpg" class="image" alt="Guest Chef Experience"></a><h4>Guest Chef Experience</h4>
+			    </div>
+			    <div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
+			      <a href=""><img src="images/kidscook.jpg" class="image" alt="Kids Summer Fun"></a><h4>Kids Summer Fun</h4>
+			    </div>
+			    <div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
+			      <a href=""><img src="images/healthclass.jpg" class="image" alt="Healthy Cooking Habits"></a><h4>Healthy Cooking Habits</h4>
+			    </div>
+			  </div>
+			</div>
+		</div>
 	</div>
 		
 		<footer> <!-- Contains the Validator link images and the Copyright -->
