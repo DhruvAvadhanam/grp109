@@ -308,7 +308,7 @@ var details28 = ' <div data-name="' + sardiniaClass.name + '" data-flag="' + sar
      details28 += '"> <a href="sardinia.html"><img src="images/sardinia.jpg" class="image" alt="«Class»"> ';
     details28 +=  ' <h4> ' + sardiniaClass.name +  '  </h4></a></div>  ';
 var elClass28 = document.getElementById('Class28');
-elClass28.innerHTML = details28;
+elClass28.textContent = details28;
 
 var details29 = ' <div data-name="' + cakeClass.name + '" data-flag="' + cakeClass.flags ';
      details29 += '"> <a href="cake.html"><img src="images/cake.jpg" class="image" alt="«Class»"> ';
