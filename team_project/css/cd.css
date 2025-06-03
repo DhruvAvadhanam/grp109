@@ -145,11 +145,11 @@ p {
   }
 
 .icon-container img{
-	width: 50px;
-	height: 35px;
+	width: 44px;
+	height: 44px;
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 20;
 	display: inline;
 }
 /*.icon-container a {
@@ -160,23 +160,15 @@ p {
   /*transition: all 0.3s ease; Add transition for hover effects */
   font-size: 36px; /* Increased font size 
 }*/
-/*.account img {
-	width: 35px;
-	height: 35px;
-	display: inline-block;
+.account img {
 	position: absolute;
-	top: 0;
-	right: 0;
+	right: 40;
 }
 .cart img {
-	width: 35px;
-	height: 35px;
-	display: inline-block;
 	position: absolute;
-	top: 0;
 	right: 20;
 }
-.search{
+/*.search{
 	width: 35px;
 	height: 35px;
 	display: inline-block;
