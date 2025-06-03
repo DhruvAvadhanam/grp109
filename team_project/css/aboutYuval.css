@@ -10,7 +10,9 @@ body{
 	width: 90%;
 	margin: auto;
 }
-
+p {
+  line-height: 1.5;
+}
 /* Set heading text color -Yuval */
 h1 {
 	color: pink;
