@@ -112,10 +112,10 @@ th, td{
 }
 
 /*  Make it responsive (optional) */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .top-nav {
-    flex-direction: column; /* Stack links vertically on small screens */
-  }
+    flex-direction: column; /* Stack links vertically on small screens 
+  }*/
   .top-nav li {
     padding: 10px;
     border-bottom: 1px solid #555; /* Add a separator between links */
@@ -135,14 +135,14 @@ th, td{
     border: 1px solid #ccc;
   }
 }
-.icon-container{
+/*.icon-container{
 	width: 35px;
 	height: 35px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	display: inline;
-}
+}*/
 .search, .account, .cart img {
 	width: 35px;
 	height: 35px;
