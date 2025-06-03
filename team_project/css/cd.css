@@ -141,13 +141,11 @@ th, td{
 	position: absolute;
 	top: 0;
 	right: 0;
+	display: inline;
 }
 .search, .account, .cart img {
 	width: 35px;
 	height: 35px;
-	position: absolute;
-	top: 0;
-	right: 0;
 	display: inline;
 }
 /* Style the list */
