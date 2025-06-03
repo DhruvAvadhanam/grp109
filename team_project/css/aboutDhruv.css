@@ -1,8 +1,7 @@
-/* Set heading text color -Deena */
-h1 {
-	color:black;
+body{
+	width: 80%;
+	padding: 10px;
 }
-
 #content {
 	overflow: auto;
 }
@@ -10,11 +9,8 @@ h1 {
 #feature{
 	/* 	background-color:#008B8B; */
 	margin: 1%;
-}
-
-#feature{
 	border: 1px solid orange;
-	padding: 0.8em;
+	padding: 10px;
 	min-height: 0px;
 }
 
