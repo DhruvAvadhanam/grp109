@@ -37,95 +37,96 @@
 		</header>
 		
 		<div id="container1"> <!-- Contains all of the dropdowns. <form>? Change to checkboxes.<input type="checkbox"> -Deena-->
-          	<div id="filters"><br><h3>Filters:</h3></div>
-				<label for="category">Category:</label> <!-- Category Filter. -->
+          	<div id="filters"><br><h3 aria-label="class filters">Filters:</h3></div>
+				<label for="category" aria-label="category">Category:</label> <!-- Category Filter. -->
 				  <select id="category" name="category">
-					<option value="All">All</option>
-					<option value="Global">Global</option>
-					<option value="Baking">Baking</option>
-					<option value="Chef's Table">Chef's Table</option>
-					<option value="Guest Chef">Guest Chef</option>
-					<option value="Kids Cook">Kids Cook</option>
-					<option value="Kids Camps">Kids Camps</option>
-					<option value="One of a Kind">One of a Kind</option>
-					<option value="To Your Health">To Your Health</option>
-					<option value="Walk, Talk, & Taste">Walk, Talk, & Taste</option>
+					<option value="All" aria-label="all categories">All</option>
+					<option value="Global" aria-label="Global">Global</option>
+					<option value="Baking" aria-label="Baking">Baking</option>
+					<option value="Chef's Table" aria-label="Chef's Table">Chef's Table</option>
+					<option value="Guest Chef" aria-label="Guest Chef">Guest Chef</option>
+					<option value="Kids Cook" aria-label="Kids Cook">Kids Cook</option>
+					<option value="Kids Camps" aria-label="Kids Camps">Kids Camps</option>
+					<option value="One of a Kind" aria-label="One of a Kind">One of a Kind</option>
+					<option value="To Your Health" aria-label="To Your Health">To Your Health</option>
+					<option value="Walk, Talk, & Taste" aria-label="Walk, Talk, & Taste">Walk, Talk, & Taste</option>
 				  </select>			
 				  <br>
-				<label for="location">Location:</label> <!-- Location Filter. -->
+				<label for="location" aria-label="location">Location:</label> <!-- Location Filter. -->
 				<select id="location" name="location">
-					<option value="All">All</option>
-					<option value="Bellevue">Bellevue</option>
-					<option value="Bothell">Bothell</option>
-					<option value="Burien">Burien</option>
-					<option value="Columbia City">Columbia City</option>
-					<option value="Edmonds">Edmonds</option>
-					<option value="Greenlake Village">Greenlake Village</option>
-					<option value="Issaquah">Issaquah</option>
+					<option value="All" aria-label="All">All</option>
+					<option value="Bellevue" aria-label="Bellevue">Bellevue</option>
+					<option value="Bothell" aria-label="Bothell">Bothell</option>
+					<option value="Burien" aria-label="Burien">Burien</option>
+					<option value="Columbia City" aria-label="Columbia City">Columbia City</option>
+					<option value="Edmonds" aria-label="Edmonds">Edmonds</option>
+					<option value="Greenlake Village" aria-label="Greenlake Village">Greenlake Village</option>
+					<option value="Issaquah" aria-label="Issaquah">Issaquah</option>
 				</select>
 				<br>
-				<label for="type">Class Type:</label> <!-- Class Type Filter. -->
+				<label for="type" aria-label="class type">Class Type:</label> <!-- Class Type Filter. -->
 				<select id="type" name="type">
-					<option value="All">All</option>
-					<option value="Adult">Adult</option>
-					<option value="Kids">Kids</option>
-					<option value="Kids Camp">Kids Camp</option>
-					<option value="Holiday">Holiday</option>
-					<option value="Lecture">Lecture</option>
-					<option value="Member Only">Member Only</option>
-					<option value="Multi-day">Multi-day</option>
+					<option value="All" aria-label="All">All</option>
+					<option value="Adult" aria-label="Adult">Adult</option>
+					<option value="Kids" aria-label="Kids">Kids</option>
+					<option value="Kids Camp" aria-label="Kids Camp">Kids Camp</option>
+					<option value="Holiday" aria-label="Holiday">Holiday</option>
+					<option value="Lecture" aria-label="Lecture">Lecture</option>
+					<option value="Member Only" aria-label="Member Only">Member Only</option>
+					<option value="Multi-day" aria-label="Multi-day">Multi-day</option>
 				</select>
 				<br>
-				<label for="month">Month:</label> <!-- Month Filter. -->
+				<label for="month" aria-label="month">Month:</label> <!-- Month Filter. -->
 				<select id="month" name="month">
-					<option value="All">All</option>
-					<option value="January">January</option>
-					<option value="February">February</option>
-					<option value="March">March</option>
-					<option value="April">April</option>
-					<option value="May">May</option>
-					<option value="June">June</option>
-					<option value="July">July</option>
-					<option value="August">August</option>
-					<option value="September">September</option>
-					<option value="October">October</option>
-					<option value="November">November</option>
-					<option value="December">December</option>
+					<option value="All" aria-label="All">All</option>
+					<option value="January" aria-label="January">January</option>
+					<option value="February" aria-label="February">February</option>
+					<option value="March" aria-label="March">March</option>
+					<option value="April" aria-label="April">April</option>
+					<option value="May" aria-label="May">May</option>
+					<option value="June" aria-label="June">June</option>
+					<option value="July" aria-label="July">July</option>
+					<option value="August" aria-label="August">August</option>
+					<option value="September" aria-label="September">September</option>
+					<option value="October" aria-label="October">October</option>
+					<option value="November" aria-label="November">November</option>
+					<option value="December" aria-label="December">December</option>
 				</select>
 				<br>
-				<label for="day">Day of the Week:</label> <!-- Day Filter. -->
+				<label for="day" aria-label="Day of the Week">Day of the Week:</label> <!-- Day Filter. -->
 				<select id="day" name="day">
-					<option value="All">All</option>
-					<option value="Monday">Monday</option>
-					<option value="Tuesday">Tuesday</option>
-					<option value="Wednesday">Wednesday</option>
-					<option value="Thursday">Thursday</option>
-					<option value="Friday">Friday</option>
-					<option value="Saturday">Saturday</option>
-					<option value="Sunday">Sunday</option>
+					<option value="All" aria-label="All days">All</option>
+					<option value="Monday" aria-label="Monday">Monday</option>
+					<option value="Tuesday" aria-label="Tuesday">Tuesday</option>
+					<option value="Wednesday" aria-label="Wednesday">Wednesday</option>
+					<option value="Thursday" aria-label="Thursday">Thursday</option>
+					<option value="Friday" aria-label="Friday">Friday</option>
+					<option value="Saturday" aria-label="Saturday">Saturday</option>
+					<option value="Sunday" aria-label="Sunday">Sunday</option>
 				</select>
 				<br>
-				<label for="time">Time of Day</label> <!-- Time Filter. -->
+				<label for="time" aria-label="time of day">Time of Day</label> <!-- Time Filter. -->
 				<select id="time" name="time">
-								<option value="All">All</option>
-					<option value="morning">Morning 7-12</option>
-					<option value="afternoon">Afternoon 12-5</option>
-					<option value="evening">Evening 5-10pm</option>
+								<option value="All" aria-label="All times">All</option>
+					<option value="morning" aria-label="morning">Morning 7-12</option>
+					<option value="afternoon" aria-label="afternoon">Afternoon 12-5</option>
+					<option value="evening" aria-label="evening">Evening 5-10pm</option>
 			</select>
 				<br>
-				<label for="allergen">Dietary Restrictions</label> <!-- Restrictions Filter. -->
+				<label for="allergen" aria-label="Dietary Restrictions">Dietary Restrictions</label> <!-- Restrictions Filter. -->
 				<select id="allergen" name="allergen">
-										<option value="None">None</option>
-					<option value="Dairy-Free">Dairy-Free</option>
-					<option value="Gluten-Free">Gluten-Free</option>
-					<option value="No Shellfish">No Shellfish</option>
-					<option value="Nut-Free">Nut-Free</option>			
-					<option value="Vegan">Vegan</option>
+										<option value="None" aria-label="None">None</option>
+					<option value="Dairy-Free" aria-label="Dairy-Free">Dairy-Free</option>
+					<option value="Gluten-Free" aria-label="Gluten-Free">Gluten-Free</option>
+					<option value="No Shellfish" aria-label="No Shellfish">No Shellfish</option>
+					<option value="Nut-Free" aria-label="Nut-Free">Nut-Free</option>			
+					<option value="Vegan" aria-label="Vegan">Vegan</option>
 			</select>
 				<br>
 			<!-- <label for="clear"><input type="button">Clear</label><label for="search"><input type="button">Search</label> </form>-->
 		</div>
 		<div id="container2">		
+			<h2>Current Classes</h2>
 			<div class="row"> <!-- Container with first 4 cooking classes. Each class is assigned category, location, type, month, day, time, and restriction data. -DR -->
 			  <div class="column2">
 			     <div class="thumb" data-category="Global" data-location="Bellevue" data-type="Adult" data-month="January" data-day="Monday" data-time="Morning 7-12" data-restrictions="Dairy-Free">
