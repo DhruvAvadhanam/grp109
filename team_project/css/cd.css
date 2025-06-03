@@ -121,7 +121,7 @@ th, td{
     border-bottom: 1px solid #555; /* Add a separator between links */
     text-decoration: none;
   }
-}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 /*@media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -135,7 +135,7 @@ th, td{
   .top-nav input[type=text] {
     border: 1px solid #ccc;
   }
-}
+
 .icon-container{
 	width: 35px;
 	height: 35px;
