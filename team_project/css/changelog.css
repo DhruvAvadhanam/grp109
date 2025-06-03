@@ -52,6 +52,10 @@
 	border-bottom: 2px dashed;
      	padding: 10px 0px 10px 0px;
 }
+.si img{
+	height: 30%;
+	width: 25%;
+}
 
 .ian{/*Class distinction for Ian*/
 	color: #0D4F4D;
