@@ -38,7 +38,7 @@ function displayStaff() {
   }
 
 // Updates the bio content
-  const text = '<h2>' + staff + '</h2><p>' + bio + '</p>';
+  const text = '<h2 aria-label="' + staff + '"> ' + staff + '</h2><p>' + bio + '</p>';
   document.getElementById("feature").innerHTML = text;
   
 // Updates the stylesheet theme
