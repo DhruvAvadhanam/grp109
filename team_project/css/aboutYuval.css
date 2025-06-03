@@ -6,7 +6,7 @@
 
 /* Set body background color, width and center content -Yuval */
 body{
-	background-color: ivory;
+	background-color: #F5F5FF;
 	width: 90%;
 	margin: auto;
 }
@@ -16,104 +16,12 @@ h1 {
 	color: pink;
 }
 
-/* Set background color for navigation bar to blue, text color, stays at set position and font size -Yuval */
-nav {
-	clear: both;
-	position: sticky;  
-	color: pink;
-	background-color: midnightblue;
-	width: 100%;
-	text-align: center; 
-	font-size: 20px;
-	float:none;
-}
-
-/* Set margin and padding for links/nav list. -Yuval */
-nav ul {
-	margin: 0px;
-	padding: 5px 0px 5px 20px;
-}
-
-/* List nav elements horizontally -Yuval */
-nav li {	
-	display: inline;
-	margin-right: 10px;
-}
-
-/* Remove link underline. Set text color. Yuval */
-nav li a {
-	text-decoration: none;
-	color: pink;
-}
-
-/* Set hover and current page links. -Yuval */
-nav li a:hover, nav li a.current {
-	color: lightsalmon;
-}
-
 #content {
 	overflow: auto;
 }
 
-#nav, #feature, #footer {  /*Set margins of feature -Yuval*/  
-	margin: 3%;
-}
-
 #feature{
 	border: 1px solid;
-	padding: 0.8em;
-	min-height: 0px;
-}
-
-li {   /*spaces between words -Yuval*/
-	display: inline;
-	padding: .2em;
-}
-
-#nav, #footer {
-	padding: 0.5em 0;
-}
-
-header { /* stayes at the bottom when scrolling, -Yuval*/
-	position: sticky;
-	top:0px;
-	left:0px; 
-	padding:1px;
-	margin-bottom:10px;
-	width:100%;
-	background-color:midnightblue;
-}
-
-/* Stays at bottom when scrolling, position at bottom of screen, background blue, links centered, padding. -Yuval */
-footer {
-	position: sticky;
-	bottom: 0px;
-	left: 0px; 
-	border: solid 1px;
 	padding: 10px;
-	margin-bottom: 0px;
-	background-color: midnightblue;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-.footer-validators { /*made sure the validators are in the place I want them to be -Yuval*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer-validators img {
-	height: 31px;
-}
-
-.footer-copyright p { /*centers the @copyright 2025 -Yuval*/
-  text-align: center;
-}
-  
-  
-	color: ivory;
+	min-height: 0px;
 }
