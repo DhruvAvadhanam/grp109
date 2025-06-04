@@ -6,7 +6,7 @@
 .column1, .column2, .column3 {
 	float: left;
 	margin: 1%;
-	padding: 5px;}
+	padding: 10px;}
 #breadcrumb{
 	height: 1em;
 	margin-bottom: 1em;
@@ -21,14 +21,12 @@ margin:auto;}
 
 .column2{
   width: 40%;
-padding:5px;
 margin: auto;}
 
 .column3{
 	float: left;
     width: 20%;
     text-align:left;
-	padding: 5px;
 margin:auto;}
 table{
   	width: 60%;
@@ -40,7 +38,7 @@ p {
 .image {
   border-radius: 4px;
   padding: 5px;
-  width: 100%;
+  width: 90%;
   display: block;
   margin: auto;
   /*height: 350px;*/
@@ -97,7 +95,7 @@ p {
   position: fixed;
   top: 10px;
   right: 20px;
-  width: 25%;
+  width: 50%;
   z-index: 100; /* Ensure it stays on top */
 }
 
