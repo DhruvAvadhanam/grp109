@@ -25,7 +25,9 @@
 .iteration{	
 	border-top: 1px solid #ddd;
 }
-
+#row {
+	border-box: 1px solid #ddd;
+}
 /*#grid-container > .item4, item8, .item12, .item16, .item20, item24{
 background-color: aliceblue;}*/
 
