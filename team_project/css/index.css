@@ -15,13 +15,16 @@
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 360px;}
+  width: 360px;
+  text-align: center;
+  align-content: center;}
 /*Shrink images to thumbnail size.*/
 .image {
   border-radius: 4px;
   padding: 5px;
   width: 300px;
-  height: 275px:}
+  height: 275px;
+  margin: auto;}
 
 #details28, #details58, #details39, #details56, #details42 {
   margin: 5px;
