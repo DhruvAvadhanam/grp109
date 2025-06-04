@@ -94,7 +94,7 @@ p {
   color: #000000;
   position: fixed;
   top: 10px;
-  right: 20px;
+  right: 10px;
   width: 50%;
   z-index: 100; /* Ensure it stays on top */
 }
@@ -142,7 +142,7 @@ p {
     top: 10px;
   }
 
-.icon-container img{
+.icon-container > img{
 	width: 44px;
 	height: 44px;
 	position: absolute;
@@ -160,7 +160,7 @@ p {
 }*/
 .account img {
 	position: absolute;
-	right: 40;
+	right: 10;
 }
 .cart img {
 	position: absolute;
