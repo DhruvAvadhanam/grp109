@@ -305,7 +305,7 @@ var elClass27 = document.getElementById('Class27');
 elClass27.innerHTML = details27;
 */
 var details28 = ' <div data-name="' + sardiniaClass.name + '" data-flag="' + sardiniaClass.flags;
-     details28 += '"> <a href="sardinia.html"><img src="images/sardinia.jpg" class="image" alt="«Class»"> ';
+     details28 += '"> <a href="sardinia.html"><img src="images/sardinia.png" class="image" alt="«Class»"> ';
     details28 +=  sardiniaClass.name +  '  </a></div>  ';
 var elClass28 = document.getElementById('Class28');
 elClass28.innerHTML = details28;
@@ -485,7 +485,7 @@ var elClass57 = document.getElementById('Class57');
 elClass57.innerHTML = details57;
 */
 var details58 = ' <div data-name="' + grillClass.name + '" data-flag="' + grillClass.flags;
-     details58 += '"> <a href="grill.html"><img src="images/grill.jpg" class="image" alt="«Class»"> ';
+     details58 += '"> <a href="grill.html"><img src="images/grillchkn.jpg" class="image" alt="«Class»"> ';
     details58 +=  grillClass.name +  '  </a></div>  ';
 var elClass58 = document.getElementById('Class58');
 elClass58.innerHTML = details58;
