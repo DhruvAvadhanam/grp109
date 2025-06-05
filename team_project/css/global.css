@@ -83,7 +83,7 @@ nav li a:hover, nav li a.current {
 	width: 35px;
 	height: 35px;
 	display: flex;
-	margin-left: 150px;
+	margin-left: 80%;
 	vertical-align: middle;
 }
 
