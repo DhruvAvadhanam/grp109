@@ -17,6 +17,9 @@
   float: left;
   width: 360px;
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
   align-content: center;}
 /*Shrink images to thumbnail size.*/
 .image {
