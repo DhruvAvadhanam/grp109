@@ -82,7 +82,7 @@ nav li a:hover, nav li a.current {
 .icon-container {
 	width: 35px;
 	height: 35px;
-	display: inline-block;
+	display: flex;
 	vertical-align: middle;
 }
 
