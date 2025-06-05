@@ -133,7 +133,7 @@ nav li a:hover, nav li a.current {
 /* FOOTER - including the Validators and Copyright mark. */
 footer {
 	box-sizing: border-box;
-	position: sticky;
+	/*position: sticky; - DR*/
 	bottom: 0px;
 	padding-left:10px;
 	padding-right: 10px;
