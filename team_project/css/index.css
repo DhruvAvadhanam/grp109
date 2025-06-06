@@ -13,28 +13,28 @@
 /*Image container formatting*/
 .thumb {
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ccc;
   float: left;
-  width: 360px;
+  width: 350px;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
   align-content: center;
   border-radius: 10px;
-  background-color: #2F4F4F;
   color: white;}
-.thumb a{  
-  text-decoration: none;}
+a:link {
+  text-decoration: none;
+  background-color: #2F4F4F;
+}
 /*Shrink images to smaller size.*/
 .image {
   border-radius: 4px;
   padding: 5px;
   width: 300px;
   height: 275px;
-  margin: auto;
-  text-decoration: none;}
+  margin: auto;}
 
 /*Style for class card*/
 .card {
