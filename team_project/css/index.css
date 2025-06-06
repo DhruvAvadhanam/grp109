@@ -20,20 +20,18 @@
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  align-content: center;}
-/*Shrink images to thumbnail size.*/
+  align-content: center;
+  border-radius: 10px;
+  background-color: #483D8B;}
+/*Shrink images to smaller size.*/
 .image {
   border-radius: 4px;
   padding: 5px;
   width: 300px;
   height: 275px;
-  margin: auto;}
+  margin: auto;
+  text-decoration: none;}
 
-#details28, #details58, #details39, #details56, #details42 {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 360px;}
 /*Style for class card*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
