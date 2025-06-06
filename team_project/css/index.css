@@ -24,9 +24,9 @@
   align-content: center;
   border-radius: 10px;
   color: white;}
-a:link {
+a:link, a:visited {
   text-decoration: none;
-  background-color: #2F4F4F;
+  color: #2F4F4F;
 }
 /*Shrink images to smaller size.*/
 .image {
