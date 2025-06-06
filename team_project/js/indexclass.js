@@ -184,11 +184,11 @@ var details7 = ' <div class="thumb" data-name="' + enchiladasClass.name + '" dat
 var elClass7 = document.getElementById('Class7');
 elClass7.innerHTML = details7;
 
-var details8 = ' <div class="thumb" data-name="' + atwClass.name + '" data-flag="' + atwClass.flags;
+/*var details8 = ' <div class="thumb" data-name="' + atwClass.name + '" data-flag="' + atwClass.flags;
      details8 += '"> <a href="atw.html"><img src="images/atw.jpg" class="image" alt="Around the World in Five Days: Gluten-free Kids’ Cooking Camp"> <br> ';
     details8 +=  atwClass.name +  '  </a></div>  ';
 var elClass8 = document.getElementById('Class8');
-elClass8.innerHTML = details8;
+elClass8.innerHTML = details8;*/
 
 var details9 = ' <div class="thumb" data-name="' + atwClass.name + '" data-flag="' + atwClass.flags;
      details9 += '"> <a href="atw.html"><img src="images/atw.jpg" class="image" alt="Around the World in Five Days: Kids’ Cooking Camp"> <br> ';
