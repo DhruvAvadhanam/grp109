@@ -179,7 +179,7 @@ var elClass6 = document.getElementById('Class6');
 elClass6.innerHTML = details6;
 
 var details7 = ' <div class="thumb" data-name="' + enchiladasClass.name + '" data-flag="' + enchiladasClass.flags;
-     details7 += '"> <a href="enchiladas.html"><img src="images/enchiladas.jpg" class="image" alt="Anytime Enchiladas"> <br> ';
+     details7 += '"> <a href="enchiladas.html"><img src="images/enchilada.jpg" class="image" alt="Anytime Enchiladas"> <br> ';
     details7 +=  enchiladasClass.name +  '  </a></div>  ';
 var elClass7 = document.getElementById('Class7');
 elClass7.innerHTML = details7;
