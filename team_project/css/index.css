@@ -24,7 +24,7 @@
   align-content: center;
   border-radius: 10px;
   color: white;}
-a:link, a:visited {
+.thumb > a:link, a:visited {
   text-decoration: none;
   color: #2F4F4F;
 }
