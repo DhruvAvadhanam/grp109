@@ -147,8 +147,8 @@ p {
 	height: 44px;
 	position: absolute;
 	top: 0;
-	right: 20;
 	display: inline;
+  	left: 70%;
 }
 /*.icon-container a {
   float: left; /* Float links side by side */
@@ -158,14 +158,14 @@ p {
   /*transition: all 0.3s ease; Add transition for hover effects */
   font-size: 36px; /* Increased font size 
 }*/
-.account img {
+/*.account img {
 	position: absolute;
 	right: 10;
 }
 .cart img {
 	position: absolute;
 	right: 20;
-}
+}*/
 /*.search{
 	width: 35px;
 	height: 35px;
