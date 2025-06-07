@@ -138,13 +138,18 @@ document.addEventListener("DOMContentLoaded", function () {
   var inputs = document.querySelectorAll(".user-box input");
 
   form.addEventListener("submit", function (event) {
-    event.preventDefault(); 
-    
-    if (validateForm()) {
+    event.preventDefault(); // prevent the form from actually submitting
+
+    var isValid = validateForm(); 
+
+    if (isValid) {
+      // Disable inputs if form is valid
       for (var i = 0; i < inputs.length; i++) {
         inputs[i].disabled = true;
       }
       editIcon.style.display = "inline";
+    } else {
+  
     }
   });
 
