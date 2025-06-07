@@ -53,15 +53,13 @@ nav {
 
 /* NAV BAR - Unordered List - Contains the navigation entries */
 nav ul {
-	margin: 0px;
-	padding: 0px;
-}
-
-/* NAV BAR - List Items - Sets the elements horizontally */
-nav li {	
-	display: inline;
-	margin-right: 5px;
-	padding: 0.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
 /* NAV BAR - Links - Remove link underline, set text color */
@@ -80,11 +78,8 @@ nav li a:hover, nav li a.current {
 
 /* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
 .icon-container {
-	width: 35px;
-	height: 35px;
-	display: flex;
-	margin-left: 80%;
-	vertical-align: middle;
+  display: flex;               /* so its two img’s still stack correctly */
+  align-items: center;
 }
 
 /* NAV BAR - Cart Icon - Link - Properties for the clickable space, contains the two cart images */
@@ -99,7 +94,8 @@ nav li a:hover, nav li a.current {
 .cart-link img {
 	width: 35px;
 	height: 35px;
-	position: absolute;
+  padding: 4px 0px 0px 20px;
+  display: flex;
 	top: 0;
 	left: 0;
 }
@@ -175,37 +171,37 @@ footer {
 /* SECONDARY NAVIGATION Section added by Deena*/
 /* SECONDARY NAVIGATION - Dropdown Button */
 .dropbtn {
-  background-color: var(--lgcBlue);
-  color: white;
-  font-size: 20px;
-  border: none;
-  width: 44px;
-  height: 44px;
+	background-color: var(--lgcBlue);
+	color: white;
+	font-size: 20px;
+	border: none;
+	width: 44px;
+	height: 44px;
 }
 
 /* SECONDARY NAVIGATION - The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 /* SECONDARY NAVIGATION - Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
 
 /* SECONDARY NAVIGATION - Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  font-size: 18px;
-  padding: 12px 10px;
-  text-decoration: none;
-  display: block;
+	color: black;
+	font-size: 18px;
+	padding: 12px 10px;
+	text-decoration: none;
+	display: block;
 }
 /* SECONDARY NAVIGATION - Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #eee;}
@@ -215,3 +211,79 @@ footer {
 
 /* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {color: orange;}
+
+
+
+/*Left container for filter elements*/
+#container1{
+	width: 12%;
+	margin-top: 100px;
+	float:left;
+	padding: 10px;
+height: 100%;}
+/*Right container for class images*/
+#container2{
+	float:left;
+	width:80%;
+padding: 10px;}
+/*Image container formatting*/
+.thumb {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 350px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	align-content: center;
+	border-radius: 10px;
+color: white;}
+.thumb a:link, a:visited {
+	text-decoration: none;
+	color: #2F4F4F;
+}
+/*Shrink images to smaller size.*/
+.image {
+	border-radius: 4px;
+	padding: 5px;
+	width: 300px;
+	height: 275px;
+margin: auto;}
+
+/*Style for class card*/
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	max-height: 375px:
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	float:left;
+	display: inline;
+}
+.column2 {
+	display: inline;
+}
+.price {
+	color: white;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 5px;
+	color: Black;
+	background-color: #8FBC8F;
+	text-align: center;
+	cursor: pointer;
+	max-width: 300px;
+	font-size: 18px;
+	bottom: 0px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
