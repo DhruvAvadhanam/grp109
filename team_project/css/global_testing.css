@@ -71,6 +71,12 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
+/* NAV BAR - Links - Sets the NAV links and visited ones to remain white on blue */
+nav li a:link,
+nav li a:visited {
+  color: var(--text-on-blue);
+}
+
 /* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
 nav li a:hover, nav li a.current {
 	color: var(--hover-color);
@@ -78,7 +84,7 @@ nav li a:hover, nav li a.current {
 
 /* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
 .icon-container {
-  display: flex;               /* so its two img’s still stack correctly */
+  display: flex;               
   align-items: center;
 }
 
