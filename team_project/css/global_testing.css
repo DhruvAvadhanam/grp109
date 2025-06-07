@@ -1,0 +1,217 @@
+/* Global Parameters - Ian */
+:root {
+	--lgcBlue: #013C4D;                         /* The accent color for panels and decorative elements. Enter as: "var(--lgcBlue)" */
+	--hover-color: orange;                      /* The link hover color, ideally for links over lgcBlue. Enter as: "var(--hover-color)" */
+	--background-color: white;                  /* The global background color, white. Enter as: "var(--background-color)" */
+	--font-family: Arial, Verdana, sans-serif;  /* The default font family. Enter as: "var(--font-family)" */
+	--text-on-blue: white;                      /* For use when setting White text with the Blue background. Enter as: "var(--text-on-blue)" */
+	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(--text-on-white)" */
+}
+
+/* BODY - Sets body background color, width and centers content */
+body {
+	font-family: var(--font-family);
+	box-sizing: border-box;
+	color: var(--text-on-white);
+	background-color: var(--background-color);
+	padding-left:5px;
+	padding-right: 5px;
+}
+
+/* HEADER - Including logo, page title, and Nav bar */
+header {
+	box-sizing: border-box;
+	position: sticky;
+	background-color: var(--background-color);
+	text-align:left;
+	min-width: 44px;  /* SiteImprove */
+	min-height: 44px; /* SiteImprove */
+}
+
+/* HEADER - Branding - Wraps the Logo and Title */
+header .branding {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+/* HEADER - H1 TITLE - Set heading text color for the Title */
+h1.title {
+	color: var(--lgcBlue);
+}
+
+/* NAV BAR - Sets the behavior and background color for the Nav Bar */
+nav {
+	clear: both;
+	position: sticky;  
+	background-color: var(--lgcBlue);
+	width: 100%;
+	text-align: center; 
+	font-size: 20px;
+	float:none;
+}
+
+/* NAV BAR - Unordered List - Contains the navigation entries */
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* NAV BAR - List Items - Sets the elements horizontally */
+nav li {	
+	display: inline;
+	margin-right: 5px;
+	padding: 0.5em;
+}
+
+/* NAV BAR - Links - Remove link underline, set text color */
+nav li a {
+	text-decoration: none;
+	color: var(--text-on-blue);
+	display: inline-block;  /* SiteImprove */
+	padding: 12px 8px;  /* SiteImprove */
+	line-height: 1.5;  /* SiteImprove */
+}
+
+/* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
+nav li a:hover, nav li a.current {
+	color: var(--hover-color);
+}
+
+/* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
+.icon-container {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	margin-left: 80%;
+	vertical-align: middle;
+}
+
+/* NAV BAR - Cart Icon - Link - Properties for the clickable space, contains the two cart images */
+.cart-link {
+	display: block;
+	width: 44px;
+	height: 44px;
+	position: relative;
+}
+
+/* NAV BAR - Cart Icon - Images - Sets properties for both images */
+.cart-link img {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* NAV BAR - Cart Icon - Hover Logic 1 - Sets the Orange Cart to invisible */
+.cart-link img:nth-child(2) {
+	display: none;
+}
+
+/* NAV BAR - Cart Icon - Hover Logic 2 - On Hover, sets the White Cart to invisible */
+.cart-link:hover img:nth-child(1) {
+	display: none;
+}
+
+/* NAV BAR - Cart Icon - Hover Logic 3 - On Hover, sets the Orange Cart to be visible */
+.cart-link:hover img:nth-child(2) {
+	display: block;
+}
+
+/* CONTENT - Intended to wrap the Feature of the page */
+#content {
+	overflow: auto;
+}
+
+/* CONTENT - FEATURE - Intended to wrap the Feature Content of the page */
+#feature {
+	border: 0px solid; /* Set Border to 1px if necessary for testing, default should be 0px */
+	padding: 0.8em;
+	min-height: 44px;
+}
+
+/* FOOTER - including the Validators and Copyright mark. */
+footer {
+	box-sizing: border-box;
+	/*position: sticky; - DR*/
+	bottom: 0px;
+	padding-left:10px;
+	padding-right: 10px;
+	background-color: var(--lgcBlue);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+/* FOOTER - Validators - Parameters for the Validator links and images. */
+.footer-validators {
+	display: flex;
+	gap: 0.3em;
+	justify-content: center;
+	align-items: center;
+}
+
+/* FOOTER - Validators Images - Parameters for the Validator images. */
+.footer-validators img {
+	margin-top: 10px;
+	display: inline;
+}
+
+/* FOOTER - Validator Links - Parameters for the Validator links. */
+.footer-validators a {
+	display: inline-block;
+	padding: 7px 0; /* SiteImprove */
+}
+
+/* FOOTER - Copyright */
+.footer-copyright p {
+	color: var(--text-on-blue);
+	line-height: 1.5; /* SiteImprove */
+}
+
+/* SECONDARY NAVIGATION Section added by Deena*/
+/* SECONDARY NAVIGATION - Dropdown Button */
+.dropbtn {
+  background-color: var(--lgcBlue);
+  color: white;
+  font-size: 20px;
+  border: none;
+  width: 44px;
+  height: 44px;
+}
+
+/* SECONDARY NAVIGATION - The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* SECONDARY NAVIGATION - Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* SECONDARY NAVIGATION - Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-size: 18px;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+/* SECONDARY NAVIGATION - Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #eee;}
+
+/* SECONDARY NAVIGATION - Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: orange;}
