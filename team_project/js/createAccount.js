@@ -133,8 +133,20 @@ document.getElementById("errorMessagescard").innerHTML = errorMessagescard;
 
 
 document.addEventListener("DOMContentLoaded", function () {
+  var form = document.getElementById("myform");
   var editIcon = document.getElementById("editIcon");
   var inputs = document.querySelectorAll(".user-box input");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); 
+    
+    if (validateForm()) {
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].disabled = true;
+      }
+      editIcon.style.display = "inline";
+    }
+  });
 
   editIcon.addEventListener("click", function () {
     for (var i = 0; i < inputs.length; i++) {
