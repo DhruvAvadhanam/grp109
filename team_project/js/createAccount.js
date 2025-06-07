@@ -30,7 +30,7 @@ var email = document.getElementById("nEmail").value;
 var address = document.getElementById("address").value;
 var country = document.getElementById("country").value;
 var state = document.getElementById("state").value;
-var zipcode = document.getElementById("zip").value;var zipcode = document.getElementById("zip").value;
+var zipcode = document.getElementById("zip").value;
 var card = document.getElementById("creditCard").value;
 
 //3) do the validation
@@ -109,27 +109,32 @@ document.getElementById("errorMessagesaddress").innerHTML = errorMessagesaddress
 document.getElementById("errorMessagesstate").innerHTML = errorMessagesstate;
 document.getElementById("errorMessagescountry").innerHTML = errorMessagescountry;
 document.getElementById("errorMessageszipcode").innerHTML = errorMessageszipcode;
-document.getElementById("errorMessagescard").innerHTML = errorMessageszipcode;
+document.getElementById("errorMessagescard").innerHTML = errorMessagescard;
 
-//5) return the status of each field
-  return validFirstname && validLastname && validEmail && validPhone && validAddress && validCountry && validZipCode && validCard;
-}
-
-
-var button = document.getElementById('createAccount');
-button.addEventListener('click', validateForm);
-
-document.addEventListener("DOMContentLoaded", function () {
-  var confirmBtn = document.getElementById("createAccount");
-  var editIcon = document.getElementById("editIcon");
-  var inputs = document.querySelectorAll(".user-box input");
-
-  confirmBtn.addEventListener("click", function () {
+  if (validFirstname && validLastname && validEmail && validPhone &&
+    validAddress && validCountry && validState && validZipCode && validCard) {
+    
+    // Disable inputs
+    var inputs = document.querySelectorAll(".user-box input");
     for (var i = 0; i < inputs.length; i++) {
       inputs[i].disabled = true;
     }
-    editIcon.style.display = "inline";
-  });
+
+    // Show edit icon
+    document.getElementById("editIcon").style.display = "inline";
+
+    return true;
+} else {
+    return false;
+}
+
+}
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var editIcon = document.getElementById("editIcon");
+  var inputs = document.querySelectorAll(".user-box input");
 
   editIcon.addEventListener("click", function () {
     for (var i = 0; i < inputs.length; i++) {
@@ -138,6 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
     editIcon.style.display = "none";
   });
 });
+
 
 
 
