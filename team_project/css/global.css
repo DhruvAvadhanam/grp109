@@ -86,8 +86,8 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
-/* NAV BAR - Visited Links - Ensure they stay white like unvisited */
-	nav li a:visited {
+/* NAV BAR - Visited Links - Ensure they stay white like unvisited, Top-level nav links only (not dropdowns) */
+nav > ul > li > a:visited {
 	color: var(--text-on-blue);
 }
 
