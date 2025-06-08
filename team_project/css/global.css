@@ -86,6 +86,12 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
+/* NAV BAR - Visited Links - Ensure they stay white like unvisited */
+	nav li a:visited {
+	color: var(--text-on-blue);
+}
+
+
 /* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
 nav li a:hover, nav li a.current {
 	color: var(--hover-color);
