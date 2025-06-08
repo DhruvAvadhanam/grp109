@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head> <!-- Document head containing metadata, title, and link to the CSS stylesheet -Ian -->
 		<meta charset="UTF-8">
-		<meta name="description" content="Input Form page for Group 1. It's purpose is to request a user input and then use JavaScript to return output to this page">
+		<meta name="description" content="Create Account page for Group 1. It's purpose is to allow users to provide information for creating an account, with validation.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>LGC Checkout</title>
 		<link rel="stylesheet" href="css/global.css"> <!-- Nav and Footer CSS for all pages. Additionally specifies root variables. Should always be the first CSS file listed. -Ian -->
@@ -21,99 +20,109 @@
 					<li><a href="about.html">About</a></li>
 				    <li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -Yuval -->
 					<li>
-                      <div class="dropdown">
-                        <button class="dropbtn">Project</button>
-                        <div class="dropdown-content">
-                          <a href="project_details.html">Project Details</a>
-                          <a href="kickstart_050225.html">Kickstart</a>
-                          <a href="mtg_053025.html">Meeting 5/30</a>
-                          <a href="input_form.html">Input Form</a>
-                          <a href="validation.html">Validations</a>
-                          <a href="changelog.html">Change Log</a>
-                       </div>
-                     </div>
-                  </li>										
+						<div class="dropdown">
+							<button class="dropbtn">Project</button>
+							<div class="dropdown-content">
+								<a href="project_details.html">Project Details</a>
+								<a href="kickstart_050225.html">Kickstart</a>
+								<a href="mtg_053025.html">Meeting 5/30</a>
+								<a href="input_form.html">Input Form</a>
+								<a href="validation.html">Validations</a>
+								<a href="changelog.html">Change Log</a>
+							</div>
+						</div>
+					</li>										
 				</ul>
 			</nav>
 		</header>
-             <!--<h1>Group 1 - Create Account</h1> page title -Dhruv-->
-<h2 style="text-align:center; margin-top: 30px;">Create a New Account</h2>
-
-<div class="user-container">
-
-   <!-- Personal Info -->
-  
- <form id="myform">
-
-  <div class="user-box">
-    <h3>Personal Info</h3>
-    <label for="firstName">First Name:</label>
-    <input type="text" id="firstName" placeholder="John">
-          <div id="errorMessagesfirst"></div>
-    <label for="lastName">Last Name:</label>
-    <input type="text" id="lastName" placeholder="Doe">
-          <div id="errorMessageslast"></div>
-  </div>
-
-  <!-- Contact Info -->
-  <div class="user-box">
-    <h3>Contact Info</h3>
-    <label for="cellNumber">Cell Phone #:</label>
-    <input type="text" id="cellNumber" placeholder="123-456-7890">
-          <div id="errorMessagesphone"></div>
-
-    <label for="email">Email:</label>
-    <input type="text" id="nEmail" placeholder="john@example.com">
-          <div id="errorMessagesemail"></div>
-
-  </div>
-
-  <!-- Address Info -->
-  <div class="user-box">
-    <h3>Address</h3>
-    <label for="address">Permanent Address:</label>
-    <input type="text" id="address" placeholder="123 Main St">
-          <div id="errorMessagesaddress"></div>
-
-    <label for="country">Country:</label>
-    <input type="text" id="country" placeholder="USA">
-          <div id="errorMessagescountry"></div>
-
-
-    <label for="state">State:</label>
-    <input type="text" id="state" placeholder="CA">
-          <div id="errorMessagesstate"></div>
-
-
-    <label for="zip">Zip Code:</label>
-    <input type="text" id="zip" placeholder="90210">
-          <div id="errorMessageszipcode"></div>
-
-  </div>
-
-  <!-- Billing Info -->
-  <div class="user-box">
-    <h3>Billing Info</h3>
-    <label for="creditCard">Credit Card #:</label>
-    <input type="text" id="creditCard" placeholder="1234 5678 9012 3456">
-          <div id="errorMessagescard"></div> 
-  </div>
-</div>
-
-  <!-- Confirm + Edit icon container -->
-  <div class="fixed-controls">
-    <button id="createAccount" type="submit">Confirm Information</button>
-    <img id="editIcon" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" 
-         alt="Edit Info" title="Edit Info"
-         style="width:25px; height:25px; cursor:pointer; display:none;">
-  </div>
-
-</form>
-      
+		<!--<h1>Group 1 - Create Account</h1> page title -Dhruv-->
+		<h2 style="text-align:center; margin-top: 30px;">Create a New Account</h2>
+		
+		<div class="user-container">
+			
+			<!-- Personal Info -->
+			
+			<form id="myform">
+				
+				<div class="user-box">
+					<h3>Personal Info</h3>
+					<label for="firstName">First Name:</label>
+					<input type="text" id="firstName" placeholder="John">
+					<div id="errorMessagesfirst"></div>
+					<label for="lastName">Last Name:</label>
+					<input type="text" id="lastName" placeholder="Doe">
+					<div id="errorMessageslast"></div>
+				</div>
+				
+				<!-- Contact Info -->
+				<div class="user-box">
+					<h3>Contact Info</h3>
+					<label for="cellNumber">Cell Phone #:</label>
+					<input type="text" id="cellNumber" placeholder="123-456-7890">
+					<div id="errorMessagesphone"></div>
+					
+					<label for="email">Email:</label>
+					<input type="text" id="nEmail" placeholder="john@example.com">
+					<div id="errorMessagesemail"></div>
+					
+				</div>
+				
+				<!-- Address Info -->
+				<div class="user-box">
+					<h3>Address</h3>
+					<label for="address">Permanent Address:</label>
+					<input type="text" id="address" placeholder="123 Main St">
+					<div id="errorMessagesaddress"></div>
+					
+					<label for="country">Country:</label>
+					<input type="text" id="country" placeholder="USA">
+					<div id="errorMessagescountry"></div>
+					
+					
+					<label for="state">State:</label>
+					<input type="text" id="state" placeholder="CA">
+					<div id="errorMessagesstate"></div>
+					
+					
+					<label for="zip">Zip Code:</label>
+					<input type="text" id="zip" placeholder="90210">
+					<div id="errorMessageszipcode"></div>
+					
+				</div>
+				
+				<!-- Billing Info -->
+				<div class="user-box">
+					<h3>Billing Info</h3>
+					<label for="creditCard">Credit Card #:</label>
+					<input type="text" id="creditCard" placeholder="1234 5678 9012 3456">
+					<div id="errorMessagescard"></div> 
+				</div>
+			</div>
+			
+			<!-- Confirm + Edit icon container -->
+			<div class="fixed-controls">
+				<button id="createAccount" type="submit">Confirm Information</button>
+				<img id="editIcon" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" 
+				alt="Edit Info" title="Edit Info"
+				style="width:25px; height:25px; cursor:pointer; display:none;">
+			</div>
+			
+		</form>
+		
 		<footer>
-			<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88"></a></p>
-			<p><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a></p>
+			<div class="footer-validators">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+					<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88">
+				</a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+					<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="31" width="88">
+				</a>
+			</div>
+			<div class="footer-copyright">
+				<p>&copy; Copyright 2025</p>
+			</div>
 		</footer>
+		
 		<script src="js/createAccount.js"></script>
 	</body>
 </html>
