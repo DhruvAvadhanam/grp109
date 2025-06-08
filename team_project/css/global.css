@@ -40,6 +40,19 @@ h1.title {
 	color: var(--lgcBlue);
 }
 
+.top-nav {
+	list-style: none; /* Remove bullet points */
+	padding: 5px;
+	margin: 0;
+	display: flex; /* Or flex, grid, etc., based on layout */
+	justify-content: space-between; /* Distribute space */
+	color: #000000;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 100; /* Ensure it stays on top */
+}
+
 /* NAV BAR - Sets the behavior and background color for the Nav Bar */
 nav {
 	clear: both;
@@ -80,11 +93,22 @@ nav li a:hover, nav li a.current {
 
 /* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
 .icon-container {
-	width: 35px;
-	height: 35px;
 	display: flex;
-	margin-left: 80%;
-	vertical-align: middle;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.icon-container input[type="text"] {
+	padding: 5px;
+	font-size: 1rem;
+	width: 200px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.cart, .account {
+	width: 44px;
+	height: 44px;
 }
 
 /* NAV BAR - Cart Icon - Link - Properties for the clickable space, contains the two cart images */
@@ -175,43 +199,91 @@ footer {
 /* SECONDARY NAVIGATION Section added by Deena*/
 /* SECONDARY NAVIGATION - Dropdown Button */
 .dropbtn {
-  background-color: var(--lgcBlue);
-  color: white;
-  font-size: 20px;
-  border: none;
-  width: 44px;
-  height: 44px;
+	background-color: var(--lgcBlue);
+	color: white;
+	font-size: 20px;
+	border: none;
+	width: 44px;
+	height: 44px;
 }
 
 /* SECONDARY NAVIGATION - The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 /* SECONDARY NAVIGATION - Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
 
 /* SECONDARY NAVIGATION - Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  font-size: 18px;
-  padding: 12px 10px;
-  text-decoration: none;
-  display: block;
+	color: black;
+	font-size: 18px;
+	padding: 12px 10px;
+	text-decoration: none;
+	display: block;
 }
+
 /* SECONDARY NAVIGATION - Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #eee;}
+.dropdown-content a:hover {background-color: #eee;
+}
 
 /* SECONDARY NAVIGATION - Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;
+}
 
 /* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: orange;}
+.dropdown:hover .dropbtn {color: orange;
+}
+
+/* Breadcrumb styling */
+#breadcrumb{
+	height: 1em;
+	margin-bottom: 1em;
+	width: 90%;
+	text-align: left;
+	font-size: 14px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+	padding: 5px 20px;
+	list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+	display: inline;
+	font-size: 20px;
+	height: 44px;
+	width: 44px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+	color: #013C4D;
+	text-decoration: none;
+	height: 44px;
+	width: 44px;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+	color: orange;
+	text-decoration: underline;
+}
