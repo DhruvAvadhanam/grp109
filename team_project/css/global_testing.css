@@ -40,6 +40,19 @@ h1.title {
 	color: var(--lgcBlue);
 }
 
+.top-nav {
+	list-style: none; /* Remove bullet points */
+	padding: 5px;
+	margin: 0;
+	display: flex; /* Or flex, grid, etc., based on layout */
+	justify-content: space-between; /* Distribute space */
+	color: #000000;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 100; /* Ensure it stays on top */
+}
+
 /* NAV BAR - Sets the behavior and background color for the Nav Bar */
 nav {
 	clear: both;
@@ -53,13 +66,15 @@ nav {
 
 /* NAV BAR - Unordered List - Contains the navigation entries */
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2em;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* NAV BAR - List Items - Sets the elements horizontally */
+nav li {	
+	display: inline;
+	margin-right: 5px;
+	padding: 0.5em;
 }
 
 /* NAV BAR - Links - Remove link underline, set text color */
@@ -71,12 +86,6 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
-/* NAV BAR - Links - Sets the NAV links and visited ones to remain white on blue */
-nav li a:link,
-nav li a:visited {
-  color: var(--text-on-blue);
-}
-
 /* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
 nav li a:hover, nav li a.current {
 	color: var(--hover-color);
@@ -84,8 +93,22 @@ nav li a:hover, nav li a.current {
 
 /* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
 .icon-container {
-  display: flex;               
-  align-items: center;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.icon-container input[type="text"] {
+	padding: 5px;
+	font-size: 1rem;
+	width: 200px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.cart, .account {
+	width: 44px;
+	height: 44px;
 }
 
 /* NAV BAR - Cart Icon - Link - Properties for the clickable space, contains the two cart images */
@@ -100,8 +123,7 @@ nav li a:hover, nav li a.current {
 .cart-link img {
 	width: 35px;
 	height: 35px;
-  padding: 4px 0px 0px 20px;
-  display: flex;
+	position: absolute;
 	top: 0;
 	left: 0;
 }
@@ -209,87 +231,59 @@ footer {
 	text-decoration: none;
 	display: block;
 }
+
 /* SECONDARY NAVIGATION - Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #eee;}
+.dropdown-content a:hover {background-color: #eee;
+}
 
 /* SECONDARY NAVIGATION - Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;
+}
 
 /* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: orange;}
-
-
-
-/*Left container for filter elements*/
-#container1{
-	width: 12%;
-	margin-top: 100px;
-	float:left;
-	padding: 10px;
-height: 100%;}
-/*Right container for class images*/
-#container2{
-	float:left;
-	width:80%;
-padding: 10px;}
-/*Image container formatting*/
-.thumb {
-	margin: 5px;
-	padding: 10px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 350px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 16px;
-	text-decoration: none;
-	align-content: center;
-	border-radius: 10px;
-color: white;}
-.thumb a:link, a:visited {
-	text-decoration: none;
-	color: #2F4F4F;
+.dropdown:hover .dropbtn {color: orange;
 }
-/*Shrink images to smaller size.*/
-.image {
-	border-radius: 4px;
-	padding: 5px;
-	width: 300px;
-	height: 275px;
-margin: auto;}
 
-/*Style for class card*/
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
-	max-height: 375px:
-	margin: auto;
-	text-align: center;
-	font-family: arial;
-	float:left;
+/* Breadcrumb styling */
+#breadcrumb{
+	height: 1em;
+	margin-bottom: 1em;
+	width: 90%;
+	text-align: left;
+	font-size: 14px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+	padding: 5px 20px;
+	list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
 	display: inline;
-}
-.column2 {
-	display: inline;
-}
-.price {
-	color: white;
-	font-size: 22px;
+	font-size: 20px;
+	height: 44px;
+	width: 44px;
 }
 
-.card button {
-	border: none;
-	outline: 0;
-	padding: 5px;
-	color: Black;
-	background-color: #8FBC8F;
-	text-align: center;
-	cursor: pointer;
-	max-width: 300px;
-	font-size: 18px;
-	bottom: 0px;
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
 }
 
-.card button:hover {
-	opacity: 0.7;
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+	color: #013C4D;
+	text-decoration: none;
+	height: 44px;
+	width: 44px;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+	color: orange;
+	text-decoration: underline;
 }
