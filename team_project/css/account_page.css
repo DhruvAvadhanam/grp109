@@ -1,3 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; /* Siteimprove requirement */
+  color: #000; /* Ensure black text by default */
+}
+
 .user-container {
   display: flex;
   justify-content: space-around;
@@ -17,7 +26,7 @@
 }
 
 .user-box h3 {
-  color: tomato;
+  color: #005a8d;
   margin-top: 0;
 }
 
@@ -31,11 +40,12 @@
 
 .user-box button {
   padding: 10px 15px;
-  background-color: tomato;
+  background-color: #005a8d;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  height: 44px
 }
 
 .user-box button:hover {
