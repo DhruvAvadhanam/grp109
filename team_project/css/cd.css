@@ -7,13 +7,6 @@
 	float: left;
 	margin: 1%;
 	padding: 10px;}
-#breadcrumb{
-	height: 1em;
-	margin-bottom: 1em;
-    	width: 90%;
-	text-align: left;
-	font-size: 14px;
-	}
 
 .column1{
   width: 30%;
@@ -174,8 +167,3 @@ p {
 	top: 0;
 	right: 40;
 }*/
-/* Style the list */
-ul.breadcrumb {
-  padding: 5px 20px;
-  list-style: none;
-}
