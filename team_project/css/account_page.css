@@ -4,11 +4,12 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5; /* Siteimprove requirement */
-  color: #000; /* Ensure black text by default */
+  color: #000;
 }
 
 .breadcrumb {
-  font-size:22px
+  height: 44px;
+  width: 44px;
 }
 
 .user-container {
