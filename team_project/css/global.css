@@ -86,12 +86,6 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
-/* NAV BAR - Visited Links - Ensure they stay white like unvisited, Top-level nav links only (not dropdowns) */
-nav > ul > li > a:visited {
-	color: var(--text-on-blue);
-}
-
-
 /* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
 nav li a:hover, nav li a.current {
 	color: var(--hover-color);
@@ -252,12 +246,19 @@ footer {
 
 /* Breadcrumb styling */
 #breadcrumb {
-    margin-bottom: 1em;
-    width: 90%;
-    text-align: left;
-    font-size: 14px;
-    /* remove height:1em; */
-    min-height: 44px;
+	margin-bottom: 1em;
+	width: 90%;
+	text-align: left;
+	font-size: 14px;
+}
+
+/* Breadcrumb list */
+ul.breadcrumb {
+	padding: 5px 20px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
 }
 
 /* Breadcrumb items */
@@ -265,14 +266,14 @@ ul.breadcrumb li {
 	font-size: 20px;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
+/* Slash separator */
 ul.breadcrumb li + li::before {
 	padding: 0 8px;
 	color: black;
 	content: "/\00a0";
 }
 
-/* Add a color to all links inside the list */
+/* Breadcrumb links */
 ul.breadcrumb li a {
 	color: #013C4D;
 	text-decoration: none;
@@ -285,7 +286,7 @@ ul.breadcrumb li a {
 	text-align: center;
 }
 
-/* Add a color on mouse-over */
+/* Hover style */
 ul.breadcrumb li a:hover {
 	color: orange;
 	text-decoration: underline;
