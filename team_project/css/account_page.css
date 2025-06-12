@@ -6,12 +6,6 @@ body {
   line-height: 1.5; /* Siteimprove requirement */
   color: #000;
 }
-
-.breadcrumb {
-  height: 44px;
-  width: 44px;
-}
-
 .user-container {
   display: flex;
   justify-content: space-around;
