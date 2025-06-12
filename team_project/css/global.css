@@ -260,22 +260,30 @@ footer {
 }
 
 /* Style the list */
-ul.breadcrumb {
-	padding: 5px 20px;
-	list-style: none;
+#breadcrumb {
+	margin-bottom: 1em;
+	width: 90%;
+	text-align: left;
+	font-size: 14px;
 }
 
 /* Display list items side by side */
+ul.breadcrumb {
+	padding: 5px 20px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
+
+/* Breadcrumb items */
 ul.breadcrumb li {
-	display: inline;
 	font-size: 20px;
-	height: 44px;
-	width: 44px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-	padding: 8px;
+ul.breadcrumb li + li::before {
+	padding: 0 8px;
 	color: black;
 	content: "/\00a0";
 }
@@ -284,11 +292,12 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
 	color: #013C4D;
 	text-decoration: none;
-	display: inline-block;
-  	min-width: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 44px;
 	min-height: 44px;
-	line-height: normal;
-	padding: 10px 8px;
+	padding: 0 8px;
 	text-align: center;
 }
 
