@@ -93,10 +93,15 @@ nav > ul > li > a.current {
 	color: var(--hover-color);
 }
 
-
 /* NAV BAR - Links Visited - Set Visited color to WHITE for ONLY the top level links, should not affect the dropdown Nav links. */
 nav > ul > li > a:visited {
 	color: var(--text-on-blue);
+}
+
+/* NAV BAR - Links Visited - Hover color for the dropdown links. */
+nav .dropdown-content a:hover,
+nav .dropdown-content a:visited:hover {
+    color: var(--hover-color);
 }
 
 /* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
