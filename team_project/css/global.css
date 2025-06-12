@@ -251,29 +251,13 @@ footer {
 }
 
 /* Breadcrumb styling */
-#breadcrumb{
-	height: 1em;
-	margin-bottom: 1em;
-	width: 90%;
-	text-align: left;
-	font-size: 14px;
-}
-
-/* Style the list */
 #breadcrumb {
-	margin-bottom: 1em;
-	width: 90%;
-	text-align: left;
-	font-size: 14px;
-}
-
-/* Display list items side by side */
-ul.breadcrumb {
-	padding: 5px 20px;
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 4px;
+    margin-bottom: 1em;
+    width: 90%;
+    text-align: left;
+    font-size: 14px;
+    /* remove height:1em; */
+    min-height: 44px;
 }
 
 /* Breadcrumb items */
