@@ -287,8 +287,7 @@ ul.breadcrumb li a {
 	display: inline-block;
 	min-width: 44px;
 	min-height: 44px;
-	line-height: normal;
-	padding: 10px 8px;
+	padding: 0 8px;
 	text-align: center;
 }
 
