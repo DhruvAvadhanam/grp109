@@ -7,6 +7,10 @@ body {
   color: #000; /* Ensure black text by default */
 }
 
+.breadcrumb {
+  font-size:22px
+}
+
 .user-container {
   display: flex;
   justify-content: space-around;
