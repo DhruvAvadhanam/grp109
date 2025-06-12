@@ -278,8 +278,12 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
 	color: #013C4D;
 	text-decoration: none;
-	height: 44px;
-	width: 44px;
+	display: inline-block;
+	min-width: 44px;
+	min-height: 44px;
+	line-height: 44px;
+	padding: 0 8px;
+	text-align: center;
 }
 
 /* Add a color on mouse-over */
