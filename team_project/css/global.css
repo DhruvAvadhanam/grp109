@@ -87,7 +87,9 @@ nav li a {
 }
 
 /* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
-nav li a:hover, nav li a.current {
+nav > ul > li > a:hover,
+nav > ul > li > a:visited:hover,
+nav > ul > li > a.current {
 	color: var(--hover-color);
 }
 
