@@ -285,9 +285,10 @@ ul.breadcrumb li a {
 	color: #013C4D;
 	text-decoration: none;
 	display: inline-block;
-	min-width: 44px;
+  	min-width: 44px;
 	min-height: 44px;
-	padding: 0 8px;
+	line-height: normal;
+	padding: 10px 8px;
 	text-align: center;
 }
 
