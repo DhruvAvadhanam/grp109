@@ -8,6 +8,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* SiteImprove -Ian */
+p {
+  line-height: 1.5;
+}
+
 .cart-message {
   background-color: #fff8f0;
   border-left: 5px lightblue;
