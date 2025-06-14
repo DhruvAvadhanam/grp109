@@ -4,7 +4,7 @@ main {
 }
 
 h2 {
-  color: #b73522;
+  color: #971c1c;
   margin-bottom: 10px;
 }
 
@@ -37,7 +37,7 @@ p {
 
 .cart-table th {
   background-color: #f2dede;
-  color: #b73522;
+  color: #971c1c;
 }
 
 .empty-row {
