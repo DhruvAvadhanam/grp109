@@ -97,6 +97,12 @@ var pastaClass = new Class('Pasta Workshop', 'Iole has been sharing her love of 
 
 var pizzaClass = new Class('Pizza, Pizza', 'For ages 4 to 6. What\'s not to love about pizza? Iole will show you how to make quick, delicious homemade pizza with just a few  ingredients. Kids will enjoy rolling out the dough and adding the toppings for their very own pizza. We\'ll also make Chocolate Coconut Cookies and transform them into irresistible Ice Cream Sandwiches. Vegetarian with dairy and eggs. Price includes one child and one adult.','45','April, adults, vegetarian, dairy, eggs, 4/5/2016, Tuesday, evening', 'Iole Aguero','pizza.jpg','<ul><li>Pizza</li><li>Chocolate Coconut Cookie Ice Cream Sandwiches</li></ul>');
 
+var thaiClass = new Class('The Art of Thai Cuisine', 'Thai food is a snap for everyday cooking with Pranee\'s simple techniques and an abundance of Thai ingredients and fresh herbs within easy reach. Learn how to balance sweet, sour, salty and spicy as Pranee demonstrates four tantalizing Thai dishes, including Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with Mango). With meat, poultry and seafood; no dairy or eggs.','50','April, adults,meat, poultry,seafood,dairy-free,egg-free', 'Pranee Halvorsen','thai.jpg','<ul><li>Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice)</li><li>Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves)</li><li>Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves)</li><li>Kao Neow Mamuang (Sticky Rice with Mango)</li></ul>');
+
+var brazilClass = new Class('THE BEST OF BRAZIL', 'Get ready to dive into Brazilian food culture in honor of the 2016 Summer Olympics in Rio.  Brazil is a melting pot of colors, flavors and customs, and its cuisine is similarly varied.  Yary will demonstrate one of Brazil\'s best-loved dishes, Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice; along with Virgin Caipirinha (a refreshing Citrus Ginger drink); Piri Piri Grilled Shrimp with Mango Sauce; and Pudim de Laranja (Brazilian Orange Flan). With meat, seafood, dairy and eggs.','50','April, adults, meat, seafood, dairy,eggs', 'Yary Oslund','brazil.jpg','<ul><li>Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice</li><li>Virgin Caipirinha (a refreshing Citrus Ginger drink)</li><li>Piri Piri Grilled Shrimp with Mango Sauce; Pudim de Laranja (Brazilian Orange Flan)</li></ul>');
+
+var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our regional spring optimism and be at the ready, spatula in hand, for the first sunny opportunities to start grilling. Lynne\'s irresistible recipes will be paired with cider samplings: Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces; Sticky Chicken with Korean Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED.','55','April, adults, ages 21+,meat, seafood, dairy, eggs', 'Lynne Vea','grill.jpg','<ul><li>Sizzling Grilled Flatbread Pizza 101</li><li>Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces</li><li>Sticky Chicken with Korean Gochujang Barbecue Sauce; Rhubarb Fool</li></ul>');
+
 /*var probioticsClass = new Class('Probiotics 101', 'Every day we learn more about the many health benefits attributed to probiotics — tiny bacteria with long names like bifidobacteria bifidum. Nick will explain the basics of the foods that contain them — from sauerkraut to kombucha — why you need them and how to select the best probiotic foods and supplements.','10','May, adults, lecture', 'Nick Rose, M.S.','probiotics.jpg','<ul><li>Lecture</li></ul>');
 
 var saucesClass = new Class('Quick and Easy  Italian Pasta Sauces', 'Using a few well-chosen ingredients, quick cooking techniques, a pinch of perfect seasoning and a dash of love, Iole will show you how you can make dishes that will please the whole family any time that you crave pasta. You\'ll marvel at the simple prep for complex flavors in dishes such as Pasta with Tuna, Olives and Lemon; Pasta with Eggplant, Sugar Plum Tomatoes and Fresh Mozzarella; Pasta with Broccoli Pesto; and Pasta with Pistachio Pesto. With seafood, dairy and eggs.','45','June, adults,seafood, dairy, eggs', 'Iole Aguero','sauces.jpg','<ul><li>Pasta with Tuna, Olives and Lemon</li><li>Pasta with Eggplant, Sugar Plum Tomatoes and Fresh Mozzarella</li><li>Pasta with Broccoli Pesto</li><li>Pasta with Pistachio Pesto</li></ul>');
@@ -120,12 +126,6 @@ var shortClass = new Class('Strawberry Shortcake', 'For ages 4 to 6. What is a c
 var tacoClass = new Class('Taco Night', 'For ages 13 and up with one adult guest.  You can\'t go wrong with a taco bar with lots of  customizable options. We\'ll work together to create a fabulous taco party from scratch, including Homemade Flour Tortillas; Black Beans; Spanish Rice; Carne Asada; Shredded Cabbage, Avocados and Fresh Salsa. You\'ll get some great tips for creating your own taco night for friends and family at home. With meat and vegetarian options and dairy; no eggs. Price includes one teen and one adult.','50','April, kids, ages 13+,child+adult, meat ,vegetarian, dairy, egg-free', 'Yary Oslund','taco.jpg','<ul><li>Homemade Flour Tortillas</li><li>Black Beans</li><li>Spanish Rice</li><li>Carne Asada</li><li>Shredded Cabbage, Avocados and Fresh Salsa</li></ul>');
 
 var tamaleClass = new Class('Tamales and Salsas', 'You look forward to tamales from the farmers market or food truck; now learn how to make them at home yourself in this informative hands-on class. Devra will teach you an easy method for this festive, versatile dish, along with a tantalizing trio of homemade salsas to liven up your meal. We\'ll make Tamales with two different fillings —Black Bean; and Roasted Vegetables with Queso Fresco — and top them with Pico de Gallo; Roasted Tomato Salsa; and Roasted Serrano  Hot Sauce. Vegetarian with dairy; no eggs.','50','April, adults,vegetarian, dairy, egg-free', 'Devra Gartenstein','tamale.jpg','<ul><li>Tamales: Black Bean and Roasted Vegetables with Queso Fresco</li><li>Pico de Gallo</li><li>Roasted Tomato Salsa</li><li>Roasted Serrano Hot Sauce</li></ul>');
-
-var thaiClass = new Class('The Art of Thai Cuisine', 'Thai food is a snap for everyday cooking with Pranee\'s simple techniques and an abundance of Thai ingredients and fresh herbs within easy reach. Learn how to balance sweet, sour, salty and spicy as Pranee demonstrates four tantalizing Thai dishes, including Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with Mango). With meat, poultry and seafood; no dairy or eggs.','50','April, adults,meat, poultry,seafood,dairy-free,egg-free', 'Pranee Halvorsen','thai.jpg','<ul><li>Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice)</li><li>Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves)</li><li>Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves)</li><li>Kao Neow Mamuang (Sticky Rice with Mango)</li></ul>');
-
-var brazilClass = new Class('THE BEST OF BRAZIL', 'Get ready to dive into Brazilian food culture in honor of the 2016 Summer Olympics in Rio.  Brazil is a melting pot of colors, flavors and customs, and its cuisine is similarly varied.  Yary will demonstrate one of Brazil\'s best-loved dishes, Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice; along with Virgin Caipirinha (a refreshing Citrus Ginger drink); Piri Piri Grilled Shrimp with Mango Sauce; and Pudim de Laranja (Brazilian Orange Flan). With meat, seafood, dairy and eggs.','50','April, adults, meat, seafood, dairy,eggs', 'Yary Oslund','brazil.jpg','<ul><li>Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice</li><li>Virgin Caipirinha (a refreshing Citrus Ginger drink)</li><li>Piri Piri Grilled Shrimp with Mango Sauce; Pudim de Laranja (Brazilian Orange Flan)</li></ul>');
-
-var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our regional spring optimism and be at the ready, spatula in hand, for the first sunny opportunities to start grilling. Lynne\'s irresistible recipes will be paired with cider samplings: Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces; Sticky Chicken with Korean Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED.','55','April, adults, ages 21+,meat, seafood, dairy, eggs', 'Lynne Vea','grill.jpg','<ul><li>Sizzling Grilled Flatbread Pizza 101</li><li>Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces</li><li>Sticky Chicken with Korean Gochujang Barbecue Sauce; Rhubarb Fool</li></ul>');
 
 var tomatoClass = new Class('Tomaticus Galoricus:', 'Farmer Sarah Cassidy, the Tomato Whisperer, will reveal secrets to growing healthy, prolific and tasty tomatoes in our unpredictable Pacific Northwest climate. Select the perfect tomato for almost any location and get techniques on pruning, trellising and proper "dry farming" methods. You\'ll work hands-on applying these lessons to your own baby tomato plant to take home. You\'ll be on your way to growing amazing tomatoes, and lots of them, so we\'ll also talk about ways to put up your bounty including Roasted Tomatoes.','45','May,adults,lecture', 'Sarah Cassidy','tomato.jpg','<ul><li>Lecture</li></ul>');
 
@@ -383,6 +383,25 @@ var details41 = ' <div class="thumb" data-name="' + pizzaClass.name + '" data-fl
     details41 +=  pizzaClass.name +  '  </a></div>  ';
 var elClass41 = document.getElementById('Class41');
 elClass41.innerHTML = details41;
+
+var details42 = ' <div class="thumb" data-name="' + thaiClass.name + '" data-flag="' + thaiClass.flags;
+     details42 += '"> <a href="thai.html"><img src="images/thai.jpg" class="image" alt="The Art of Thai Cuisine"> <br> ';
+    details42 +=  thaiClass.name +  '  </a></div>  ';
+var elClass42 = document.getElementById('Class42');
+elClass42.innerHTML = details42;
+
+var details43 = ' <div class="thumb" data-name="' + brazilClass.name + '" data-flag="' + brazilClass.flags;
+     details43 += '"> <a href="brazil.html"><img src="images/brazil.jpg" class="image" alt="The Best of Brazil"> <br> ';
+    details43 +=  brazilClass.name +  '  </a></div>  ';
+var elClass43 = document.getElementById('Class43');
+elClass43.innerHTML = details43;
+
+var details44 = ' <div class="thumb" data-name="' + grillClass.name + '" data-flag="' + grillClass.flags;
+     details44 += '"> <a href="grill.html"><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"> <br> ';
+    details44 +=  grillClass.name +  '  </a></div>  ';
+var elClass44 = document.getElementById('Class44');
+elClass44.innerHTML = details44;
+
 /*
 var details44 = ' <div class="thumb" data-name="' + probioticsClass.name + '" data-flag="' + probioticsClass.flags;
      details44 += '"> <a href="probiotics.html"><img src="images/probiotics.jpg" class="image" alt=""> ';
@@ -455,24 +474,8 @@ var details55 = ' <div class="thumb" data-name="' + tamaleClass.name + '" data-f
     details55 +=  tamaleClass.name +  '  </a></div>  ';
 var elClass55 = document.getElementById('Class55');
 elClass55.innerHTML = details55;
-*/
-var details56 = ' <div class="thumb" data-name="' + thaiClass.name + '" data-flag="' + thaiClass.flags;
-     details56 += '"> <a href="thai.html"><img src="images/thai.jpg" class="image" alt="The Art of Thai Cuisine"> <br> ';
-    details56 +=  thaiClass.name +  '  </a></div>  ';
-var elClass56 = document.getElementById('Class56');
-elClass56.innerHTML = details56;
 
-var details57 = ' <div class="thumb" data-name="' + brazilClass.name + '" data-flag="' + brazilClass.flags;
-     details57 += '"> <a href="brazil.html"><img src="images/brazil.jpg" class="image" alt="The Best of Brazil"> <br> ';
-    details57 +=  brazilClass.name +  '  </a></div>  ';
-var elClass57 = document.getElementById('Class57');
-elClass57.innerHTML = details57;
 
-var details58 = ' <div class="thumb" data-name="' + grillClass.name + '" data-flag="' + grillClass.flags;
-     details58 += '"> <a href="grill.html"><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"> <br> ';
-    details58 +=  grillClass.name +  '  </a></div>  ';
-var elClass58 = document.getElementById('Class58');
-elClass58.innerHTML = details58;
 
 var details59 = ' <div class="thumb" data-name="' + tomatoClass.name + '" data-flag="' + tomatoClass.flags;
      details59 += '"> <a href="tomato.html"><img src="images/tomato.jpg" class="image" alt="Tomaticus Galoricus"> <br> ';
@@ -496,5 +499,4 @@ var details62 = ' <div class="thumb" data-name="' + bugsClass.name + '" data-fla
      details62 += '"> <a href="bugs.html"><img src="images/bugs.jpg" class="image" alt="We Love Bugs!"> <br> ';
     details62 +=  bugsClass.name +  '  </a></div>  ';
 var elClass62 = document.getElementById('Class62');
-elClass62.innerHTML = details62;
-
+elClass62.innerHTML = details62;*/
