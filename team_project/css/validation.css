@@ -4,30 +4,49 @@
 	font-weight: bold;
 	gap: 10px;
 	text-align: center;
-	grid-template-columns: 10% 10% 10% 35% 35%;}
+	grid-template-columns: 10% 10% 10% 35% 35%;
+}
 
 #container > .card{
-	position:relative;}
+	position:relative;
+}
 
 #container > .card::after{
 	background-color: midnightblue;
 	position: absolute;
 	width:100%;
 	height: 2px;
-	top: 0px;}
+	top: 0px;
+}
+
 .vimg{
 	width: 90%;
-	height: 90%;}
+height: 90%;}
+
 .clear{ 
-	clear:both;}
+	clear:both;
+}
+
 /*#grid-container > .item4, item8, .item12, .item16, .item20, item24{
-background-color: aliceblue;}*/
+	background-color: aliceblue;
+}*/
 
 .validation-section{ /*Adding some padding to page content. -Deena*/
-	padding: 0px 20px;}
+	padding: 0px 20px;
+}
 
 .html{ /*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: aliceblue;}
+	background-color: aliceblue;
+}
 
 .css{/*Adding ID from validation page to allow formatting. -Deena*/
-	background-color: cornsilk;}
+	background-color: cornsilk;
+}
+
+#container a { /*Adding to fix SiteImprove issue -Ian*/
+	min-width: 44px;
+	min-height: 44px;
+	display: inline-block;
+	padding: 6px;
+	text-align: center;
+}
