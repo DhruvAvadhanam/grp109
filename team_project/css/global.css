@@ -50,7 +50,7 @@ h1.title {
 	position: fixed;
 	top: 10px;
 	right: 10px;
-	z-index: 100; /* Ensure it stays on top */
+	/* z-index: 100; Ensure it stays on top */
 }
 
 /* NAV BAR - Sets the behavior and background color for the Nav Bar */
