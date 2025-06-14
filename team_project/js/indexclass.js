@@ -29,8 +29,6 @@ var antiClass = new Class('Anti-Inflammatory Eating Made Easy', 'Chronic inflamm
 
 var enchiladasClass = new Class('Anytime Enchiladas', 'For ages 7 to 9. Impress your family when you make enchiladas for dinner! In this class, you and your small group will prepare Chicken Enchiladas, starting with the sauce all the way to sliding the finished dish into the oven. Learn to take advantage of your kitchen pantry with Easy Cheesy Vegetarian Enchiladas and round out your meal with Roasted Tomato-Jalapeño Salsa; and refreshing Carrot-Jicama Slaw. Meat optional; with dairy; no eggs. Price includes one child and one adult.','50','Meat, Dairy, Kids, Ages 7 to 9, April', 'Lisa Crawford','enchiladas.jpg','<ul><li>Vegetarian Enchiladas</li><li>Roasted Tomato-Jalapeño Salsa</li><li>Carrot-Jicama Slaw</li></ul>');
 
-var atwClass = new Class('Around the World in 5 Days: Gluten-free Kids Cooking Camp', 'For ages 8 to 15. Future chefs explore the cuisines of many lands in fun hands-on classes, while learning cooking techniques, kitchen safety and delicious recipes using familiar and healthy ingredients. With entrees, side dishes and desserts, each day features a complete meal from different parts of the globe: India, Brazil, Italy, Syria and China. Menus are similar to traditional camp, but with adjustments to accommodate gluten-free campers. Vegetarian with meat options, dairy and eggs; no gluten. Recipes are gluten-free, but PCC classrooms are not gluten-free facilities.','185','vegetarian,meat, dairy, eggs, gluten-free, Kids, ages 8-15', 'PCC Cooks Staff','atw.jpg','<ul><li></li></ul>');
-
 var atwClass = new Class('Around the World: 5 Day Kids Camp', 'Future chefs explore the cuisines of many lands in fun hands-on classes while learning cooking techniques, kitchen safety and delicious recipes using familiar and healthy ingredients. With entrees, side dishes and desserts, each day features a complete meal from different parts of the globe: India, Brazil, Italy, Syria and China. Among the dishes we\'ll enjoy  preparing (and eating!) are Indian Mango Lassi; Brazilian Cheese Puffs; Chinese Chop Chop Salad; Syrian Falafels; and Italian  Lemon Tarts. Vegetarian with meat options; dairy and eggs.','185','vegetarian,meat, dairy, eggs, kids, ages 8-15', 'PCC Cooks Staff','atw.jpg','<ul><li>Indian Mango Lassi</li><li>Brazilian Cheese Puffs</li><li>Chinese Chop Chop Salad</li><li>Syrian Falafels</li><li>Italian  Lemon Tarts</li></ul>');
 
 var breadClass = new Class('Artisan Breads:  Ciabatta and Pizza', 'Ciabatta and pizza are go-to hearth breads when baking at home. Chef Laurie will show you that it\'s easy to get an artisan bakery result in your own oven with a little knowledge and some simple techniques. Using the same dough, you will make traditional Italian bread with substantial crusts that has full flavors due to slow fermentation and the starter that is made the day before. You will see and handle the Ciabatta bread in all stages from starter to freshly baked and you\'ll make your own  Ciabatta Pizza from the Ciabatta dough to enjoy in class. Come with your questions! You will leave class with dough to finish baking at home and lots of information to help you to start making artisan bread at home. Vegetarian with meat and dairy optional; no eggs.','50','vegetarian,Meat,Dairy,April', 'Laurie Pfalzer','bread.jpg','<ul><li>Ciabatta bread</li><li>Ciabatta Pizza</li></ul>');
@@ -50,8 +48,6 @@ var noodlesClass = new Class('Classic Chinese Noodles', 'Every region in China h
 var frenchClass = new Class('Classic French Cooking', 'Chef Michael will guide you through some of the time-honored methods of French cuisine, inspiring confidence with techniques that are often misunderstood as too complicated or time-consuming. The results will be magnifique as we prepare some French all-stars: Aparagus Salad with Hard-boiled Egg and Caper Vinaigrette; Salmon en Papillote with Morel Mushrooms and  Sauce Beurre Blanc; and Apple Tarte Tatin (an upside-down pastry) with Cinnamon Ice Cream. With seafood, dairy and eggs.','55','April, adults,seafood,dairy,eggs', 'Michael Diem','french.jpg','<ul><li>Aparagus Salad with Hard-boiled Egg and Caper Vinaigrette</li><li>Salmon en Papillote with Morel Mushrooms and Sauce Beurre Blanc</li><li>Apple Tarte Tatin (an upside-down pastry) with Cinnamon Ice Cream</li></ul>');
 
 var klatchClass = new Class('Coffee Klatch', 'Spend an evening with Chef Becky over coffee-inspired dishes that are a real conversation piece. Perk up to some slightly addictive main dishes like Coffee and Chocolate-braised Short Ribs with Polenta; and Coffee and Spice-coated Salmon Tacos with Charred Cabbage, Tropical Fruit Salsa and Avocado Cream. Your heart will beat a little faster when you take a sweet bite of Caramel and Coffee Truffles; and Seattle-style Espresso Tiramisu. With meat, seafood, dairy and eggs.','50','April, adults,meat,seafood,dairy,eggs', 'Becky Selengut','klatch.jpg','<ul><li>Coffee and Chocolate-braised Short Ribs with Polenta</li><li>Coffee and Spice-coated Salmon Tacos with Charred Cabbage, Tropical Fruit Salsa and Avocado Cream</li><li>Caramel and Coffee Truffles</li><li>Espresso Tiramisu</li></ul>');
-
-var cwrClass = new Class('Cooking Without Recipes', 'This class is for home cooks who are truly ready to set aside their cookbooks and step outside the box to explore cooking spontaneously and seasonally. Darin will provide a lecture and handouts on the basics of building flavor and pairing ingredients, then the class will work as a whole to pair fresh produce from the aisles with chicken thighs, salmon and pork loin. A full pantry of ingredients will be provided. Take the leap! With meat, seafood, dairy and eggs.','55','June, adults,meat,seafood,dairy,eggs', 'Darin Gagner','cwr.jpg','<ul><li>Chicken Thighs, Salmon, Pork Loin</li><li>Vegetales</li></ul>');
 
 var spsoupClass = new Class('Easy Soups for Springtime', 'Danielle loves to create easy-to-follow recipes using each season\'s best produce and inspire her students to recreate whole-foods-based seasonal dishes at home. Soups that can be added into your weekly menu plan are a great start!  Join her for this fun and informative hands-on class to create a sampling of soups, including Curried Carrot and Ginger Soup with Cilantro Oil; Hearty Vegetable Minestrone with Fava Beans; Creamy Spring Garlic and Red Potato Soup; and Miso Soup in a rich Mushroom Stock. Vegetarian; no dairy, eggs or gluten.','50','April, adults,vegetarian, dairy-free,egg-free,gluten-free', 'Danielle Premo','spsoup.jpg','<ul><li>Curried Carrot and Ginger Soup with Cilantro Oil</li><li>Hearty Vegetable Minestrone with Fava Beans</li><li>Creamy Spring Garlic and Red Potato Soup</li><li>Miso Soup in a rich Mushroom Stock</li></ul>');
 
@@ -190,216 +186,210 @@ elClass7.innerHTML = details7;
 var elClass8 = document.getElementById('Class8');
 elClass8.innerHTML = details8;*/
 
-var details9 = ' <div class="thumb" data-name="' + atwClass.name + '" data-flag="' + atwClass.flags;
-     details9 += '"> <a href="atw.html"><img src="images/atw.jpg" class="image" alt="Around the World in Five Days: Kids’ Cooking Camp"> <br> ';
-    details9 +=  atwClass.name +  '  </a></div>  ';
+var details8 = ' <div class="thumb" data-name="' + atwClass.name + '" data-flag="' + atwClass.flags;
+     details8 += '"> <a href="atw.html"><img src="images/atw.jpg" class="image" alt="Around the World in Five Days: Kids’ Cooking Camp"> <br> ';
+    details8 +=  atwClass.name +  '  </a></div>  ';
+var elClass8 = document.getElementById('Class8');
+elClass8.innerHTML = details8;
+
+var details9 = ' <div class="thumb" data-name="' + breadClass.name + '" data-flag="' + breadClass.flags;
+     details9 += '"> <a href="bread.html"><img src="images/bread.jpg" class="image" alt="Artisan Breads: Ciabatta and Pizza"> <br> ';
+    details9 +=  breadClass.name +  '  </a></div>  ';
 var elClass9 = document.getElementById('Class9');
 elClass9.innerHTML = details9;
 
-var details10 = ' <div class="thumb" data-name="' + breadClass.name + '" data-flag="' + breadClass.flags;
-     details10 += '"> <a href="bread.html"><img src="images/bread.jpg" class="image" alt="Artisan Breads: Ciabatta and Pizza"> <br> ';
-    details10 +=  breadClass.name +  '  </a></div>  ';
+var details10 = ' <div class="thumb" data-name="' + basqueClass.name + '" data-flag="' + basqueClass.flags;
+     details10 += '"> <a href="basque.html"><img src="images/basque.jpg" class="image" alt="Basque Country Cooking"> <br> ';
+    details10 +=  basqueClass.name +  '  </a></div>  ';
 var elClass10 = document.getElementById('Class10');
 elClass10.innerHTML = details10;
 
-var details11 = ' <div class="thumb" data-name="' + basqueClass.name + '" data-flag="' + basqueClass.flags;
-     details11 += '"> <a href="basque.html"><img src="images/basque.jpg" class="image" alt="Basque Country Cooking"> <br> ';
-    details11 +=  basqueClass.name +  '  </a></div>  ';
+var details11 = ' <div class="thumb" data-name="' + batterClass.name + '" data-flag="' + batterClass.flags;
+     details11 += '"> <a href="batter.html"><img src="images/batter.jpg" class="image" alt="Batter’s Up! Pancakes and Crepes"> <br> ';
+    details11 +=  batterClass.name +  '  </a></div>  ';
 var elClass11 = document.getElementById('Class11');
 elClass11.innerHTML = details11;
 
-var details12 = ' <div class="thumb" data-name="' + batterClass.name + '" data-flag="' + batterClass.flags;
-     details12 += '"> <a href="batter.html"><img src="images/batter.jpg" class="image" alt="Batter’s Up! Pancakes and Crepes"> <br> ';
-    details12 +=  batterClass.name +  '  </a></div>  ';
+var details12 = ' <div class="thumb" data-name="' + cheeseClass.name + '" data-flag="' + cheeseClass.flags;
+     details12 += '"> <a href="cheese.html"><img src="images/cheese.jpg" class="image" alt="Cheesemaking Workshop"> <br> ';
+    details12 +=  cheeseClass.name +  '  </a></div>  ';
 var elClass12 = document.getElementById('Class12');
 elClass12.innerHTML = details12;
 
-var details13 = ' <div class="thumb" data-name="' + cheeseClass.name + '" data-flag="' + cheeseClass.flags;
-     details13 += '"> <a href="cheese.html"><img src="images/cheese.jpg" class="image" alt="Cheesemaking Workshop"> <br> ';
-    details13 +=  cheeseClass.name +  '  </a></div>  ';
+var details13 = ' <div class="thumb" data-name="' + chickenClass.name + '" data-flag="' + chickenClass.flags;
+     details13 += '"> <a href="chicken.html"><img src="images/chicken.jpg" class="image" alt="Chicken 91"> ';
+    details13 +=  chickenClass.name +  '  </a></div>  ';
 var elClass13 = document.getElementById('Class13');
 elClass13.innerHTML = details13;
-/*
-var details14 = ' <div class="thumb" data-name="' + chickenClass.name + '" data-flag="' + chickenClass.flags;
-     details14 += '"> <a href="chicken.html"><img src="images/chicken.jpg" class="image" alt="Chicken 101"> ';
-    details14 +=  chickenClass.name +  '  </a></div>  ';
+
+var details14 = ' <div class="thumb" data-name="' + cldrollsClass.name + '" data-flag="' + cldrollsClass.flags;
+     details14 += '"> <a href="cldrolls.html"><img src="images/cldrolls.jpg" class="image" alt="Chinese Lazy  Dragon Rolls"> ';
+    details14 +=  cldrollsClass.name +  '  </a></div>  ';
 var elClass14 = document.getElementById('Class14');
 elClass14.innerHTML = details14;
 
-var details15 = ' <div class="thumb" data-name="' + cldrollsClass.name + '" data-flag="' + cldrollsClass.flags;
-     details15 += '"> <a href="cldrolls.html"><img src="images/cldrolls.jpg" class="image" alt="Chinese Lazy  Dragon Rolls"> ';
-    details15 +=  cldrollsClass.name +  '  </a></div>  ';
+var details15 = ' <div class="thumb" data-name="' + noodlesClass.name + '" data-flag="' + noodlesClass.flags;
+     details15 += '"> <a href="noodles.html"><img src="images/noodles.jpg" class="image" alt=""> ';
+    details15 +=  noodlesClass.name +  '  </a></div>  ';
 var elClass15 = document.getElementById('Class15');
 elClass15.innerHTML = details15;
 
-var details16 = ' <div class="thumb" data-name="' + noodlesClass.name + '" data-flag="' + noodlesClass.flags;
-     details16 += '"> <a href="noodles.html"><img src="images/noodles.jpg" class="image" alt=""> ';
-    details16 +=  noodlesClass.name +  '  </a></div>  ';
+var details16 = ' <div class="thumb" data-name="' + frenchClass.name + '" data-flag="' + frenchClass.flags;
+     details16 += '"> <a href="french.html"><img src="images/french.jpg" class="image" alt=""> ';
+    details16 +=  frenchClass.name +  '  </a></div>  ';
 var elClass16 = document.getElementById('Class16');
 elClass16.innerHTML = details16;
 
-var details17 = ' <div class="thumb" data-name="' + frenchClass.name + '" data-flag="' + frenchClass.flags;
-     details17 += '"> <a href="french.html"><img src="images/french.jpg" class="image" alt=""> ';
-    details17 +=  frenchClass.name +  '  </a></div>  ';
+var details17 = ' <div class="thumb" data-name="' + klatchClass.name + '" data-flag="' + klatchClass.flags;
+     details17 += '"> <a href="klatch.html"><img src="images/klatch.jpg" class="image" alt=""> ';
+    details17 +=  klatchClass.name +  '  </a></div>  ';
 var elClass17 = document.getElementById('Class17');
 elClass17.innerHTML = details17;
 
-var details18 = ' <div class="thumb" data-name="' + klatchClass.name + '" data-flag="' + klatchClass.flags;
-     details18 += '"> <a href="klatch.html"><img src="images/klatch.jpg" class="image" alt=""> ';
-    details18 +=  klatchClass.name +  '  </a></div>  ';
+var details18 = ' <div class="thumb" data-name="' + spsoupClass.name + '" data-flag="' + spsoupClass.flags;
+     details18 += '"> <a href="spsoup.html"><img src="images/spsoup.jpeg" class="image" alt=""> ';
+    details18 +=  spsoupClass.name +  '  </a></div>  ';
 var elClass18 = document.getElementById('Class18');
 elClass18.innerHTML = details18;
 
-var details19 = ' <div class="thumb" data-name="' + cwrClass.name + '" data-flag="' + cwrClass.flags;
-     details19 += '"> <a href="cwr.html"><img src="images/cwr.jpg" class="image" alt=""> ';
-    details19 +=  cwrClass.name +  '  </a></div>  ';
+var details19 = ' <div class="thumb" data-name="' + veganClass.name + '" data-flag="' + veganClass.flags;
+     details19 += '"> <a href="vegan.html"><img src="images/vegan.jpg" class="image" alt=""> ';
+    details19 +=  veganClass.name +  '  </a></div>  ';
 var elClass19 = document.getElementById('Class19');
 elClass19.innerHTML = details19;
 
-var details20 = ' <div class="thumb" data-name="' + spsoupClass.name + '" data-flag="' + spsoupClass.flags;
-     details20 += '"> <a href="spsoup.html"><img src="images/spsoup.jpg" class="image" alt=""> ';
-    details20 +=  spsoupClass.name +  '  </a></div>  ';
+var details20 = ' <div class="thumb" data-name="' + fermClass.name + '" data-flag="' + fermClass.flags;
+     details20 += '"> <a href="ferm.html"><img src="images/ferm.jpg" class="image" alt=""> ';
+    details20 +=  fermClass.name +  '  </a></div>  ';
 var elClass20 = document.getElementById('Class20');
 elClass20.innerHTML = details20;
 
-var details21 = ' <div class="thumb" data-name="' + veganClass.name + '" data-flag="' + veganClass.flags;
-     details21 += '"> <a href="vegan.html"><img src="images/vegan.jpg" class="image" alt=""> ';
-    details21 +=  veganClass.name +  '  </a></div>  ';
+var details21 = ' <div class="thumb" data-name="' + heartClass.name + '" data-flag="' + heartClass.flags;
+     details21 += '"> <a href="heart.html"><img src="images/heart.jpg" class="image" alt=""> ';
+    details21 +=  heartClass.name +  '  </a></div>  ';
 var elClass21 = document.getElementById('Class21');
 elClass21.innerHTML = details21;
 
-var details22 = ' <div class="thumb" data-name="' + fermClass.name + '" data-flag="' + fermClass.flags;
-     details22 += '"> <a href="ferm.html"><img src="images/ferm.jpg" class="image" alt=""> ';
-    details22 +=  fermClass.name +  '  </a></div>  ';
+var details22 = ' <div class="thumb" data-name="' + fondueClass.name + '" data-flag="' + fondueClass.flags;
+     details22 += '"> <a href="fondue.html"><img src="images/fondue.jpg" class="image" alt=""> ';
+    details22 +=  fondueClass.name +  '  </a></div>  ';
 var elClass22 = document.getElementById('Class22');
 elClass22.innerHTML = details22;
 
-var details23 = ' <div class="thumb" data-name="' + heartClass.name + '" data-flag="' + heartClass.flags;
-     details23 += '"> <a href="heart.html"><img src="images/heart.jpg" class="image" alt=""> ';
-    details23 +=  heartClass.name +  '  </a></div>  ';
+var details23 = ' <div class="thumb" data-name="' + gfwttClass.name + '" data-flag="' + gfwttClass.flags;
+     details23 += '"> <a href="gfwtt.html"><img src="images/gfwtt.jpg" class="image" alt=""> ';
+    details23 +=  gfwttClass.name +  '  </a></div>  ';
 var elClass23 = document.getElementById('Class23');
 elClass23.innerHTML = details23;
 
-var details24 = ' <div class="thumb" data-name="' + fondueClass.name + '" data-flag="' + fondueClass.flags;
-     details24 += '"> <a href="fondue.html"><img src="images/fondue.jpg" class="image" alt=""> ';
-    details24 +=  fondueClass.name +  '  </a></div>  ';
+var details24 = ' <div class="thumb" data-name="' + gfbakingClass.name + '" data-flag="' + gfbakingClass.flags;
+     details24 += '"> <a href="gfbaking.html"><img src="images/gfbaking.jpg" class="image" alt=""> ';
+    details24 +=  gfbakingClass.name +  '  </a></div>  ';
 var elClass24 = document.getElementById('Class24');
 elClass24.innerHTML = details24;
 
-var details25 = ' <div class="thumb" data-name="' + gfwttClass.name + '" data-flag="' + gfwttClass.flags;
-     details25 += '"> <a href="gfwtt.html"><img src="images/gfwtt.jpg" class="image" alt=""> ';
-    details25 +=  gfwttClass.name +  '  </a></div>  ';
+var details25 = ' <div class="thumb" data-name="' + budgetClass.name + '" data-flag="' + budgetClass.flags;
+     details25 += '"> <a href="budget.html"><img src="images/budget.jpg" class="image" alt=""> ';
+    details25 +=  budgetClass.name +  '  </a></div>  ';
 var elClass25 = document.getElementById('Class25');
 elClass25.innerHTML = details25;
 
-var details26 = ' <div class="thumb" data-name="' + gfbakingClass.name + '" data-flag="' + gfbakingClass.flags;
-     details26 += '"> <a href="gfbaking.html"><img src="images/gfbaking.jpg" class="image" alt=""> ';
-    details26 +=  gfbakingClass.name +  '  </a></div>  ';
+var details26 = ' <div class="thumb" data-name="' + sardiniaClass.name + '" data-flag="' + sardiniaClass.flags;
+     details26 += '"> <a href="sardinia.html"><img src="images/sardinia.png" class="image" alt="Holiday in Sardinia"> <br> ';
+    details26 +=  sardiniaClass.name +  ' </a></div>  ';
 var elClass26 = document.getElementById('Class26');
 elClass26.innerHTML = details26;
 
-var details27 = ' <div class="thumb" data-name="' + budgetClass.name + '" data-flag="' + budgetClass.flags;
-     details27 += '"> <a href="budget.html"><img src="images/budget.jpg" class="image" alt=""> ';
-    details27 +=  budgetClass.name +  '  </a></div>  ';
+var details27 = ' <div class="thumb" data-name="' + cakeClass.name + '" data-flag="' + cakeClass.flags;
+     details27 += '"> <a href="cake.html"><img src="images/cake.jpg" class="image" alt="How to Bake a Cake 101"> <br> ';
+    details27 +=  cakeClass.name +  '  </a></div>  ';
 var elClass27 = document.getElementById('Class27');
 elClass27.innerHTML = details27;
-*/
-var details28 = ' <div class="thumb" data-name="' + sardiniaClass.name + '" data-flag="' + sardiniaClass.flags;
-     details28 += '"> <a href="sardinia.html"><img src="images/sardinia.png" class="image" alt="Holiday in Sardinia"> <br> ';
-    details28 +=  sardiniaClass.name +  ' </a></div>  ';
+
+var details28 = ' <div class="thumb" data-name="' + seasonClass.name + '" data-flag="' + seasonClass.flags;
+     details28 += '"> <a href="season.html"><img src="images/season.jpg" class="image" alt="In season"> <br> ';
+    details28 +=  seasonClass.name +  '  </a></div>  ';
 var elClass28 = document.getElementById('Class28');
 elClass28.innerHTML = details28;
 
-var details29 = ' <div class="thumb" data-name="' + cakeClass.name + '" data-flag="' + cakeClass.flags;
-     details29 += '"> <a href="cake.html"><img src="images/cake.jpg" class="image" alt="How to Bake a Cake 101"> <br> ';
-    details29 +=  cakeClass.name +  '  </a></div>  ';
+var details29 = ' <div class="thumb" data-name="' + indianClass.name + '" data-flag="' + indianClass.flags;
+     details29 += '"> <a href="indian.html"><img src="images/indian.jpg" class="image" alt="Indian Cuisine Under Pressure!"> <br> ';
+    details29 +=  indianClass.name +  '  </a></div>  ';
 var elClass29 = document.getElementById('Class29');
 elClass29.innerHTML = details29;
 
-var details30 = ' <div class="thumb" data-name="' + seasonClass.name + '" data-flag="' + seasonClass.flags;
-     details30 += '"> <a href="season.html"><img src="images/season.jpg" class="image" alt="In season"> <br> ';
-    details30 +=  seasonClass.name +  '  </a></div>  ';
+var details30 = ' <div class="thumb" data-name="' + chemClass.name + '" data-flag="' + chemClass.flags;
+     details30 += '"> <a href="chem.html"><img src="images/chem.jpg" class="image" alt="Kitchen Chemistry"> <br> ';
+    details30 +=  chemClass.name +  '  </a></div>  ';
 var elClass30 = document.getElementById('Class30');
 elClass30.innerHTML = details30;
 
-var details31 = ' <div class="thumb" data-name="' + indianClass.name + '" data-flag="' + indianClass.flags;
-     details31 += '"> <a href="indian.html"><img src="images/indian.jpg" class="image" alt="Indian Cuisine Under Pressure!"> <br> ';
-    details31 +=  indianClass.name +  '  </a></div>  ';
+var details31 = ' <div class="thumb" data-name="' + knifeClass.name + '" data-flag="' + knifeClass.flags;
+     details31 += '"> <a href="knife.html"><img src="images/knife.jpg" class="image" alt="Knife Skills"> <br> ';
+    details31 +=  knifeClass.name +  '  </a></div>  ';
 var elClass31 = document.getElementById('Class31');
 elClass31.innerHTML = details31;
 
-var details32 = ' <div class="thumb" data-name="' + chemClass.name + '" data-flag="' + chemClass.flags;
-     details32 += '"> <a href="chem.html"><img src="images/chem.jpg" class="image" alt="Kitchen Chemistry"> <br> ';
-    details32 +=  chemClass.name +  '  </a></div>  ';
+var details32 = ' <div class="thumb" data-name="' + dumplingClass.name + '" data-flag="' + dumplingClass.flags;
+     details32 += '"> <a href="dumpling.html"><img src="images/dumpling.jpg" class="image" alt="Let\'s Roll: Jiao-zi dumplings and spring rolls"> <br> ';
+    details32 +=  dumplingClass.name +  '  </a></div>  ';
 var elClass32 = document.getElementById('Class32');
 elClass32.innerHTML = details32;
 
-var details33 = ' <div class="thumb" data-name="' + knifeClass.name + '" data-flag="' + knifeClass.flags;
-     details33 += '"> <a href="knife.html"><img src="images/knife.jpg" class="image" alt="Knife Skills"> <br> ';
-    details33 +=  knifeClass.name +  '  </a></div>  ';
+var details33 = ' <div class="thumb" data-name="' + panClass.name + '" data-flag="' + panClass.flags;
+     details33 += '"> <a href="pan.html"><img src="images/pan.jpg" class="image" alt="Mastering the Pan Sauté, Sear and Pan Roast"> <br> ';
+    details33 +=  panClass.name +  '  </a></div>  ';
 var elClass33 = document.getElementById('Class33');
 elClass33.innerHTML = details33;
 
-var details34 = ' <div class="thumb" data-name="' + dumplingClass.name + '" data-flag="' + dumplingClass.flags;
-     details34 += '"> <a href="dumpling.html"><img src="images/dumpling.jpg" class="image" alt="Let\'s Roll: Jiao-zi dumplings and spring rolls"> <br> ';
-    details34 +=  dumplingClass.name +  '  </a></div>  ';
+var details34 = ' <div class="thumb" data-name="' + medClass.name + '" data-flag="' + medClass.flags;
+     details34 += '"> <a href="med.html"><img src="images/med.jpg" class="image" alt="Mediterranean Medley"> <br> ';
+    details34 +=  medClass.name +  '  </a></div>  ';
 var elClass34 = document.getElementById('Class34');
 elClass34.innerHTML = details34;
 
-var details35 = ' <div class="thumb" data-name="' + panClass.name + '" data-flag="' + panClass.flags;
-     details35 += '"> <a href="pan.html"><img src="images/pan.jpg" class="image" alt="Mastering the Pan Sauté, Sear and Pan Roast"> <br> ';
-    details35 +=  panClass.name +  '  </a></div>  ';
+var details35 = ' <div class="thumb" data-name="' + piemonteseClass.name + '" data-flag="' + piemonteseClass.flags;
+     details35 += '"> <a href="piemontese.html"><img src="images/piemontese.jpg" class="image" alt="Menu Piemontese"> <br> ';
+    details35 +=  piemonteseClass.name +  '  </a></div>  ';
 var elClass35 = document.getElementById('Class35');
 elClass35.innerHTML = details35;
 
-var details36 = ' <div class="thumb" data-name="' + medClass.name + '" data-flag="' + medClass.flags;
-     details36 += '"> <a href="med.html"><img src="images/med.jpg" class="image" alt="Mediterranean Medley"> <br> ';
-    details36 +=  medClass.name +  '  </a></div>  ';
+var details36 = ' <div class="thumb" data-name="' + mexClass.name + '" data-flag="' + mexClass.flags;
+     details36 += '"> <a href="mex.html"><img src="images/mex.jpg" class="image" alt="Mexican Fiesta"> ';
+    details36 +=  mexClass.name +  '  </a></div>  ';
 var elClass36 = document.getElementById('Class36');
 elClass36.innerHTML = details36;
 
-var details37 = ' <div class="thumb" data-name="' + piemonteseClass.name + '" data-flag="' + piemonteseClass.flags;
-     details37 += '"> <a href="piemontese.html"><img src="images/piemontese.jpg" class="image" alt="Menu Piemontese"> <br> ';
-    details37 +=  piemonteseClass.name +  '  </a></div>  ';
+var details37 = ' <div class="thumb" data-name="' + bagelsClass.name + '" data-flag="' + bagelsClass.flags;
+     details37 += '"> <a href="bagels.html"><img src="images/bagels.jpg" class="image" alt="New York-Style Bagels"> <br> ';
+    details37 +=  bagelsClass.name +  '  </a></div>  ';
 var elClass37 = document.getElementById('Class37');
 elClass37.innerHTML = details37;
 
-var details38 = ' <div class="thumb" data-name="' + mexClass.name + '" data-flag="' + mexClass.flags;
-     details38 += '"> <a href="mex.html"><img src="images/mex.jpg" class="image" alt="Mexican Fiesta"> ';
-    details38 +=  mexClass.name +  '  </a></div>  ';
+var details38 = ' <div class="thumb" data-name="' + nwcelClass.name + '" data-flag="' + nwcelClass.flags;
+     details38 += '"> <a href="nwcel.html"><img src="images/nwcel.jpg" class="image" alt=""> ';
+    details38 +=  nwcelClass.name +  '  </a></div>  ';
 var elClass38 = document.getElementById('Class38');
 elClass38.innerHTML = details38;
 
-var details39 = ' <div class="thumb" data-name="' + bagelsClass.name + '" data-flag="' + bagelsClass.flags;
-     details39 += '"> <a href="bagels.html"><img src="images/bagels.jpg" class="image" alt="New York-Style Bagels"> <br> ';
-    details39 +=  bagelsClass.name +  '  </a></div>  ';
+var details39 = ' <div class="thumb" data-name="' + pulseClass.name + '" data-flag="' + pulseClass.flags;
+     details39 += '"> <a href="pulse.html"><img src="images/pulse.jpg" class="image" alt=""> ';
+    details39 +=  pulseClass.name +  '  </a></div>  ';
 var elClass39 = document.getElementById('Class39');
 elClass39.innerHTML = details39;
-/*
-var details40 = ' <div class="thumb" data-name="' + nwcelClass.name + '" data-flag="' + nwcelClass.flags;
-     details40 += '"> <a href="nwcel.html"><img src="images/nwcel.jpg" class="image" alt=""> ';
-    details40 +=  nwcelClass.name +  '  </a></div>  ';
+
+var details40 = ' <div class="thumb" data-name="' + pastaClass.name + '" data-flag="' + pastaClass.flags;
+     details40 += '"> <a href="pasta.html"><img src="images/pasta.jpg" class="image" alt=""> ';
+    details40 +=  pastaClass.name +  '  </a></div>  ';
 var elClass40 = document.getElementById('Class40');
 elClass40.innerHTML = details40;
 
-var details41 = ' <div class="thumb" data-name="' + pulseClass.name + '" data-flag="' + pulseClass.flags;
-     details41 += '"> <a href="pulse.html"><img src="images/pulse.jpg" class="image" alt=""> ';
-    details41 +=  pulseClass.name +  '  </a></div>  ';
+var details41 = ' <div class="thumb" data-name="' + pizzaClass.name + '" data-flag="' + pizzaClass.flags;
+     details41 += '"> <a href="pizza.html"><img src="images/pizza.jpg" class="image" alt=""> ';
+    details41 +=  pizzaClass.name +  '  </a></div>  ';
 var elClass41 = document.getElementById('Class41');
 elClass41.innerHTML = details41;
-
-var details42 = ' <div class="thumb" data-name="' + pastaClass.name + '" data-flag="' + pastaClass.flags;
-     details42 += '"> <a href="pasta.html"><img src="images/pasta.jpg" class="image" alt=""> ';
-    details42 +=  pastaClass.name +  '  </a></div>  ';
-var elClass42 = document.getElementById('Class42');
-elClass42.innerHTML = details42;
-
-var details43 = ' <div class="thumb" data-name="' + pizzaClass.name + '" data-flag="' + pizzaClass.flags;
-     details43 += '"> <a href="pizza.html"><img src="images/pizza.jpg" class="image" alt=""> ';
-    details43 +=  pizzaClass.name +  '  </a></div>  ';
-var elClass43 = document.getElementById('Class43');
-elClass43.innerHTML = details43;
-
+/*
 var details44 = ' <div class="thumb" data-name="' + probioticsClass.name + '" data-flag="' + probioticsClass.flags;
      details44 += '"> <a href="probiotics.html"><img src="images/probiotics.jpg" class="image" alt=""> ';
     details44 +=  probioticsClass.name +  '  </a></div>  ';
