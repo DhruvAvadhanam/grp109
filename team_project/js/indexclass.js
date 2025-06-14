@@ -99,8 +99,6 @@ var pizzaClass = new Class('Pizza, Pizza', 'For ages 4 to 6. What\'s not to love
 
 var thaiClass = new Class('The Art of Thai Cuisine', 'Thai food is a snap for everyday cooking with Pranee\'s simple techniques and an abundance of Thai ingredients and fresh herbs within easy reach. Learn how to balance sweet, sour, salty and spicy as Pranee demonstrates four tantalizing Thai dishes, including Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with Mango). With meat, poultry and seafood; no dairy or eggs.','50','April, adults,meat, poultry,seafood,dairy-free,egg-free', 'Pranee Halvorsen','thai.jpg','<ul><li>Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice)</li><li>Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves)</li><li>Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves)</li><li>Kao Neow Mamuang (Sticky Rice with Mango)</li></ul>');
 
-var brazilClass = new Class('THE BEST OF BRAZIL', 'Get ready to dive into Brazilian food culture in honor of the 2016 Summer Olympics in Rio.  Brazil is a melting pot of colors, flavors and customs, and its cuisine is similarly varied.  Yary will demonstrate one of Brazil\'s best-loved dishes, Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice; along with Virgin Caipirinha (a refreshing Citrus Ginger drink); Piri Piri Grilled Shrimp with Mango Sauce; and Pudim de Laranja (Brazilian Orange Flan). With meat, seafood, dairy and eggs.','50','April, adults, meat, seafood, dairy,eggs', 'Yary Oslund','brazil.jpg','<ul><li>Feijoada (traditional meat stew) served with Sautéed Collard Greens and Rice</li><li>Virgin Caipirinha (a refreshing Citrus Ginger drink)</li><li>Piri Piri Grilled Shrimp with Mango Sauce; Pudim de Laranja (Brazilian Orange Flan)</li></ul>');
-
 var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our regional spring optimism and be at the ready, spatula in hand, for the first sunny opportunities to start grilling. Lynne\'s irresistible recipes will be paired with cider samplings: Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces; Sticky Chicken with Korean Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED.','55','April, adults, ages 21+,meat, seafood, dairy, eggs', 'Lynne Vea','grill.jpg','<ul><li>Sizzling Grilled Flatbread Pizza 101</li><li>Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces</li><li>Sticky Chicken with Korean Gochujang Barbecue Sauce; Rhubarb Fool</li></ul>');
 
 /*var probioticsClass = new Class('Probiotics 101', 'Every day we learn more about the many health benefits attributed to probiotics — tiny bacteria with long names like bifidobacteria bifidum. Nick will explain the basics of the foods that contain them — from sauerkraut to kombucha — why you need them and how to select the best probiotic foods and supplements.','10','May, adults, lecture', 'Nick Rose, M.S.','probiotics.jpg','<ul><li>Lecture</li></ul>');
@@ -390,17 +388,11 @@ var details42 = ' <div class="thumb" data-name="' + thaiClass.name + '" data-fla
 var elClass42 = document.getElementById('Class42');
 elClass42.innerHTML = details42;
 
-var details43 = ' <div class="thumb" data-name="' + brazilClass.name + '" data-flag="' + brazilClass.flags;
-     details43 += '"> <a href="brazil.html"><img src="images/brazil.jpg" class="image" alt="The Best of Brazil"> <br> ';
-    details43 +=  brazilClass.name +  '  </a></div>  ';
+var details43 = ' <div class="thumb" data-name="' + grillClass.name + '" data-flag="' + grillClass.flags;
+     details43 += '"> <a href="grill.html"><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"> <br> ';
+    details43 +=  grillClass.name +  '  </a></div>  ';
 var elClass43 = document.getElementById('Class43');
 elClass43.innerHTML = details43;
-
-var details44 = ' <div class="thumb" data-name="' + grillClass.name + '" data-flag="' + grillClass.flags;
-     details44 += '"> <a href="grill.html"><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"> <br> ';
-    details44 +=  grillClass.name +  '  </a></div>  ';
-var elClass44 = document.getElementById('Class44');
-elClass44.innerHTML = details44;
 
 /*
 var details44 = ' <div class="thumb" data-name="' + probioticsClass.name + '" data-flag="' + probioticsClass.flags;
