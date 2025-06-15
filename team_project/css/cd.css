@@ -1,7 +1,8 @@
 
 #container {
 	float: left;
-	width: 100%;}
+	width: 100%;
+	padding: 5px;}
 
 .column1, .column2, .column3 {
 	float: left;
@@ -9,25 +10,25 @@
 	padding: 10px;}
 
 .column1{
-  width: 30%;
-margin:auto;}
+  	width: 30%;
+	margin:auto;}
 
 .column2{
-  width: 40%;
-margin: auto;}
+  	width: 40%;
+	margin: auto;}
 
 .column3{
 	float: left;
     width: 20%;
     text-align:left;
-margin:auto;}
+	margin:auto;}
 table{
   	width: 60%;
 }
 th, td{
 	text-align: left;}
 p {
-  line-height: 1.5;}
+  	line-height: 1.5;}
 .image {
   border-radius: 4px;
   padding: 5px;
