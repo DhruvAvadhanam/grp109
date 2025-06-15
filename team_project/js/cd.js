@@ -72,7 +72,7 @@ var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt
 var elCd1 = document.getElementById('img1');
 elCd1.innerHTML = cdImg1;
 
-var cdDesc1 = '<h2>' + twodayClass.name + '</h2> <h4>Instructor:' twodayClass.instructor + '</h4> <p>' + twodayClass.description + '</p> <h3>Session:</h3>' + twodayClass.location + ' – ' + twoday Class.day + ', ' + twoday Class.date;
+var cdDesc1 = '<h2>' + twodayClass.name + '</h2> <h4>Instructor:' twodayClass.instructor + '</h4> <p>' + twodayClass.description + '</p> <h3>Session:</h3>' + twodayClass.location + ' – ' + twodayClass.day + ', ' + twodayClass.date;
 var elCdDesc1 = document.getElementById('desc1');
 elCdDesc1.innerHTML = cdDesc1;
 
@@ -89,7 +89,7 @@ var cdImg2 = '<br> <img class="image" src="images/' + cook42Class.image + '" alt
 var elCd2 = document.getElementById('img2');
 elCd2.innerHTML = cdImg2;
 
-var cdDesc2 = '<h2>' + cook42Class.name + '</h2> <h4>Instructor:' cook42Class.instructor + '</h4> <p>' + cook42Class.description + '</p> <h3>Session:</h3>' + cook42Class.location + ' – ' + cook42 Class.day + ', ' + cook42 Class.date;
+var cdDesc2 = '<h2>' + cook42Class.name + '</h2> <h4>Instructor:' cook42Class.instructor + '</h4> <p>' + cook42Class.description + '</p> <h3>Session:</h3>' + cook42Class.location + ' – ' + cook42Class.day + ', ' + cook42Class.date;
 var elCdDesc2 = document.getElementById('desc2');
 elCdDesc2.innerHTML = cdDesc2;
 
@@ -106,7 +106,7 @@ var cdImg3 = '<br> <img class="image" src="images/' + salmonClass.image + '" alt
 var elCd3 = document.getElementById('img3');
 elCd3.innerHTML = cdImg3;
 
-var cdDesc3 = '<h2>' + salmonClass.name + '</h2> <h4>Instructor:' salmonClass.instructor + '</h4> <p>' + salmonClass.description + '</p> <h3>Session:</h3>' + salmonClass.location + ' – ' + salmon Class.day + ', ' + salmon Class.date;
+var cdDesc3 = '<h2>' + salmonClass.name + '</h2> <h4>Instructor:' salmonClass.instructor + '</h4> <p>' + salmonClass.description + '</p> <h3>Session:</h3>' + salmonClass.location + ' – ' + salmonClass.day + ', ' + salmonClass.date;
 var elCdDesc3 = document.getElementById('desc3');
 elCdDesc3.innerHTML = cdDesc3;
 
@@ -123,7 +123,7 @@ var cdImg4 = '<br> <img class="image" src="images/' + agingClass.image + '" alt=
 var elCd4 = document.getElementById('img4');
 elCd4.innerHTML = cdImg4;
 
-var cdDesc4 = '<h2>' + agingClass.name + '</h2> <h4>Instructor:' agingClass.instructor + '</h4> <p>' + agingClass.description + '</p> <h3>Session:</h3>' + agingClass.location + ' – ' + aging Class.day + ', ' + aging Class.date;
+var cdDesc4 = '<h2>' + agingClass.name + '</h2> <h4>Instructor:' agingClass.instructor + '</h4> <p>' + agingClass.description + '</p> <h3>Session:</h3>' + agingClass.location + ' – ' + agingClass.day + ', ' + agingClass.date;
 var elCdDesc4 = document.getElementById('desc4');
 elCdDesc4.innerHTML = cdDesc4;
 
@@ -140,7 +140,7 @@ var cdImg5 = '<br> <img class="image" src="images/' + pieClass.image + '" alt="'
 var elCd5 = document.getElementById('img5');
 elCd5.innerHTML = cdImg5;
 
-var cdDesc5 = '<h2>' + pieClass.name + '</h2> <h4>Instructor:' pieClass.instructor + '</h4> <p>' + pieClass.description + '</p> <h3>Session:</h3>' + pieClass.location + ' – ' + pie Class.day + ', ' + pie Class.date;
+var cdDesc5 = '<h2>' + pieClass.name + '</h2> <h4>Instructor:' pieClass.instructor + '</h4> <p>' + pieClass.description + '</p> <h3>Session:</h3>' + pieClass.location + ' – ' + pieClass.day + ', ' + pieClass.date;
 var elCdDesc5 = document.getElementById('desc5');
 elCdDesc5.innerHTML = cdDesc5;
 
@@ -157,7 +157,7 @@ var cdImg6 = '<br> <img class="image" src="images/' + antiClass.image + '" alt="
 var elCd6 = document.getElementById('img6');
 elCd6.innerHTML = cdImg6;
 
-var cdDesc6 = '<h2>' + antiClass.name + '</h2> <h4>Instructor:' antiClass.instructor + '</h4> <p>' + antiClass.description + '</p> <h3>Session:</h3>' + antiClass.location + ' – ' + anti Class.day + ', ' + anti Class.date;
+var cdDesc6 = '<h2>' + antiClass.name + '</h2> <h4>Instructor:' antiClass.instructor + '</h4> <p>' + antiClass.description + '</p> <h3>Session:</h3>' + antiClass.location + ' – ' + antiClass.day + ', ' + antiClass.date;
 var elCdDesc6 = document.getElementById('desc6');
 elCdDesc6.innerHTML = cdDesc6;
 
@@ -174,7 +174,7 @@ var cdImg7 = '<br> <img class="image" src="images/' + enchiladasClass.image + '"
 var elCd7 = document.getElementById('img7');
 elCd7.innerHTML = cdImg7;
 
-var cdDesc7 = '<h2>' + enchiladasClass.name + '</h2> <h4>Instructor:' enchiladasClass.instructor + '</h4> <p>' + enchiladasClass.description + '</p> <h3>Session:</h3>' + enchiladasClass.location + ' – ' + enchiladas Class.day + ', ' + enchiladas Class.date;
+var cdDesc7 = '<h2>' + enchiladasClass.name + '</h2> <h4>Instructor:' enchiladasClass.instructor + '</h4> <p>' + enchiladasClass.description + '</p> <h3>Session:</h3>' + enchiladasClass.location + ' – ' + enchiladasClass.day + ', ' + enchiladasClass.date;
 var elCdDesc7 = document.getElementById('desc7');
 elCdDesc7.innerHTML = cdDesc7;
 
@@ -191,7 +191,7 @@ var cdImg8 = '<br> <img class="image" src="images/' + atwClass.image + '" alt="'
 var elCd8 = document.getElementById('img8');
 elCd8.innerHTML = cdImg8;
 
-var cdDesc8 = '<h2>' + atwClass.name + '</h2> <h4>Instructor:' atwClass.instructor + '</h4> <p>' + atwClass.description + '</p> <h3>Session:</h3>' + atwClass.location + ' – ' + atw Class.day + ', ' + atw Class.date;
+var cdDesc8 = '<h2>' + atwClass.name + '</h2> <h4>Instructor:' atwClass.instructor + '</h4> <p>' + atwClass.description + '</p> <h3>Session:</h3>' + atwClass.location + ' – ' + atwClass.day + ', ' + atwClass.date;
 var elCdDesc8 = document.getElementById('desc8');
 elCdDesc8.innerHTML = cdDesc8;
 
@@ -208,7 +208,7 @@ var cdImg9 = '<br> <img class="image" src="images/' + breadClass.image + '" alt=
 var elCd9 = document.getElementById('img9');
 elCd9.innerHTML = cdImg9;
 
-var cdDesc9 = '<h2>' + breadClass.name + '</h2> <h4>Instructor:' breadClass.instructor + '</h4> <p>' + breadClass.description + '</p> <h3>Session:</h3>' + breadClass.location + ' – ' + bread Class.day + ', ' + bread Class.date;
+var cdDesc9 = '<h2>' + breadClass.name + '</h2> <h4>Instructor:' breadClass.instructor + '</h4> <p>' + breadClass.description + '</p> <h3>Session:</h3>' + breadClass.location + ' – ' + breadClass.day + ', ' + breadClass.date;
 var elCdDesc9 = document.getElementById('desc9');
 elCdDesc9.innerHTML = cdDesc9;
 
@@ -225,7 +225,7 @@ var cdImg10 = '<br> <img class="image" src="images/' + basqueClass.image + '" al
 var elCd10 = document.getElementById('img10');
 elCd10.innerHTML = cdImg10;
 
-var cdDesc10 = '<h2>' + basqueClass.name + '</h2> <h4>Instructor:' basqueClass.instructor + '</h4> <p>' + basqueClass.description + '</p> <h3>Session:</h3>' + basqueClass.location + ' – ' + basque Class.day + ', ' + basque Class.date;
+var cdDesc10 = '<h2>' + basqueClass.name + '</h2> <h4>Instructor:' basqueClass.instructor + '</h4> <p>' + basqueClass.description + '</p> <h3>Session:</h3>' + basqueClass.location + ' – ' + basqueClass.day + ', ' + basqueClass.date;
 var elCdDesc10 = document.getElementById('desc10');
 elCdDesc10.innerHTML = cdDesc10;
 
@@ -242,7 +242,7 @@ var cdImg11 = '<br> <img class="image" src="images/' + batterClass.image + '" al
 var elCd11 = document.getElementById('img11');
 elCd11.innerHTML = cdImg11;
 
-var cdDesc11 = '<h2>' + batterClass.name + '</h2> <h4>Instructor:' batterClass.instructor + '</h4> <p>' + batterClass.description + '</p> <h3>Session:</h3>' + batterClass.location + ' – ' + batter Class.day + ', ' + batter Class.date;
+var cdDesc11 = '<h2>' + batterClass.name + '</h2> <h4>Instructor:' batterClass.instructor + '</h4> <p>' + batterClass.description + '</p> <h3>Session:</h3>' + batterClass.location + ' – ' + batterClass.day + ', ' + batterClass.date;
 var elCdDesc11 = document.getElementById('desc11');
 elCdDesc11.innerHTML = cdDesc11;
 
@@ -259,7 +259,7 @@ var cdImg12 = '<br> <img class="image" src="images/' + cheeseClass.image + '" al
 var elCd12 = document.getElementById('img12');
 elCd12.innerHTML = cdImg12;
 
-var cdDesc12 = '<h2>' + cheeseClass.name + '</h2> <h4>Instructor:' cheeseClass.instructor + '</h4> <p>' + cheeseClass.description + '</p> <h3>Session:</h3>' + cheeseClass.location + ' – ' + cheese Class.day + ', ' + cheese Class.date;
+var cdDesc12 = '<h2>' + cheeseClass.name + '</h2> <h4>Instructor:' cheeseClass.instructor + '</h4> <p>' + cheeseClass.description + '</p> <h3>Session:</h3>' + cheeseClass.location + ' – ' + cheeseClass.day + ', ' + cheeseClass.date;
 var elCdDesc12 = document.getElementById('desc12');
 elCdDesc12.innerHTML = cdDesc12;
 
@@ -276,7 +276,7 @@ var cdImg13 = '<br> <img class="image" src="images/' + chickenClass.image + '" a
 var elCd13 = document.getElementById('img13');
 elCd13.innerHTML = cdImg13;
 
-var cdDesc13 = '<h2>' + chickenClass.name + '</h2> <h4>Instructor:' chickenClass.instructor + '</h4> <p>' + chickenClass.description + '</p> <h3>Session:</h3>' + chickenClass.location + ' – ' + chicken Class.day + ', ' + chicken Class.date;
+var cdDesc13 = '<h2>' + chickenClass.name + '</h2> <h4>Instructor:' chickenClass.instructor + '</h4> <p>' + chickenClass.description + '</p> <h3>Session:</h3>' + chickenClass.location + ' – ' + chickenClass.day + ', ' + chickenClass.date;
 var elCdDesc13 = document.getElementById('desc13');
 elCdDesc13.innerHTML = cdDesc13;
 
@@ -293,7 +293,7 @@ var cdImg14 = '<br> <img class="image" src="images/' + cldrollsClass.image + '" 
 var elCd14 = document.getElementById('img14');
 elCd14.innerHTML = cdImg14;
 
-var cdDesc14 = '<h2>' + cldrollsClass.name + '</h2> <h4>Instructor:' cldrollsClass.instructor + '</h4> <p>' + cldrollsClass.description + '</p> <h3>Session:</h3>' + cldrollsClass.location + ' – ' + cldrolls Class.day + ', ' + cldrolls Class.date;
+var cdDesc14 = '<h2>' + cldrollsClass.name + '</h2> <h4>Instructor:' cldrollsClass.instructor + '</h4> <p>' + cldrollsClass.description + '</p> <h3>Session:</h3>' + cldrollsClass.location + ' – ' + cldrollsClass.day + ', ' + cldrollsClass.date;
 var elCdDesc14 = document.getElementById('desc14');
 elCdDesc14.innerHTML = cdDesc14;
 
@@ -310,7 +310,7 @@ var cdImg15 = '<br> <img class="image" src="images/' + noodlesClass.image + '" a
 var elCd15 = document.getElementById('img15');
 elCd15.innerHTML = cdImg15;
 
-var cdDesc15 = '<h2>' + noodlesClass.name + '</h2> <h4>Instructor:' noodlesClass.instructor + '</h4> <p>' + noodlesClass.description + '</p> <h3>Session:</h3>' + noodlesClass.location + ' – ' + noodles Class.day + ', ' + noodles Class.date;
+var cdDesc15 = '<h2>' + noodlesClass.name + '</h2> <h4>Instructor:' noodlesClass.instructor + '</h4> <p>' + noodlesClass.description + '</p> <h3>Session:</h3>' + noodlesClass.location + ' – ' + noodlesClass.day + ', ' + noodlesClass.date;
 var elCdDesc15 = document.getElementById('desc15');
 elCdDesc15.innerHTML = cdDesc15;
 
@@ -327,7 +327,7 @@ var cdImg16 = '<br> <img class="image" src="images/' + frenchClass.image + '" al
 var elCd16 = document.getElementById('img16');
 elCd16.innerHTML = cdImg16;
 
-var cdDesc16 = '<h2>' + frenchClass.name + '</h2> <h4>Instructor:' frenchClass.instructor + '</h4> <p>' + frenchClass.description + '</p> <h3>Session:</h3>' + frenchClass.location + ' – ' + french Class.day + ', ' + french Class.date;
+var cdDesc16 = '<h2>' + frenchClass.name + '</h2> <h4>Instructor:' frenchClass.instructor + '</h4> <p>' + frenchClass.description + '</p> <h3>Session:</h3>' + frenchClass.location + ' – ' + frenchClass.day + ', ' + frenchClass.date;
 var elCdDesc16 = document.getElementById('desc16');
 elCdDesc16.innerHTML = cdDesc16;
 
@@ -344,7 +344,7 @@ var cdImg17 = '<br> <img class="image" src="images/' + klatchClass.image + '" al
 var elCd17 = document.getElementById('img17');
 elCd17.innerHTML = cdImg17;
 
-var cdDesc17 = '<h2>' + klatchClass.name + '</h2> <h4>Instructor:' klatchClass.instructor + '</h4> <p>' + klatchClass.description + '</p> <h3>Session:</h3>' + klatchClass.location + ' – ' + klatch Class.day + ', ' + klatch Class.date;
+var cdDesc17 = '<h2>' + klatchClass.name + '</h2> <h4>Instructor:' klatchClass.instructor + '</h4> <p>' + klatchClass.description + '</p> <h3>Session:</h3>' + klatchClass.location + ' – ' + klatchClass.day + ', ' + klatchClass.date;
 var elCdDesc17 = document.getElementById('desc17');
 elCdDesc17.innerHTML = cdDesc17;
 
@@ -361,7 +361,7 @@ var cdImg18 = '<br> <img class="image" src="images/' + spsoupClass.image + '" al
 var elCd18 = document.getElementById('img18');
 elCd18.innerHTML = cdImg18;
 
-var cdDesc18 = '<h2>' + spsoupClass.name + '</h2> <h4>Instructor:' spsoupClass.instructor + '</h4> <p>' + spsoupClass.description + '</p> <h3>Session:</h3>' + spsoupClass.location + ' – ' + spsoup Class.day + ', ' + spsoup Class.date;
+var cdDesc18 = '<h2>' + spsoupClass.name + '</h2> <h4>Instructor:' spsoupClass.instructor + '</h4> <p>' + spsoupClass.description + '</p> <h3>Session:</h3>' + spsoupClass.location + ' – ' + spsoupClass.day + ', ' + spsoupClass.date;
 var elCdDesc18 = document.getElementById('desc18');
 elCdDesc18.innerHTML = cdDesc18;
 
@@ -378,7 +378,7 @@ var cdImg19 = '<br> <img class="image" src="images/' + veganClass.image + '" alt
 var elCd19 = document.getElementById('img19');
 elCd19.innerHTML = cdImg19;
 
-var cdDesc19 = '<h2>' + veganClass.name + '</h2> <h4>Instructor:' veganClass.instructor + '</h4> <p>' + veganClass.description + '</p> <h3>Session:</h3>' + veganClass.location + ' – ' + vegan Class.day + ', ' + vegan Class.date;
+var cdDesc19 = '<h2>' + veganClass.name + '</h2> <h4>Instructor:' veganClass.instructor + '</h4> <p>' + veganClass.description + '</p> <h3>Session:</h3>' + veganClass.location + ' – ' + veganClass.day + ', ' + veganClass.date;
 var elCdDesc19 = document.getElementById('desc19');
 elCdDesc19.innerHTML = cdDesc19;
 
@@ -395,7 +395,7 @@ var cdImg20 = '<br> <img class="image" src="images/' + fermClass.image + '" alt=
 var elCd20 = document.getElementById('img20');
 elCd20.innerHTML = cdImg20;
 
-var cdDesc20 = '<h2>' + fermClass.name + '</h2> <h4>Instructor:' fermClass.instructor + '</h4> <p>' + fermClass.description + '</p> <h3>Session:</h3>' + fermClass.location + ' – ' + ferm Class.day + ', ' + ferm Class.date;
+var cdDesc20 = '<h2>' + fermClass.name + '</h2> <h4>Instructor:' fermClass.instructor + '</h4> <p>' + fermClass.description + '</p> <h3>Session:</h3>' + fermClass.location + ' – ' + fermClass.day + ', ' + fermClass.date;
 var elCdDesc20 = document.getElementById('desc20');
 elCdDesc20.innerHTML = cdDesc20;
 
@@ -412,7 +412,7 @@ var cdImg21 = '<br> <img class="image" src="images/' + heartClass.image + '" alt
 var elCd21 = document.getElementById('img21');
 elCd21.innerHTML = cdImg21;
 
-var cdDesc21 = '<h2>' + heartClass.name + '</h2> <h4>Instructor:' heartClass.instructor + '</h4> <p>' + heartClass.description + '</p> <h3>Session:</h3>' + heartClass.location + ' – ' + heart Class.day + ', ' + heart Class.date;
+var cdDesc21 = '<h2>' + heartClass.name + '</h2> <h4>Instructor:' heartClass.instructor + '</h4> <p>' + heartClass.description + '</p> <h3>Session:</h3>' + heartClass.location + ' – ' + heartClass.day + ', ' + heartClass.date;
 var elCdDesc21 = document.getElementById('desc21');
 elCdDesc21.innerHTML = cdDesc21;
 
@@ -429,7 +429,7 @@ var cdImg22 = '<br> <img class="image" src="images/' + fondueClass.image + '" al
 var elCd22 = document.getElementById('img22');
 elCd22.innerHTML = cdImg22;
 
-var cdDesc22 = '<h2>' + fondueClass.name + '</h2> <h4>Instructor:' fondueClass.instructor + '</h4> <p>' + fondueClass.description + '</p> <h3>Session:</h3>' + fondueClass.location + ' – ' + fondue Class.day + ', ' + fondue Class.date;
+var cdDesc22 = '<h2>' + fondueClass.name + '</h2> <h4>Instructor:' fondueClass.instructor + '</h4> <p>' + fondueClass.description + '</p> <h3>Session:</h3>' + fondueClass.location + ' – ' + fondueClass.day + ', ' + fondueClass.date;
 var elCdDesc22 = document.getElementById('desc22');
 elCdDesc22.innerHTML = cdDesc22;
 
@@ -446,7 +446,7 @@ var cdImg23 = '<br> <img class="image" src="images/' + gfwttClass.image + '" alt
 var elCd23 = document.getElementById('img23');
 elCd23.innerHTML = cdImg23;
 
-var cdDesc23 = '<h2>' + gfwttClass.name + '</h2> <h4>Instructor:' gfwttClass.instructor + '</h4> <p>' + gfwttClass.description + '</p> <h3>Session:</h3>' + gfwttClass.location + ' – ' + gfwtt Class.day + ', ' + gfwtt Class.date;
+var cdDesc23 = '<h2>' + gfwttClass.name + '</h2> <h4>Instructor:' gfwttClass.instructor + '</h4> <p>' + gfwttClass.description + '</p> <h3>Session:</h3>' + gfwttClass.location + ' – ' + gfwttClass.day + ', ' + gfwttClass.date;
 var elCdDesc23 = document.getElementById('desc23');
 elCdDesc23.innerHTML = cdDesc23;
 
@@ -463,7 +463,7 @@ var cdImg24 = '<br> <img class="image" src="images/' + gfbakingClass.image + '" 
 var elCd24 = document.getElementById('img24');
 elCd24.innerHTML = cdImg24;
 
-var cdDesc24 = '<h2>' + gfbakingClass.name + '</h2> <h4>Instructor:' gfbakingClass.instructor + '</h4> <p>' + gfbakingClass.description + '</p> <h3>Session:</h3>' + gfbakingClass.location + ' – ' + gfbaking Class.day + ', ' + gfbaking Class.date;
+var cdDesc24 = '<h2>' + gfbakingClass.name + '</h2> <h4>Instructor:' gfbakingClass.instructor + '</h4> <p>' + gfbakingClass.description + '</p> <h3>Session:</h3>' + gfbakingClass.location + ' – ' + gfbakingClass.day + ', ' + gfbakingClass.date;
 var elCdDesc24 = document.getElementById('desc24');
 elCdDesc24.innerHTML = cdDesc24;
 
@@ -480,7 +480,7 @@ var cdImg25 = '<br> <img class="image" src="images/' + budgetClass.image + '" al
 var elCd25 = document.getElementById('img25');
 elCd25.innerHTML = cdImg25;
 
-var cdDesc25 = '<h2>' + budgetClass.name + '</h2> <h4>Instructor:' budgetClass.instructor + '</h4> <p>' + budgetClass.description + '</p> <h3>Session:</h3>' + budgetClass.location + ' – ' + budget Class.day + ', ' + budget Class.date;
+var cdDesc25 = '<h2>' + budgetClass.name + '</h2> <h4>Instructor:' budgetClass.instructor + '</h4> <p>' + budgetClass.description + '</p> <h3>Session:</h3>' + budgetClass.location + ' – ' + budgetClass.day + ', ' + budgetClass.date;
 var elCdDesc25 = document.getElementById('desc25');
 elCdDesc25.innerHTML = cdDesc25;
 
@@ -497,7 +497,7 @@ var cdImg26 = '<br> <img class="image" src="images/' + sardiniaClass.image + '" 
 var elCd26 = document.getElementById('img26');
 elCd26.innerHTML = cdImg26;
 
-var cdDesc26 = '<h2>' + sardiniaClass.name + '</h2> <h4>Instructor:' sardiniaClass.instructor + '</h4> <p>' + sardiniaClass.description + '</p> <h3>Session:</h3>' + sardiniaClass.location + ' – ' + sardinia Class.day + ', ' + sardinia Class.date;
+var cdDesc26 = '<h2>' + sardiniaClass.name + '</h2> <h4>Instructor:' sardiniaClass.instructor + '</h4> <p>' + sardiniaClass.description + '</p> <h3>Session:</h3>' + sardiniaClass.location + ' – ' + sardiniaClass.day + ', ' + sardiniaClass.date;
 var elCdDesc26 = document.getElementById('desc26');
 elCdDesc26.innerHTML = cdDesc26;
 
@@ -514,7 +514,7 @@ var cdImg27 = '<br> <img class="image" src="images/' + cakeClass.image + '" alt=
 var elCd27 = document.getElementById('img27');
 elCd27.innerHTML = cdImg27;
 
-var cdDesc27 = '<h2>' + cakeClass.name + '</h2> <h4>Instructor:' cakeClass.instructor + '</h4> <p>' + cakeClass.description + '</p> <h3>Session:</h3>' + cakeClass.location + ' – ' + cake Class.day + ', ' + cake Class.date;
+var cdDesc27 = '<h2>' + cakeClass.name + '</h2> <h4>Instructor:' cakeClass.instructor + '</h4> <p>' + cakeClass.description + '</p> <h3>Session:</h3>' + cakeClass.location + ' – ' + cakeClass.day + ', ' + cakeClass.date;
 var elCdDesc27 = document.getElementById('desc27');
 elCdDesc27.innerHTML = cdDesc27;
 
@@ -531,7 +531,7 @@ var cdImg28 = '<br> <img class="image" src="images/' + seasonClass.image + '" al
 var elCd28 = document.getElementById('img28');
 elCd28.innerHTML = cdImg28;
 
-var cdDesc28 = '<h2>' + seasonClass.name + '</h2> <h4>Instructor:' seasonClass.instructor + '</h4> <p>' + seasonClass.description + '</p> <h3>Session:</h3>' + seasonClass.location + ' – ' + season Class.day + ', ' + season Class.date;
+var cdDesc28 = '<h2>' + seasonClass.name + '</h2> <h4>Instructor:' seasonClass.instructor + '</h4> <p>' + seasonClass.description + '</p> <h3>Session:</h3>' + seasonClass.location + ' – ' + seasonClass.day + ', ' + seasonClass.date;
 var elCdDesc28 = document.getElementById('desc28');
 elCdDesc28.innerHTML = cdDesc28;
 
@@ -548,7 +548,7 @@ var cdImg29 = '<br> <img class="image" src="images/' + indianClass.image + '" al
 var elCd29 = document.getElementById('img29');
 elCd29.innerHTML = cdImg29;
 
-var cdDesc29 = '<h2>' + indianClass.name + '</h2> <h4>Instructor:' indianClass.instructor + '</h4> <p>' + indianClass.description + '</p> <h3>Session:</h3>' + indianClass.location + ' – ' + indian Class.day + ', ' + indian Class.date;
+var cdDesc29 = '<h2>' + indianClass.name + '</h2> <h4>Instructor:' indianClass.instructor + '</h4> <p>' + indianClass.description + '</p> <h3>Session:</h3>' + indianClass.location + ' – ' + indianClass.day + ', ' + indianClass.date;
 var elCdDesc29 = document.getElementById('desc29');
 elCdDesc29.innerHTML = cdDesc29;
 
@@ -565,7 +565,7 @@ var cdImg30 = '<br> <img class="image" src="images/' + chemClass.image + '" alt=
 var elCd30 = document.getElementById('img30');
 elCd30.innerHTML = cdImg30;
 
-var cdDesc30 = '<h2>' + chemClass.name + '</h2> <h4>Instructor:' chemClass.instructor + '</h4> <p>' + chemClass.description + '</p> <h3>Session:</h3>' + chemClass.location + ' – ' + chem Class.day + ', ' + chem Class.date;
+var cdDesc30 = '<h2>' + chemClass.name + '</h2> <h4>Instructor:' chemClass.instructor + '</h4> <p>' + chemClass.description + '</p> <h3>Session:</h3>' + chemClass.location + ' – ' + chemClass.day + ', ' + chemClass.date;
 var elCdDesc30 = document.getElementById('desc30');
 elCdDesc30.innerHTML = cdDesc30;
 
@@ -582,7 +582,7 @@ var cdImg31 = '<br> <img class="image" src="images/' + knifeClass.image + '" alt
 var elCd31 = document.getElementById('img31');
 elCd31.innerHTML = cdImg31;
 
-var cdDesc31 = '<h2>' + knifeClass.name + '</h2> <h4>Instructor:' knifeClass.instructor + '</h4> <p>' + knifeClass.description + '</p> <h3>Session:</h3>' + knifeClass.location + ' – ' + knife Class.day + ', ' + knife Class.date;
+var cdDesc31 = '<h2>' + knifeClass.name + '</h2> <h4>Instructor:' knifeClass.instructor + '</h4> <p>' + knifeClass.description + '</p> <h3>Session:</h3>' + knifeClass.location + ' – ' + knifeClass.day + ', ' + knifeClass.date;
 var elCdDesc31 = document.getElementById('desc31');
 elCdDesc31.innerHTML = cdDesc31;
 
@@ -599,7 +599,7 @@ var cdImg32 = '<br> <img class="image" src="images/' + dumplingClass.image + '" 
 var elCd32 = document.getElementById('img32');
 elCd32.innerHTML = cdImg32;
 
-var cdDesc32 = '<h2>' + dumplingClass.name + '</h2> <h4>Instructor:' dumplingClass.instructor + '</h4> <p>' + dumplingClass.description + '</p> <h3>Session:</h3>' + dumplingClass.location + ' – ' + dumpling Class.day + ', ' + dumpling Class.date;
+var cdDesc32 = '<h2>' + dumplingClass.name + '</h2> <h4>Instructor:' dumplingClass.instructor + '</h4> <p>' + dumplingClass.description + '</p> <h3>Session:</h3>' + dumplingClass.location + ' – ' + dumplingClass.day + ', ' + dumplingClass.date;
 var elCdDesc32 = document.getElementById('desc32');
 elCdDesc32.innerHTML = cdDesc32;
 
@@ -616,7 +616,7 @@ var cdImg33 = '<br> <img class="image" src="images/' + panClass.image + '" alt="
 var elCd33 = document.getElementById('img33');
 elCd33.innerHTML = cdImg33;
 
-var cdDesc33 = '<h2>' + panClass.name + '</h2> <h4>Instructor:' panClass.instructor + '</h4> <p>' + panClass.description + '</p> <h3>Session:</h3>' + panClass.location + ' – ' + pan Class.day + ', ' + pan Class.date;
+var cdDesc33 = '<h2>' + panClass.name + '</h2> <h4>Instructor:' panClass.instructor + '</h4> <p>' + panClass.description + '</p> <h3>Session:</h3>' + panClass.location + ' – ' + panClass.day + ', ' + panClass.date;
 var elCdDesc33 = document.getElementById('desc33');
 elCdDesc33.innerHTML = cdDesc33;
 
@@ -633,7 +633,7 @@ var cdImg34 = '<br> <img class="image" src="images/' + medClass.image + '" alt="
 var elCd34 = document.getElementById('img34');
 elCd34.innerHTML = cdImg34;
 
-var cdDesc34 = '<h2>' + medClass.name + '</h2> <h4>Instructor:' medClass.instructor + '</h4> <p>' + medClass.description + '</p> <h3>Session:</h3>' + medClass.location + ' – ' + med Class.day + ', ' + med Class.date;
+var cdDesc34 = '<h2>' + medClass.name + '</h2> <h4>Instructor:' medClass.instructor + '</h4> <p>' + medClass.description + '</p> <h3>Session:</h3>' + medClass.location + ' – ' + medClass.day + ', ' + medClass.date;
 var elCdDesc34 = document.getElementById('desc34');
 elCdDesc34.innerHTML = cdDesc34;
 
@@ -650,7 +650,7 @@ var cdImg35 = '<br> <img class="image" src="images/' + piemonteseClass.image + '
 var elCd35 = document.getElementById('img35');
 elCd35.innerHTML = cdImg35;
 
-var cdDesc35 = '<h2>' + piemonteseClass.name + '</h2> <h4>Instructor:' piemonteseClass.instructor + '</h4> <p>' + piemonteseClass.description + '</p> <h3>Session:</h3>' + piemonteseClass.location + ' – ' + piemontese Class.day + ', ' + piemontese Class.date;
+var cdDesc35 = '<h2>' + piemonteseClass.name + '</h2> <h4>Instructor:' piemonteseClass.instructor + '</h4> <p>' + piemonteseClass.description + '</p> <h3>Session:</h3>' + piemonteseClass.location + ' – ' + piemonteseClass.day + ', ' + piemonteseClass.date;
 var elCdDesc35 = document.getElementById('desc35');
 elCdDesc35.innerHTML = cdDesc35;
 
@@ -667,7 +667,7 @@ var cdImg36 = '<br> <img class="image" src="images/' + mexClass.image + '" alt="
 var elCd36 = document.getElementById('img36');
 elCd36.innerHTML = cdImg36;
 
-var cdDesc36 = '<h2>' + mexClass.name + '</h2> <h4>Instructor:' mexClass.instructor + '</h4> <p>' + mexClass.description + '</p> <h3>Session:</h3>' + mexClass.location + ' – ' + mex Class.day + ', ' + mex Class.date;
+var cdDesc36 = '<h2>' + mexClass.name + '</h2> <h4>Instructor:' mexClass.instructor + '</h4> <p>' + mexClass.description + '</p> <h3>Session:</h3>' + mexClass.location + ' – ' + mexClass.day + ', ' + mexClass.date;
 var elCdDesc36 = document.getElementById('desc36');
 elCdDesc36.innerHTML = cdDesc36;
 
@@ -684,7 +684,7 @@ var cdImg37 = '<br> <img class="image" src="images/' + bagelsClass.image + '" al
 var elCd37 = document.getElementById('img37');
 elCd37.innerHTML = cdImg37;
 
-var cdDesc37 = '<h2>' + bagelsClass.name + '</h2> <h4>Instructor:' bagelsClass.instructor + '</h4> <p>' + bagelsClass.description + '</p> <h3>Session:</h3>' + bagelsClass.location + ' – ' + bagels Class.day + ', ' + bagels Class.date;
+var cdDesc37 = '<h2>' + bagelsClass.name + '</h2> <h4>Instructor:' bagelsClass.instructor + '</h4> <p>' + bagelsClass.description + '</p> <h3>Session:</h3>' + bagelsClass.location + ' – ' + bagelsClass.day + ', ' + bagelsClass.date;
 var elCdDesc37 = document.getElementById('desc37');
 elCdDesc37.innerHTML = cdDesc37;
 
@@ -701,7 +701,7 @@ var cdImg38 = '<br> <img class="image" src="images/' + nwcelClass.image + '" alt
 var elCd38 = document.getElementById('img38');
 elCd38.innerHTML = cdImg38;
 
-var cdDesc38 = '<h2>' + nwcelClass.name + '</h2> <h4>Instructor:' nwcelClass.instructor + '</h4> <p>' + nwcelClass.description + '</p> <h3>Session:</h3>' + nwcelClass.location + ' – ' + nwcel Class.day + ', ' + nwcel Class.date;
+var cdDesc38 = '<h2>' + nwcelClass.name + '</h2> <h4>Instructor:' nwcelClass.instructor + '</h4> <p>' + nwcelClass.description + '</p> <h3>Session:</h3>' + nwcelClass.location + ' – ' + nwcelClass.day + ', ' + nwcelClass.date;
 var elCdDesc38 = document.getElementById('desc38');
 elCdDesc38.innerHTML = cdDesc38;
 
@@ -718,7 +718,7 @@ var cdImg39 = '<br> <img class="image" src="images/' + pulseClass.image + '" alt
 var elCd39 = document.getElementById('img39');
 elCd39.innerHTML = cdImg39;
 
-var cdDesc39 = '<h2>' + pulseClass.name + '</h2> <h4>Instructor:' pulseClass.instructor + '</h4> <p>' + pulseClass.description + '</p> <h3>Session:</h3>' + pulseClass.location + ' – ' + pulse Class.day + ', ' + pulse Class.date;
+var cdDesc39 = '<h2>' + pulseClass.name + '</h2> <h4>Instructor:' pulseClass.instructor + '</h4> <p>' + pulseClass.description + '</p> <h3>Session:</h3>' + pulseClass.location + ' – ' + pulseClass.day + ', ' + pulseClass.date;
 var elCdDesc39 = document.getElementById('desc39');
 elCdDesc39.innerHTML = cdDesc39;
 
@@ -735,7 +735,7 @@ var cdImg40 = '<br> <img class="image" src="images/' + pastaClass.image + '" alt
 var elCd40 = document.getElementById('img40');
 elCd40.innerHTML = cdImg40;
 
-var cdDesc40 = '<h2>' + pastaClass.name + '</h2> <h4>Instructor:' pastaClass.instructor + '</h4> <p>' + pastaClass.description + '</p> <h3>Session:</h3>' + pastaClass.location + ' – ' + pasta Class.day + ', ' + pasta Class.date;
+var cdDesc40 = '<h2>' + pastaClass.name + '</h2> <h4>Instructor:' pastaClass.instructor + '</h4> <p>' + pastaClass.description + '</p> <h3>Session:</h3>' + pastaClass.location + ' – ' + pastaClass.day + ', ' + pastaClass.date;
 var elCdDesc40 = document.getElementById('desc40');
 elCdDesc40.innerHTML = cdDesc40;
 
@@ -752,7 +752,7 @@ var cdImg41 = '<br> <img class="image" src="images/' + pizzaClass.image + '" alt
 var elCd41 = document.getElementById('img41');
 elCd41.innerHTML = cdImg41;
 
-var cdDesc41 = '<h2>' + pizzaClass.name + '</h2> <h4>Instructor:' pizzaClass.instructor + '</h4> <p>' + pizzaClass.description + '</p> <h3>Session:</h3>' + pizzaClass.location + ' – ' + pizza Class.day + ', ' + pizza Class.date;
+var cdDesc41 = '<h2>' + pizzaClass.name + '</h2> <h4>Instructor:' pizzaClass.instructor + '</h4> <p>' + pizzaClass.description + '</p> <h3>Session:</h3>' + pizzaClass.location + ' – ' + pizzaClass.day + ', ' + pizzaClass.date;
 var elCdDesc41 = document.getElementById('desc41');
 elCdDesc41.innerHTML = cdDesc41;
 
@@ -769,7 +769,7 @@ var cdImg42 = '<br> <img class="image" src="images/' + thaiClass.image + '" alt=
 var elCd42 = document.getElementById('img42');
 elCd42.innerHTML = cdImg42;
 
-var cdDesc42 = '<h2>' + thaiClass.name + '</h2> <h4>Instructor:' thaiClass.instructor + '</h4> <p>' + thaiClass.description + '</p> <h3>Session:</h3>' + thaiClass.location + ' – ' + thai Class.day + ', ' + thai Class.date;
+var cdDesc42 = '<h2>' + thaiClass.name + '</h2> <h4>Instructor:' thaiClass.instructor + '</h4> <p>' + thaiClass.description + '</p> <h3>Session:</h3>' + thaiClass.location + ' – ' + thaiClass.day + ', ' + thaiClass.date;
 var elCdDesc42 = document.getElementById('desc42');
 elCdDesc42.innerHTML = cdDesc42;
 
@@ -786,7 +786,7 @@ var cdImg43 = '<br> <img class="image" src="images/' + grillClass.image + '" alt
 var elCd43 = document.getElementById('img43');
 elCd43.innerHTML = cdImg43;
 
-var cdDesc43 = '<h2>' + grillClass.name + '</h2> <h4>Instructor:' grillClass.instructor + '</h4> <p>' + grillClass.description + '</p> <h3>Session:</h3>' + grillClass.location + ' – ' + grill Class.day + ', ' + grill Class.date;
+var cdDesc43 = '<h2>' + grillClass.name + '</h2> <h4>Instructor:' grillClass.instructor + '</h4> <p>' + grillClass.description + '</p> <h3>Session:</h3>' + grillClass.location + ' – ' + grillClass.day + ', ' + grillClass.date;
 var elCdDesc43 = document.getElementById('desc43');
 elCdDesc43.innerHTML = cdDesc43;
 
