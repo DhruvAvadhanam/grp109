@@ -68,7 +68,7 @@ var bc1 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc1 = document.getElementById('bc1');
 elBc1.innerHTML = bc1;
 
-var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt="' + twoday '"><h3>Menu:</h3>' + twodayClass.menu;
+var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt="' + twoday + '"><h3>Menu:</h3>' + twodayClass.menu;
 var elCd1 = document.getElementById('img1');
 elCd1.innerHTML = cdImg1;
 
@@ -85,7 +85,7 @@ var bc2 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc2 = document.getElementById('bc2');
 elBc2.innerHTML = bc2;
 
-var cdImg2 = '<br> <img class="image" src="images/' + cook42Class.image + '" alt="' + cook42 '"><h3>Menu:</h3>' + cook42Class.menu;
+var cdImg2 = '<br> <img class="image" src="images/' + cook42Class.image + '" alt="' + cook42 + '"><h3>Menu:</h3>' + cook42Class.menu;
 var elCd2 = document.getElementById('img2');
 elCd2.innerHTML = cdImg2;
 
@@ -102,7 +102,7 @@ var bc3 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc3 = document.getElementById('bc3');
 elBc3.innerHTML = bc3;
 
-var cdImg3 = '<br> <img class="image" src="images/' + salmonClass.image + '" alt="' + salmon '"><h3>Menu:</h3>' + salmonClass.menu;
+var cdImg3 = '<br> <img class="image" src="images/' + salmonClass.image + '" alt="' + salmon + '"><h3>Menu:</h3>' + salmonClass.menu;
 var elCd3 = document.getElementById('img3');
 elCd3.innerHTML = cdImg3;
 
@@ -119,7 +119,7 @@ var bc4 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc4 = document.getElementById('bc4');
 elBc4.innerHTML = bc4;
 
-var cdImg4 = '<br> <img class="image" src="images/' + agingClass.image + '" alt="' + aging '"><h3>Menu:</h3>' + agingClass.menu;
+var cdImg4 = '<br> <img class="image" src="images/' + agingClass.image + '" alt="' + aging + '"><h3>Menu:</h3>' + agingClass.menu;
 var elCd4 = document.getElementById('img4');
 elCd4.innerHTML = cdImg4;
 
@@ -136,7 +136,7 @@ var bc5 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc5 = document.getElementById('bc5');
 elBc5.innerHTML = bc5;
 
-var cdImg5 = '<br> <img class="image" src="images/' + pieClass.image + '" alt="' + pie '"><h3>Menu:</h3>' + pieClass.menu;
+var cdImg5 = '<br> <img class="image" src="images/' + pieClass.image + '" alt="' + pie + '"><h3>Menu:</h3>' + pieClass.menu;
 var elCd5 = document.getElementById('img5');
 elCd5.innerHTML = cdImg5;
 
@@ -153,7 +153,7 @@ var bc6 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc6 = document.getElementById('bc6');
 elBc6.innerHTML = bc6;
 
-var cdImg6 = '<br> <img class="image" src="images/' + antiClass.image + '" alt="' + anti '"><h3>Menu:</h3>' + antiClass.menu;
+var cdImg6 = '<br> <img class="image" src="images/' + antiClass.image + '" alt="' + anti + '"><h3>Menu:</h3>' + antiClass.menu;
 var elCd6 = document.getElementById('img6');
 elCd6.innerHTML = cdImg6;
 
@@ -170,7 +170,7 @@ var bc7 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc7 = document.getElementById('bc7');
 elBc7.innerHTML = bc7;
 
-var cdImg7 = '<br> <img class="image" src="images/' + enchiladasClass.image + '" alt="' + enchiladas '"><h3>Menu:</h3>' + enchiladasClass.menu;
+var cdImg7 = '<br> <img class="image" src="images/' + enchiladasClass.image + '" alt="' + enchiladas + '"><h3>Menu:</h3>' + enchiladasClass.menu;
 var elCd7 = document.getElementById('img7');
 elCd7.innerHTML = cdImg7;
 
@@ -187,7 +187,7 @@ var bc8 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc8 = document.getElementById('bc8');
 elBc8.innerHTML = bc8;
 
-var cdImg8 = '<br> <img class="image" src="images/' + atwClass.image + '" alt="' + atw '"><h3>Menu:</h3>' + atwClass.menu;
+var cdImg8 = '<br> <img class="image" src="images/' + atwClass.image + '" alt="' + atw + '"><h3>Menu:</h3>' + atwClass.menu;
 var elCd8 = document.getElementById('img8');
 elCd8.innerHTML = cdImg8;
 
@@ -204,7 +204,7 @@ var bc9 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li>
 var elBc9 = document.getElementById('bc9');
 elBc9.innerHTML = bc9;
 
-var cdImg9 = '<br> <img class="image" src="images/' + breadClass.image + '" alt="' + bread '"><h3>Menu:</h3>' + breadClass.menu;
+var cdImg9 = '<br> <img class="image" src="images/' + breadClass.image + '" alt="' + bread + '"><h3>Menu:</h3>' + breadClass.menu;
 var elCd9 = document.getElementById('img9');
 elCd9.innerHTML = cdImg9;
 
@@ -221,7 +221,7 @@ var bc10 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc10 = document.getElementById('bc10');
 elBc10.innerHTML = bc10;
 
-var cdImg10 = '<br> <img class="image" src="images/' + basqueClass.image + '" alt="' + basque '"><h3>Menu:</h3>' + basqueClass.menu;
+var cdImg10 = '<br> <img class="image" src="images/' + basqueClass.image + '" alt="' + basque + '"><h3>Menu:</h3>' + basqueClass.menu;
 var elCd10 = document.getElementById('img10');
 elCd10.innerHTML = cdImg10;
 
@@ -238,7 +238,7 @@ var bc11 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc11 = document.getElementById('bc11');
 elBc11.innerHTML = bc11;
 
-var cdImg11 = '<br> <img class="image" src="images/' + batterClass.image + '" alt="' + batter '"><h3>Menu:</h3>' + batterClass.menu;
+var cdImg11 = '<br> <img class="image" src="images/' + batterClass.image + '" alt="' + batter + '"><h3>Menu:</h3>' + batterClass.menu;
 var elCd11 = document.getElementById('img11');
 elCd11.innerHTML = cdImg11;
 
@@ -255,7 +255,7 @@ var bc12 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc12 = document.getElementById('bc12');
 elBc12.innerHTML = bc12;
 
-var cdImg12 = '<br> <img class="image" src="images/' + cheeseClass.image + '" alt="' + cheese '"><h3>Menu:</h3>' + cheeseClass.menu;
+var cdImg12 = '<br> <img class="image" src="images/' + cheeseClass.image + '" alt="' + cheese + '"><h3>Menu:</h3>' + cheeseClass.menu;
 var elCd12 = document.getElementById('img12');
 elCd12.innerHTML = cdImg12;
 
@@ -272,7 +272,7 @@ var bc13 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc13 = document.getElementById('bc13');
 elBc13.innerHTML = bc13;
 
-var cdImg13 = '<br> <img class="image" src="images/' + chickenClass.image + '" alt="' + chicken '"><h3>Menu:</h3>' + chickenClass.menu;
+var cdImg13 = '<br> <img class="image" src="images/' + chickenClass.image + '" alt="' + chicken + '"><h3>Menu:</h3>' + chickenClass.menu;
 var elCd13 = document.getElementById('img13');
 elCd13.innerHTML = cdImg13;
 
@@ -289,7 +289,7 @@ var bc14 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc14 = document.getElementById('bc14');
 elBc14.innerHTML = bc14;
 
-var cdImg14 = '<br> <img class="image" src="images/' + cldrollsClass.image + '" alt="' + cldrolls '"><h3>Menu:</h3>' + cldrollsClass.menu;
+var cdImg14 = '<br> <img class="image" src="images/' + cldrollsClass.image + '" alt="' + cldrolls + '"><h3>Menu:</h3>' + cldrollsClass.menu;
 var elCd14 = document.getElementById('img14');
 elCd14.innerHTML = cdImg14;
 
@@ -306,7 +306,7 @@ var bc15 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc15 = document.getElementById('bc15');
 elBc15.innerHTML = bc15;
 
-var cdImg15 = '<br> <img class="image" src="images/' + noodlesClass.image + '" alt="' + noodles '"><h3>Menu:</h3>' + noodlesClass.menu;
+var cdImg15 = '<br> <img class="image" src="images/' + noodlesClass.image + '" alt="' + noodles + '"><h3>Menu:</h3>' + noodlesClass.menu;
 var elCd15 = document.getElementById('img15');
 elCd15.innerHTML = cdImg15;
 
@@ -323,7 +323,7 @@ var bc16 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc16 = document.getElementById('bc16');
 elBc16.innerHTML = bc16;
 
-var cdImg16 = '<br> <img class="image" src="images/' + frenchClass.image + '" alt="' + french '"><h3>Menu:</h3>' + frenchClass.menu;
+var cdImg16 = '<br> <img class="image" src="images/' + frenchClass.image + '" alt="' + french + '"><h3>Menu:</h3>' + frenchClass.menu;
 var elCd16 = document.getElementById('img16');
 elCd16.innerHTML = cdImg16;
 
@@ -340,7 +340,7 @@ var bc17 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc17 = document.getElementById('bc17');
 elBc17.innerHTML = bc17;
 
-var cdImg17 = '<br> <img class="image" src="images/' + klatchClass.image + '" alt="' + klatch '"><h3>Menu:</h3>' + klatchClass.menu;
+var cdImg17 = '<br> <img class="image" src="images/' + klatchClass.image + '" alt="' + klatch + '"><h3>Menu:</h3>' + klatchClass.menu;
 var elCd17 = document.getElementById('img17');
 elCd17.innerHTML = cdImg17;
 
@@ -357,7 +357,7 @@ var bc18 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc18 = document.getElementById('bc18');
 elBc18.innerHTML = bc18;
 
-var cdImg18 = '<br> <img class="image" src="images/' + spsoupClass.image + '" alt="' + spsoup '"><h3>Menu:</h3>' + spsoupClass.menu;
+var cdImg18 = '<br> <img class="image" src="images/' + spsoupClass.image + '" alt="' + spsoup + '"><h3>Menu:</h3>' + spsoupClass.menu;
 var elCd18 = document.getElementById('img18');
 elCd18.innerHTML = cdImg18;
 
@@ -374,7 +374,7 @@ var bc19 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc19 = document.getElementById('bc19');
 elBc19.innerHTML = bc19;
 
-var cdImg19 = '<br> <img class="image" src="images/' + veganClass.image + '" alt="' + vegan '"><h3>Menu:</h3>' + veganClass.menu;
+var cdImg19 = '<br> <img class="image" src="images/' + veganClass.image + '" alt="' + vegan + '"><h3>Menu:</h3>' + veganClass.menu;
 var elCd19 = document.getElementById('img19');
 elCd19.innerHTML = cdImg19;
 
@@ -391,7 +391,7 @@ var bc20 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc20 = document.getElementById('bc20');
 elBc20.innerHTML = bc20;
 
-var cdImg20 = '<br> <img class="image" src="images/' + fermClass.image + '" alt="' + ferm '"><h3>Menu:</h3>' + fermClass.menu;
+var cdImg20 = '<br> <img class="image" src="images/' + fermClass.image + '" alt="' + ferm + '"><h3>Menu:</h3>' + fermClass.menu;
 var elCd20 = document.getElementById('img20');
 elCd20.innerHTML = cdImg20;
 
@@ -408,7 +408,7 @@ var bc21 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc21 = document.getElementById('bc21');
 elBc21.innerHTML = bc21;
 
-var cdImg21 = '<br> <img class="image" src="images/' + heartClass.image + '" alt="' + heart '"><h3>Menu:</h3>' + heartClass.menu;
+var cdImg21 = '<br> <img class="image" src="images/' + heartClass.image + '" alt="' + heart + '"><h3>Menu:</h3>' + heartClass.menu;
 var elCd21 = document.getElementById('img21');
 elCd21.innerHTML = cdImg21;
 
@@ -425,7 +425,7 @@ var bc22 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc22 = document.getElementById('bc22');
 elBc22.innerHTML = bc22;
 
-var cdImg22 = '<br> <img class="image" src="images/' + fondueClass.image + '" alt="' + fondue '"><h3>Menu:</h3>' + fondueClass.menu;
+var cdImg22 = '<br> <img class="image" src="images/' + fondueClass.image + '" alt="' + fondue + '"><h3>Menu:</h3>' + fondueClass.menu;
 var elCd22 = document.getElementById('img22');
 elCd22.innerHTML = cdImg22;
 
@@ -442,7 +442,7 @@ var bc23 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc23 = document.getElementById('bc23');
 elBc23.innerHTML = bc23;
 
-var cdImg23 = '<br> <img class="image" src="images/' + gfwttClass.image + '" alt="' + gfwtt '"><h3>Menu:</h3>' + gfwttClass.menu;
+var cdImg23 = '<br> <img class="image" src="images/' + gfwttClass.image + '" alt="' + gfwtt + '"><h3>Menu:</h3>' + gfwttClass.menu;
 var elCd23 = document.getElementById('img23');
 elCd23.innerHTML = cdImg23;
 
@@ -459,7 +459,7 @@ var bc24 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc24 = document.getElementById('bc24');
 elBc24.innerHTML = bc24;
 
-var cdImg24 = '<br> <img class="image" src="images/' + gfbakingClass.image + '" alt="' + gfbaking '"><h3>Menu:</h3>' + gfbakingClass.menu;
+var cdImg24 = '<br> <img class="image" src="images/' + gfbakingClass.image + '" alt="' + gfbaking + '"><h3>Menu:</h3>' + gfbakingClass.menu;
 var elCd24 = document.getElementById('img24');
 elCd24.innerHTML = cdImg24;
 
@@ -476,7 +476,7 @@ var bc25 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc25 = document.getElementById('bc25');
 elBc25.innerHTML = bc25;
 
-var cdImg25 = '<br> <img class="image" src="images/' + budgetClass.image + '" alt="' + budget '"><h3>Menu:</h3>' + budgetClass.menu;
+var cdImg25 = '<br> <img class="image" src="images/' + budgetClass.image + '" alt="' + budget + '"><h3>Menu:</h3>' + budgetClass.menu;
 var elCd25 = document.getElementById('img25');
 elCd25.innerHTML = cdImg25;
 
@@ -493,7 +493,7 @@ var bc26 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc26 = document.getElementById('bc26');
 elBc26.innerHTML = bc26;
 
-var cdImg26 = '<br> <img class="image" src="images/' + sardiniaClass.image + '" alt="' + sardinia '"><h3>Menu:</h3>' + sardiniaClass.menu;
+var cdImg26 = '<br> <img class="image" src="images/' + sardiniaClass.image + '" alt="' + sardinia + '"><h3>Menu:</h3>' + sardiniaClass.menu;
 var elCd26 = document.getElementById('img26');
 elCd26.innerHTML = cdImg26;
 
@@ -510,7 +510,7 @@ var bc27 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc27 = document.getElementById('bc27');
 elBc27.innerHTML = bc27;
 
-var cdImg27 = '<br> <img class="image" src="images/' + cakeClass.image + '" alt="' + cake '"><h3>Menu:</h3>' + cakeClass.menu;
+var cdImg27 = '<br> <img class="image" src="images/' + cakeClass.image + '" alt="' + cake + '"><h3>Menu:</h3>' + cakeClass.menu;
 var elCd27 = document.getElementById('img27');
 elCd27.innerHTML = cdImg27;
 
@@ -527,7 +527,7 @@ var bc28 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc28 = document.getElementById('bc28');
 elBc28.innerHTML = bc28;
 
-var cdImg28 = '<br> <img class="image" src="images/' + seasonClass.image + '" alt="' + season '"><h3>Menu:</h3>' + seasonClass.menu;
+var cdImg28 = '<br> <img class="image" src="images/' + seasonClass.image + '" alt="' + season + '"><h3>Menu:</h3>' + seasonClass.menu;
 var elCd28 = document.getElementById('img28');
 elCd28.innerHTML = cdImg28;
 
@@ -544,7 +544,7 @@ var bc29 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc29 = document.getElementById('bc29');
 elBc29.innerHTML = bc29;
 
-var cdImg29 = '<br> <img class="image" src="images/' + indianClass.image + '" alt="' + indian '"><h3>Menu:</h3>' + indianClass.menu;
+var cdImg29 = '<br> <img class="image" src="images/' + indianClass.image + '" alt="' + indian + '"><h3>Menu:</h3>' + indianClass.menu;
 var elCd29 = document.getElementById('img29');
 elCd29.innerHTML = cdImg29;
 
@@ -561,7 +561,7 @@ var bc30 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc30 = document.getElementById('bc30');
 elBc30.innerHTML = bc30;
 
-var cdImg30 = '<br> <img class="image" src="images/' + chemClass.image + '" alt="' + chem '"><h3>Menu:</h3>' + chemClass.menu;
+var cdImg30 = '<br> <img class="image" src="images/' + chemClass.image + '" alt="' + chem + '"><h3>Menu:</h3>' + chemClass.menu;
 var elCd30 = document.getElementById('img30');
 elCd30.innerHTML = cdImg30;
 
@@ -578,7 +578,7 @@ var bc31 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc31 = document.getElementById('bc31');
 elBc31.innerHTML = bc31;
 
-var cdImg31 = '<br> <img class="image" src="images/' + knifeClass.image + '" alt="' + knife '"><h3>Menu:</h3>' + knifeClass.menu;
+var cdImg31 = '<br> <img class="image" src="images/' + knifeClass.image + '" alt="' + knife + '"><h3>Menu:</h3>' + knifeClass.menu;
 var elCd31 = document.getElementById('img31');
 elCd31.innerHTML = cdImg31;
 
@@ -595,7 +595,7 @@ var bc32 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc32 = document.getElementById('bc32');
 elBc32.innerHTML = bc32;
 
-var cdImg32 = '<br> <img class="image" src="images/' + dumplingClass.image + '" alt="' + dumpling '"><h3>Menu:</h3>' + dumplingClass.menu;
+var cdImg32 = '<br> <img class="image" src="images/' + dumplingClass.image + '" alt="' + dumpling + '"><h3>Menu:</h3>' + dumplingClass.menu;
 var elCd32 = document.getElementById('img32');
 elCd32.innerHTML = cdImg32;
 
@@ -612,7 +612,7 @@ var bc33 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc33 = document.getElementById('bc33');
 elBc33.innerHTML = bc33;
 
-var cdImg33 = '<br> <img class="image" src="images/' + panClass.image + '" alt="' + pan '"><h3>Menu:</h3>' + panClass.menu;
+var cdImg33 = '<br> <img class="image" src="images/' + panClass.image + '" alt="' + pan + '"><h3>Menu:</h3>' + panClass.menu;
 var elCd33 = document.getElementById('img33');
 elCd33.innerHTML = cdImg33;
 
@@ -629,7 +629,7 @@ var bc34 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc34 = document.getElementById('bc34');
 elBc34.innerHTML = bc34;
 
-var cdImg34 = '<br> <img class="image" src="images/' + medClass.image + '" alt="' + med '"><h3>Menu:</h3>' + medClass.menu;
+var cdImg34 = '<br> <img class="image" src="images/' + medClass.image + '" alt="' + med + '"><h3>Menu:</h3>' + medClass.menu;
 var elCd34 = document.getElementById('img34');
 elCd34.innerHTML = cdImg34;
 
@@ -646,7 +646,7 @@ var bc35 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc35 = document.getElementById('bc35');
 elBc35.innerHTML = bc35;
 
-var cdImg35 = '<br> <img class="image" src="images/' + piemonteseClass.image + '" alt="' + piemontese '"><h3>Menu:</h3>' + piemonteseClass.menu;
+var cdImg35 = '<br> <img class="image" src="images/' + piemonteseClass.image + '" alt="' + piemontese + '"><h3>Menu:</h3>' + piemonteseClass.menu;
 var elCd35 = document.getElementById('img35');
 elCd35.innerHTML = cdImg35;
 
@@ -663,7 +663,7 @@ var bc36 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc36 = document.getElementById('bc36');
 elBc36.innerHTML = bc36;
 
-var cdImg36 = '<br> <img class="image" src="images/' + mexClass.image + '" alt="' + mex '"><h3>Menu:</h3>' + mexClass.menu;
+var cdImg36 = '<br> <img class="image" src="images/' + mexClass.image + '" alt="' + mex + '"><h3>Menu:</h3>' + mexClass.menu;
 var elCd36 = document.getElementById('img36');
 elCd36.innerHTML = cdImg36;
 
@@ -680,7 +680,7 @@ var bc37 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc37 = document.getElementById('bc37');
 elBc37.innerHTML = bc37;
 
-var cdImg37 = '<br> <img class="image" src="images/' + bagelsClass.image + '" alt="' + bagels '"><h3>Menu:</h3>' + bagelsClass.menu;
+var cdImg37 = '<br> <img class="image" src="images/' + bagelsClass.image + '" alt="' + bagels + '"><h3>Menu:</h3>' + bagelsClass.menu;
 var elCd37 = document.getElementById('img37');
 elCd37.innerHTML = cdImg37;
 
@@ -697,7 +697,7 @@ var bc38 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc38 = document.getElementById('bc38');
 elBc38.innerHTML = bc38;
 
-var cdImg38 = '<br> <img class="image" src="images/' + nwcelClass.image + '" alt="' + nwcel '"><h3>Menu:</h3>' + nwcelClass.menu;
+var cdImg38 = '<br> <img class="image" src="images/' + nwcelClass.image + '" alt="' + nwcel + '"><h3>Menu:</h3>' + nwcelClass.menu;
 var elCd38 = document.getElementById('img38');
 elCd38.innerHTML = cdImg38;
 
@@ -714,7 +714,7 @@ var bc39 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc39 = document.getElementById('bc39');
 elBc39.innerHTML = bc39;
 
-var cdImg39 = '<br> <img class="image" src="images/' + pulseClass.image + '" alt="' + pulse '"><h3>Menu:</h3>' + pulseClass.menu;
+var cdImg39 = '<br> <img class="image" src="images/' + pulseClass.image + '" alt="' + pulse + '"><h3>Menu:</h3>' + pulseClass.menu;
 var elCd39 = document.getElementById('img39');
 elCd39.innerHTML = cdImg39;
 
@@ -731,7 +731,7 @@ var bc40 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc40 = document.getElementById('bc40');
 elBc40.innerHTML = bc40;
 
-var cdImg40 = '<br> <img class="image" src="images/' + pastaClass.image + '" alt="' + pasta '"><h3>Menu:</h3>' + pastaClass.menu;
+var cdImg40 = '<br> <img class="image" src="images/' + pastaClass.image + '" alt="' + pasta + '"><h3>Menu:</h3>' + pastaClass.menu;
 var elCd40 = document.getElementById('img40');
 elCd40.innerHTML = cdImg40;
 
@@ -748,7 +748,7 @@ var bc41 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc41 = document.getElementById('bc41');
 elBc41.innerHTML = bc41;
 
-var cdImg41 = '<br> <img class="image" src="images/' + pizzaClass.image + '" alt="' + pizza '"><h3>Menu:</h3>' + pizzaClass.menu;
+var cdImg41 = '<br> <img class="image" src="images/' + pizzaClass.image + '" alt="' + pizza + '"><h3>Menu:</h3>' + pizzaClass.menu;
 var elCd41 = document.getElementById('img41');
 elCd41.innerHTML = cdImg41;
 
@@ -765,7 +765,7 @@ var bc42 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc42 = document.getElementById('bc42');
 elBc42.innerHTML = bc42;
 
-var cdImg42 = '<br> <img class="image" src="images/' + thaiClass.image + '" alt="' + thai '"><h3>Menu:</h3>' + thaiClass.menu;
+var cdImg42 = '<br> <img class="image" src="images/' + thaiClass.image + '" alt="' + thai + '"><h3>Menu:</h3>' + thaiClass.menu;
 var elCd42 = document.getElementById('img42');
 elCd42.innerHTML = cdImg42;
 
@@ -782,7 +782,7 @@ var bc43 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li
 var elBc43 = document.getElementById('bc43');
 elBc43.innerHTML = bc43;
 
-var cdImg43 = '<br> <img class="image" src="images/' + grillClass.image + '" alt="' + grill '"><h3>Menu:</h3>' + grillClass.menu;
+var cdImg43 = '<br> <img class="image" src="images/' + grillClass.image + '" alt="' + grill + '"><h3>Menu:</h3>' + grillClass.menu;
 var elCd43 = document.getElementById('img43');
 elCd43.innerHTML = cdImg43;
 
