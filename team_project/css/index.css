@@ -10,6 +10,21 @@
   float:left;
   width:88%;
   padding: 10px;}
+#devteam {
+  display: grid;
+  align-content: center;
+  width: 80%;
+}
+.devtitle{
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #013C4D;
+  color: white;
+}
+.dt{
+  font-size: 18px;
+}
+  
 /*Image container formatting*/
 .thumb {
   margin: 5px;
