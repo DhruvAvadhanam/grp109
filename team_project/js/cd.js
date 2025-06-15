@@ -1,5 +1,5 @@
 // Creating class content for class gallery - Deena
-function Class(name, description, price, flags, instructor, image, menu) {
+function Class(name, description, price, flags, instructor, location, day, date, image, menu) {
   this.name = name;
   this.description = description; 
   this.price = price;
