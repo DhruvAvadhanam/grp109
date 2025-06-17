@@ -13,7 +13,6 @@
 /*Container for development team*/
 #devteam {
   display: flex;
-  grid-template-columns: auto auto auto auto;
   align-content: center;
   border: 2px solid #013C4D;
 }
@@ -23,13 +22,11 @@
   font-size: 18px;
   background-color: #013C4D;
   color: white;
-  width: 20%;
 }
 /*Dev team member formatting*/
 .dt{
   font-size: 18px;
   font-weight: bold;
-  width: 20%;
   color:  #013C4D;
 }
   
