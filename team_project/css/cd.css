@@ -15,7 +15,8 @@
 
 .column2{
   	width: 40%;
-	margin: auto;}
+	margin: auto;
+	padding: 10px;}
 
 .column3{
 	float: left;
