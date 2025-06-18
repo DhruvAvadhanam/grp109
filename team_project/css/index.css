@@ -1,15 +1,15 @@
 /*Left container for filter elements*/
 #container1{
-  width: 12%;
+  width: 10%;
   margin-top: 100px;
   float:left;
-  padding: 10px;
+  padding: 5px;
   height: 100%;}
 /*Right container for class images*/
 #container2{
   float:left;
-  width:88%;
-  padding: 10px;}
+  width:80%;
+  padding: 5px;}
 /*Container for development team*/
 #devteam {
   display: grid;
