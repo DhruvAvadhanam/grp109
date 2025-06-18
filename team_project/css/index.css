@@ -16,7 +16,8 @@
   column-gap: 50px;
   display: flex;
   align-content: center;
-  border: 2px solid #013C4D;
+  grid-template-columns: auto auto auto auto auto;
+  width: 80%;
 }
 /*Dev team title formatting*/
 .devtitle{
