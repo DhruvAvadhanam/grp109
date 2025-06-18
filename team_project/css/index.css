@@ -18,6 +18,7 @@
   align-content: center;
   grid-template-columns: auto auto auto auto auto;
   width: 80%;
+  height: 50px;
 }
 /*Dev team title formatting*/
 .devtitle{
@@ -31,7 +32,7 @@
   font-size: 18px;
   font-weight: bold;
   color:  #013C4D;
-  border: 2px solid #013C4D
+  border: 2px solid #013C4D;
   width: 20%;
 }
   
