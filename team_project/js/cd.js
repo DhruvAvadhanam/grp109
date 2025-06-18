@@ -63,733 +63,788 @@ var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our region
 // Update the HTML for the page  - Deena
 
 // twoday.html
-var bc1 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="twoday.html">' + twodayClass.name + '</a></li> </ul>';
-var elBc1 = document.getElementById('bc1');
-elBc1.innerHTML = bc1;
-
-var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt="twoday">';
-var elCd1 = document.getElementById('img1');
-elCd1.innerHTML = cdImg1;
-
-var cdDesc1 = '<h2>' + twodayClass.name + '</h2><h4>Instructor:' + twodayClass.instructor + '</h4><h3>Menu:</h3>' + twodayClass.menu + '<p>' + twodayClass.description + '</p> <h3>Session:</h3>' + twodayClass.location + ' – ' + twodayClass.day + ', ' + twodayClass.date;
-var elCdDesc1 = document.getElementById('desc1');
-elCdDesc1.innerHTML = cdDesc1;
-
-cdReg1 = '<br><h3>Price: $' + twodayClass.price +  '</h3> <p></p>'
-var elCdReg1 = document.getElementById('reg1');
-elCdReg1.innerHTML = cdReg1;
-     
+if (document.getElementById('bc1') != null || document.getElementById('bc1') != "") {
+    var bc1 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="twoday.html">' + twodayClass.name + '</a></li> </ul>';
+    var elBc1 = document.getElementById('bc1');
+    elBc1.innerHTML = bc1;
+    
+    var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt="twoday">';
+    var elCd1 = document.getElementById('img1');
+    
+    var cdDesc1 = '<h2>' + twodayClass.name + '</h2><h4>Instructor:' + twodayClass.instructor + '</h4><h3>Menu:</h3>' + twodayClass.menu + '<p>' + twodayClass.description + '</p> <h3>Session:</h3>' + twodayClass.location + ' – ' + twodayClass.day + ', ' + twodayClass.date;
+    var elCdDesc1 = document.getElementById('desc1');
+    elCdDesc1.innerHTML = cdDesc1;
+    
+    cdReg1 = '<br><h3>Price: $' + twodayClass.price +  '</h3> <p></p>'
+    var elCdReg1 = document.getElementById('reg1');
+    elCdReg1.innerHTML = cdReg1;
+}
 // cook42.html
-var bc2 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cook42.html">' + cook42Class.name + '</a></li> </ul>';
-var elBc2 = document.getElementById('bc2');
-elBc2.innerHTML = bc2;
-
-var cdImg2 = '<br> <img class="image" src="images/' + cook42Class.image + '" alt="cook42">';
-var elCd2 = document.getElementById('img2');
-elCd2.innerHTML = cdImg2;
-
-var cdDesc2 = '<h2>' + cook42Class.name + '</h2> <h4>Instructor:' + cook42Class.instructor + '</h4><h3>Menu:</h3>' + cook42Class.menu + '<p>' + cook42Class.description + '</p> <h3>Session:</h3>' + cook42Class.location + ' – ' + cook42Class.day + ', ' + cook42Class.date;
-var elCdDesc2 = document.getElementById('desc2');
-elCdDesc2.innerHTML = cdDesc2;
-
-cdReg2 = '<br><h3>Price: $' + cook42Class.price +  '</h3> <p></p>'
-var elCdReg2 = document.getElementById('reg2');
-elCdReg2.innerHTML = cdReg2;
-     
+if (document.getElementById('bc2') != null || document.getElementById('bc2') != "") {
+    var bc2 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cook42.html">' + cook42Class.name + '</a></li> </ul>';
+    var elBc2 = document.getElementById('bc2');
+    elBc2.innerHTML = bc2;
+    
+    var cdImg2 = '<br> <img class="image" src="images/' + cook42Class.image + '" alt="cook42">';
+    var elCd2 = document.getElementById('img2');
+    elCd2.innerHTML = cdImg2;
+    
+    var cdDesc2 = '<h2>' + cook42Class.name + '</h2> <h4>Instructor:' + cook42Class.instructor + '</h4><h3>Menu:</h3>' + cook42Class.menu + '<p>' + cook42Class.description + '</p> <h3>Session:</h3>' + cook42Class.location + ' – ' + cook42Class.day + ', ' + cook42Class.date;
+    var elCdDesc2 = document.getElementById('desc2');
+    elCdDesc2.innerHTML = cdDesc2;
+    
+    cdReg2 = '<br><h3>Price: $' + cook42Class.price +  '</h3> <p></p>'
+    var elCdReg2 = document.getElementById('reg2');
+    elCdReg2.innerHTML = cdReg2;
+}
 // salmon.html
-var bc3 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="salmon.html">' + salmonClass.name + '</a></li> </ul>';
-var elBc3 = document.getElementById('bc3');
-elBc3.innerHTML = bc3;
-
-var cdImg3 = '<br> <img class="image" src="images/' + salmonClass.image + '" alt="salmon">';
-var elCd3 = document.getElementById('img3');
-elCd3.innerHTML = cdImg3;
-
-var cdDesc3 = '<h2>' + salmonClass.name + '</h2> <h4>Instructor:' + salmonClass.instructor + '</h4><h3>Menu:</h3>' + salmonClass.menu + '<p>' + salmonClass.description + '</p> <h3>Session:</h3>' + salmonClass.location + ' – ' + salmonClass.day + ', ' + salmonClass.date;
-var elCdDesc3 = document.getElementById('desc3');
-elCdDesc3.innerHTML = cdDesc3;
-
-cdReg3 = '<br><h3>Price: $' + salmonClass.price +  '</h3> <p></p>'
-var elCdReg3 = document.getElementById('reg3');
-elCdReg3.innerHTML = cdReg3;
-     
+if (document.getElementById('bc3') != null || document.getElementById('bc3') != "") {
+    var bc3 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="salmon.html">' + salmonClass.name + '</a></li> </ul>';
+    var elBc3 = document.getElementById('bc3');
+    elBc3.innerHTML = bc3;
+    
+    var cdImg3 = '<br> <img class="image" src="images/' + salmonClass.image + '" alt="salmon">';
+    var elCd3 = document.getElementById('img3');
+    elCd3.innerHTML = cdImg3;
+    
+    var cdDesc3 = '<h2>' + salmonClass.name + '</h2> <h4>Instructor:' + salmonClass.instructor + '</h4><h3>Menu:</h3>' + salmonClass.menu + '<p>' + salmonClass.description + '</p> <h3>Session:</h3>' + salmonClass.location + ' – ' + salmonClass.day + ', ' + salmonClass.date;
+    var elCdDesc3 = document.getElementById('desc3');
+    elCdDesc3.innerHTML = cdDesc3;
+    
+    cdReg3 = '<br><h3>Price: $' + salmonClass.price +  '</h3> <p></p>'
+    var elCdReg3 = document.getElementById('reg3');
+    elCdReg3.innerHTML = cdReg3;
+}    
 // aging.html
-var bc4 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="aging.html">' + agingClass.name + '</a></li> </ul>';
-var elBc4 = document.getElementById('bc4');
-elBc4.innerHTML = bc4;
-
-var cdImg4 = '<br> <img class="image" src="images/' + agingClass.image + '" alt="aging">';
-var elCd4 = document.getElementById('img4');
-elCd4.innerHTML = cdImg4;
-
-var cdDesc4 = '<h2>' + agingClass.name + '</h2> <h4>Instructor:' + agingClass.instructor + '</h4><h3>Menu:</h3>' + agingClass.menu + '<p>' + agingClass.description + '</p> <h3>Session:</h3>' + agingClass.location + ' – ' + agingClass.day + ', ' + agingClass.date;
-var elCdDesc4 = document.getElementById('desc4');
-elCdDesc4.innerHTML = cdDesc4;
-
-cdReg4 = '<br><h3>Price: $' + agingClass.price +  '</h3> <p></p>'
-var elCdReg4 = document.getElementById('reg4');
-elCdReg4.innerHTML = cdReg4;
-     
+if (document.getElementById('bc4') != null || document.getElementById('bc4') != "") {
+    var bc4 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="aging.html">' + agingClass.name + '</a></li> </ul>';
+    var elBc4 = document.getElementById('bc4');
+    elBc4.innerHTML = bc4;
+    
+    var cdImg4 = '<br> <img class="image" src="images/' + agingClass.image + '" alt="aging">';
+    var elCd4 = document.getElementById('img4');
+    elCd4.innerHTML = cdImg4;
+    
+    var cdDesc4 = '<h2>' + agingClass.name + '</h2> <h4>Instructor:' + agingClass.instructor + '</h4><h3>Menu:</h3>' + agingClass.menu + '<p>' + agingClass.description + '</p> <h3>Session:</h3>' + agingClass.location + ' – ' + agingClass.day + ', ' + agingClass.date;
+    var elCdDesc4 = document.getElementById('desc4');
+    elCdDesc4.innerHTML = cdDesc4;
+    
+    cdReg4 = '<br><h3>Price: $' + agingClass.price +  '</h3> <p></p>'
+    var elCdReg4 = document.getElementById('reg4');
+    elCdReg4.innerHTML = cdReg4;
+}
 // pie.html
-var bc5 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pie.html">' + pieClass.name + '</a></li> </ul>';
-var elBc5 = document.getElementById('bc5');
-elBc5.innerHTML = bc5;
+if (document.getElementById('bc5') != null || document.getElementById('bc5') != "") {
+    var bc5 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pie.html">' + pieClass.name + '</a></li> </ul>';
+    var elBc5 = document.getElementById('bc5');
+    elBc5.innerHTML = bc5;
+    
+    var cdImg5 = '<br> <img class="image" src="images/' + pieClass.image + '" alt="pie">';
+    var elCd5 = document.getElementById('img5');
+    elCd5.innerHTML = cdImg5;
+    
+    var cdDesc5 = '<h2>' + pieClass.name + '</h2> <h4>Instructor:' + pieClass.instructor + '</h4><h3>Menu:</h3>' + pieClass.menu + '<p>' + pieClass.description + '</p> <h3>Session:</h3>' + pieClass.location + ' – ' + pieClass.day + ', ' + pieClass.date;
+    var elCdDesc5 = document.getElementById('desc5');
+    elCdDesc5.innerHTML = cdDesc5;
+    
+    cdReg5 = '<br><h3>Price: $' + pieClass.price +  '</h3> <p></p>'
+    var elCdReg5 = document.getElementById('reg5');
+    elCdReg5.innerHTML = cdReg5;
+}
 
-var cdImg5 = '<br> <img class="image" src="images/' + pieClass.image + '" alt="pie">';
-var elCd5 = document.getElementById('img5');
-elCd5.innerHTML = cdImg5;
-
-var cdDesc5 = '<h2>' + pieClass.name + '</h2> <h4>Instructor:' + pieClass.instructor + '</h4><h3>Menu:</h3>' + pieClass.menu + '<p>' + pieClass.description + '</p> <h3>Session:</h3>' + pieClass.location + ' – ' + pieClass.day + ', ' + pieClass.date;
-var elCdDesc5 = document.getElementById('desc5');
-elCdDesc5.innerHTML = cdDesc5;
-
-cdReg5 = '<br><h3>Price: $' + pieClass.price +  '</h3> <p></p>'
-var elCdReg5 = document.getElementById('reg5');
-elCdReg5.innerHTML = cdReg5;
-     
 // anti.html
-var bc6 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="anti.html">' + antiClass.name + '</a></li> </ul>';
-var elBc6 = document.getElementById('bc6');
-elBc6.innerHTML = bc6;
+if (document.getElementById('bc6') != null || document.getElementById('bc6') != "") {
+    var bc6 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="anti.html">' + antiClass.name + '</a></li> </ul>';
+    var elBc6 = document.getElementById('bc6');
+    elBc6.innerHTML = bc6;
+    
+    var cdImg6 = '<br> <img class="image" src="images/' + antiClass.image + '" alt="anti">';
+    var elCd6 = document.getElementById('img6');
+    elCd6.innerHTML = cdImg6;
+    
+    var cdDesc6 = '<h2>' + antiClass.name + '</h2> <h4>Instructor:' + antiClass.instructor + '</h4> <h3>Menu:</h3>' + antiClass.menu + '<p>' + antiClass.description + '</p> <h3>Session:</h3>' + antiClass.location + ' – ' + antiClass.day + ', ' + antiClass.date;
+    var elCdDesc6 = document.getElementById('desc6');
+    elCdDesc6.innerHTML = cdDesc6;
+    
+    cdReg6 = '<br><h3>Price: $' + antiClass.price +  '</h3> <p></p>'
+    var elCdReg6 = document.getElementById('reg6');
+    elCdReg6.innerHTML = cdReg6;
+}     
 
-var cdImg6 = '<br> <img class="image" src="images/' + antiClass.image + '" alt="anti">';
-var elCd6 = document.getElementById('img6');
-elCd6.innerHTML = cdImg6;
-
-var cdDesc6 = '<h2>' + antiClass.name + '</h2> <h4>Instructor:' + antiClass.instructor + '</h4> <h3>Menu:</h3>' + antiClass.menu + '<p>' + antiClass.description + '</p> <h3>Session:</h3>' + antiClass.location + ' – ' + antiClass.day + ', ' + antiClass.date;
-var elCdDesc6 = document.getElementById('desc6');
-elCdDesc6.innerHTML = cdDesc6;
-
-cdReg6 = '<br><h3>Price: $' + antiClass.price +  '</h3> <p></p>'
-var elCdReg6 = document.getElementById('reg6');
-elCdReg6.innerHTML = cdReg6;
-     
 // enchiladas.html
-var bc7 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="enchiladas.html">' + enchiladasClass.name + '</a></li> </ul>';
-var elBc7 = document.getElementById('bc7');
-elBc7.innerHTML = bc7;
+if (document.getElementById('bc7') != null || document.getElementById('bc7') != "") {
+    var bc7 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="enchiladas.html">' + enchiladasClass.name + '</a></li> </ul>';
+    var elBc7 = document.getElementById('bc7');
+    elBc7.innerHTML = bc7;
+    
+    var cdImg7 = '<br> <img class="image" src="images/' + enchiladasClass.image + '" alt="enchiladas">';
+    var elCd7 = document.getElementById('img7');
+    elCd7.innerHTML = cdImg7;
+    
+    var cdDesc7 = '<h2>' + enchiladasClass.name + '</h2> <h4>Instructor:' + enchiladasClass.instructor + '</h4> <h3>Menu:</h3>' + enchiladasClass.menu + '<p>' + enchiladasClass.description + '</p> <h3>Session:</h3>' + enchiladasClass.location + ' – ' + enchiladasClass.day + ', ' + enchiladasClass.date;
+    var elCdDesc7 = document.getElementById('desc7');
+    elCdDesc7.innerHTML = cdDesc7;
+    
+    cdReg7 = '<br><h3>Price: $' + enchiladasClass.price +  '</h3> <p></p>'
+    var elCdReg7 = document.getElementById('reg7');
+    elCdReg7.innerHTML = cdReg7;
+}
 
-var cdImg7 = '<br> <img class="image" src="images/' + enchiladasClass.image + '" alt="enchiladas">';
-var elCd7 = document.getElementById('img7');
-elCd7.innerHTML = cdImg7;
-
-var cdDesc7 = '<h2>' + enchiladasClass.name + '</h2> <h4>Instructor:' + enchiladasClass.instructor + '</h4> <h3>Menu:</h3>' + enchiladasClass.menu + '<p>' + enchiladasClass.description + '</p> <h3>Session:</h3>' + enchiladasClass.location + ' – ' + enchiladasClass.day + ', ' + enchiladasClass.date;
-var elCdDesc7 = document.getElementById('desc7');
-elCdDesc7.innerHTML = cdDesc7;
-
-cdReg7 = '<br><h3>Price: $' + enchiladasClass.price +  '</h3> <p></p>'
-var elCdReg7 = document.getElementById('reg7');
-elCdReg7.innerHTML = cdReg7;
-     
 // atw.html
-var bc8 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="atw.html">' + atwClass.name + '</a></li> </ul>';
-var elBc8 = document.getElementById('bc8');
-elBc8.innerHTML = bc8;
+if (document.getElementById('bc8') != null || document.getElementById('bc8') != "") {
+    var bc8 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="atw.html">' + atwClass.name + '</a></li> </ul>';
+    var elBc8 = document.getElementById('bc8');
+    elBc8.innerHTML = bc8;
+    
+    var cdImg8 = '<br> <img class="image" src="images/' + atwClass.image + '" alt="atw">';
+    var elCd8 = document.getElementById('img8');
+    elCd8.innerHTML = cdImg8;
+    
+    var cdDesc8 = '<h2>' + atwClass.name + '</h2> <h4>Instructor:' + atwClass.instructor + '</h4><h3>Menu:</h3>' + atwClass.menu + '<p>' + atwClass.description + '</p> <h3>Session:</h3>' + atwClass.location + ' – ' + atwClass.day + ', ' + atwClass.date;
+    var elCdDesc8 = document.getElementById('desc8');
+    elCdDesc8.innerHTML = cdDesc8;
+    
+    cdReg8 = '<br><h3>Price: $' + atwClass.price +  '</h3> <p></p>'
+    var elCdReg8 = document.getElementById('reg8');
+    elCdReg8.innerHTML = cdReg8;
+}
 
-var cdImg8 = '<br> <img class="image" src="images/' + atwClass.image + '" alt="atw">';
-var elCd8 = document.getElementById('img8');
-elCd8.innerHTML = cdImg8;
-
-var cdDesc8 = '<h2>' + atwClass.name + '</h2> <h4>Instructor:' + atwClass.instructor + '</h4><h3>Menu:</h3>' + atwClass.menu + '<p>' + atwClass.description + '</p> <h3>Session:</h3>' + atwClass.location + ' – ' + atwClass.day + ', ' + atwClass.date;
-var elCdDesc8 = document.getElementById('desc8');
-elCdDesc8.innerHTML = cdDesc8;
-
-cdReg8 = '<br><h3>Price: $' + atwClass.price +  '</h3> <p></p>'
-var elCdReg8 = document.getElementById('reg8');
-elCdReg8.innerHTML = cdReg8;
-     
 // bread.html
-var bc9 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bread.html">' + breadClass.name + '</a></li> </ul>';
-var elBc9 = document.getElementById('bc9');
-elBc9.innerHTML = bc9;
+if (document.getElementById('bc9') != null || document.getElementById('bc9') != "") {
+    var bc9 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bread.html">' + breadClass.name + '</a></li> </ul>';
+    var elBc9 = document.getElementById('bc9');
+    elBc9.innerHTML = bc9;
+    
+    var cdImg9 = '<br> <img class="image" src="images/' + breadClass.image + '" alt="bread">';
+    var elCd9 = document.getElementById('img9');
+    elCd9.innerHTML = cdImg9;
+    
+    var cdDesc9 = '<h2>' + breadClass.name + '</h2> <h4>Instructor:' + breadClass.instructor + '</h4><h3>Menu:</h3>' + breadClass.menu + '<p>' + breadClass.description + '</p> <h3>Session:</h3>' + breadClass.location + ' – ' + breadClass.day + ', ' + breadClass.date;
+    var elCdDesc9 = document.getElementById('desc9');
+    elCdDesc9.innerHTML = cdDesc9;
+    
+    cdReg9 = '<br><h3>Price: $' + breadClass.price +  '</h3> <p></p>'
+    var elCdReg9 = document.getElementById('reg9');
+    elCdReg9.innerHTML = cdReg9;
+}     
 
-var cdImg9 = '<br> <img class="image" src="images/' + breadClass.image + '" alt="bread">';
-var elCd9 = document.getElementById('img9');
-elCd9.innerHTML = cdImg9;
-
-var cdDesc9 = '<h2>' + breadClass.name + '</h2> <h4>Instructor:' + breadClass.instructor + '</h4><h3>Menu:</h3>' + breadClass.menu + '<p>' + breadClass.description + '</p> <h3>Session:</h3>' + breadClass.location + ' – ' + breadClass.day + ', ' + breadClass.date;
-var elCdDesc9 = document.getElementById('desc9');
-elCdDesc9.innerHTML = cdDesc9;
-
-cdReg9 = '<br><h3>Price: $' + breadClass.price +  '</h3> <p></p>'
-var elCdReg9 = document.getElementById('reg9');
-elCdReg9.innerHTML = cdReg9;
-     
 // basque.html
-var bc10 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="basque.html">' + basqueClass.name + '</a></li> </ul>';
-var elBc10 = document.getElementById('bc10');
-elBc10.innerHTML = bc10;
+if (document.getElementById('bc10') != null || document.getElementById('bc10') != "") {
+    var bc10 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="basque.html">' + basqueClass.name + '</a></li> </ul>';
+    var elBc10 = document.getElementById('bc10');
+    elBc10.innerHTML = bc10;
+    
+    var cdImg10 = '<br> <img class="image" src="images/' + basqueClass.image + '" alt="basque">';
+    var elCd10 = document.getElementById('img10');
+    elCd10.innerHTML = cdImg10;
+    
+    var cdDesc10 = '<h2>' + basqueClass.name + '</h2> <h4>Instructor:' + basqueClass.instructor + '</h4><h3>Menu:</h3>' + basqueClass.menu + '<p>' + basqueClass.description + '</p> <h3>Session:</h3>' + basqueClass.location + ' – ' + basqueClass.day + ', ' + basqueClass.date;
+    var elCdDesc10 = document.getElementById('desc10');
+    elCdDesc10.innerHTML = cdDesc10;
+    
+    cdReg10 = '<br><h3>Price: $' + basqueClass.price +  '</h3> <p></p>'
+    var elCdReg10 = document.getElementById('reg10');
+    elCdReg10.innerHTML = cdReg10;
+}
 
-var cdImg10 = '<br> <img class="image" src="images/' + basqueClass.image + '" alt="basque">';
-var elCd10 = document.getElementById('img10');
-elCd10.innerHTML = cdImg10;
-
-var cdDesc10 = '<h2>' + basqueClass.name + '</h2> <h4>Instructor:' + basqueClass.instructor + '</h4><h3>Menu:</h3>' + basqueClass.menu + '<p>' + basqueClass.description + '</p> <h3>Session:</h3>' + basqueClass.location + ' – ' + basqueClass.day + ', ' + basqueClass.date;
-var elCdDesc10 = document.getElementById('desc10');
-elCdDesc10.innerHTML = cdDesc10;
-
-cdReg10 = '<br><h3>Price: $' + basqueClass.price +  '</h3> <p></p>'
-var elCdReg10 = document.getElementById('reg10');
-elCdReg10.innerHTML = cdReg10;
-     
 // batter.html
-var bc11 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="batter.html">' + batterClass.name + '</a></li> </ul>';
-var elBc11 = document.getElementById('bc11');
-elBc11.innerHTML = bc11;
-
-var cdImg11 = '<br> <img class="image" src="images/' + batterClass.image + '" alt="batter">';
-var elCd11 = document.getElementById('img11');
-elCd11.innerHTML = cdImg11;
-
-var cdDesc11 = '<h2>' + batterClass.name + '</h2> <h4>Instructor:' + batterClass.instructor + '</h4><h3>Menu:</h3>' + batterClass.menu + '<p>' + batterClass.description + '</p> <h3>Session:</h3>' + batterClass.location + ' – ' + batterClass.day + ', ' + batterClass.date;
-var elCdDesc11 = document.getElementById('desc11');
-elCdDesc11.innerHTML = cdDesc11;
-
-cdReg11 = '<br><h3>Price: $' + batterClass.price +  '</h3> <p></p>'
-var elCdReg11 = document.getElementById('reg11');
-elCdReg11.innerHTML = cdReg11;
-     
+if (document.getElementById('bc11') != null || document.getElementById('bc11') != "") {
+    var bc11 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="batter.html">' + batterClass.name + '</a></li> </ul>';
+    var elBc11 = document.getElementById('bc11');
+    elBc11.innerHTML = bc11;
+    
+    var cdImg11 = '<br> <img class="image" src="images/' + batterClass.image + '" alt="batter">';
+    var elCd11 = document.getElementById('img11');
+    elCd11.innerHTML = cdImg11;
+    
+    var cdDesc11 = '<h2>' + batterClass.name + '</h2> <h4>Instructor:' + batterClass.instructor + '</h4><h3>Menu:</h3>' + batterClass.menu + '<p>' + batterClass.description + '</p> <h3>Session:</h3>' + batterClass.location + ' – ' + batterClass.day + ', ' + batterClass.date;
+    var elCdDesc11 = document.getElementById('desc11');
+    elCdDesc11.innerHTML = cdDesc11;
+    
+    cdReg11 = '<br><h3>Price: $' + batterClass.price +  '</h3> <p></p>'
+    var elCdReg11 = document.getElementById('reg11');
+    elCdReg11.innerHTML = cdReg11;
+} 
 // cheese.html
-var bc12 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cheese.html">' + cheeseClass.name + '</a></li> </ul>';
-var elBc12 = document.getElementById('bc12');
-elBc12.innerHTML = bc12;
+if (document.getElementById('bc12') != null || document.getElementById('bc12') != "") {
+    var bc12 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cheese.html">' + cheeseClass.name + '</a></li> </ul>';
+    var elBc12 = document.getElementById('bc12');
+    elBc12.innerHTML = bc12;
+    
+    var cdImg12 = '<br> <img class="image" src="images/' + cheeseClass.image + '" alt="cheese">';
+    var elCd12 = document.getElementById('img12');
+    elCd12.innerHTML = cdImg12;
+    
+    var cdDesc12 = '<h2>' + cheeseClass.name + '</h2> <h4>Instructor:' + cheeseClass.instructor + '</h4><h3>Menu:</h3>' + cheeseClass.menu + '<p>' + cheeseClass.description + '</p> <h3>Session:</h3>' + cheeseClass.location + ' – ' + cheeseClass.day + ', ' + cheeseClass.date;
+    var elCdDesc12 = document.getElementById('desc12');
+    elCdDesc12.innerHTML = cdDesc12;
+    
+    cdReg12 = '<br><h3>Price: $' + cheeseClass.price +  '</h3> <p></p>'
+    var elCdReg12 = document.getElementById('reg12');
+    elCdReg12.innerHTML = cdReg12;
+}
 
-var cdImg12 = '<br> <img class="image" src="images/' + cheeseClass.image + '" alt="cheese">';
-var elCd12 = document.getElementById('img12');
-elCd12.innerHTML = cdImg12;
-
-var cdDesc12 = '<h2>' + cheeseClass.name + '</h2> <h4>Instructor:' + cheeseClass.instructor + '</h4><h3>Menu:</h3>' + cheeseClass.menu + '<p>' + cheeseClass.description + '</p> <h3>Session:</h3>' + cheeseClass.location + ' – ' + cheeseClass.day + ', ' + cheeseClass.date;
-var elCdDesc12 = document.getElementById('desc12');
-elCdDesc12.innerHTML = cdDesc12;
-
-cdReg12 = '<br><h3>Price: $' + cheeseClass.price +  '</h3> <p></p>'
-var elCdReg12 = document.getElementById('reg12');
-elCdReg12.innerHTML = cdReg12;
-     
 // chicken.html
-var bc13 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chicken.html">' + chickenClass.name + '</a></li> </ul>';
-var elBc13 = document.getElementById('bc13');
-elBc13.innerHTML = bc13;
+if (document.getElementById('bc13') != null || document.getElementById('bc13') != "") {
+    var bc13 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chicken.html">' + chickenClass.name + '</a></li> </ul>';
+    var elBc13 = document.getElementById('bc13');
+    elBc13.innerHTML = bc13;
+    
+    var cdImg13 = '<br> <img class="image" src="images/' + chickenClass.image + '" alt="chicken">';
+    var elCd13 = document.getElementById('img13');
+    elCd13.innerHTML = cdImg13;
+    
+    var cdDesc13 = '<h2>' + chickenClass.name + '</h2> <h4>Instructor:' + chickenClass.instructor + '</h4><h3>Menu:</h3>' + chickenClass.menu + '<p>' + chickenClass.description + '</p> <h3>Session:</h3>' + chickenClass.location + ' – ' + chickenClass.day + ', ' + chickenClass.date;
+    var elCdDesc13 = document.getElementById('desc13');
+    elCdDesc13.innerHTML = cdDesc13;
+    
+    cdReg13 = '<br><h3>Price: $' + chickenClass.price +  '</h3> <p></p>'
+    var elCdReg13 = document.getElementById('reg13');
+    elCdReg13.innerHTML = cdReg13;
+}
 
-var cdImg13 = '<br> <img class="image" src="images/' + chickenClass.image + '" alt="chicken">';
-var elCd13 = document.getElementById('img13');
-elCd13.innerHTML = cdImg13;
-
-var cdDesc13 = '<h2>' + chickenClass.name + '</h2> <h4>Instructor:' + chickenClass.instructor + '</h4><h3>Menu:</h3>' + chickenClass.menu + '<p>' + chickenClass.description + '</p> <h3>Session:</h3>' + chickenClass.location + ' – ' + chickenClass.day + ', ' + chickenClass.date;
-var elCdDesc13 = document.getElementById('desc13');
-elCdDesc13.innerHTML = cdDesc13;
-
-cdReg13 = '<br><h3>Price: $' + chickenClass.price +  '</h3> <p></p>'
-var elCdReg13 = document.getElementById('reg13');
-elCdReg13.innerHTML = cdReg13;
-     
 // cldrolls.html
-var bc14 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cldrolls.html">' + cldrollsClass.name + '</a></li> </ul>';
-var elBc14 = document.getElementById('bc14');
-elBc14.innerHTML = bc14;
+if (document.getElementById('bc14') != null || document.getElementById('bc14') != "") {
+    var bc14 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cldrolls.html">' + cldrollsClass.name + '</a></li> </ul>';
+    var elBc14 = document.getElementById('bc14');
+    elBc14.innerHTML = bc14;
+    
+    var cdImg14 = '<br> <img class="image" src="images/' + cldrollsClass.image + '" alt="cldrolls">';
+    var elCd14 = document.getElementById('img14');
+    elCd14.innerHTML = cdImg14;
+    
+    var cdDesc14 = '<h2>' + cldrollsClass.name + '</h2> <h4>Instructor:' + cldrollsClass.instructor + '</h4><h3>Menu:</h3>' + cldrollsClass.menu + '<p>' + cldrollsClass.description + '</p> <h3>Session:</h3>' + cldrollsClass.location + ' – ' + cldrollsClass.day + ', ' + cldrollsClass.date;
+    var elCdDesc14 = document.getElementById('desc14');
+    elCdDesc14.innerHTML = cdDesc14;
+    
+    cdReg14 = '<br><h3>Price: $' + cldrollsClass.price +  '</h3> <p></p>'
+    var elCdReg14 = document.getElementById('reg14');
+    elCdReg14.innerHTML = cdReg14;
+}
 
-var cdImg14 = '<br> <img class="image" src="images/' + cldrollsClass.image + '" alt="cldrolls">';
-var elCd14 = document.getElementById('img14');
-elCd14.innerHTML = cdImg14;
-
-var cdDesc14 = '<h2>' + cldrollsClass.name + '</h2> <h4>Instructor:' + cldrollsClass.instructor + '</h4><h3>Menu:</h3>' + cldrollsClass.menu + '<p>' + cldrollsClass.description + '</p> <h3>Session:</h3>' + cldrollsClass.location + ' – ' + cldrollsClass.day + ', ' + cldrollsClass.date;
-var elCdDesc14 = document.getElementById('desc14');
-elCdDesc14.innerHTML = cdDesc14;
-
-cdReg14 = '<br><h3>Price: $' + cldrollsClass.price +  '</h3> <p></p>'
-var elCdReg14 = document.getElementById('reg14');
-elCdReg14.innerHTML = cdReg14;
-     
 // noodles.html
-var bc15 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="noodles.html">' + noodlesClass.name + '</a></li> </ul>';
-var elBc15 = document.getElementById('bc15');
-elBc15.innerHTML = bc15;
+if (document.getElementById('bc15') != null || document.getElementById('bc15') != "") {
+    var bc15 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="noodles.html">' + noodlesClass.name + '</a></li> </ul>';
+    var elBc15 = document.getElementById('bc15');
+    elBc15.innerHTML = bc15;
+    
+    var cdImg15 = '<br> <img class="image" src="images/' + noodlesClass.image + '" alt="noodles">';
+    var elCd15 = document.getElementById('img15');
+    elCd15.innerHTML = cdImg15;
+    
+    var cdDesc15 = '<h2>' + noodlesClass.name + '</h2> <h4>Instructor:' + noodlesClass.instructor + '</h4><h3>Menu:</h3>' + noodlesClass.menu + '<p>' + noodlesClass.description + '</p> <h3>Session:</h3>' + noodlesClass.location + ' – ' + noodlesClass.day + ', ' + noodlesClass.date;
+    var elCdDesc15 = document.getElementById('desc15');
+    elCdDesc15.innerHTML = cdDesc15;
+    
+    cdReg15 = '<br><h3>Price: $' + noodlesClass.price +  '</h3> <p></p>'
+    var elCdReg15 = document.getElementById('reg15');
+    elCdReg15.innerHTML = cdReg15;
+}
 
-var cdImg15 = '<br> <img class="image" src="images/' + noodlesClass.image + '" alt="noodles">';
-var elCd15 = document.getElementById('img15');
-elCd15.innerHTML = cdImg15;
-
-var cdDesc15 = '<h2>' + noodlesClass.name + '</h2> <h4>Instructor:' + noodlesClass.instructor + '</h4><h3>Menu:</h3>' + noodlesClass.menu + '<p>' + noodlesClass.description + '</p> <h3>Session:</h3>' + noodlesClass.location + ' – ' + noodlesClass.day + ', ' + noodlesClass.date;
-var elCdDesc15 = document.getElementById('desc15');
-elCdDesc15.innerHTML = cdDesc15;
-
-cdReg15 = '<br><h3>Price: $' + noodlesClass.price +  '</h3> <p></p>'
-var elCdReg15 = document.getElementById('reg15');
-elCdReg15.innerHTML = cdReg15;
-     
 // french.html
-var bc16 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="french.html">' + frenchClass.name + '</a></li> </ul>';
-var elBc16 = document.getElementById('bc16');
-elBc16.innerHTML = bc16;
-
-var cdImg16 = '<br> <img class="image" src="images/' + frenchClass.image + '" alt="french "><h3>Menu:</h3>' + frenchClass.menu;
-var elCd16 = document.getElementById('img16');
-elCd16.innerHTML = cdImg16;
-
-var cdDesc16 = '<h2>' + frenchClass.name + '</h2> <h4>Instructor:' + frenchClass.instructor + '</h4> <p>' + frenchClass.description + '</p> <h3>Session:</h3>' + frenchClass.location + ' – ' + frenchClass.day + ', ' + frenchClass.date;
-var elCdDesc16 = document.getElementById('desc16');
-elCdDesc16.innerHTML = cdDesc16;
-
-cdReg16 = '<br><h3>Price: $' + frenchClass.price +  '</h3> <p></p>'
-var elCdReg16 = document.getElementById('reg16');
-elCdReg16.innerHTML = cdReg16;
-     
+if (document.getElementById('bc16') != null || document.getElementById('bc16') != "") {
+    var bc16 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="french.html">' + frenchClass.name + '</a></li> </ul>';
+    var elBc16 = document.getElementById('bc16');
+    elBc16.innerHTML = bc16;
+    
+    var cdImg16 = '<br> <img class="image" src="images/' + frenchClass.image + '" alt="french "><h3>Menu:</h3>' + frenchClass.menu;
+    var elCd16 = document.getElementById('img16');
+    elCd16.innerHTML = cdImg16;
+    
+    var cdDesc16 = '<h2>' + frenchClass.name + '</h2> <h4>Instructor:' + frenchClass.instructor + '</h4> <p>' + frenchClass.description + '</p> <h3>Session:</h3>' + frenchClass.location + ' – ' + frenchClass.day + ', ' + frenchClass.date;
+    var elCdDesc16 = document.getElementById('desc16');
+    elCdDesc16.innerHTML = cdDesc16;
+    
+    cdReg16 = '<br><h3>Price: $' + frenchClass.price +  '</h3> <p></p>'
+    var elCdReg16 = document.getElementById('reg16');
+    elCdReg16.innerHTML = cdReg16;
+}    
 // klatch.html
-var bc17 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="klatch.html">' + klatchClass.name + '</a></li> </ul>';
-var elBc17 = document.getElementById('bc17');
-elBc17.innerHTML = bc17;
+if (document.getElementById('bc17') != null || document.getElementById('bc17') != "") {
+    var bc17 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="klatch.html">' + klatchClass.name + '</a></li> </ul>';
+    var elBc17 = document.getElementById('bc17');
+    elBc17.innerHTML = bc17;
+    
+    var cdImg17 = '<br> <img class="image" src="images/' + klatchClass.image + '" alt="klatch "><h3>Menu:</h3>' + klatchClass.menu;
+    var elCd17 = document.getElementById('img17');
+    elCd17.innerHTML = cdImg17;
+    
+    var cdDesc17 = '<h2>' + klatchClass.name + '</h2> <h4>Instructor:' + klatchClass.instructor + '</h4> <p>' + klatchClass.description + '</p> <h3>Session:</h3>' + klatchClass.location + ' – ' + klatchClass.day + ', ' + klatchClass.date;
+    var elCdDesc17 = document.getElementById('desc17');
+    elCdDesc17.innerHTML = cdDesc17;
+    
+    cdReg17 = '<br><h3>Price: $' + klatchClass.price +  '</h3> <p></p>'
+    var elCdReg17 = document.getElementById('reg17');
+    elCdReg17.innerHTML = cdReg17;
+}
 
-var cdImg17 = '<br> <img class="image" src="images/' + klatchClass.image + '" alt="klatch "><h3>Menu:</h3>' + klatchClass.menu;
-var elCd17 = document.getElementById('img17');
-elCd17.innerHTML = cdImg17;
-
-var cdDesc17 = '<h2>' + klatchClass.name + '</h2> <h4>Instructor:' + klatchClass.instructor + '</h4> <p>' + klatchClass.description + '</p> <h3>Session:</h3>' + klatchClass.location + ' – ' + klatchClass.day + ', ' + klatchClass.date;
-var elCdDesc17 = document.getElementById('desc17');
-elCdDesc17.innerHTML = cdDesc17;
-
-cdReg17 = '<br><h3>Price: $' + klatchClass.price +  '</h3> <p></p>'
-var elCdReg17 = document.getElementById('reg17');
-elCdReg17.innerHTML = cdReg17;
-     
 // spsoup.html
-var bc18 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="spsoup.html">' + spsoupClass.name + '</a></li> </ul>';
-var elBc18 = document.getElementById('bc18');
-elBc18.innerHTML = bc18;
+if (document.getElementById('bc18') != null || document.getElementById('bc18') != "") {
+    var bc18 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="spsoup.html">' + spsoupClass.name + '</a></li> </ul>';
+    var elBc18 = document.getElementById('bc18');
+    elBc18.innerHTML = bc18;
+    
+    var cdImg18 = '<br> <img class="image" src="images/' + spsoupClass.image + '" alt="spsoup "><h3>Menu:</h3>' + spsoupClass.menu;
+    var elCd18 = document.getElementById('img18');
+    elCd18.innerHTML = cdImg18;
+    
+    var cdDesc18 = '<h2>' + spsoupClass.name + '</h2> <h4>Instructor:' + spsoupClass.instructor + '</h4> <p>' + spsoupClass.description + '</p> <h3>Session:</h3>' + spsoupClass.location + ' – ' + spsoupClass.day + ', ' + spsoupClass.date;
+    var elCdDesc18 = document.getElementById('desc18');
+    elCdDesc18.innerHTML = cdDesc18;
+    
+    cdReg18 = '<br><h3>Price: $' + spsoupClass.price +  '</h3> <p></p>'
+    var elCdReg18 = document.getElementById('reg18');
+    elCdReg18.innerHTML = cdReg18;
+}
 
-var cdImg18 = '<br> <img class="image" src="images/' + spsoupClass.image + '" alt="spsoup "><h3>Menu:</h3>' + spsoupClass.menu;
-var elCd18 = document.getElementById('img18');
-elCd18.innerHTML = cdImg18;
-
-var cdDesc18 = '<h2>' + spsoupClass.name + '</h2> <h4>Instructor:' + spsoupClass.instructor + '</h4> <p>' + spsoupClass.description + '</p> <h3>Session:</h3>' + spsoupClass.location + ' – ' + spsoupClass.day + ', ' + spsoupClass.date;
-var elCdDesc18 = document.getElementById('desc18');
-elCdDesc18.innerHTML = cdDesc18;
-
-cdReg18 = '<br><h3>Price: $' + spsoupClass.price +  '</h3> <p></p>'
-var elCdReg18 = document.getElementById('reg18');
-elCdReg18.innerHTML = cdReg18;
-     
 // vegan.html
-var bc19 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="vegan.html">' + veganClass.name + '</a></li> </ul>';
-var elBc19 = document.getElementById('bc19');
-elBc19.innerHTML = bc19;
+if (document.getElementById('bc19') != null || document.getElementById('bc19') != "") {
+    var bc19 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="vegan.html">' + veganClass.name + '</a></li> </ul>';
+    var elBc19 = document.getElementById('bc19');
+    elBc19.innerHTML = bc19;
+    
+    var cdImg19 = '<br> <img class="image" src="images/' + veganClass.image + '" alt="vegan "><h3>Menu:</h3>' + veganClass.menu;
+    var elCd19 = document.getElementById('img19');
+    elCd19.innerHTML = cdImg19;
+    
+    var cdDesc19 = '<h2>' + veganClass.name + '</h2> <h4>Instructor:' + veganClass.instructor + '</h4> <p>' + veganClass.description + '</p> <h3>Session:</h3>' + veganClass.location + ' – ' + veganClass.day + ', ' + veganClass.date;
+    var elCdDesc19 = document.getElementById('desc19');
+    elCdDesc19.innerHTML = cdDesc19;
+    
+    cdReg19 = '<br><h3>Price: $' + veganClass.price +  '</h3> <p></p>'
+    var elCdReg19 = document.getElementById('reg19');
+    elCdReg19.innerHTML = cdReg19;
+}     
 
-var cdImg19 = '<br> <img class="image" src="images/' + veganClass.image + '" alt="vegan "><h3>Menu:</h3>' + veganClass.menu;
-var elCd19 = document.getElementById('img19');
-elCd19.innerHTML = cdImg19;
-
-var cdDesc19 = '<h2>' + veganClass.name + '</h2> <h4>Instructor:' + veganClass.instructor + '</h4> <p>' + veganClass.description + '</p> <h3>Session:</h3>' + veganClass.location + ' – ' + veganClass.day + ', ' + veganClass.date;
-var elCdDesc19 = document.getElementById('desc19');
-elCdDesc19.innerHTML = cdDesc19;
-
-cdReg19 = '<br><h3>Price: $' + veganClass.price +  '</h3> <p></p>'
-var elCdReg19 = document.getElementById('reg19');
-elCdReg19.innerHTML = cdReg19;
-     
 // ferm.html
-var bc20 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="ferm.html">' + fermClass.name + '</a></li> </ul>';
-var elBc20 = document.getElementById('bc20');
-elBc20.innerHTML = bc20;
-
-var cdImg20 = '<br> <img class="image" src="images/' + fermClass.image + '" alt="ferm "><h3>Menu:</h3>' + fermClass.menu;
-var elCd20 = document.getElementById('img20');
-elCd20.innerHTML = cdImg20;
-
-var cdDesc20 = '<h2>' + fermClass.name + '</h2> <h4>Instructor:' + fermClass.instructor + '</h4> <p>' + fermClass.description + '</p> <h3>Session:</h3>' + fermClass.location + ' – ' + fermClass.day + ', ' + fermClass.date;
-var elCdDesc20 = document.getElementById('desc20');
-elCdDesc20.innerHTML = cdDesc20;
-
-cdReg20 = '<br><h3>Price: $' + fermClass.price +  '</h3> <p></p>'
-var elCdReg20 = document.getElementById('reg20');
-elCdReg20.innerHTML = cdReg20;
-     
+if (document.getElementById('bc20') != null || document.getElementById('bc20') != "") {
+    var bc20 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="ferm.html">' + fermClass.name + '</a></li> </ul>';
+    var elBc20 = document.getElementById('bc20');
+    elBc20.innerHTML = bc20;
+    
+    var cdImg20 = '<br> <img class="image" src="images/' + fermClass.image + '" alt="ferm "><h3>Menu:</h3>' + fermClass.menu;
+    var elCd20 = document.getElementById('img20');
+    elCd20.innerHTML = cdImg20;
+    
+    var cdDesc20 = '<h2>' + fermClass.name + '</h2> <h4>Instructor:' + fermClass.instructor + '</h4> <p>' + fermClass.description + '</p> <h3>Session:</h3>' + fermClass.location + ' – ' + fermClass.day + ', ' + fermClass.date;
+    var elCdDesc20 = document.getElementById('desc20');
+    elCdDesc20.innerHTML = cdDesc20;
+    
+    cdReg20 = '<br><h3>Price: $' + fermClass.price +  '</h3> <p></p>'
+    var elCdReg20 = document.getElementById('reg20');
+    elCdReg20.innerHTML = cdReg20;
+}    
 // heart.html
-var bc21 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="heart.html">' + heartClass.name + '</a></li> </ul>';
-var elBc21 = document.getElementById('bc21');
-elBc21.innerHTML = bc21;
-
-var cdImg21 = '<br> <img class="image" src="images/' + heartClass.image + '" alt="heart "><h3>Menu:</h3>' + heartClass.menu;
-var elCd21 = document.getElementById('img21');
-elCd21.innerHTML = cdImg21;
-
-var cdDesc21 = '<h2>' + heartClass.name + '</h2> <h4>Instructor:' + heartClass.instructor + '</h4> <p>' + heartClass.description + '</p> <h3>Session:</h3>' + heartClass.location + ' – ' + heartClass.day + ', ' + heartClass.date;
-var elCdDesc21 = document.getElementById('desc21');
-elCdDesc21.innerHTML = cdDesc21;
-
-cdReg21 = '<br><h3>Price: $' + heartClass.price +  '</h3> <p></p>'
-var elCdReg21 = document.getElementById('reg21');
-elCdReg21.innerHTML = cdReg21;
-     
+if (document.getElementById('bc21') != null || document.getElementById('bc21') != "") {
+    var bc21 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="heart.html">' + heartClass.name + '</a></li> </ul>';
+    var elBc21 = document.getElementById('bc21');
+    elBc21.innerHTML = bc21;
+    
+    var cdImg21 = '<br> <img class="image" src="images/' + heartClass.image + '" alt="heart "><h3>Menu:</h3>' + heartClass.menu;
+    var elCd21 = document.getElementById('img21');
+    elCd21.innerHTML = cdImg21;
+    
+    var cdDesc21 = '<h2>' + heartClass.name + '</h2> <h4>Instructor:' + heartClass.instructor + '</h4> <p>' + heartClass.description + '</p> <h3>Session:</h3>' + heartClass.location + ' – ' + heartClass.day + ', ' + heartClass.date;
+    var elCdDesc21 = document.getElementById('desc21');
+    elCdDesc21.innerHTML = cdDesc21;
+    
+    cdReg21 = '<br><h3>Price: $' + heartClass.price +  '</h3> <p></p>'
+    var elCdReg21 = document.getElementById('reg21');
+    elCdReg21.innerHTML = cdReg21;
+}     
 // fondue.html
-var bc22 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="fondue.html">' + fondueClass.name + '</a></li> </ul>';
-var elBc22 = document.getElementById('bc22');
-elBc22.innerHTML = bc22;
-
-var cdImg22 = '<br> <img class="image" src="images/' + fondueClass.image + '" alt="fondue "><h3>Menu:</h3>' + fondueClass.menu;
-var elCd22 = document.getElementById('img22');
-elCd22.innerHTML = cdImg22;
-
-var cdDesc22 = '<h2>' + fondueClass.name + '</h2> <h4>Instructor:' + fondueClass.instructor + '</h4> <p>' + fondueClass.description + '</p> <h3>Session:</h3>' + fondueClass.location + ' – ' + fondueClass.day + ', ' + fondueClass.date;
-var elCdDesc22 = document.getElementById('desc22');
-elCdDesc22.innerHTML = cdDesc22;
-
-cdReg22 = '<br><h3>Price: $' + fondueClass.price +  '</h3> <p></p>'
-var elCdReg22 = document.getElementById('reg22');
-elCdReg22.innerHTML = cdReg22;
-     
+if (document.getElementById('bc22') != null || document.getElementById('bc22') != "") {
+    var bc22 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="fondue.html">' + fondueClass.name + '</a></li> </ul>';
+    var elBc22 = document.getElementById('bc22');
+    elBc22.innerHTML = bc22;
+    
+    var cdImg22 = '<br> <img class="image" src="images/' + fondueClass.image + '" alt="fondue "><h3>Menu:</h3>' + fondueClass.menu;
+    var elCd22 = document.getElementById('img22');
+    elCd22.innerHTML = cdImg22;
+    
+    var cdDesc22 = '<h2>' + fondueClass.name + '</h2> <h4>Instructor:' + fondueClass.instructor + '</h4> <p>' + fondueClass.description + '</p> <h3>Session:</h3>' + fondueClass.location + ' – ' + fondueClass.day + ', ' + fondueClass.date;
+    var elCdDesc22 = document.getElementById('desc22');
+    elCdDesc22.innerHTML = cdDesc22;
+    
+    cdReg22 = '<br><h3>Price: $' + fondueClass.price +  '</h3> <p></p>'
+    var elCdReg22 = document.getElementById('reg22');
+    elCdReg22.innerHTML = cdReg22;
+}    
 // gfwtt.html
-var bc23 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfwtt.html">' + gfwttClass.name + '</a></li> </ul>';
-var elBc23 = document.getElementById('bc23');
-elBc23.innerHTML = bc23;
-
-var cdImg23 = '<br> <img class="image" src="images/' + gfwttClass.image + '" alt="gfwtt "><h3>Menu:</h3>' + gfwttClass.menu;
-var elCd23 = document.getElementById('img23');
-elCd23.innerHTML = cdImg23;
-
-var cdDesc23 = '<h2>' + gfwttClass.name + '</h2> <h4>Instructor:' + gfwttClass.instructor + '</h4> <p>' + gfwttClass.description + '</p> <h3>Session:</h3>' + gfwttClass.location + ' – ' + gfwttClass.day + ', ' + gfwttClass.date;
-var elCdDesc23 = document.getElementById('desc23');
-elCdDesc23.innerHTML = cdDesc23;
-
-cdReg23 = '<br><h3>Price: $' + gfwttClass.price +  '</h3> <p></p>'
-var elCdReg23 = document.getElementById('reg23');
-elCdReg23.innerHTML = cdReg23;
-     
+if (document.getElementById('bc23') != null || document.getElementById('bc23') != "") {
+    var bc23 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfwtt.html">' + gfwttClass.name + '</a></li> </ul>';
+    var elBc23 = document.getElementById('bc23');
+    elBc23.innerHTML = bc23;
+    
+    var cdImg23 = '<br> <img class="image" src="images/' + gfwttClass.image + '" alt="gfwtt "><h3>Menu:</h3>' + gfwttClass.menu;
+    var elCd23 = document.getElementById('img23');
+    elCd23.innerHTML = cdImg23;
+    
+    var cdDesc23 = '<h2>' + gfwttClass.name + '</h2> <h4>Instructor:' + gfwttClass.instructor + '</h4> <p>' + gfwttClass.description + '</p> <h3>Session:</h3>' + gfwttClass.location + ' – ' + gfwttClass.day + ', ' + gfwttClass.date;
+    var elCdDesc23 = document.getElementById('desc23');
+    elCdDesc23.innerHTML = cdDesc23;
+    
+    cdReg23 = '<br><h3>Price: $' + gfwttClass.price +  '</h3> <p></p>'
+    var elCdReg23 = document.getElementById('reg23');
+    elCdReg23.innerHTML = cdReg23;
+}     
 // gfbaking.html
-var bc24 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfbaking.html">' + gfbakingClass.name + '</a></li> </ul>';
-var elBc24 = document.getElementById('bc24');
-elBc24.innerHTML = bc24;
-
-var cdImg24 = '<br> <img class="image" src="images/' + gfbakingClass.image + '" alt="gfbaking "><h3>Menu:</h3>' + gfbakingClass.menu;
-var elCd24 = document.getElementById('img24');
-elCd24.innerHTML = cdImg24;
-
-var cdDesc24 = '<h2>' + gfbakingClass.name + '</h2> <h4>Instructor:' + gfbakingClass.instructor + '</h4> <p>' + gfbakingClass.description + '</p> <h3>Session:</h3>' + gfbakingClass.location + ' – ' + gfbakingClass.day + ', ' + gfbakingClass.date;
-var elCdDesc24 = document.getElementById('desc24');
-elCdDesc24.innerHTML = cdDesc24;
-
-cdReg24 = '<br><h3>Price: $' + gfbakingClass.price +  '</h3> <p></p>'
-var elCdReg24 = document.getElementById('reg24');
-elCdReg24.innerHTML = cdReg24;
-     
+if (document.getElementById('bc24') != null || document.getElementById('bc24') != "") {
+    var bc24 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfbaking.html">' + gfbakingClass.name + '</a></li> </ul>';
+    var elBc24 = document.getElementById('bc24');
+    elBc24.innerHTML = bc24;
+    
+    var cdImg24 = '<br> <img class="image" src="images/' + gfbakingClass.image + '" alt="gfbaking "><h3>Menu:</h3>' + gfbakingClass.menu;
+    var elCd24 = document.getElementById('img24');
+    elCd24.innerHTML = cdImg24;
+    
+    var cdDesc24 = '<h2>' + gfbakingClass.name + '</h2> <h4>Instructor:' + gfbakingClass.instructor + '</h4> <p>' + gfbakingClass.description + '</p> <h3>Session:</h3>' + gfbakingClass.location + ' – ' + gfbakingClass.day + ', ' + gfbakingClass.date;
+    var elCdDesc24 = document.getElementById('desc24');
+    elCdDesc24.innerHTML = cdDesc24;
+    
+    cdReg24 = '<br><h3>Price: $' + gfbakingClass.price +  '</h3> <p></p>'
+    var elCdReg24 = document.getElementById('reg24');
+    elCdReg24.innerHTML = cdReg24;
+}     
 // budget.html
-var bc25 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="budget.html">' + budgetClass.name + '</a></li> </ul>';
-var elBc25 = document.getElementById('bc25');
-elBc25.innerHTML = bc25;
-
-var cdImg25 = '<br> <img class="image" src="images/' + budgetClass.image + '" alt="budget "><h3>Menu:</h3>' + budgetClass.menu;
-var elCd25 = document.getElementById('img25');
-elCd25.innerHTML = cdImg25;
-
-var cdDesc25 = '<h2>' + budgetClass.name + '</h2> <h4>Instructor:' + budgetClass.instructor + '</h4> <p>' + budgetClass.description + '</p> <h3>Session:</h3>' + budgetClass.location + ' – ' + budgetClass.day + ', ' + budgetClass.date;
-var elCdDesc25 = document.getElementById('desc25');
-elCdDesc25.innerHTML = cdDesc25;
-
-cdReg25 = '<br><h3>Price: $' + budgetClass.price +  '</h3> <p></p>'
-var elCdReg25 = document.getElementById('reg25');
-elCdReg25.innerHTML = cdReg25;
-     
+if (document.getElementById('bc25') != null || document.getElementById('bc25') != "") {
+    var bc25 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="budget.html">' + budgetClass.name + '</a></li> </ul>';
+    var elBc25 = document.getElementById('bc25');
+    elBc25.innerHTML = bc25;
+    
+    var cdImg25 = '<br> <img class="image" src="images/' + budgetClass.image + '" alt="budget "><h3>Menu:</h3>' + budgetClass.menu;
+    var elCd25 = document.getElementById('img25');
+    elCd25.innerHTML = cdImg25;
+    
+    var cdDesc25 = '<h2>' + budgetClass.name + '</h2> <h4>Instructor:' + budgetClass.instructor + '</h4> <p>' + budgetClass.description + '</p> <h3>Session:</h3>' + budgetClass.location + ' – ' + budgetClass.day + ', ' + budgetClass.date;
+    var elCdDesc25 = document.getElementById('desc25');
+    elCdDesc25.innerHTML = cdDesc25;
+    
+    cdReg25 = '<br><h3>Price: $' + budgetClass.price +  '</h3> <p></p>'
+    var elCdReg25 = document.getElementById('reg25');
+    elCdReg25.innerHTML = cdReg25;
+}            
 // sardinia.html
-var bc26 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="sardinia.html">' + sardiniaClass.name + '</a></li> </ul>';
-var elBc26 = document.getElementById('bc26');
-elBc26.innerHTML = bc26;
-
-var cdImg26 = '<br> <img class="image" src="images/' + sardiniaClass.image + '" alt="sardinia "><h3>Menu:</h3>' + sardiniaClass.menu;
-var elCd26 = document.getElementById('img26');
-elCd26.innerHTML = cdImg26;
-
-var cdDesc26 = '<h2>' + sardiniaClass.name + '</h2> <h4>Instructor:' + sardiniaClass.instructor + '</h4> <p>' + sardiniaClass.description + '</p> <h3>Session:</h3>' + sardiniaClass.location + ' – ' + sardiniaClass.day + ', ' + sardiniaClass.date;
-var elCdDesc26 = document.getElementById('desc26');
-elCdDesc26.innerHTML = cdDesc26;
-
-cdReg26 = '<br><h3>Price: $' + sardiniaClass.price +  '</h3> <p></p>'
-var elCdReg26 = document.getElementById('reg26');
-elCdReg26.innerHTML = cdReg26;
-     
+if (document.getElementById('bc26') != null || document.getElementById('bc26') != "") {
+    var bc26 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="sardinia.html">' + sardiniaClass.name + '</a></li> </ul>';
+    var elBc26 = document.getElementById('bc26');
+    elBc26.innerHTML = bc26;
+    
+    var cdImg26 = '<br> <img class="image" src="images/' + sardiniaClass.image + '" alt="sardinia "><h3>Menu:</h3>' + sardiniaClass.menu;
+    var elCd26 = document.getElementById('img26');
+    elCd26.innerHTML = cdImg26;
+    
+    var cdDesc26 = '<h2>' + sardiniaClass.name + '</h2> <h4>Instructor:' + sardiniaClass.instructor + '</h4> <p>' + sardiniaClass.description + '</p> <h3>Session:</h3>' + sardiniaClass.location + ' – ' + sardiniaClass.day + ', ' + sardiniaClass.date;
+    var elCdDesc26 = document.getElementById('desc26');
+    elCdDesc26.innerHTML = cdDesc26;
+    
+    cdReg26 = '<br><h3>Price: $' + sardiniaClass.price +  '</h3> <p></p>'
+    var elCdReg26 = document.getElementById('reg26');
+    elCdReg26.innerHTML = cdReg26;
+}     
 // cake.html
-var bc27 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cake.html">' + cakeClass.name + '</a></li> </ul>';
-var elBc27 = document.getElementById('bc27');
-elBc27.innerHTML = bc27;
-
-var cdImg27 = '<br> <img class="image" src="images/' + cakeClass.image + '" alt="cake "><h3>Menu:</h3>' + cakeClass.menu;
-var elCd27 = document.getElementById('img27');
-elCd27.innerHTML = cdImg27;
-
-var cdDesc27 = '<h2>' + cakeClass.name + '</h2> <h4>Instructor:' + cakeClass.instructor + '</h4> <p>' + cakeClass.description + '</p> <h3>Session:</h3>' + cakeClass.location + ' – ' + cakeClass.day + ', ' + cakeClass.date;
-var elCdDesc27 = document.getElementById('desc27');
-elCdDesc27.innerHTML = cdDesc27;
-
-cdReg27 = '<br><h3>Price: $' + cakeClass.price +  '</h3> <p></p>'
-var elCdReg27 = document.getElementById('reg27');
-elCdReg27.innerHTML = cdReg27;
-     
+if (document.getElementById('bc27') != null || document.getElementById('bc27') != "") {
+    var bc27 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cake.html">' + cakeClass.name + '</a></li> </ul>';
+    var elBc27 = document.getElementById('bc27');
+    elBc27.innerHTML = bc27;
+    
+    var cdImg27 = '<br> <img class="image" src="images/' + cakeClass.image + '" alt="cake "><h3>Menu:</h3>' + cakeClass.menu;
+    var elCd27 = document.getElementById('img27');
+    elCd27.innerHTML = cdImg27;
+    
+    var cdDesc27 = '<h2>' + cakeClass.name + '</h2> <h4>Instructor:' + cakeClass.instructor + '</h4> <p>' + cakeClass.description + '</p> <h3>Session:</h3>' + cakeClass.location + ' – ' + cakeClass.day + ', ' + cakeClass.date;
+    var elCdDesc27 = document.getElementById('desc27');
+    elCdDesc27.innerHTML = cdDesc27;
+    
+    cdReg27 = '<br><h3>Price: $' + cakeClass.price +  '</h3> <p></p>'
+    var elCdReg27 = document.getElementById('reg27');
+    elCdReg27.innerHTML = cdReg27;
+}     
 // season.html
-var bc28 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="season.html">' + seasonClass.name + '</a></li> </ul>';
-var elBc28 = document.getElementById('bc28');
-elBc28.innerHTML = bc28;
-
-var cdImg28 = '<br> <img class="image" src="images/' + seasonClass.image + '" alt="season "><h3>Menu:</h3>' + seasonClass.menu;
-var elCd28 = document.getElementById('img28');
-elCd28.innerHTML = cdImg28;
-
-var cdDesc28 = '<h2>' + seasonClass.name + '</h2> <h4>Instructor:' + seasonClass.instructor + '</h4> <p>' + seasonClass.description + '</p> <h3>Session:</h3>' + seasonClass.location + ' – ' + seasonClass.day + ', ' + seasonClass.date;
-var elCdDesc28 = document.getElementById('desc28');
-elCdDesc28.innerHTML = cdDesc28;
-
-cdReg28 = '<br><h3>Price: $' + seasonClass.price +  '</h3> <p></p>'
-var elCdReg28 = document.getElementById('reg28');
-elCdReg28.innerHTML = cdReg28;
-     
+if (document.getElementById('bc28') != null || document.getElementById('bc28') != "") {
+    var bc28 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="season.html">' + seasonClass.name + '</a></li> </ul>';
+    var elBc28 = document.getElementById('bc28');
+    elBc28.innerHTML = bc28;
+    
+    var cdImg28 = '<br> <img class="image" src="images/' + seasonClass.image + '" alt="season "><h3>Menu:</h3>' + seasonClass.menu;
+    var elCd28 = document.getElementById('img28');
+    elCd28.innerHTML = cdImg28;
+    
+    var cdDesc28 = '<h2>' + seasonClass.name + '</h2> <h4>Instructor:' + seasonClass.instructor + '</h4> <p>' + seasonClass.description + '</p> <h3>Session:</h3>' + seasonClass.location + ' – ' + seasonClass.day + ', ' + seasonClass.date;
+    var elCdDesc28 = document.getElementById('desc28');
+    elCdDesc28.innerHTML = cdDesc28;
+    
+    cdReg28 = '<br><h3>Price: $' + seasonClass.price +  '</h3> <p></p>'
+    var elCdReg28 = document.getElementById('reg28');
+    elCdReg28.innerHTML = cdReg28;
+}     
 // indian.html
-var bc29 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="indian.html">' + indianClass.name + '</a></li> </ul>';
-var elBc29 = document.getElementById('bc29');
-elBc29.innerHTML = bc29;
-
-var cdImg29 = '<br> <img class="image" src="images/' + indianClass.image + '" alt="indian "><h3>Menu:</h3>' + indianClass.menu;
-var elCd29 = document.getElementById('img29');
-elCd29.innerHTML = cdImg29;
-
-var cdDesc29 = '<h2>' + indianClass.name + '</h2> <h4>Instructor:' + indianClass.instructor + '</h4> <p>' + indianClass.description + '</p> <h3>Session:</h3>' + indianClass.location + ' – ' + indianClass.day + ', ' + indianClass.date;
-var elCdDesc29 = document.getElementById('desc29');
-elCdDesc29.innerHTML = cdDesc29;
-
-cdReg29 = '<br><h3>Price: $' + indianClass.price +  '</h3> <p></p>'
-var elCdReg29 = document.getElementById('reg29');
-elCdReg29.innerHTML = cdReg29;
-     
+if (document.getElementById('bc29') != null || document.getElementById('bc29') != "") {
+    var bc29 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="indian.html">' + indianClass.name + '</a></li> </ul>';
+    var elBc29 = document.getElementById('bc29');
+    elBc29.innerHTML = bc29;
+    
+    var cdImg29 = '<br> <img class="image" src="images/' + indianClass.image + '" alt="indian "><h3>Menu:</h3>' + indianClass.menu;
+    var elCd29 = document.getElementById('img29');
+    elCd29.innerHTML = cdImg29;
+    
+    var cdDesc29 = '<h2>' + indianClass.name + '</h2> <h4>Instructor:' + indianClass.instructor + '</h4> <p>' + indianClass.description + '</p> <h3>Session:</h3>' + indianClass.location + ' – ' + indianClass.day + ', ' + indianClass.date;
+    var elCdDesc29 = document.getElementById('desc29');
+    elCdDesc29.innerHTML = cdDesc29;
+    
+    cdReg29 = '<br><h3>Price: $' + indianClass.price +  '</h3> <p></p>'
+    var elCdReg29 = document.getElementById('reg29');
+    elCdReg29.innerHTML = cdReg29;
+}     
 // chem.html
-var bc30 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chem.html">' + chemClass.name + '</a></li> </ul>';
-var elBc30 = document.getElementById('bc30');
-elBc30.innerHTML = bc30;
-
-var cdImg30 = '<br> <img class="image" src="images/' + chemClass.image + '" alt="chem "><h3>Menu:</h3>' + chemClass.menu;
-var elCd30 = document.getElementById('img30');
-elCd30.innerHTML = cdImg30;
-
-var cdDesc30 = '<h2>' + chemClass.name + '</h2> <h4>Instructor:' + chemClass.instructor + '</h4> <p>' + chemClass.description + '</p> <h3>Session:</h3>' + chemClass.location + ' – ' + chemClass.day + ', ' + chemClass.date;
-var elCdDesc30 = document.getElementById('desc30');
-elCdDesc30.innerHTML = cdDesc30;
-
-cdReg30 = '<br><h3>Price: $' + chemClass.price +  '</h3> <p></p>'
-var elCdReg30 = document.getElementById('reg30');
-elCdReg30.innerHTML = cdReg30;
-     
+if (document.getElementById('bc30') != null || document.getElementById('bc30') != "") {
+    var bc30 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chem.html">' + chemClass.name + '</a></li> </ul>';
+    var elBc30 = document.getElementById('bc30');
+    elBc30.innerHTML = bc30;
+    
+    var cdImg30 = '<br> <img class="image" src="images/' + chemClass.image + '" alt="chem "><h3>Menu:</h3>' + chemClass.menu;
+    var elCd30 = document.getElementById('img30');
+    elCd30.innerHTML = cdImg30;
+    
+    var cdDesc30 = '<h2>' + chemClass.name + '</h2> <h4>Instructor:' + chemClass.instructor + '</h4> <p>' + chemClass.description + '</p> <h3>Session:</h3>' + chemClass.location + ' – ' + chemClass.day + ', ' + chemClass.date;
+    var elCdDesc30 = document.getElementById('desc30');
+    elCdDesc30.innerHTML = cdDesc30;
+    
+    cdReg30 = '<br><h3>Price: $' + chemClass.price +  '</h3> <p></p>'
+    var elCdReg30 = document.getElementById('reg30');
+    elCdReg30.innerHTML = cdReg30;
+}     
 // knife.html
-var bc31 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="knife.html">' + knifeClass.name + '</a></li> </ul>';
-var elBc31 = document.getElementById('bc31');
-elBc31.innerHTML = bc31;
-
-var cdImg31 = '<br> <img class="image" src="images/' + knifeClass.image + '" alt="knife "><h3>Menu:</h3>' + knifeClass.menu;
-var elCd31 = document.getElementById('img31');
-elCd31.innerHTML = cdImg31;
-
-var cdDesc31 = '<h2>' + knifeClass.name + '</h2> <h4>Instructor:' + knifeClass.instructor + '</h4> <p>' + knifeClass.description + '</p> <h3>Session:</h3>' + knifeClass.location + ' – ' + knifeClass.day + ', ' + knifeClass.date;
-var elCdDesc31 = document.getElementById('desc31');
-elCdDesc31.innerHTML = cdDesc31;
-
-cdReg31 = '<br><h3>Price: $' + knifeClass.price +  '</h3> <p></p>'
-var elCdReg31 = document.getElementById('reg31');
-elCdReg31.innerHTML = cdReg31;
-     
+if (document.getElementById('bc31') != null || document.getElementById('bc31') != "") {
+    var bc31 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="knife.html">' + knifeClass.name + '</a></li> </ul>';
+    var elBc31 = document.getElementById('bc31');
+    elBc31.innerHTML = bc31;
+    
+    var cdImg31 = '<br> <img class="image" src="images/' + knifeClass.image + '" alt="knife "><h3>Menu:</h3>' + knifeClass.menu;
+    var elCd31 = document.getElementById('img31');
+    elCd31.innerHTML = cdImg31;
+    
+    var cdDesc31 = '<h2>' + knifeClass.name + '</h2> <h4>Instructor:' + knifeClass.instructor + '</h4> <p>' + knifeClass.description + '</p> <h3>Session:</h3>' + knifeClass.location + ' – ' + knifeClass.day + ', ' + knifeClass.date;
+    var elCdDesc31 = document.getElementById('desc31');
+    elCdDesc31.innerHTML = cdDesc31;
+    
+    cdReg31 = '<br><h3>Price: $' + knifeClass.price +  '</h3> <p></p>'
+    var elCdReg31 = document.getElementById('reg31');
+    elCdReg31.innerHTML = cdReg31;
+}     
 // dumpling.html
-var bc32 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="dumpling.html">' + dumplingClass.name + '</a></li> </ul>';
-var elBc32 = document.getElementById('bc32');
-elBc32.innerHTML = bc32;
-
-var cdImg32 = '<br> <img class="image" src="images/' + dumplingClass.image + '" alt="dumpling "><h3>Menu:</h3>' + dumplingClass.menu;
-var elCd32 = document.getElementById('img32');
-elCd32.innerHTML = cdImg32;
-
-var cdDesc32 = '<h2>' + dumplingClass.name + '</h2> <h4>Instructor:' + dumplingClass.instructor + '</h4> <p>' + dumplingClass.description + '</p> <h3>Session:</h3>' + dumplingClass.location + ' – ' + dumplingClass.day + ', ' + dumplingClass.date;
-var elCdDesc32 = document.getElementById('desc32');
-elCdDesc32.innerHTML = cdDesc32;
-
-cdReg32 = '<br><h3>Price: $' + dumplingClass.price +  '</h3> <p></p>'
-var elCdReg32 = document.getElementById('reg32');
-elCdReg32.innerHTML = cdReg32;
-     
+if (document.getElementById('bc32') != null || document.getElementById('bc32') != "") {
+    var bc32 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="dumpling.html">' + dumplingClass.name + '</a></li> </ul>';
+    var elBc32 = document.getElementById('bc32');
+    elBc32.innerHTML = bc32;
+    
+    var cdImg32 = '<br> <img class="image" src="images/' + dumplingClass.image + '" alt="dumpling "><h3>Menu:</h3>' + dumplingClass.menu;
+    var elCd32 = document.getElementById('img32');
+    elCd32.innerHTML = cdImg32;
+    
+    var cdDesc32 = '<h2>' + dumplingClass.name + '</h2> <h4>Instructor:' + dumplingClass.instructor + '</h4> <p>' + dumplingClass.description + '</p> <h3>Session:</h3>' + dumplingClass.location + ' – ' + dumplingClass.day + ', ' + dumplingClass.date;
+    var elCdDesc32 = document.getElementById('desc32');
+    elCdDesc32.innerHTML = cdDesc32;
+    
+    cdReg32 = '<br><h3>Price: $' + dumplingClass.price +  '</h3> <p></p>'
+    var elCdReg32 = document.getElementById('reg32');
+    elCdReg32.innerHTML = cdReg32;
+}     
 // pan.html
-var bc33 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pan.html">' + panClass.name + '</a></li> </ul>';
-var elBc33 = document.getElementById('bc33');
-elBc33.innerHTML = bc33;
-
-var cdImg33 = '<br> <img class="image" src="images/' + panClass.image + '" alt="pan "><h3>Menu:</h3>' + panClass.menu;
-var elCd33 = document.getElementById('img33');
-elCd33.innerHTML = cdImg33;
-
-var cdDesc33 = '<h2>' + panClass.name + '</h2> <h4>Instructor:' + panClass.instructor + '</h4> <p>' + panClass.description + '</p> <h3>Session:</h3>' + panClass.location + ' – ' + panClass.day + ', ' + panClass.date;
-var elCdDesc33 = document.getElementById('desc33');
-elCdDesc33.innerHTML = cdDesc33;
-
-cdReg33 = '<br><h3>Price: $' + panClass.price +  '</h3> <p></p>'
-var elCdReg33 = document.getElementById('reg33');
-elCdReg33.innerHTML = cdReg33;
-     
+if (document.getElementById('bc33') != null || document.getElementById('bc33') != "") {
+    var bc33 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pan.html">' + panClass.name + '</a></li> </ul>';
+    var elBc33 = document.getElementById('bc33');
+    elBc33.innerHTML = bc33;
+    
+    var cdImg33 = '<br> <img class="image" src="images/' + panClass.image + '" alt="pan "><h3>Menu:</h3>' + panClass.menu;
+    var elCd33 = document.getElementById('img33');
+    elCd33.innerHTML = cdImg33;
+    
+    var cdDesc33 = '<h2>' + panClass.name + '</h2> <h4>Instructor:' + panClass.instructor + '</h4> <p>' + panClass.description + '</p> <h3>Session:</h3>' + panClass.location + ' – ' + panClass.day + ', ' + panClass.date;
+    var elCdDesc33 = document.getElementById('desc33');
+    elCdDesc33.innerHTML = cdDesc33;
+    
+    cdReg33 = '<br><h3>Price: $' + panClass.price +  '</h3> <p></p>'
+    var elCdReg33 = document.getElementById('reg33');
+    elCdReg33.innerHTML = cdReg33;
+}     
 // med.html
-var bc34 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="med.html">' + medClass.name + '</a></li> </ul>';
-var elBc34 = document.getElementById('bc34');
-elBc34.innerHTML = bc34;
-
-var cdImg34 = '<br> <img class="image" src="images/' + medClass.image + '" alt="med "><h3>Menu:</h3>' + medClass.menu;
-var elCd34 = document.getElementById('img34');
-elCd34.innerHTML = cdImg34;
-
-var cdDesc34 = '<h2>' + medClass.name + '</h2> <h4>Instructor:' + medClass.instructor + '</h4> <p>' + medClass.description + '</p> <h3>Session:</h3>' + medClass.location + ' – ' + medClass.day + ', ' + medClass.date;
-var elCdDesc34 = document.getElementById('desc34');
-elCdDesc34.innerHTML = cdDesc34;
-
-cdReg34 = '<br><h3>Price: $' + medClass.price +  '</h3> <p></p>'
-var elCdReg34 = document.getElementById('reg34');
-elCdReg34.innerHTML = cdReg34;
-     
+if (document.getElementById('bc34') != null || document.getElementById('bc34') != "") {
+    var bc34 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="med.html">' + medClass.name + '</a></li> </ul>';
+    var elBc34 = document.getElementById('bc34');
+    elBc34.innerHTML = bc34;
+    
+    var cdImg34 = '<br> <img class="image" src="images/' + medClass.image + '" alt="med "><h3>Menu:</h3>' + medClass.menu;
+    var elCd34 = document.getElementById('img34');
+    elCd34.innerHTML = cdImg34;
+    
+    var cdDesc34 = '<h2>' + medClass.name + '</h2> <h4>Instructor:' + medClass.instructor + '</h4> <p>' + medClass.description + '</p> <h3>Session:</h3>' + medClass.location + ' – ' + medClass.day + ', ' + medClass.date;
+    var elCdDesc34 = document.getElementById('desc34');
+    elCdDesc34.innerHTML = cdDesc34;
+    
+    cdReg34 = '<br><h3>Price: $' + medClass.price +  '</h3> <p></p>'
+    var elCdReg34 = document.getElementById('reg34');
+    elCdReg34.innerHTML = cdReg34;
+}     
 // piemontese.html
-var bc35 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="piemontese.html">' + piemonteseClass.name + '</a></li> </ul>';
-var elBc35 = document.getElementById('bc35');
-elBc35.innerHTML = bc35;
-
-var cdImg35 = '<br> <img class="image" src="images/' + piemonteseClass.image + '" alt="piemontese "><h3>Menu:</h3>' + piemonteseClass.menu;
-var elCd35 = document.getElementById('img35');
-elCd35.innerHTML = cdImg35;
-
-var cdDesc35 = '<h2>' + piemonteseClass.name + '</h2> <h4>Instructor:' + piemonteseClass.instructor + '</h4> <p>' + piemonteseClass.description + '</p> <h3>Session:</h3>' + piemonteseClass.location + ' – ' + piemonteseClass.day + ', ' + piemonteseClass.date;
-var elCdDesc35 = document.getElementById('desc35');
-elCdDesc35.innerHTML = cdDesc35;
-
-cdReg35 = '<br><h3>Price: $' + piemonteseClass.price +  '</h3> <p></p>'
-var elCdReg35 = document.getElementById('reg35');
-elCdReg35.innerHTML = cdReg35;
-     
+if (document.getElementById('bc35') != null || document.getElementById('bc35') != "") {
+    var bc35 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="piemontese.html">' + piemonteseClass.name + '</a></li> </ul>';
+    var elBc35 = document.getElementById('bc35');
+    elBc35.innerHTML = bc35;
+    
+    var cdImg35 = '<br> <img class="image" src="images/' + piemonteseClass.image + '" alt="piemontese "><h3>Menu:</h3>' + piemonteseClass.menu;
+    var elCd35 = document.getElementById('img35');
+    elCd35.innerHTML = cdImg35;
+    
+    var cdDesc35 = '<h2>' + piemonteseClass.name + '</h2> <h4>Instructor:' + piemonteseClass.instructor + '</h4> <p>' + piemonteseClass.description + '</p> <h3>Session:</h3>' + piemonteseClass.location + ' – ' + piemonteseClass.day + ', ' + piemonteseClass.date;
+    var elCdDesc35 = document.getElementById('desc35');
+    elCdDesc35.innerHTML = cdDesc35;
+    
+    cdReg35 = '<br><h3>Price: $' + piemonteseClass.price +  '</h3> <p></p>'
+    var elCdReg35 = document.getElementById('reg35');
+    elCdReg35.innerHTML = cdReg35;
+}     
 // mex.html
-var bc36 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="mex.html">' + mexClass.name + '</a></li> </ul>';
-var elBc36 = document.getElementById('bc36');
-elBc36.innerHTML = bc36;
-
-var cdImg36 = '<br> <img class="image" src="images/' + mexClass.image + '" alt="mex "><h3>Menu:</h3>' + mexClass.menu;
-var elCd36 = document.getElementById('img36');
-elCd36.innerHTML = cdImg36;
-
-var cdDesc36 = '<h2>' + mexClass.name + '</h2> <h4>Instructor:' + mexClass.instructor + '</h4> <p>' + mexClass.description + '</p> <h3>Session:</h3>' + mexClass.location + ' – ' + mexClass.day + ', ' + mexClass.date;
-var elCdDesc36 = document.getElementById('desc36');
-elCdDesc36.innerHTML = cdDesc36;
-
-cdReg36 = '<br><h3>Price: $' + mexClass.price +  '</h3> <p></p>'
-var elCdReg36 = document.getElementById('reg36');
-elCdReg36.innerHTML = cdReg36;
-     
+if (document.getElementById('bc36') != null || document.getElementById('bc36') != "") {
+    var bc36 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="mex.html">' + mexClass.name + '</a></li> </ul>';
+    var elBc36 = document.getElementById('bc36');
+    elBc36.innerHTML = bc36;
+    
+    var cdImg36 = '<br> <img class="image" src="images/' + mexClass.image + '" alt="mex "><h3>Menu:</h3>' + mexClass.menu;
+    var elCd36 = document.getElementById('img36');
+    elCd36.innerHTML = cdImg36;
+    
+    var cdDesc36 = '<h2>' + mexClass.name + '</h2> <h4>Instructor:' + mexClass.instructor + '</h4> <p>' + mexClass.description + '</p> <h3>Session:</h3>' + mexClass.location + ' – ' + mexClass.day + ', ' + mexClass.date;
+    var elCdDesc36 = document.getElementById('desc36');
+    elCdDesc36.innerHTML = cdDesc36;
+    
+    cdReg36 = '<br><h3>Price: $' + mexClass.price +  '</h3> <p></p>'
+    var elCdReg36 = document.getElementById('reg36');
+    elCdReg36.innerHTML = cdReg36;
+}    
 // bagels.html
-var bc37 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bagels.html">' + bagelsClass.name + '</a></li> </ul>';
-var elBc37 = document.getElementById('bc37');
-elBc37.innerHTML = bc37;
-
-var cdImg37 = '<br> <img class="image" src="images/' + bagelsClass.image + '" alt="bagels "><h3>Menu:</h3>' + bagelsClass.menu;
-var elCd37 = document.getElementById('img37');
-elCd37.innerHTML = cdImg37;
-
-var cdDesc37 = '<h2>' + bagelsClass.name + '</h2> <h4>Instructor:' + bagelsClass.instructor + '</h4> <p>' + bagelsClass.description + '</p> <h3>Session:</h3>' + bagelsClass.location + ' – ' + bagelsClass.day + ', ' + bagelsClass.date;
-var elCdDesc37 = document.getElementById('desc37');
-elCdDesc37.innerHTML = cdDesc37;
-
-cdReg37 = '<br><h3>Price: $' + bagelsClass.price +  '</h3> <p></p>'
-var elCdReg37 = document.getElementById('reg37');
-elCdReg37.innerHTML = cdReg37;
-     
+if (document.getElementById('bc37') != null || document.getElementById('bc37') != "") {
+    var bc37 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bagels.html">' + bagelsClass.name + '</a></li> </ul>';
+    var elBc37 = document.getElementById('bc37');
+    elBc37.innerHTML = bc37;
+    
+    var cdImg37 = '<br> <img class="image" src="images/' + bagelsClass.image + '" alt="bagels "><h3>Menu:</h3>' + bagelsClass.menu;
+    var elCd37 = document.getElementById('img37');
+    elCd37.innerHTML = cdImg37;
+    
+    var cdDesc37 = '<h2>' + bagelsClass.name + '</h2> <h4>Instructor:' + bagelsClass.instructor + '</h4> <p>' + bagelsClass.description + '</p> <h3>Session:</h3>' + bagelsClass.location + ' – ' + bagelsClass.day + ', ' + bagelsClass.date;
+    var elCdDesc37 = document.getElementById('desc37');
+    elCdDesc37.innerHTML = cdDesc37;
+    
+    cdReg37 = '<br><h3>Price: $' + bagelsClass.price +  '</h3> <p></p>'
+    var elCdReg37 = document.getElementById('reg37');
+    elCdReg37.innerHTML = cdReg37;
+}     
 // nwcel.html
-var bc38 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="nwcel.html">' + nwcelClass.name + '</a></li> </ul>';
-var elBc38 = document.getElementById('bc38');
-elBc38.innerHTML = bc38;
-
-var cdImg38 = '<br> <img class="image" src="images/' + nwcelClass.image + '" alt="nwcel "><h3>Menu:</h3>' + nwcelClass.menu;
-var elCd38 = document.getElementById('img38');
-elCd38.innerHTML = cdImg38;
-
-var cdDesc38 = '<h2>' + nwcelClass.name + '</h2> <h4>Instructor:' + nwcelClass.instructor + '</h4> <p>' + nwcelClass.description + '</p> <h3>Session:</h3>' + nwcelClass.location + ' – ' + nwcelClass.day + ', ' + nwcelClass.date;
-var elCdDesc38 = document.getElementById('desc38');
-elCdDesc38.innerHTML = cdDesc38;
-
-cdReg38 = '<br><h3>Price: $' + nwcelClass.price +  '</h3> <p></p>'
-var elCdReg38 = document.getElementById('reg38');
-elCdReg38.innerHTML = cdReg38;
-     
+if (document.getElementById('bc38') != null || document.getElementById('bc38') != "") {
+    var bc38 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="nwcel.html">' + nwcelClass.name + '</a></li> </ul>';
+    var elBc38 = document.getElementById('bc38');
+    elBc38.innerHTML = bc38;
+    
+    var cdImg38 = '<br> <img class="image" src="images/' + nwcelClass.image + '" alt="nwcel "><h3>Menu:</h3>' + nwcelClass.menu;
+    var elCd38 = document.getElementById('img38');
+    elCd38.innerHTML = cdImg38;
+    
+    var cdDesc38 = '<h2>' + nwcelClass.name + '</h2> <h4>Instructor:' + nwcelClass.instructor + '</h4> <p>' + nwcelClass.description + '</p> <h3>Session:</h3>' + nwcelClass.location + ' – ' + nwcelClass.day + ', ' + nwcelClass.date;
+    var elCdDesc38 = document.getElementById('desc38');
+    elCdDesc38.innerHTML = cdDesc38;
+    
+    cdReg38 = '<br><h3>Price: $' + nwcelClass.price +  '</h3> <p></p>'
+    var elCdReg38 = document.getElementById('reg38');
+    elCdReg38.innerHTML = cdReg38;
+}     
 // pulse.html
-var bc39 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pulse.html">' + pulseClass.name + '</a></li> </ul>';
-var elBc39 = document.getElementById('bc39');
-elBc39.innerHTML = bc39;
-
-var cdImg39 = '<br> <img class="image" src="images/' + pulseClass.image + '" alt="pulse "><h3>Menu:</h3>' + pulseClass.menu;
-var elCd39 = document.getElementById('img39');
-elCd39.innerHTML = cdImg39;
-
-var cdDesc39 = '<h2>' + pulseClass.name + '</h2> <h4>Instructor:' + pulseClass.instructor + '</h4> <p>' + pulseClass.description + '</p> <h3>Session:</h3>' + pulseClass.location + ' – ' + pulseClass.day + ', ' + pulseClass.date;
-var elCdDesc39 = document.getElementById('desc39');
-elCdDesc39.innerHTML = cdDesc39;
-
-cdReg39 = '<br><h3>Price: $' + pulseClass.price +  '</h3> <p></p>'
-var elCdReg39 = document.getElementById('reg39');
-elCdReg39.innerHTML = cdReg39;
-     
+if (document.getElementById('bc39') != null || document.getElementById('bc39') != "") {
+    var bc39 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pulse.html">' + pulseClass.name + '</a></li> </ul>';
+    var elBc39 = document.getElementById('bc39');
+    elBc39.innerHTML = bc39;
+    
+    var cdImg39 = '<br> <img class="image" src="images/' + pulseClass.image + '" alt="pulse "><h3>Menu:</h3>' + pulseClass.menu;
+    var elCd39 = document.getElementById('img39');
+    elCd39.innerHTML = cdImg39;
+    
+    var cdDesc39 = '<h2>' + pulseClass.name + '</h2> <h4>Instructor:' + pulseClass.instructor + '</h4> <p>' + pulseClass.description + '</p> <h3>Session:</h3>' + pulseClass.location + ' – ' + pulseClass.day + ', ' + pulseClass.date;
+    var elCdDesc39 = document.getElementById('desc39');
+    elCdDesc39.innerHTML = cdDesc39;
+    
+    cdReg39 = '<br><h3>Price: $' + pulseClass.price +  '</h3> <p></p>'
+    var elCdReg39 = document.getElementById('reg39');
+    elCdReg39.innerHTML = cdReg39;
+}     
 // pasta.html
-var bc40 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pasta.html">' + pastaClass.name + '</a></li> </ul>';
-var elBc40 = document.getElementById('bc40');
-elBc40.innerHTML = bc40;
-
-var cdImg40 = '<br> <img class="image" src="images/' + pastaClass.image + '" alt="pasta "><h3>Menu:</h3>' + pastaClass.menu;
-var elCd40 = document.getElementById('img40');
-elCd40.innerHTML = cdImg40;
-
-var cdDesc40 = '<h2>' + pastaClass.name + '</h2> <h4>Instructor:' + pastaClass.instructor + '</h4> <p>' + pastaClass.description + '</p> <h3>Session:</h3>' + pastaClass.location + ' – ' + pastaClass.day + ', ' + pastaClass.date;
-var elCdDesc40 = document.getElementById('desc40');
-elCdDesc40.innerHTML = cdDesc40;
-
-cdReg40 = '<br><h3>Price: $' + pastaClass.price +  '</h3> <p></p>'
-var elCdReg40 = document.getElementById('reg40');
-elCdReg40.innerHTML = cdReg40;
-     
+if (document.getElementById('bc40') != null || document.getElementById('bc40') != "") {
+    var bc40 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pasta.html">' + pastaClass.name + '</a></li> </ul>';
+    var elBc40 = document.getElementById('bc40');
+    elBc40.innerHTML = bc40;
+    
+    var cdImg40 = '<br> <img class="image" src="images/' + pastaClass.image + '" alt="pasta "><h3>Menu:</h3>' + pastaClass.menu;
+    var elCd40 = document.getElementById('img40');
+    elCd40.innerHTML = cdImg40;
+    
+    var cdDesc40 = '<h2>' + pastaClass.name + '</h2> <h4>Instructor:' + pastaClass.instructor + '</h4> <p>' + pastaClass.description + '</p> <h3>Session:</h3>' + pastaClass.location + ' – ' + pastaClass.day + ', ' + pastaClass.date;
+    var elCdDesc40 = document.getElementById('desc40');
+    elCdDesc40.innerHTML = cdDesc40;
+    
+    cdReg40 = '<br><h3>Price: $' + pastaClass.price +  '</h3> <p></p>'
+    var elCdReg40 = document.getElementById('reg40');
+    elCdReg40.innerHTML = cdReg40;
+}     
 // pizza.html
-var bc41 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pizza.html">' + pizzaClass.name + '</a></li> </ul>';
-var elBc41 = document.getElementById('bc41');
-elBc41.innerHTML = bc41;
-
-var cdImg41 = '<br> <img class="image" src="images/' + pizzaClass.image + '" alt="pizza "><h3>Menu:</h3>' + pizzaClass.menu;
-var elCd41 = document.getElementById('img41');
-elCd41.innerHTML = cdImg41;
-
-var cdDesc41 = '<h2>' + pizzaClass.name + '</h2> <h4>Instructor:' + pizzaClass.instructor + '</h4> <p>' + pizzaClass.description + '</p> <h3>Session:</h3>' + pizzaClass.location + ' – ' + pizzaClass.day + ', ' + pizzaClass.date;
-var elCdDesc41 = document.getElementById('desc41');
-elCdDesc41.innerHTML = cdDesc41;
-
-cdReg41 = '<br><h3>Price: $' + pizzaClass.price +  '</h3> <p></p>'
-var elCdReg41 = document.getElementById('reg41');
-elCdReg41.innerHTML = cdReg41;
-     
+if (document.getElementById('bc41') != null || document.getElementById('bc41') != "") {
+    var bc41 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pizza.html">' + pizzaClass.name + '</a></li> </ul>';
+    var elBc41 = document.getElementById('bc41');
+    elBc41.innerHTML = bc41;
+    
+    var cdImg41 = '<br> <img class="image" src="images/' + pizzaClass.image + '" alt="pizza "><h3>Menu:</h3>' + pizzaClass.menu;
+    var elCd41 = document.getElementById('img41');
+    elCd41.innerHTML = cdImg41;
+    
+    var cdDesc41 = '<h2>' + pizzaClass.name + '</h2> <h4>Instructor:' + pizzaClass.instructor + '</h4> <p>' + pizzaClass.description + '</p> <h3>Session:</h3>' + pizzaClass.location + ' – ' + pizzaClass.day + ', ' + pizzaClass.date;
+    var elCdDesc41 = document.getElementById('desc41');
+    elCdDesc41.innerHTML = cdDesc41;
+    
+    cdReg41 = '<br><h3>Price: $' + pizzaClass.price +  '</h3> <p></p>'
+    var elCdReg41 = document.getElementById('reg41');
+    elCdReg41.innerHTML = cdReg41;
+}     
 // thai.html
-var bc42 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="thai.html">' + thaiClass.name + '</a></li> </ul>';
-var elBc42 = document.getElementById('bc42');
-elBc42.innerHTML = bc42;
-
-var cdImg42 = '<br> <img class="image" src="images/' + thaiClass.image + '" alt="thai "><h3>Menu:</h3>' + thaiClass.menu;
-var elCd42 = document.getElementById('img42');
-elCd42.innerHTML = cdImg42;
-
-var cdDesc42 = '<h2>' + thaiClass.name + '</h2> <h4>Instructor:' + thaiClass.instructor + '</h4> <p>' + thaiClass.description + '</p> <h3>Session:</h3>' + thaiClass.location + ' – ' + thaiClass.day + ', ' + thaiClass.date;
-var elCdDesc42 = document.getElementById('desc42');
-elCdDesc42.innerHTML = cdDesc42;
-
-cdReg42 = '<br><h3>Price: $' + thaiClass.price +  '</h3> <p></p>'
-var elCdReg42 = document.getElementById('reg42');
-elCdReg42.innerHTML = cdReg42;
-     
+if (document.getElementById('bc42') != null || document.getElementById('bc42') != "") {
+    var bc42 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="thai.html">' + thaiClass.name + '</a></li> </ul>';
+    var elBc42 = document.getElementById('bc42');
+    elBc42.innerHTML = bc42;
+    
+    var cdImg42 = '<br> <img class="image" src="images/' + thaiClass.image + '" alt="thai "><h3>Menu:</h3>' + thaiClass.menu;
+    var elCd42 = document.getElementById('img42');
+    elCd42.innerHTML = cdImg42;
+    
+    var cdDesc42 = '<h2>' + thaiClass.name + '</h2> <h4>Instructor:' + thaiClass.instructor + '</h4> <p>' + thaiClass.description + '</p> <h3>Session:</h3>' + thaiClass.location + ' – ' + thaiClass.day + ', ' + thaiClass.date;
+    var elCdDesc42 = document.getElementById('desc42');
+    elCdDesc42.innerHTML = cdDesc42;
+    
+    cdReg42 = '<br><h3>Price: $' + thaiClass.price +  '</h3> <p></p>'
+    var elCdReg42 = document.getElementById('reg42');
+    elCdReg42.innerHTML = cdReg42;
+}     
 // grill.html
-var bc43 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="grill.html">' + grillClass.name + '</a></li> </ul>';
-var elBc43 = document.getElementById('bc43');
-elBc43.innerHTML = bc43;
-
-var cdImg43 = '<br> <img class="image" src="images/' + grillClass.image + '" alt="grill "><h3>Menu:</h3>' + grillClass.menu;
-var elCd43 = document.getElementById('img43');
-elCd43.innerHTML = cdImg43;
-
-var cdDesc43 = '<h2>' + grillClass.name + '</h2> <h4>Instructor:' + grillClass.instructor + '</h4> <p>' + grillClass.description + '</p> <h3>Session:</h3>' + grillClass.location + ' – ' + grillClass.day + ', ' + grillClass.date;
-var elCdDesc43 = document.getElementById('desc43');
-elCdDesc43.innerHTML = cdDesc43;
-
-cdReg43 = '<br><h3>Price: $' + grillClass.price +  '</h3> <p></p>'
-var elCdReg43 = document.getElementById('reg43');
-elCdReg43.innerHTML = cdReg43;
-
+if (document.getElementById('bc43') != null || document.getElementById('bc43') != "") {
+    var bc43 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="grill.html">' + grillClass.name + '</a></li> </ul>';
+    var elBc43 = document.getElementById('bc43');
+    elBc43.innerHTML = bc43;
+    
+    var cdImg43 = '<br> <img class="image" src="images/' + grillClass.image + '" alt="grill "><h3>Menu:</h3>' + grillClass.menu;
+    var elCd43 = document.getElementById('img43');
+    elCd43.innerHTML = cdImg43;
+    
+    var cdDesc43 = '<h2>' + grillClass.name + '</h2> <h4>Instructor:' + grillClass.instructor + '</h4> <p>' + grillClass.description + '</p> <h3>Session:</h3>' + grillClass.location + ' – ' + grillClass.day + ', ' + grillClass.date;
+    var elCdDesc43 = document.getElementById('desc43');
+    elCdDesc43.innerHTML = cdDesc43;
+    
+    cdReg43 = '<br><h3>Price: $' + grillClass.price +  '</h3> <p></p>'
+    var elCdReg43 = document.getElementById('reg43');
+    elCdReg43.innerHTML = cdReg43;
+}
