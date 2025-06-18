@@ -63,7 +63,7 @@ var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our region
 // Update the HTML for the page  - Deena
 
 // twoday.html
-if (document.getElementById('bc1') != null || document.getElementById('bc1') != "") {
+if (document.getElementById('bc1')) {
     var bc1 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="twoday.html">' + twodayClass.name + '</a></li> </ul>';
     var elBc1 = document.getElementById('bc1');
     elBc1.innerHTML = bc1;
@@ -80,7 +80,7 @@ if (document.getElementById('bc1') != null || document.getElementById('bc1') != 
     elCdReg1.innerHTML = cdReg1;
 }
 // cook42.html
-if (document.getElementById('bc2') != null || document.getElementById('bc2') != "") {
+if (document.getElementById('bc2')) {
     var bc2 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cook42.html">' + cook42Class.name + '</a></li> </ul>';
     var elBc2 = document.getElementById('bc2');
     elBc2.innerHTML = bc2;
@@ -98,7 +98,7 @@ if (document.getElementById('bc2') != null || document.getElementById('bc2') != 
     elCdReg2.innerHTML = cdReg2;
 }
 // salmon.html
-if (document.getElementById('bc3') != null || document.getElementById('bc3') != "") {
+if (document.getElementById('bc3')) {
     var bc3 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="salmon.html">' + salmonClass.name + '</a></li> </ul>';
     var elBc3 = document.getElementById('bc3');
     elBc3.innerHTML = bc3;
@@ -116,7 +116,7 @@ if (document.getElementById('bc3') != null || document.getElementById('bc3') != 
     elCdReg3.innerHTML = cdReg3;
 }    
 // aging.html
-if (document.getElementById('bc4') != null || document.getElementById('bc4') != "") {
+if (document.getElementById('bc4')) {
     var bc4 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="aging.html">' + agingClass.name + '</a></li> </ul>';
     var elBc4 = document.getElementById('bc4');
     elBc4.innerHTML = bc4;
