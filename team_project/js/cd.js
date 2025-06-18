@@ -43,11 +43,11 @@ var gfbakingClass = new Class('Gluten-free Baking: SWEET Treats', 'Usher in spri
 var budgetClass = new Class('Healthy Eating —  Budget Friendly', 'Time and money are both valuable resources, and sometimes we can find ourselves tight on one or the other or both. Learn how to create quick and easy meals that are delicious, nutritious and cost effective. You\'ll get techniques for meal planning, tips on how to "dress-up" leftovers and recipe substitutions to help stretch your food dollar, as well as tips on how to maximize the nutrition you get from your food purchases. You\'ll love Berry Banana Smoothie; Carrot Cabbage Slaw with Marinated Tofu and Lemon-Tahini Dressing; and Lentil Cakes with Garlic-Feta Sauce. Vegetarian with dairy and eggs.', '45', 'May, adults,vegetarian, dairy, eggs', 'Virginia Newman,  M.S.N.', 'Green Lake Village', 'Monday', '5/23/2016', 'budget.jpg', '<ul><li>Berry Banana Smoothie</li><li>Carrot Cabbage Slaw with Marinated Tofu and Lemon-Tahini Dressing</li><li>Lentil Cakes with Garlic-Feta Sauce</li></ul>', '16', '0')
 var sardiniaClass = new Class('Holiday in Sardinia', 'Paola spent part of last summer on Carloforte, a tiny tuna-fishing island in Sardegna, and it was love at first bite. She\'ll introduce you to a sample of Sardinian cuisine as you help prepare Torta di Zucchine (Zucchini Frittata with Lemon Zest) as an appetizer. You will then make Malloreddus alla Campidanese (Handmade Semolina Pasta seasoned with Tomato Sauce and Tuna, as they serve it in Carloforte), and sweet little Pardulas (Sun-shaped Ricotta Pies). With seafood, dairy and eggs.', '50', 'April, adults, seafood,dairy,eggs', 'Paola Albanesi', 'RD', 'Thursday', '4/21/2016', 'sardinia.jpg', '<ul><li>Malloreddus alla Campidanese (Handmade Semolina Pasta seasoned with Tomato Sauce and Tuna, as they serve it in Carloforte)</li><li>Pardulas (Sun-shaped Ricotta Pies)</li></ul>', '16', '0')
 var cakeClass = new Class('How to Bake a Cake 101', 'Learn to make three types of cake in this  class devoted to cake mixing and baking. Pastry Chef Laurie Pfalzer takes you back to the  beginning, showing you how to mix and bake Lemon Pound Cake; Vanilla Genoise (sponge cake); and Devil\'s Food Cake. Not all cakes are created equal; you will see that each of these cakes gets a different treatment to give you the best results ever with optimal height, crumb and moisture. You will bake cupcakes, small loaves and 8-inch rounds to take home to  enjoy. Vegetarian with dairy and eggs.', '50', 'May, adults, vegetarian, dairy,eggs', 'Laurie Pfalzer', 'Issaquah', 'Monday', '5/2/2016', 'cake.jpg', '<ul><li>Lemon Pound Cake</li><li>Vanilla Genoise (sponge cake)</li><li> Devil\'s Food Cake</li></ul>', '16', '0')
-var seasonClass = new Class('IN SEASON', 'Feel confident preparing an impressive seasonal menu for your friends and loved ones with some savvy tips and creative ideas from Danielle. She will take you through some of her favorite spring recipes that will become your favorites, too! You\'ll help prepare Kale Caesar Salad with Chickpea Croutons; Cashew and Spinach-stuffed Portobello Mushrooms with Sweet Balsamic Drizzle; Seared Ahi with Carrot Ginger Chutney; and a Strawberry Rhubarb Oat and Pecan Crumble. With seafood; no dairy, eggs or gluten.', '50', 'May,adults, seafood, dairy-free,egg-free,gluten-free', 'Danielle Premo', 'Issaquah', 'Thursday', '5/12/2016', 'season.jpg', '<ul><li>Kale Caesar Salad with Chickpea Croutons</li><li>Cashew and Spinach-stuffed Portobello Mushrooms with Sweet Balsamic Drizzle</li><li>Seared Ahi with Carrot Ginger Chutney</li><li> Strawberry Rhubarb Oat and Pecan Crumble.</li></ul>', '16', '0')
+var seasonClass = new Class('In Season', 'Feel confident preparing an impressive seasonal menu for your friends and loved ones with some savvy tips and creative ideas from Danielle. She will take you through some of her favorite spring recipes that will become your favorites, too! You\'ll help prepare Kale Caesar Salad with Chickpea Croutons; Cashew and Spinach-stuffed Portobello Mushrooms with Sweet Balsamic Drizzle; Seared Ahi with Carrot Ginger Chutney; and a Strawberry Rhubarb Oat and Pecan Crumble. With seafood; no dairy, eggs or gluten.', '50', 'May,adults, seafood, dairy-free,egg-free,gluten-free', 'Danielle Premo', 'Issaquah', 'Thursday', '5/12/2016', 'season.jpg', '<ul><li>Kale Caesar Salad with Chickpea Croutons</li><li>Cashew and Spinach-stuffed Portobello Mushrooms with Sweet Balsamic Drizzle</li><li>Seared Ahi with Carrot Ginger Chutney</li><li> Strawberry Rhubarb Oat and Pecan Crumble.</li></ul>', '16', '0')
 var indianClass = new Class('Indian Cuisine —  Under Pressure!', 'Indians use pressure cookers routinely in their cooking, especially to cook dried, whole lentils and beans and vegetables like potatoes, cauliflower and carrots. A pressure cooker cuts cooking time and energy use significantly for the home cook. Archana will showcase several easy Indian recipes (that can be made with or without a pressure cooker), including Mung Bean Lentil Soup with Greens and Roasted  Cumin; Vegetable Biryani (Spice-infused Rice with Peas and Carrots); and Aloo Gobhi  (Potato and Cauliflower with Coriander and Cumin). Vegetarian; no dairy or eggs.', '45', 'April, adults,vegetarian, dairy-free,egg-free', 'Archana Verma', 'Columbia City', 'Monday', '4/11/2016', 'indian.jpg', '<ul><li>Mung Bean Lentil Soup with Greens and Roasted Cumin</li><li>Vegetable Biryani (Spice-infused Rice with Peas and Carrots)</li><li>Aloo Gobhi  (Potato and Cauliflower with Coriander and Cumin)</li></ul>', '16', '0')
 var chemClass = new Class('Kitchen Chemistry', 'For ages 10 to 12; kids only. What\'s the "pound" in pound cake? How do eggs make baked goods rise? What\'s the magical ingredient that makes some cookies soft and others crisp? We continue our culinary investigations with a batch of all new sweet and savory recipes. After whipping up heavenly French cheese puffs known as Gougères and Mini Vanilla Bean Pound Cakes, we\'ll taste the results of two variations on the same Oatmeal Cookie recipe, baked with one key difference. Vegetarian with dairy and eggs.', '45', 'April,kids, ages 10-12,vegetarian, dairy, eggs', 'Cam Zarcone', 'RD', 'Saturday', '4/9/2016', 'chem.jpg', '<ul><li>Gougères</li><li>Mini Vanilla Bean Pound Cakes</li><li>Oatmeal Cookie recipe,</li></ul>', '16', '0')
 var knifeClass = new Class('Knife Skills', 'Practice knife-handling and learn how to cut safely and efficiently in this skill-building workshop with Chef Seppo. For the most useful practice, bring your own familiar chef knife (or use ours if you don\'t have one). He\'ll review knife selection, introduce honing and sharpening and teach you several different knife techniques. You\'ll sharpen your skills while preparing  ingredients for Lemon Cilantro Chicken Soup and Lemon Cilantro Vegetable Soup, which Seppo will demonstrate in class. Vegetarian with optional poultry; no dairy or eggs. Adults only.', '50', 'April, adults,poultry, dairy-free, egg-free.', 'Seppo Farrey', 'RD', 'Tuesday', '4/5/2016', 'knife.jpg', '<ul><li>Lemon Cilantro Chicken Soup</li><li>Lemon Cilantro Vegetable Soup</li></ul>', '16', '0')
-var dumplingClass = new Class('LET\'s ROLL: JIAO-ZI DUMPLINGS AND SPRING ROLLS', 'KPLU food commentator and longtime restaurant critic Nancy Leson is an Asian food fanatic convinced that a pantry full of Asian condiments, canned goods, dried noodles and other staples is a sure way to travel without a passport. She\'ll offer a world of advice and chat about Greater Seattle\'s many Asian restaurants while you snack on Quick Japanese Pickles. Then get ready to roll! We\'ll make handmade Pork and Shrimp Jiao-zi, including easy dumpling dough; and Vietnamese Fresh Spring Rolls. With meat and seafood; no dairy or eggs.', '45', 'April, adults,meat,seafood,dairy-free,egg-free', 'Nancy Leson', 'Edmonds', 'Wednesday', '4/20/2016', 'dumpling.jpg', '<ul><li>Pork and Shrimp Jiao-zi</li><li>dumpling dough</li><li>Vietnamese Fresh Spring Rolls</li></ul>', '16', '0')
+var dumplingClass = new Class('Let\'s Roll: Jiao-Zi Dumplings and Spring Rolls', 'KPLU food commentator and longtime restaurant critic Nancy Leson is an Asian food fanatic convinced that a pantry full of Asian condiments, canned goods, dried noodles and other staples is a sure way to travel without a passport. She\'ll offer a world of advice and chat about Greater Seattle\'s many Asian restaurants while you snack on Quick Japanese Pickles. Then get ready to roll! We\'ll make handmade Pork and Shrimp Jiao-zi, including easy dumpling dough; and Vietnamese Fresh Spring Rolls. With meat and seafood; no dairy or eggs.', '45', 'April, adults,meat,seafood,dairy-free,egg-free', 'Nancy Leson', 'Edmonds', 'Wednesday', '4/20/2016', 'dumpling.jpg', '<ul><li>Pork and Shrimp Jiao-zi</li><li>dumpling dough</li><li>Vietnamese Fresh Spring Rolls</li></ul>', '16', '0')
 var panClass = new Class('Mastering the Pan — Sauté, Sear and Pan Roast', 'A good pan is a fundamental kitchen tool, but knowing how to properly use it can be elusive, with useful instruction missing from most cookbooks. In this class, discover how to properly read the temperatures of oils and fats, avoid overcrowding the pan, and understand when to add food to keep it from sticking. Darin will demonstrate how to properly sear, sauté and pan roast like a restaurant chef, so you can approach your favorite recipes with confidence. Together, we\'ll prepare Crispy-skinned Chicken Thighs with Braised Leeks and Mustard; Dry-brined Pork Chops with Sweet and Sour Cherry and Soy Glaze with Garlicky Bok Choy; and Butter-basted Peppercorn Strip Steak with Asparagus and Pine Nuts. With meat, dairy and eggs.', '55', 'April, adults,meat,dairy,eggs', 'Darin Gagner', 'Green Lake Village', 'Monday', '4/4/2016', 'pan.jpg', '<ul><li>Crispy-skinned Chicken Thighs with Braised Leeks and Mustard</li><li>Dry-brined Pork Chops with Sweet and Sour Cherry and Soy Glaze with Garlicky Bok Choy</li><li>Butter-basted Peppercorn Strip Steak with Asparagus and Pine Nuts</li></ul>', '16', '0')
 var medClass = new Class('Mediterranean Medley', 'Sureyya specializes in fast, easy and gloriously delicious vegan dishes. It\'s easy to love plant-based eating when you are enjoying these dishes from throughout the Mediterranean region: Turkish Spinach Hummus; Algerian Braised Beans and Lentil Soup with Harissa; Turkish Vegetable Hot Pot; Roasted Beet Salad with Rice and Dill; and Spicy Spanish Mojette (Roasted Vegetable Scoops). Vegetarian; no dairy or eggs.', '45', 'April, adults,vegetarian, dairy-free,egg-free', 'Sureyya Gokeri', 'Columbia City', 'Monday', '4/4/2016', 'med.jpg', '<ul><li>Turkish Spinach Hummus</li><li>Algerian Braised Beans and Lentil Soup with Harissa</li><li>Turkish Vegetable Hot Pot</li><li>Roasted Beet Salad with Rice and Dill</li><li> Spicy Spanish Mojette (Roasted Vegetable Scoops)</li></ul>', '16', '0')
 var piemonteseClass = new Class('Menu Piemontese', 'Among Italy\'s many cuisines and wine cultures, Piedmont offers an especially expressive and elegant range of flavors. Join us for a selection of extraordinary wines, chosen to complement our special menu: Bagna Cauda (Warm Parsley, Garlic and Anchovy Dipping Sauce accompanied by a Variety of Colorful Spring Vegetables and Ciabatta Bread);  Tagliolini con Tartufi (Ribbon Pasta with Artichokes and Pea Pods in White Truffle Sauce); Bollito Misto (a Melange of Chicken and Sausages cooked in a Seasoned Broth and served with a Classic Piemontese Green Sauce); and Zabaglione (a frothy Liqueur- infused Flan served with Fresh Strawberries). With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED', '65', 'June,adults, seafood, age 21+, meat, dairy,eggs', 'Lynne Vea, Jeff Cox,  John White and Leif Olson', 'WS', 'Thursday', '6/9/2016', 'piemontese.jpg', '<ul><li>Bagna Cauda (Warm Parsley, Garlic and Anchovy Dipping Sauce accompanied by a Variety of Colorful Spring Vegetables and Ciabatta Bread)</li><li> Tagliolini con Tartufi (Ribbon Pasta with Artichokes and Pea Pods in White Truffle Sauce)</li><li>Bollito Misto (a Melange of Chicken and Sausages)</li><li> Zabaglione (Liqueur-infused Flan served with Fresh Strawberries)</li></ul>', '16', '0')
@@ -58,7 +58,7 @@ var pulseClass = new Class('ON THE PULSE', 'Pulses, including lentils, peas and 
 var pastaClass = new Class('Pasta Workshop', 'Iole has been sharing her love of creating handmade pasta with eager PCC students for two decades now. In this lively workshop, Iole will show you how to create fresh pasta, a staple of Italian home-cooked meals. With a batch of pasta dough, expert guidance and a little  practice, you\'ll become skilled at making Bowtie Pasta with Sugar Plum Tomatoes, Mozzarella and Arugula; Tagliolini with Pesto; and  Fettuccine al Burro e Parmigiano. Iole will also demonstrate how to make ravioli and  tortellini. Vegetarian with dairy and eggs.', '55', 'April, adults,vegetarian, dairy, eggs', 'Iole Aguero', 'Green Lake Aurora', 'Tuesday', '4/5/2016', 'pasta.jpg', '<ul><li>Bowtie Pasta with Sugar Plum Tomatoes, Mozzarella and Arugula</li><li>Tagliolini with Pesto</li><li>Fettuccine al Burro e Parmigiano</li></ul>', '16', '0')
 var pizzaClass = new Class('Pizza, Pizza', 'For ages 4 to 6. What\'s not to love about pizza? Iole will show you how to make quick, delicious homemade pizza with just a few  ingredients. Kids will enjoy rolling out the dough and adding the toppings for their very own pizza. We\'ll also make Chocolate Coconut Cookies and transform them into irresistible Ice Cream Sandwiches. Vegetarian with dairy and eggs. Price includes one child and one adult.', '45', 'April,kids,ages 4-6,child+adult,', 'Iole Aguero', 'Issaquah', 'Saturday', '4/2/2016', 'pizza.jpg', '<ul><li>Pizza</li><li>Chocolate Coconut Cookies</li></ul>', '16', '0')
 var thaiClass = new Class('The Art of Thai Cuisine', 'Thai food is a snap for everyday cooking with Pranee\'s simple techniques and an abundance of Thai ingredients and fresh herbs within easy reach. Learn how to balance sweet, sour, salty and spicy as Pranee demonstrates four tantalizing Thai dishes, including Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice); Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves); Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves); and Kao Neow Mamuang (Sticky Rice with Mango). With meat, poultry and seafood; no dairy or eggs.', '50', 'April, adults,meat, poultry,seafood,dairy-free,egg-free', 'Pranee Halvorsen', 'Green Lake Aurora', 'Thursday', '4/14/2016', 'thai.jpg', '<ul><li>Laab Moo (Minced Pork Salad with Mint, Cilantro and Green Onion in Spicy Lime and Chili Dressing, served with Sticky Rice)</li><li>Tom Kha Gai (Chicken in Thai  Ginger and Coconut-Lime Broth with Lemongrass and Lime Leaves)</li><li>Phanang Goong (Zesty Phanang Curry Prawns with Shredded Lime Leaves)</li><li>Kao Neow Mamuang (Sticky Rice with Mango)</li></ul>', '16', '0')
-var grillClass = new Class('THE THRILL OF THE GRILL', 'Participate in our regional spring optimism and be at the ready, spatula in hand, for the first sunny opportunities to start grilling. Lynne\'s irresistible recipes will be paired with cider samplings: Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces; Sticky Chicken with Korean Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED.', '55', 'April, adults, ages 21+,meat, seafood, dairy, eggs', 'Lynne Vea', 'Edmonds', 'Tuesday', '4/5/2016', 'grill.jpg', '<ul><li>Sizzling Grilled Flatbread Pizza 101</li><li>Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces</li><li>Sticky Chicken with Korean Gochujang Barbecue Sauce</li><li>Rhubarb Fool</li></ul>', '16', '0')
+var grillClass = new Class('The Thrill Of The Grill', 'Participate in our regional spring optimism and be at the ready, spatula in hand, for the first sunny opportunities to start grilling. Lynne\'s irresistible recipes will be paired with cider samplings: Sizzling Grilled Flatbread Pizza 101 with homemade olive oil dough, local cheeses and a variety of toppings; Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces; Sticky Chicken with Korean Gochujang Barbecue Sauce; and Rhubarb Fool. With meat, seafood, dairy and eggs. AGE 21 AND OVER; PHOTO ID REQUIRED.', '55', 'April, adults, ages 21+,meat, seafood, dairy, eggs', 'Lynne Vea', 'Edmonds', 'Tuesday', '4/5/2016', 'grill.jpg', '<ul><li>Sizzling Grilled Flatbread Pizza 101</li><li>Nut-and-Seed-Crusted Filet of Halibut with two Zesty Sauces</li><li>Sticky Chicken with Korean Gochujang Barbecue Sauce</li><li>Rhubarb Fool</li></ul>', '16', '0')
 
 // Update the HTML for the page  - Deena
 
@@ -134,7 +134,7 @@ if (document.getElementById('bc4')) {
     elCdReg4.innerHTML = cdReg4;
 }
 // pie.html
-if (document.getElementById('bc5') != null || document.getElementById('bc5') != "") {
+if (document.getElementById('bc5')) {
     var bc5 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pie.html">' + pieClass.name + '</a></li> </ul>';
     var elBc5 = document.getElementById('bc5');
     elBc5.innerHTML = bc5;
@@ -153,7 +153,7 @@ if (document.getElementById('bc5') != null || document.getElementById('bc5') != 
 }
 
 // anti.html
-if (document.getElementById('bc6') != null || document.getElementById('bc6') != "") {
+if (document.getElementById('bc6')) {
     var bc6 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="anti.html">' + antiClass.name + '</a></li> </ul>';
     var elBc6 = document.getElementById('bc6');
     elBc6.innerHTML = bc6;
@@ -172,7 +172,7 @@ if (document.getElementById('bc6') != null || document.getElementById('bc6') != 
 }     
 
 // enchiladas.html
-if (document.getElementById('bc7') != null || document.getElementById('bc7') != "") {
+if (document.getElementById('bc7')) {
     var bc7 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="enchiladas.html">' + enchiladasClass.name + '</a></li> </ul>';
     var elBc7 = document.getElementById('bc7');
     elBc7.innerHTML = bc7;
@@ -191,7 +191,7 @@ if (document.getElementById('bc7') != null || document.getElementById('bc7') != 
 }
 
 // atw.html
-if (document.getElementById('bc8') != null || document.getElementById('bc8') != "") {
+if (document.getElementById('bc8')) {
     var bc8 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="atw.html">' + atwClass.name + '</a></li> </ul>';
     var elBc8 = document.getElementById('bc8');
     elBc8.innerHTML = bc8;
@@ -210,7 +210,7 @@ if (document.getElementById('bc8') != null || document.getElementById('bc8') != 
 }
 
 // bread.html
-if (document.getElementById('bc9') != null || document.getElementById('bc9') != "") {
+if (document.getElementById('bc9')) {
     var bc9 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bread.html">' + breadClass.name + '</a></li> </ul>';
     var elBc9 = document.getElementById('bc9');
     elBc9.innerHTML = bc9;
@@ -229,7 +229,7 @@ if (document.getElementById('bc9') != null || document.getElementById('bc9') != 
 }     
 
 // basque.html
-if (document.getElementById('bc10') != null || document.getElementById('bc10') != "") {
+if (document.getElementById('bc10')) {
     var bc10 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="basque.html">' + basqueClass.name + '</a></li> </ul>';
     var elBc10 = document.getElementById('bc10');
     elBc10.innerHTML = bc10;
@@ -248,7 +248,7 @@ if (document.getElementById('bc10') != null || document.getElementById('bc10') !
 }
 
 // batter.html
-if (document.getElementById('bc11') != null || document.getElementById('bc11') != "") {
+if (document.getElementById('bc11')) {
     var bc11 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="batter.html">' + batterClass.name + '</a></li> </ul>';
     var elBc11 = document.getElementById('bc11');
     elBc11.innerHTML = bc11;
@@ -266,7 +266,7 @@ if (document.getElementById('bc11') != null || document.getElementById('bc11') !
     elCdReg11.innerHTML = cdReg11;
 } 
 // cheese.html
-if (document.getElementById('bc12') != null || document.getElementById('bc12') != "") {
+if (document.getElementById('bc12')) {
     var bc12 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cheese.html">' + cheeseClass.name + '</a></li> </ul>';
     var elBc12 = document.getElementById('bc12');
     elBc12.innerHTML = bc12;
@@ -285,7 +285,7 @@ if (document.getElementById('bc12') != null || document.getElementById('bc12') !
 }
 
 // chicken.html
-if (document.getElementById('bc13') != null || document.getElementById('bc13') != "") {
+if (document.getElementById('bc13')) {
     var bc13 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chicken.html">' + chickenClass.name + '</a></li> </ul>';
     var elBc13 = document.getElementById('bc13');
     elBc13.innerHTML = bc13;
@@ -304,7 +304,7 @@ if (document.getElementById('bc13') != null || document.getElementById('bc13') !
 }
 
 // cldrolls.html
-if (document.getElementById('bc14') != null || document.getElementById('bc14') != "") {
+if (document.getElementById('bc14')) {
     var bc14 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cldrolls.html">' + cldrollsClass.name + '</a></li> </ul>';
     var elBc14 = document.getElementById('bc14');
     elBc14.innerHTML = bc14;
@@ -323,7 +323,7 @@ if (document.getElementById('bc14') != null || document.getElementById('bc14') !
 }
 
 // noodles.html
-if (document.getElementById('bc15') != null || document.getElementById('bc15') != "") {
+if (document.getElementById('bc15')) {
     var bc15 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="noodles.html">' + noodlesClass.name + '</a></li> </ul>';
     var elBc15 = document.getElementById('bc15');
     elBc15.innerHTML = bc15;
@@ -342,7 +342,7 @@ if (document.getElementById('bc15') != null || document.getElementById('bc15') !
 }
 
 // french.html
-if (document.getElementById('bc16') != null || document.getElementById('bc16') != "") {
+if (document.getElementById('bc16')) {
     var bc16 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="french.html">' + frenchClass.name + '</a></li> </ul>';
     var elBc16 = document.getElementById('bc16');
     elBc16.innerHTML = bc16;
@@ -360,7 +360,7 @@ if (document.getElementById('bc16') != null || document.getElementById('bc16') !
     elCdReg16.innerHTML = cdReg16;
 }    
 // klatch.html
-if (document.getElementById('bc17') != null || document.getElementById('bc17') != "") {
+if (document.getElementById('bc17')) {
     var bc17 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="klatch.html">' + klatchClass.name + '</a></li> </ul>';
     var elBc17 = document.getElementById('bc17');
     elBc17.innerHTML = bc17;
@@ -379,7 +379,7 @@ if (document.getElementById('bc17') != null || document.getElementById('bc17') !
 }
 
 // spsoup.html
-if (document.getElementById('bc18') != null || document.getElementById('bc18') != "") {
+if (document.getElementById('bc18')) {
     var bc18 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="spsoup.html">' + spsoupClass.name + '</a></li> </ul>';
     var elBc18 = document.getElementById('bc18');
     elBc18.innerHTML = bc18;
@@ -398,7 +398,7 @@ if (document.getElementById('bc18') != null || document.getElementById('bc18') !
 }
 
 // vegan.html
-if (document.getElementById('bc19') != null || document.getElementById('bc19') != "") {
+if (document.getElementById('bc19')) {
     var bc19 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="vegan.html">' + veganClass.name + '</a></li> </ul>';
     var elBc19 = document.getElementById('bc19');
     elBc19.innerHTML = bc19;
@@ -417,7 +417,7 @@ if (document.getElementById('bc19') != null || document.getElementById('bc19') !
 }     
 
 // ferm.html
-if (document.getElementById('bc20') != null || document.getElementById('bc20') != "") {
+if (document.getElementById('bc20')) {
     var bc20 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="ferm.html">' + fermClass.name + '</a></li> </ul>';
     var elBc20 = document.getElementById('bc20');
     elBc20.innerHTML = bc20;
@@ -435,7 +435,7 @@ if (document.getElementById('bc20') != null || document.getElementById('bc20') !
     elCdReg20.innerHTML = cdReg20;
 }    
 // heart.html
-if (document.getElementById('bc21') != null || document.getElementById('bc21') != "") {
+if (document.getElementById('bc21')) {
     var bc21 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="heart.html">' + heartClass.name + '</a></li> </ul>';
     var elBc21 = document.getElementById('bc21');
     elBc21.innerHTML = bc21;
@@ -453,7 +453,7 @@ if (document.getElementById('bc21') != null || document.getElementById('bc21') !
     elCdReg21.innerHTML = cdReg21;
 }     
 // fondue.html
-if (document.getElementById('bc22') != null || document.getElementById('bc22') != "") {
+if (document.getElementById('bc22')) {
     var bc22 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="fondue.html">' + fondueClass.name + '</a></li> </ul>';
     var elBc22 = document.getElementById('bc22');
     elBc22.innerHTML = bc22;
@@ -471,7 +471,7 @@ if (document.getElementById('bc22') != null || document.getElementById('bc22') !
     elCdReg22.innerHTML = cdReg22;
 }    
 // gfwtt.html
-if (document.getElementById('bc23') != null || document.getElementById('bc23') != "") {
+if (document.getElementById('bc23')) {
     var bc23 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfwtt.html">' + gfwttClass.name + '</a></li> </ul>';
     var elBc23 = document.getElementById('bc23');
     elBc23.innerHTML = bc23;
@@ -489,7 +489,7 @@ if (document.getElementById('bc23') != null || document.getElementById('bc23') !
     elCdReg23.innerHTML = cdReg23;
 }     
 // gfbaking.html
-if (document.getElementById('bc24') != null || document.getElementById('bc24') != "") {
+if (document.getElementById('bc24')) {
     var bc24 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="gfbaking.html">' + gfbakingClass.name + '</a></li> </ul>';
     var elBc24 = document.getElementById('bc24');
     elBc24.innerHTML = bc24;
@@ -507,7 +507,7 @@ if (document.getElementById('bc24') != null || document.getElementById('bc24') !
     elCdReg24.innerHTML = cdReg24;
 }     
 // budget.html
-if (document.getElementById('bc25') != null || document.getElementById('bc25') != "") {
+if (document.getElementById('bc25')) {
     var bc25 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="budget.html">' + budgetClass.name + '</a></li> </ul>';
     var elBc25 = document.getElementById('bc25');
     elBc25.innerHTML = bc25;
@@ -525,7 +525,7 @@ if (document.getElementById('bc25') != null || document.getElementById('bc25') !
     elCdReg25.innerHTML = cdReg25;
 }            
 // sardinia.html
-if (document.getElementById('bc26') != null || document.getElementById('bc26') != "") {
+if (document.getElementById('bc26')) {
     var bc26 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="sardinia.html">' + sardiniaClass.name + '</a></li> </ul>';
     var elBc26 = document.getElementById('bc26');
     elBc26.innerHTML = bc26;
@@ -543,7 +543,7 @@ if (document.getElementById('bc26') != null || document.getElementById('bc26') !
     elCdReg26.innerHTML = cdReg26;
 }     
 // cake.html
-if (document.getElementById('bc27') != null || document.getElementById('bc27') != "") {
+if (document.getElementById('bc27')) {
     var bc27 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="cake.html">' + cakeClass.name + '</a></li> </ul>';
     var elBc27 = document.getElementById('bc27');
     elBc27.innerHTML = bc27;
@@ -561,7 +561,7 @@ if (document.getElementById('bc27') != null || document.getElementById('bc27') !
     elCdReg27.innerHTML = cdReg27;
 }     
 // season.html
-if (document.getElementById('bc28') != null || document.getElementById('bc28') != "") {
+if (document.getElementById('bc28')) {
     var bc28 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="season.html">' + seasonClass.name + '</a></li> </ul>';
     var elBc28 = document.getElementById('bc28');
     elBc28.innerHTML = bc28;
@@ -579,7 +579,7 @@ if (document.getElementById('bc28') != null || document.getElementById('bc28') !
     elCdReg28.innerHTML = cdReg28;
 }     
 // indian.html
-if (document.getElementById('bc29') != null || document.getElementById('bc29') != "") {
+if (document.getElementById('bc29')) {
     var bc29 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="indian.html">' + indianClass.name + '</a></li> </ul>';
     var elBc29 = document.getElementById('bc29');
     elBc29.innerHTML = bc29;
@@ -597,7 +597,7 @@ if (document.getElementById('bc29') != null || document.getElementById('bc29') !
     elCdReg29.innerHTML = cdReg29;
 }     
 // chem.html
-if (document.getElementById('bc30') != null || document.getElementById('bc30') != "") {
+if (document.getElementById('bc30')) {
     var bc30 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="chem.html">' + chemClass.name + '</a></li> </ul>';
     var elBc30 = document.getElementById('bc30');
     elBc30.innerHTML = bc30;
@@ -615,7 +615,7 @@ if (document.getElementById('bc30') != null || document.getElementById('bc30') !
     elCdReg30.innerHTML = cdReg30;
 }     
 // knife.html
-if (document.getElementById('bc31') != null || document.getElementById('bc31') != "") {
+if (document.getElementById('bc31')) {
     var bc31 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="knife.html">' + knifeClass.name + '</a></li> </ul>';
     var elBc31 = document.getElementById('bc31');
     elBc31.innerHTML = bc31;
@@ -633,7 +633,7 @@ if (document.getElementById('bc31') != null || document.getElementById('bc31') !
     elCdReg31.innerHTML = cdReg31;
 }     
 // dumpling.html
-if (document.getElementById('bc32') != null || document.getElementById('bc32') != "") {
+if (document.getElementById('bc32')) {
     var bc32 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="dumpling.html">' + dumplingClass.name + '</a></li> </ul>';
     var elBc32 = document.getElementById('bc32');
     elBc32.innerHTML = bc32;
@@ -651,7 +651,7 @@ if (document.getElementById('bc32') != null || document.getElementById('bc32') !
     elCdReg32.innerHTML = cdReg32;
 }     
 // pan.html
-if (document.getElementById('bc33') != null || document.getElementById('bc33') != "") {
+if (document.getElementById('bc33')) {
     var bc33 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pan.html">' + panClass.name + '</a></li> </ul>';
     var elBc33 = document.getElementById('bc33');
     elBc33.innerHTML = bc33;
@@ -669,7 +669,7 @@ if (document.getElementById('bc33') != null || document.getElementById('bc33') !
     elCdReg33.innerHTML = cdReg33;
 }     
 // med.html
-if (document.getElementById('bc34') != null || document.getElementById('bc34') != "") {
+if (document.getElementById('bc34')) {
     var bc34 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="med.html">' + medClass.name + '</a></li> </ul>';
     var elBc34 = document.getElementById('bc34');
     elBc34.innerHTML = bc34;
@@ -687,7 +687,7 @@ if (document.getElementById('bc34') != null || document.getElementById('bc34') !
     elCdReg34.innerHTML = cdReg34;
 }     
 // piemontese.html
-if (document.getElementById('bc35') != null || document.getElementById('bc35') != "") {
+if (document.getElementById('bc35')) {
     var bc35 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="piemontese.html">' + piemonteseClass.name + '</a></li> </ul>';
     var elBc35 = document.getElementById('bc35');
     elBc35.innerHTML = bc35;
@@ -705,7 +705,7 @@ if (document.getElementById('bc35') != null || document.getElementById('bc35') !
     elCdReg35.innerHTML = cdReg35;
 }     
 // mex.html
-if (document.getElementById('bc36') != null || document.getElementById('bc36') != "") {
+if (document.getElementById('bc36')) {
     var bc36 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="mex.html">' + mexClass.name + '</a></li> </ul>';
     var elBc36 = document.getElementById('bc36');
     elBc36.innerHTML = bc36;
@@ -723,7 +723,7 @@ if (document.getElementById('bc36') != null || document.getElementById('bc36') !
     elCdReg36.innerHTML = cdReg36;
 }    
 // bagels.html
-if (document.getElementById('bc37') != null || document.getElementById('bc37') != "") {
+if (document.getElementById('bc37')) {
     var bc37 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="bagels.html">' + bagelsClass.name + '</a></li> </ul>';
     var elBc37 = document.getElementById('bc37');
     elBc37.innerHTML = bc37;
@@ -741,7 +741,7 @@ if (document.getElementById('bc37') != null || document.getElementById('bc37') !
     elCdReg37.innerHTML = cdReg37;
 }     
 // nwcel.html
-if (document.getElementById('bc38') != null || document.getElementById('bc38') != "") {
+if (document.getElementById('bc38')) {
     var bc38 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="nwcel.html">' + nwcelClass.name + '</a></li> </ul>';
     var elBc38 = document.getElementById('bc38');
     elBc38.innerHTML = bc38;
@@ -759,7 +759,7 @@ if (document.getElementById('bc38') != null || document.getElementById('bc38') !
     elCdReg38.innerHTML = cdReg38;
 }     
 // pulse.html
-if (document.getElementById('bc39') != null || document.getElementById('bc39') != "") {
+if (document.getElementById('bc39')) {
     var bc39 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pulse.html">' + pulseClass.name + '</a></li> </ul>';
     var elBc39 = document.getElementById('bc39');
     elBc39.innerHTML = bc39;
@@ -777,7 +777,7 @@ if (document.getElementById('bc39') != null || document.getElementById('bc39') !
     elCdReg39.innerHTML = cdReg39;
 }     
 // pasta.html
-if (document.getElementById('bc40') != null || document.getElementById('bc40') != "") {
+if (document.getElementById('bc40')) {
     var bc40 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pasta.html">' + pastaClass.name + '</a></li> </ul>';
     var elBc40 = document.getElementById('bc40');
     elBc40.innerHTML = bc40;
@@ -795,7 +795,7 @@ if (document.getElementById('bc40') != null || document.getElementById('bc40') !
     elCdReg40.innerHTML = cdReg40;
 }     
 // pizza.html
-if (document.getElementById('bc41') != null || document.getElementById('bc41') != "") {
+if (document.getElementById('bc41')) {
     var bc41 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="pizza.html">' + pizzaClass.name + '</a></li> </ul>';
     var elBc41 = document.getElementById('bc41');
     elBc41.innerHTML = bc41;
@@ -813,7 +813,7 @@ if (document.getElementById('bc41') != null || document.getElementById('bc41') !
     elCdReg41.innerHTML = cdReg41;
 }     
 // thai.html
-if (document.getElementById('bc42') != null || document.getElementById('bc42') != "") {
+if (document.getElementById('bc42')) {
     var bc42 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="thai.html">' + thaiClass.name + '</a></li> </ul>';
     var elBc42 = document.getElementById('bc42');
     elBc42.innerHTML = bc42;
@@ -831,7 +831,7 @@ if (document.getElementById('bc42') != null || document.getElementById('bc42') !
     elCdReg42.innerHTML = cdReg42;
 }     
 // grill.html
-if (document.getElementById('bc43') != null || document.getElementById('bc43') != "") {
+if (document.getElementById('bc43')) {
     var bc43 = '<ul class="breadcrumb">  <li><a href="index.html">Home</a></li>  <li><a href="grill.html">' + grillClass.name + '</a></li> </ul>';
     var elBc43 = document.getElementById('bc43');
     elBc43.innerHTML = bc43;
