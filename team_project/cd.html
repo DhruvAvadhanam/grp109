@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/global.css"> <!-- Nav and Footer CSS for all pages. Additionally specifies root variables. Should always be the first CSS file listed. -Ian -->
 	</head>
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
-		<header> <!-- Header contains the logo, page title, and Nav bar -->
+		<header> <!-- Header contains the logo, page title, and Nav bar. -DR and team -->
 			<div class="branding">
 				<img src="images/lgc_logo_blue.png" alt="Let's Get Cooking Logo" height="50" aria-label="Let's Get Cooking Logo">
 				<h1 class="title" aria-label="Let's Get Cooking">Let's Get Cooking</h1>
@@ -44,10 +44,10 @@
 				</ul>
 			</nav>
 		</header>
-		 <div id="breadcrumb">		
+		 <div id="breadcrumb">		<!--Bread crumb - DR-->
 				<div id="bc1"></div>
 		 </div>
-	    	<div id="container">   		
+	    	<div id="container">   	<!-- Container for class description columns and content-->	
 			 	<div class="column1">
 				 	<div id ="img1"></div>					
 		 		</div>
@@ -57,7 +57,7 @@
 			 	<div class="column3">
 				 	<div id ="reg1"></div>
 				 	<h3>Register:</h3>
-                  	<form id="register">  
+                  	<form id="register">  <!--Registration form - DR-->
 	                      <table>
 	                          <tr>
 	                            <th>Participant</th>					
@@ -68,7 +68,10 @@
 	                          <tr>
 	                            <td><input type="text" id="fname" name="fname" size="15" value=""></td>
 	    						<td><input type="text" id="lname" name="lname" size="20" value=""></td>
-	                          </tr>                     
+	                          </tr>  
+				  <tr> 
+					<div id="errorMessages"></div>
+				  </tr>
 	                          <tr>
 	                            <td colspan="2"><br><p></p><input type="button" value="Add to cart" class="button"></td>						
 	                          </tr>
