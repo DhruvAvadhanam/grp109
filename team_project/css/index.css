@@ -117,6 +117,7 @@
 .imgss {
   height: 400px;
   width: 800px;
+  z-index: -1;
 }
 /* Slideshow container */
 .slideshow-container {
