@@ -16,7 +16,8 @@
   column-gap: 50px;
   display: flex;
   align-content: center;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
   width: 80%;
   height: 50px;
 }
