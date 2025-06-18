@@ -45,13 +45,69 @@
 			</nav>
 		</header>
 		<br><br>
-		<div id="devteam"> <!--Development Team -DR -->
-			<div class="devtitle">Meet our Development team</div>
-			<div class="dt">Yuval Amitay</div>
-			<div class="dt">Ian Finley</div>
-			<div class="dt">Dhruv Avadhanam</div>
-			<div class="dt">Deena Randolph</div>				
+		<div id="devteam">
+			<div class="devtitle" aria-label="LGC Development team">LGC Development team</div>
+			<div class="dt" aria-label="Ian Finley">Ian Finley</div>
+			<div class="dt" aria-label="Dhruv Avadhanam">Dhruv Avadhanam</div>
+			<div class="dt" aria-label="Yuval Amitay">Yuval Amitay</div>
+			<div class="dt" aria-label="Deena Randolph">Deena Randolph</div>				
 		</div>
+		<br>
+		 <div class="slideshow-container">
+			<h2 aria-label="current classes">Come join us in the kitchen!</h2>
+          <!-- Full-width images with caption text -->
+          <div class="mySlides fade">
+            <img src="images/cook1.png" class="imgss" alt="professional chef seafood bouillabaisse">
+        <!-- Image text -->
+		  <div class="caption-container">
+			<p id="text">Learn from our experienced chefs.</p>
+		  </div>
+          </div>        
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/hero.jpg" class="imgss" alt="people cooking">
+			<div class="caption-container">
+			<p id="text">Create something delicious together.</p>
+		  </div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/cook3.jpg" class="imgss" alt="laughter with vegetable prep">
+			<div class="caption-container">
+			<p id="text">Learn a new skill or sharpen an old one.</p>
+		  </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/cook4.jpeg" class="imgss" alt="london broil">
+			<div class="caption-container">
+			<p id="text">Discover professional techniques to step up your cooking game.</p>
+		  </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/cook5.jpeg" class="imgss" alt="pasta sauce">
+			<div class="caption-container">
+			<p id="text">Make a sauce that will bring your family and friends back for more.</p>
+		  	</div>
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>  
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
 		<div id="content">
 		<div id="container1"> <!-- Contains all of the dropdowns. <form>? Change to checkboxes.<input type="checkbox"> -Deena-->
           	<div id="filters"><br><h3 aria-label="class filters">Filters:</h3></div>
@@ -226,10 +282,10 @@
 			</div>	 
 			<div class="row"> 
 			  <div class="column2">
-			    <div class="thumb" id="Class41"></div>
-			    <div class="thumb" id="Class42"></div>
-			    <div class="thumb" id="Class43"></div>
-			    <div class="thumb" id="Class44"></div>
+			    <div id="Class41"></div>
+			    <div id="Class42"></div>
+			    <div id="Class43"></div>
+			    
 			  </div>
 			</div>		 
 			
@@ -315,8 +371,7 @@
 			  </div>
 			</div>-->
 		</div>
-	</div>
-		
+		</div>
 		<footer> <!-- Contains the Validator link images and the Copyright -->
 			<div class="footer-validators">
 				<a href="https://validator.w3.org/check?uri=referer" target="_blank">
@@ -332,5 +387,6 @@
 		</footer>
 		<script src="js/indexclass.js"></script>
 		<script src="js/index.js"></script>
+		<script src="js/carousel.js"></script>
 	</body>
 </html>
