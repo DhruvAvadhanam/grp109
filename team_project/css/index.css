@@ -12,6 +12,8 @@
   padding: 10px;}
 /*Container for development team*/
 #devteam {
+  display: grid;
+  column-gap: 50px;
   display: flex;
   align-content: center;
   border: 2px solid #013C4D;
