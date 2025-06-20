@@ -2,9 +2,6 @@
 /* Set body background color, width and center content -Deena */
 body{
 	background-color: #F5F5FF;
-	width: 90%;
-	margin: auto;
-	padding: 10px;
 }
 /*Set accessibility line height*/
 p {
