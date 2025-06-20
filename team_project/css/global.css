@@ -31,6 +31,9 @@ a:hover,
 a:visited:hover {
 	color: var(--link-hover);
 	text-decoration: underline;
+	animation: blink 1s infinite;
+	animation-delay: 2s;
+	animation-fill-mode: backwards; /* don't blink until delay finishes */
 }
 
 a:visited {
@@ -113,6 +116,9 @@ nav > ul > li > a:hover,
 nav > ul > li > a:visited:hover,
 nav > ul > li > a.current {
 	color: var(--hover-color);
+	animation: blink 1s infinite;
+	animation-delay: 2s;
+	animation-fill-mode: backwards; /* don't blink until delay finishes */;
 }
 
 /* NAV BAR - Links Visited - Set Visited color to WHITE for ONLY the top level links, should not affect the dropdown Nav links. -Ian */
@@ -347,4 +353,10 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
 	color: orange;
 	text-decoration: underline;
+}
+
+@keyframes blink {
+	0%   { opacity: 1; }
+	50%  { opacity: 0; }
+	100% { opacity: 1; }
 }
