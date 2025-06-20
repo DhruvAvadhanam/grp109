@@ -11,7 +11,25 @@
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
 
 		<div id="header-placeholder"></div><!-- Injection placeholder for recurring.js that will place recurring/header.html, containing Logo, Name, and Nav elements -Ian -->
-		<script src="js/include-header.js"></script> <!-- Added so header shows up faster. -Ian -->
+		<!-- Addin inline script so header shows up first instead of waiting for all images to load -Ian -->
+		<script> 
+			(function includeHTML(id, url) {
+			  const target = document.getElementById(id);
+			  if (!target) return;
+			
+			  fetch(url)
+			    .then(res => {
+			      if (!res.ok) throw new Error("Network response was not ok");
+			      return res.text();
+			    })
+			    .then(data => {
+			      target.innerHTML = data;
+			    })
+			    .catch(err => {
+			      console.error(`Could not load ${url}:`, err);
+			    });
+			})("header-placeholder", "/grp109/team_project/recurring/header.html");
+		</script>
 		
 		<br><br>
 		<div id="devteam">
