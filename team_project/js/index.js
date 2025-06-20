@@ -47,3 +47,21 @@ window.onload = function () {
   
   displayFilteredClasses();
 };
+
+// Fixes the Dropdown hover issue where the carousel blocks and terminates it early -Ian
+document.addEventListener('DOMContentLoaded', function() {
+  const dropdownWraps = document.querySelectorAll('.dropdown-wrap');
+  const carousel = document.querySelector('.slideshow-container');
+
+  if (!dropdownWraps.length || !carousel) return;
+
+  dropdownWraps.forEach(dropdownWrap => {
+    dropdownWrap.addEventListener('mouseenter', () => {
+      carousel.style.pointerEvents = 'none';
+    });
+
+    dropdownWrap.addEventListener('mouseleave', () => {
+      carousel.style.pointerEvents = 'auto';
+    });
+  });
+});
