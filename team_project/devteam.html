@@ -9,74 +9,19 @@
 		<link rel="stylesheet" href="css/devteam.css">
 	</head>
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
-		<header> <!-- Header contains the logo, page title, and Nav bar -->
-			<div class="branding">
-				<img src="images/lgc_logo_blue.png" alt="Let's Get Cooking Logo" height="50" aria-label="Let's Get Cooking Logo">
-				<h1 class="title" aria-label="Let's Get Cooking">Let's Get Cooking</h1>
-			</div>
-			<div class="top-nav">
-				<div class="icon-container">
-					<input type="text" placeholder="Search..">  <!-- added cart icon that moves user to cart page when clicked -Yuval. Updated image. -DR-->
-					<a href="shoppingcart.html" title="View Cart"><img src="images/cart.png" alt="Shopping Cart" class="cart"></a>
-					<a href="account_page.html" title="account"><img src="images/account.png" alt="Account" class="account"></a>
-				</div>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li>
-                        <div class="dropdown-wrap">
-							<div class="dropdown">
-								<button class="dropbtn">About</button>
-								<div class="dropdown-content">
-									<a href="about.html">About Us</a>
-									<a href="devteam.html">Hows/Whys</a>
-								</div>
-							</div>
-						</div>
-					</li>	
-				    <li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -Yuval -->
-					<li>
-                        <div class="dropdown-wrap">
-							<div class="dropdown">
-								<button class="dropbtn">Project</button>
-								<div class="dropdown-content">
-									<a href="project_details.html">Project Details</a>
-									<a href="ppt.html">PowerPoint</a>
-									<a href="kickstart_050225.html">Initial Plan Mtg</a>
-									<a href="mtg_053025.html">Meeting 5/30</a>
-									<a href="mtg_060925.html">Meeting 6/09</a>
-									<a href="input_form.html">Input Form</a>
-									<a href="validation.html">Validations</a>
-									<a href="changelog.html">Change Log</a>
-								</div>
-							</div>
-						</div>
-					</li>										
-				</ul>
-			</nav>
-		</header>
-    <body>
-      <div id="container">
-        <h2>Cooking Classes Project</h2>
-      <p>This project was an attempt to duplicate an ecommerce site based on the purchase of items relating to cooking classes. We used current websites  from companies such as (PCC, Whisk, and the Pantry) as inspiration to develop a home page, class description page, main, secondary and top navigational elements, a login page, checkout page, and shopping cart.</p>
-      <p>Ian contributed through assignment coordination and site standardization. He focused on correcting inconsistencies and creating uniformity through a global navigation in the header and a standardized footer to clarify navigation and to follow SiteImprove standards. In addition, he developed and styled the site logo and provided technical correction to styling elements. He was drawn to the project because it sounded like a fun idea and would be a good chance to see how a team of developers work to bring a website together.</p>
-      <p>Dhruv tackled most of the technical javascript elements, creating functional forms and site filters for the site. He also contributed an account creation and log in page, in addition to a class list/description page for classes which the site does not currently using but would likely be incorporated in future iterations. He is a valuable team member, frequently willing to jump on assignments and complete them early. He was drawn to this project as he enjoys cooking with his family and was interested in the idea of making a website on this topic.</p>
-      <p>Yuval created several site pages including our shopping cart and validations page. She brings a positive can do attitude to the team.</p>
-      <p>Deena led the project providing direction and assigning tasks as required. Her focus was on compiling all the essential elements of the site, facilitating meetings, and maintaining the project pages as needed. She sourced images and created class page content as well. Her inspiration was from working with cooking classes and interacting with PCC's website with a desire to improve on some of the limitations found there.</p>
-        </div>
-    <footer> <!-- Contains the Validator link images and the Copyright -->
-			<div class="footer-validators">
-				<a href="https://validator.w3.org/check?uri=referer" target="_blank">
-					<img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88">
-				</a>
-				<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-					<img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="31" width="88">
-				</a>
-			</div>
-			<div class="footer-copyright">
-				<p>&copy; Copyright 2025</p>
-			</div>
-		</footer>
+		
+		<div id="header-placeholder"></div><!-- Injection placeholder for recurring.js that will place recurring/header.html, containing Logo, Name, and Nav elements -Ian -->
+		
+		<div id="container">
+			<h2>Cooking Classes Project</h2>
+			<p>This project was an attempt to duplicate an ecommerce site based on the purchase of items relating to cooking classes. We used current websites  from companies such as (PCC, Whisk, and the Pantry) as inspiration to develop a home page, class description page, main, secondary and top navigational elements, a login page, checkout page, and shopping cart.</p>
+			<p>Ian contributed through assignment coordination and site standardization. He focused on correcting inconsistencies and creating uniformity through a global navigation in the header and a standardized footer to clarify navigation and to follow SiteImprove standards. In addition, he developed and styled the site logo and provided technical correction to styling elements. He was drawn to the project because it sounded like a fun idea and would be a good chance to see how a team of developers work to bring a website together.</p>
+			<p>Dhruv tackled most of the technical javascript elements, creating functional forms and site filters for the site. He also contributed an account creation and log in page, in addition to a class list/description page for classes which the site does not currently using but would likely be incorporated in future iterations. He is a valuable team member, frequently willing to jump on assignments and complete them early. He was drawn to this project as he enjoys cooking with his family and was interested in the idea of making a website on this topic.</p>
+			<p>Yuval created several site pages including our shopping cart and validations page. She brings a positive can do attitude to the team.</p>
+			<p>Deena led the project providing direction and assigning tasks as required. Her focus was on compiling all the essential elements of the site, facilitating meetings, and maintaining the project pages as needed. She sourced images and created class page content as well. Her inspiration was from working with cooking classes and interacting with PCC's website with a desire to improve on some of the limitations found there.</p>
+		</div>
+		
+		<div id="footer-placeholder"></div> <!-- Injection placeholder for recurring.js that will place recurring/footer.html containing Validation logos and copywright. -Ian -->
+		<script src="js/recurring.js"></script>
 	</body>
 </html>
