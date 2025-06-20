@@ -62,6 +62,8 @@ nav {
 	text-align: center; 
 	font-size: 20px;
 	float:none;
+    top: 0;
+    z-index: 1000;
 }
 
 /* NAV BAR - Unordered List - Contains the navigation entries */
@@ -209,6 +211,17 @@ footer {
 	line-height: 1.5; /* SiteImprove */
 }
 
+/* Extend hover zone over the carousel */
+.dropdown-wrap {
+    position: relative;
+    display: inline-block;
+    z-index: 1002;
+}
+
+.dropdown-wrap:hover .dropdown-content {
+    display: block;
+}
+
 /* SECONDARY NAVIGATION Section added by Deena*/
 /* SECONDARY NAVIGATION - Dropdown Button */
 .dropbtn {
@@ -216,7 +229,7 @@ footer {
 	color: white;
 	font-size: 20px;
 	border: none;
-	width: 44px;
+	width: 144px;
 	height: 44px;
 }
 
@@ -224,6 +237,7 @@ footer {
 .dropdown {
 	position: relative;
 	display: inline-block;
+      z-index: 1002;
 }
 
 /* SECONDARY NAVIGATION - Dropdown Content (Hidden by Default) */
@@ -233,7 +247,11 @@ footer {
 	background-color: white;
 	min-width: 160px;
 	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 1003;
+    top: 100%;
+    left: 0;
+    pointer-events: auto;
+    min-height: 100px;
 }
 
 /* SECONDARY NAVIGATION - Links inside the dropdown */
@@ -246,11 +264,13 @@ footer {
 }
 
 /* SECONDARY NAVIGATION - Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #eee;
+.dropdown-content a:hover {
+  background-color: #eee;
 }
 
 /* SECONDARY NAVIGATION - Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
