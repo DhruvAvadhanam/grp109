@@ -1,3 +1,8 @@
+#feature { /* Centers the feature container in the body. -Ian */
+  display: flex;
+  justify-content: center;
+}
+
 /* Format size to rubric and center. - DR*/
 .ppt {
   align-content: center;
