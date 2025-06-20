@@ -34,4 +34,4 @@ function showSlides(n) {
 // Auto-loop (separate from above)
 setInterval(() => {
   plusSlides(1);
-}, 8000);
+}, 3000);
