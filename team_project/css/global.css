@@ -21,11 +21,12 @@ body {
 /* HEADER - Including logo, page title, and Nav bar */
 header {
 	box-sizing: border-box;
-	position: sticky;
+	position: relative;
 	background-color: var(--background-color);
 	text-align:left;
 	min-width: 44px;  /* SiteImprove */
 	min-height: 44px; /* SiteImprove */
+	z-index: auto;
 }
 
 /* HEADER - Branding - Wraps the Logo and Title */
