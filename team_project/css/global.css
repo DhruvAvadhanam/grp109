@@ -8,7 +8,7 @@
 	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(--text-on-white)" */
 	--link-color: #013C4D;                      /* General link color - Same as lgcBlue. Enter as: "var(--link-color)" */
 	--link-hover: orange;                       /* General hover color - Same as the Nav hober color above. Enter as: "var(--link-hover)" */
-	--link-visited: #00242E;                    /* General visited color - Dark blue. Enter as: "var(--link-visited)" */
+	--link-visited: #000000;                    /* General visited color - Dark blue. Enter as: "var(--link-visited)" */
 }
 
 /* BODY - Sets body background color, width and centers content -Ian */
@@ -27,7 +27,8 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, 
+a:visited:hover {
 	color: var(--link-hover);
 	text-decoration: underline;
 }
