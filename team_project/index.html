@@ -24,20 +24,32 @@
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li>
+                        <div class="dropdown-wrap">
+							<div class="dropdown">
+								<button class="dropbtn">About</button>
+								<div class="dropdown-content">
+									<a href="about.html">About Us</a>
+									<a href="devteam.html">Hows/Whys</a>
+								</div>
+							</div>
+						</div>
+					</li>	
 				    <li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -Yuval -->
 					<li>
-						<div class="dropdown">
-							<button class="dropbtn">Project</button>
-							<div class="dropdown-content">
-								<a href="project_details.html">Project Details</a>
-								<a href="devteam.html">Hows/Whys</a>
-								<a href="kickstart_050225.html">Initial Plan Mtg</a>
-								<a href="mtg_053025.html">Meeting 5/30</a>
-								<a href="mtg_060925.html">Meeting 6/09</a>
-								<a href="input_form.html">Input Form</a>
-								<a href="validation.html">Validations</a>
-								<a href="changelog.html">Change Log</a>
+                        <div class="dropdown-wrap">
+							<div class="dropdown">
+								<button class="dropbtn">Project</button>
+								<div class="dropdown-content">
+									<a href="project_details.html">Project Details</a>
+									<a href="ppt.html">PowerPoint Presentation</a>
+									<a href="kickstart_050225.html">Initial Plan Mtg</a>
+									<a href="mtg_053025.html">Meeting 5/30</a>
+									<a href="mtg_060925.html">Meeting 6/09</a>
+									<a href="input_form.html">Input Form</a>
+									<a href="validation.html">Validations</a>
+									<a href="changelog.html">Change Log</a>
+								</div>
 							</div>
 						</div>
 					</li>										
@@ -53,63 +65,63 @@
 			<div class="dt" aria-label="Deena Randolph">Deena Randolph</div>				
 		</div>
 		<br>
-		 <div class="slideshow-container">
+		<div class="slideshow-container">
 			<h2 aria-label="current classes">Come join us in the kitchen!</h2>
-          <!-- Full-width images with caption text -->
-          <div class="mySlides fade">
-            <img src="images/cook1.png" class="imgss" alt="professional chef seafood bouillabaisse">
-        <!-- Image text -->
-		  <div class="caption-container">
-			<p class="text">Learn from our experienced chefs!</p>
-		  </div>
-          </div>        
-          <div class="mySlides fade">
-            <!--<div class="numbertext"></div>-->
-            <img src="images/hero.jpg" class="imgss" alt="people cooking">
-			<div class="caption-container">
-			<p class="text">Create something delicious with fellow foodies!</p>
-		  </div>
-          </div>
-        
-          <div class="mySlides fade">
-            <img src="images/cook3.jpg" class="imgss" alt="laughter with vegetable prep">
-			<div class="caption-container">
-			<p class="text">Develop a new skill or sharpen an old one!</p>
-		  </div>
-          </div>
-          
-          <div class="mySlides fade">
-            <img src="images/cook4.jpeg" class="imgss" alt="london broil">
-			<div class="caption-container">
-			<p class="text">Discover professional techniques to step up your cooking game!</p>
-		  </div>
-          </div>
-          
-          <div class="mySlides fade">
-            <img src="images/cook5.jpeg" class="imgss" alt="pasta sauce">
-			<div class="caption-container">
-			<p class="text">Make a sauce that will bring your family and friends back for more!</p>
-		  	</div>
-          </div>
-        
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
+			<!-- Full-width images with caption text -->
+			<div class="mySlides fade">
+				<img src="images/cook1.png" class="imgss" alt="professional chef seafood bouillabaisse">
+				<!-- Image text -->
+				<div class="caption-container">
+					<p class="text">Learn from our experienced chefs!</p>
+				</div>
+			</div>        
+			<div class="mySlides fade">
+				<!--<div class="numbertext"></div>-->
+				<img src="images/hero.jpg" class="imgss" alt="people cooking">
+				<div class="caption-container">
+					<p class="text">Create something delicious with fellow foodies!</p>
+				</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/cook3.jpg" class="imgss" alt="laughter with vegetable prep">
+				<div class="caption-container">
+					<p class="text">Develop a new skill or sharpen an old one!</p>
+				</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/cook4.jpeg" class="imgss" alt="london broil">
+				<div class="caption-container">
+					<p class="text">Discover professional techniques to step up your cooking game!</p>
+				</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/cook5.jpeg" class="imgss" alt="pasta sauce">
+				<div class="caption-container">
+					<p class="text">Make a sauce that will bring your family and friends back for more!</p>
+				</div>
+			</div>
+			
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
         <br>
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>  
-          <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>  
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
 		<div id="content">
-		<div id="container1"> <!-- Contains all of the dropdowns. <form>? Change to checkboxes.<input type="checkbox"> -Deena-->
-          	<div id="filters"><br><h3 aria-label="class filters">Filters:</h3></div>
+			<div id="container1"> <!-- Contains all of the dropdowns. <form>? Change to checkboxes.<input type="checkbox"> -Deena-->
+				<div id="filters"><br><h3 aria-label="class filters">Filters:</h3></div>
 				<label for="category" aria-label="category">Category:</label> <!-- Category Filter. -->
-				  <select id="category" name="category">
+				<select id="category" name="category">
 					<option value="All" aria-label="all categories">All</option>
 					<option value="Global" aria-label="Global">Global</option>
 					<option value="Baking" aria-label="Baking">Baking</option>
@@ -120,8 +132,8 @@
 					<option value="One of a Kind" aria-label="One of a Kind">One of a Kind</option>
 					<option value="To Your Health" aria-label="To Your Health">To Your Health</option>
 					<option value="Walk, Talk, & Taste" aria-label="Walk, Talk, & Taste">Walk, Talk, & Taste</option>
-				  </select>			
-				  <br>
+				</select>			
+				<br>
 				<label for="location" aria-label="location">Location:</label> <!-- Location Filter. -->
 				<select id="location" name="location">
 					<option value="All" aria-label="All">All</option>
@@ -177,197 +189,197 @@
 				<br>
 				<label for="time" aria-label="time of day">Time of Day</label> <!-- Time Filter. -->
 				<select id="time" name="time">
-								<option value="All" aria-label="All times">All</option>
+					<option value="All" aria-label="All times">All</option>
 					<option value="morning" aria-label="morning">Morning 7-12</option>
 					<option value="afternoon" aria-label="afternoon">Afternoon 12-5</option>
 					<option value="evening" aria-label="evening">Evening 5-10pm</option>
-			</select>
+				</select>
 				<br>
 				<label for="allergen" aria-label="Dietary Restrictions">Dietary Restrictions</label> <!-- Restrictions Filter. -->
 				<select id="allergen" name="allergen">
-										<option value="None" aria-label="None">None</option>
+					<option value="None" aria-label="None">None</option>
 					<option value="Dairy-Free" aria-label="Dairy-Free">Dairy-Free</option>
 					<option value="Gluten-Free" aria-label="Gluten-Free">Gluten-Free</option>
 					<option value="No Shellfish" aria-label="No Shellfish">No Shellfish</option>
 					<option value="Nut-Free" aria-label="Nut-Free">Nut-Free</option>			
 					<option value="Vegan" aria-label="Vegan">Vegan</option>
-			</select>
+				</select>
 				<br>
-			<!-- <label for="clear"><input type="button">Clear</label><label for="search"><input type="button">Search</label> </form>-->
-		</div>
-		<div id="container2">	<!-- Add div containers for js content - Deena	 -->
-			<h2 aria-label="current classes">Current Classes</h2>
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class1"></div>
-				    <div id="Class2"></div>
-				    <div id="Class3"></div>
-				    <div id="Class4"></div>
-			    </div>
-			</div>		
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class5"></div>
-				    <div id="Class6"></div>
-				    <div id="Class7"></div>
-				    <div id="Class8"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">		    
-				    <div id="Class9"></div>
-				    <div id="Class10"></div>
-				    <div id="Class11"></div>
-				    <div id="Class12"></div>	
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">		    
-				    <div id="Class13"></div>	
-				    <div id="Class14"></div>
-				    <div id="Class15"></div>
-				    <div id="Class16"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class17"></div>
-				    <div id="Class18"></div>
-				    <div id="Class19"></div>
-				    <div id="Class20"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class21"></div>
-				    <div id="Class22"></div>
-				    <div id="Class23"></div>
-				    <div id="Class24"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class25"></div>
-				    <div id="Class26"></div>
-				    <div id="Class27"></div>
-				    <div id="Class28"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class29"></div>
-				    <div id="Class30"></div>
-				    <div id="Class31"></div>
-				    <div id="Class32"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class33"></div>
-				    <div id="Class34"></div>
-				    <div id="Class35"></div>
-				    <div id="Class36"></div>
-			    </div>
-			</div>	
-			<div class="row">
-				<div class="column2">			    
-				    <div id="Class37"></div>
-				    <div id="Class38"></div>
-				    <div id="Class39"></div>
-				    <div id="Class40"></div>
-			    </div>
-			</div>	 
-			<div class="row"> 
-			  <div class="column2">
-			    <div id="Class41"></div>
-			    <div id="Class42"></div>
-			    <div id="Class43"></div>
-			    
-			  </div>
-			</div>		 
-			
-			<!--<div class="row"> Container with first 4 cooking classes. Each class is assigned category, location, type, month, day, time, and restriction data. -DR 
-			  <div class="column2">
-			     <div class="thumb" data-category="Global" data-location="Bellevue" data-type="Adult" data-month="January" data-day="Monday" data-time="Morning 7-12" data-restrictions="Dairy-Free">
-			      <a href=""><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"></a><h4>Holiday in Sardinia</h4>
-			    </div>
-			    <div class="thumb" data-category="Chef's Table" data-location="Bothell" data-type="Kids" data-month="February" data-day="Tuesday" data-time="Afternoon 12-5" data-restrictions="Gluten-Free">
-			      <a href=""><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"></a><h4>The Thrill of the Grill</h4>
-			    </div>
-			    <div class="thumb" data-category="Baking" data-location="Edmonds" data-type="Adult" data-month="March" data-day="Wednesday" data-time="Morning 7-12" data-restrictions="Nut-Free">
-			      <a href=""><img src="images/bagels.jpg" class="image" alt="New York Bagels"></a><h4>New York Bagels</h4>
-			    </div>
-			    <div class="thumb" data-category="Global" data-location="Columbia City" data-type="Adult" data-month="April" data-day="Thursday" data-time="Evening 5-10pm" data-restrictions="Vegan">
-			      <a href=""><img src="images/thai.jpg" class="image" alt="The Art of Thai"></a><h4>The Art of Thai</h4>
-			    </div>
-			  </div>
-			</div>	<div class="row"> Container with next 4 cooking classes.  -DR <div id="details42"></div>
-			    <div class="thumb" data-category="Baking" data-location="Issaquah" data-type="Adult" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
-			      <a href="pasta.html"><img src="images/pasta2.jpg" class="image" alt="Pasta Workshop"><h4 aria-label="Pasta Workshop">Pasta Workshop</h4></a>
-			    </div>
-			    <div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
-			      <a href="chef.html"><img src="images/chef.jpeg" class="image" alt="Guest Chef Experience"></a><h4 aria-label="Guest Chef Experience">Guest Chef Experience</h4>
-			    </div>
-			    <div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
-			      <a href="kids.html"><img src="images/kids.jpeg" class="image" alt="Kids Summer Fun"></a><h4 aria-label="Kids Summer Fun">Kids Summer Fun</h4>
-			    </div>
-			    <div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
-			      <a href="healthy.html"><img src="images/healthy.jpg" class="image" alt="Healthy Cooking Habits"></a><h4 aria-label="Healthy Cooking Habits">Healthy Cooking Habits</h4>
-			    </div>
-			  </div>
+				<!-- <label for="clear"><input type="button">Clear</label><label for="search"><input type="button">Search</label> </form>-->
 			</div>
-			<div class="row"> Container with next 4 cooking classes.  -DR
-			  <div class="column2">
-			   <div id="details42"></div>
-			    <div class="thumb" data-category="Kids" data-location="Issaquah" data-type="Kids" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
-			      <a href="twoday.html"><img src="images/twoday.jpg" class="image" alt="2-Day Mystery Basket"><h4 aria-label="2-Day Mystery Basket">2-Day Mystery Basket</h4></a>
-			    </div>
-			    <div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
-			      <a href="cook42.html"><img src="images/cook42.jpg" class="image" alt="30-minute Cooking for Two"><h4 aria-label="30-minute Cooking for Two">30-minute Cooking for Two</h4></a>
-			    </div>
-			    <div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
-			      <a href="budget.html"><img src="images/budget.jpg" class="image" alt="Healthy Eating —  Budget Friendly  "><h4 aria-label="Healthy Eating —  Budget Friendly">Healthy Eating —  Budget Friendly</h4></a>
-			    </div>
-			    <div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
-			      <a href="mex.html"><img src="images/mex.jpg" class="image" alt="Mexican Fiesta"><h4 aria-label="Mexican Fiesta">Mexican Fiesta</h4></a>
-			    </div>
-			  </div>
+			<div id="container2">	<!-- Add div containers for js content - Deena	 -->
+				<h2 aria-label="current classes">Current Classes</h2>
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class1"></div>
+						<div id="Class2"></div>
+						<div id="Class3"></div>
+						<div id="Class4"></div>
+					</div>
+				</div>		
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class5"></div>
+						<div id="Class6"></div>
+						<div id="Class7"></div>
+						<div id="Class8"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">		    
+						<div id="Class9"></div>
+						<div id="Class10"></div>
+						<div id="Class11"></div>
+						<div id="Class12"></div>	
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">		    
+						<div id="Class13"></div>	
+						<div id="Class14"></div>
+						<div id="Class15"></div>
+						<div id="Class16"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class17"></div>
+						<div id="Class18"></div>
+						<div id="Class19"></div>
+						<div id="Class20"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class21"></div>
+						<div id="Class22"></div>
+						<div id="Class23"></div>
+						<div id="Class24"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class25"></div>
+						<div id="Class26"></div>
+						<div id="Class27"></div>
+						<div id="Class28"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class29"></div>
+						<div id="Class30"></div>
+						<div id="Class31"></div>
+						<div id="Class32"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class33"></div>
+						<div id="Class34"></div>
+						<div id="Class35"></div>
+						<div id="Class36"></div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="column2">			    
+						<div id="Class37"></div>
+						<div id="Class38"></div>
+						<div id="Class39"></div>
+						<div id="Class40"></div>
+					</div>
+				</div>	 
+				<div class="row"> 
+					<div class="column2">
+						<div id="Class41"></div>
+						<div id="Class42"></div>
+						<div id="Class43"></div>
+						
+					</div>
+				</div>		 
+				
+				<!--<div class="row"> Container with first 4 cooking classes. Each class is assigned category, location, type, month, day, time, and restriction data. -DR 
+					<div class="column2">
+					<div class="thumb" data-category="Global" data-location="Bellevue" data-type="Adult" data-month="January" data-day="Monday" data-time="Morning 7-12" data-restrictions="Dairy-Free">
+					<a href=""><img src="images/pasta.jpeg" class="image" alt="Holiday in Sardinia"></a><h4>Holiday in Sardinia</h4>
+					</div>
+					<div class="thumb" data-category="Chef's Table" data-location="Bothell" data-type="Kids" data-month="February" data-day="Tuesday" data-time="Afternoon 12-5" data-restrictions="Gluten-Free">
+					<a href=""><img src="images/grillchkn.jpg" class="image" alt="The Thrill of the Grill"></a><h4>The Thrill of the Grill</h4>
+					</div>
+					<div class="thumb" data-category="Baking" data-location="Edmonds" data-type="Adult" data-month="March" data-day="Wednesday" data-time="Morning 7-12" data-restrictions="Nut-Free">
+					<a href=""><img src="images/bagels.jpg" class="image" alt="New York Bagels"></a><h4>New York Bagels</h4>
+					</div>
+					<div class="thumb" data-category="Global" data-location="Columbia City" data-type="Adult" data-month="April" data-day="Thursday" data-time="Evening 5-10pm" data-restrictions="Vegan">
+					<a href=""><img src="images/thai.jpg" class="image" alt="The Art of Thai"></a><h4>The Art of Thai</h4>
+					</div>
+					</div>
+					</div>	<div class="row"> Container with next 4 cooking classes.  -DR <div id="details42"></div>
+					<div class="thumb" data-category="Baking" data-location="Issaquah" data-type="Adult" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
+					<a href="pasta.html"><img src="images/pasta2.jpg" class="image" alt="Pasta Workshop"><h4 aria-label="Pasta Workshop">Pasta Workshop</h4></a>
+					</div>
+					<div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
+					<a href="chef.html"><img src="images/chef.jpeg" class="image" alt="Guest Chef Experience"></a><h4 aria-label="Guest Chef Experience">Guest Chef Experience</h4>
+					</div>
+					<div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
+					<a href="kids.html"><img src="images/kids.jpeg" class="image" alt="Kids Summer Fun"></a><h4 aria-label="Kids Summer Fun">Kids Summer Fun</h4>
+					</div>
+					<div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
+					<a href="healthy.html"><img src="images/healthy.jpg" class="image" alt="Healthy Cooking Habits"></a><h4 aria-label="Healthy Cooking Habits">Healthy Cooking Habits</h4>
+					</div>
+					</div>
+					</div>
+					<div class="row"> Container with next 4 cooking classes.  -DR
+					<div class="column2">
+					<div id="details42"></div>
+					<div class="thumb" data-category="Kids" data-location="Issaquah" data-type="Kids" data-month="May" data-day="Friday" data-time="Afternoon 12-5" data-restrictions="Dairy-Free">
+					<a href="twoday.html"><img src="images/twoday.jpg" class="image" alt="2-Day Mystery Basket"><h4 aria-label="2-Day Mystery Basket">2-Day Mystery Basket</h4></a>
+					</div>
+					<div class="thumb" data-category="Guest Chef" data-location="Greenlake Village" data-type="Holiday" data-month="June" data-day="Saturday" data-time="Evening 5-10pm" data-restrictions="Gluten-Free">
+					<a href="cook42.html"><img src="images/cook42.jpg" class="image" alt="30-minute Cooking for Two"><h4 aria-label="30-minute Cooking for Two">30-minute Cooking for Two</h4></a>
+					</div>
+					<div class="thumb" data-category="Kids Cook" data-location="Burien" data-type="Kids" data-month="July" data-day="Sunday" data-time="Morning 7-12" data-restrictions="Nut-Free">
+					<a href="budget.html"><img src="images/budget.jpg" class="image" alt="Healthy Eating —  Budget Friendly  "><h4 aria-label="Healthy Eating —  Budget Friendly">Healthy Eating —  Budget Friendly</h4></a>
+					</div>
+					<div class="thumb" data-category="To Your Health" data-location="Bellevue" data-type="Lecture" data-month="August" data-day="Monday" data-time="Afternoon 12-5" data-restrictions="Vegan">
+					<a href="mex.html"><img src="images/mex.jpg" class="image" alt="Mexican Fiesta"><h4 aria-label="Mexican Fiesta">Mexican Fiesta</h4></a>
+					</div>
+					</div>
+					</div>
+					<div class="row">  Container with next 4 cooking classes.  -DR
+					<div class="column2">
+					<div id="details42"></div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href="salmon.html"><img src="images/salmon.jpg" class="image" alt="Gravlox"><h4 aria-label="A Celebration of the Mighty Salmon  ">A Celebration of the Mighty Salmon  </h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href="aging.html"><img src="images/aging.jpg" class="image" alt="Woman with gray hair"><h4 aria-label="Aging Gracefully">Aging Gracefully</h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href="pie.html"><img src="images/pie.jpg" class="image" alt="cherry pie"><h4 aria-label="All About Pie">All About Pie</h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href="anti.html"><img src="images/anti.jpg" class="image" alt="asparagus"><h4 aria-label="Anti-Inflammatory Eating Made Easy">Anti-Inflammatory Eating Made Easy </h4></a>
+					</div>
+					</div>
+					</div>
+					<div class="row"> Container with next 4 cooking classes.  -DR
+					<div class="column2">
+					
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
+					</div>
+					<div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
+					<a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label="Mexican Fiesta"></h4></a>
+					</div>
+					</div>
+				</div>-->
 			</div>
-			<div class="row">  Container with next 4 cooking classes.  -DR
-			  <div class="column2">
-			   <div id="details42"></div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href="salmon.html"><img src="images/salmon.jpg" class="image" alt="Gravlox"><h4 aria-label="A Celebration of the Mighty Salmon  ">A Celebration of the Mighty Salmon  </h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href="aging.html"><img src="images/aging.jpg" class="image" alt="Woman with gray hair"><h4 aria-label="Aging Gracefully">Aging Gracefully</h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href="pie.html"><img src="images/pie.jpg" class="image" alt="cherry pie"><h4 aria-label="All About Pie">All About Pie</h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href="anti.html"><img src="images/anti.jpg" class="image" alt="asparagus"><h4 aria-label="Anti-Inflammatory Eating Made Easy">Anti-Inflammatory Eating Made Easy </h4></a>
-			    </div>
-			  </div>
-			</div>
-			<div class="row"> Container with next 4 cooking classes.  -DR
-			  <div class="column2">
-			   
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label=""></h4></a>
-			    </div>
-			    <div class="thumb" data-category="" data-location="" data-type="" data-month="" data-day="" data-time="" data-restrictions="">
-			      <a href=".html"><img src="images/.jpg" class="image" alt=""><h4 aria-label="Mexican Fiesta"></h4></a>
-			    </div>
-			  </div>
-			</div>-->
-		</div>
 		</div>
 		<footer> <!-- Contains the Validator link images and the Copyright -->
 			<div class="footer-validators">
