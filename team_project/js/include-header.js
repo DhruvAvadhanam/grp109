@@ -17,5 +17,5 @@ function includeHTML(id, url) {
 
 // Run as soon as the DOM is ready
 window.addEventListener("DOMContentLoaded", () => {
-  includeHTML("header-placeholder", "/grp109/team_project/header.html");
+  includeHTML("header-placeholder", "/grp109/team_project/recurring/header.html");
 });
