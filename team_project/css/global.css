@@ -6,9 +6,12 @@
 	--font-family: Arial, Verdana, sans-serif;  /* The default font family. Enter as: "var(--font-family)" */
 	--text-on-blue: white;                      /* For use when setting White text with the Blue background. Enter as: "var(--text-on-blue)" */
 	--text-on-white: black;                     /* For use when setting Black text on a White background. Enter as: "var(--text-on-white)" */
+	--link-color: #013C4D;                      /* General link color - Same as lgcBlue. Enter as: "var(--link-color)" */
+	--link-hover: orange;                       /* General hover color - Same as the Nav hober color above. Enter as: "var(--link-hover)" */
+	--link-visited: #00242E;                    /* General visited color - Dark blue. Enter as: "var(--link-visited)" */
 }
 
-/* BODY - Sets body background color, width and centers content */
+/* BODY - Sets body background color, width and centers content -Ian */
 body {
 	font-family: var(--font-family);
 	box-sizing: border-box;
@@ -18,7 +21,22 @@ body {
 	padding-right: 5px;
 }
 
-/* HEADER - Including logo, page title, and Nav bar */
+/* LINKS - General Link coloration behavior. -Ian */
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--link-hover);
+	text-decoration: underline;
+}
+
+a:visited {
+	color: var(--link-visited);
+}
+
+/* HEADER - Including logo, page title, and Nav bar. -Ian */
 header {
 	box-sizing: border-box;
 	position: relative;
@@ -29,14 +47,14 @@ header {
 	z-index: auto;
 }
 
-/* HEADER - Branding - Wraps the Logo and Title */
+/* HEADER - Branding - Wraps the Logo and Title. -Ian */
 header .branding {
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
 }
 
-/* HEADER - H1 TITLE - Set heading text color for the Title */
+/* HEADER - H1 TITLE - Set heading text color for the Title. -Ian */
 h1.title {
 	color: var(--lgcBlue);
 }
@@ -54,7 +72,7 @@ h1.title {
 	/* z-index: 100; Ensure it stays on top */
 }
 
-/* NAV BAR - Sets the behavior and background color for the Nav Bar */
+/* NAV BAR - Sets the behavior and background color for the Nav Bar. -Ian */
 nav {
 	clear: both;
 	position: sticky;  
@@ -67,20 +85,20 @@ nav {
     z-index: 1000;
 }
 
-/* NAV BAR - Unordered List - Contains the navigation entries */
+/* NAV BAR - Unordered List - Contains the navigation entries. -Ian */
 nav ul {
 	margin: 0px;
 	padding: 0px;
 }
 
-/* NAV BAR - List Items - Sets the elements horizontally */
+/* NAV BAR - List Items - Sets the elements horizontally. -Ian */
 nav li {	
 	display: inline;
 	margin-right: 5px;
 	padding: 0.5em;
 }
 
-/* NAV BAR - Links - Remove link underline, set text color */
+/* NAV BAR - Links - Remove link underline, set text color. -Ian */
 nav li a {
 	text-decoration: none;
 	color: var(--text-on-blue);
@@ -89,14 +107,14 @@ nav li a {
 	line-height: 1.5;  /* SiteImprove */
 }
 
-/* NAV BAR - Links Hover - Set hover behavior for the Nav links. */
+/* NAV BAR - Links Hover - Set hover behavior for the Nav links. -Ian */
 nav > ul > li > a:hover,
 nav > ul > li > a:visited:hover,
 nav > ul > li > a.current {
 	color: var(--hover-color);
 }
 
-/* NAV BAR - Links Visited - Set Visited color to WHITE for ONLY the top level links, should not affect the dropdown Nav links. */
+/* NAV BAR - Links Visited - Set Visited color to WHITE for ONLY the top level links, should not affect the dropdown Nav links. -Ian */
 nav > ul > li > a:visited {
 	color: var(--text-on-blue);
 }
@@ -107,7 +125,7 @@ nav .dropdown-content a:visited:hover {
     color: var(--hover-color);
 }
 
-/* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange */
+/* NAV BAR - Cart Icon - Contains the Cart link and two images, the static white and hover orange. */
 .icon-container {
 	display: flex;
 	align-items: center;
@@ -171,7 +189,7 @@ nav .dropdown-content a:visited:hover {
 	min-height: 44px;
 }
 
-/* FOOTER - including the Validators and Copyright mark. */
+/* FOOTER - including the Validators and Copyright mark. -Ian */
 footer {
 	box-sizing: border-box;
 	/*position: sticky; - DR*/
@@ -186,7 +204,7 @@ footer {
 	text-align: center;
 }
 
-/* FOOTER - Validators - Parameters for the Validator links and images. */
+/* FOOTER - Validators - Parameters for the Validator links and images. -Ian */
 .footer-validators {
 	display: flex;
 	gap: 0.3em;
@@ -194,25 +212,25 @@ footer {
 	align-items: center;
 }
 
-/* FOOTER - Validators Images - Parameters for the Validator images. */
+/* FOOTER - Validators Images - Parameters for the Validator images. -Ian */
 .footer-validators img {
 	margin-top: 10px;
 	display: inline;
 }
 
-/* FOOTER - Validator Links - Parameters for the Validator links. */
+/* FOOTER - Validator Links - Parameters for the Validator links. -Ian */
 .footer-validators a {
 	display: inline-block;
 	padding: 7px 0; /* SiteImprove */
 }
 
-/* FOOTER - Copyright */
+/* FOOTER - Copyright. -Ian */
 .footer-copyright p {
 	color: var(--text-on-blue);
 	line-height: 1.5; /* SiteImprove */
 }
 
-/* Extend hover zone over the carousel */
+/* Extend hover zone over the carousel. -Ian */
 .dropdown-wrap {
     position: relative;
     display: inline-block;
