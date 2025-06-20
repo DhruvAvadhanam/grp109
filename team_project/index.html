@@ -7,10 +7,11 @@
 		<title>Let's Get Cooking - Group 1</title>
 		<link rel="stylesheet" href="css/global.css"> <!-- Nav and Footer CSS for all pages. Additionally specifies root variables. Should always be the first CSS file listed. -Ian -->
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="preload" href="/grp109/team_project/recurring/header.html" as="fetch" crossorigin="anonymous"> <!-- Pre-loads the header. -Ian -->
 	</head>
 	<body> <!-- Body of the document that contains the core HTML elements of the page. -->
 
-		<div id="header-placeholder"></div><!-- Injection placeholder for recurring.js that will place recurring/header.html, containing Logo, Name, and Nav elements -Ian -->
+		<div id="header-placeholder" style="min-height: 100px;"></div><!-- Injection placeholder for recurring.js that will place recurring/header.html, containing Logo, Name, and Nav elements -Ian -->
 		<!-- Addin inline script so header shows up first instead of waiting for all images to load -Ian -->
 		<script> 
 			(function includeHTML(id, url) {
