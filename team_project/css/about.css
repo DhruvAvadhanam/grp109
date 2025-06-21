@@ -1,10 +1,10 @@
-body {
-  
-}
-container {
+#container {
   padding: 20px;
-  width: 80%;
-}
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  box-sizing: border-box;
+
 .content {
-  align: center;
+  text-align: center;
 }
