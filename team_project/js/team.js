@@ -7,7 +7,7 @@ function displayStaff() {
   const selected = document.getElementById("staff").value;
   let staff = "";
   let bio = "";
-  let stylesheet = "css/about.css";
+  let stylesheet = "css/team.css";
 
   switch (selected) {
     case "Yuval":
@@ -33,7 +33,7 @@ function displayStaff() {
     default:
       staff = "Please select a staff member";
       bio = "";
-	  stylesheet = "css/about.css";
+	  stylesheet = "css/team.css";
       break;
   }
 
