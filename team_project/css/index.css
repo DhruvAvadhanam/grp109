@@ -20,40 +20,6 @@ height: 100%;
 	padding: 10px;
 }
 
-/*Container for development team*/
-#devteam {
-	display: grid;
-	/*display: flex;*/
-	grid-template-columns: auto auto auto auto;
-	/*place-content: space-around;  
-	align-content: center;*/
-	margin-left: 25%;
-	text-align:center;
-	vertical-align: middle;
-	width: 50%;
-}
-
-/*Dev team title formatting*/
-.devtitle {
-	grid-column: 1 / span 4;
-	font-weight: bold;
-	font-size: 20px;
-	background-color: #013C4D;
-	color: white;
-	padding-top: 5px;
-	border: 2px solid #013C4D;
-}
-
-/*Dev team member formatting*/
-.dt {
-	font-size: 22px;
-	font-weight: bold;
-	color:  #013C4D;
-	padding-top: 5px;
-	border: 2px solid #013C4D;
-	place-content: stretch;
-}
-
 /*Image container formatting*/
 .thumb {
 	margin: auto;
@@ -221,4 +187,40 @@ opacity: 0.7;}*/
 @keyframes fade {
 	from {opacity: .4}
 	to {opacity: 1}
+}
+
+/* DEV TEAM Completed Box - Ian */
+#devteam-container {
+  border: 10px solid #013C4D;
+  background-color: #f0f8ff;
+  padding: 10px;
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Static date text */
+#devteam-date {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Container for scrolling names */
+#devteam-names {
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-size: 25px;
+  color: #013C4D;
+}
+
+/* Scrolling names wrapper */
+#scrolling-names {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  display: inline-block;
 }
