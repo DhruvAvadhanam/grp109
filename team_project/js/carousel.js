@@ -7,24 +7,29 @@ let countdownValue = 0;
 const leftSound = new Audio("sounds/bee.wav");
 const rightSound = new Audio("sounds/clee.wav");
 
-// Show first slide
+// Show the first slide and start timers
 showSlides(slideIndex);
 startAutoScroll();
 startCountdown();
 
+// Auto scroll function (no sound)
+function autoPlusSlides() {
+  showSlides(slideIndex += 1);
+  resetCountdown();
+}
+
 // Manual scroll with sound
-function plusSlides(n) {
-  // Play sound
+function manualPlusSlides(n) {
   if (n < 0) {
     leftSound.play();
   } else {
     rightSound.play();
   }
-
   showSlides(slideIndex += n);
   resetAutoScroll();
 }
 
+// Thumbnail controls (if you have dots clickable)
 function currentSlide(n) {
   showSlides(slideIndex = n);
   resetAutoScroll();
@@ -52,11 +57,17 @@ function showSlides(n) {
 // Start the auto-scroll interval
 function startAutoScroll() {
   autoScrollInterval = setInterval(() => {
-    plusSlides(1);
+    autoPlusSlides();
   }, 3000);
 }
 
-// Reset auto-scroll and countdown
+// Reset countdown only (called by auto scroll)
+function resetCountdown() {
+  countdownValue = 0;
+  updateCountdownDisplay();
+}
+
+// Reset auto-scroll and countdown (called on manual scroll)
 function resetAutoScroll() {
   clearInterval(autoScrollInterval);
   clearInterval(countdownInterval);
@@ -66,7 +77,7 @@ function resetAutoScroll() {
   startCountdown();
 }
 
-// Countdown timer display (counting up from 0 to 3)
+// Countdown timer display (counts up from 0 to 3)
 function startCountdown() {
   const timerDisplay = getOrCreateCountdownDisplay();
   countdownInterval = setInterval(() => {
@@ -85,7 +96,7 @@ function updateCountdownDisplay() {
   }
 }
 
-// Injects the countdown display if it doesn't exist
+// Create countdown display below carousel if not present
 function getOrCreateCountdownDisplay() {
   let timerDisplay = document.getElementById("carousel-timer");
   if (!timerDisplay) {
