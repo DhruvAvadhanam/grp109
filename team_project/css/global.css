@@ -285,7 +285,7 @@ footer {
 }
 
 /* SECONDARY NAVIGATION - Links inside the dropdown */
-.dropdown-content a .dropdown-content2{
+.dropdown-content a {
 	color: black;
 	font-size: 18px;
 	padding: 12px 10px;
