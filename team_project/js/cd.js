@@ -70,6 +70,7 @@ if (document.getElementById('bc1')) {
     
     var cdImg1 = '<br> <img class="image" src="images/' + twodayClass.image + '" alt="twoday">';
     var elCd1 = document.getElementById('img1');
+    elCd1.innerHTML = cdImg1;
     
     var cdDesc1 = '<h2>' + twodayClass.name + '</h2><h4>Instructor:' + twodayClass.instructor + '</h4><h3>Menu:</h3>' + twodayClass.menu + '<p>' + twodayClass.description + '</p> <h3>Session:</h3>' + twodayClass.location + ' – ' + twodayClass.day + ', ' + twodayClass.date;
     var elCdDesc1 = document.getElementById('desc1');
