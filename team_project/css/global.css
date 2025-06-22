@@ -244,7 +244,7 @@ footer {
     z-index: 9999;
 }
 
-.dropdown-wrap:hover .dropdown-content {
+.dropdown-wrap:hover .dropdown-content .dropdown-content2 {
     display: block;
 }
 
@@ -258,7 +258,15 @@ footer {
 	width: 144px;
 	height: 44px;
 }
-
+/* Tertiary NAVIGATION - Dropdown Button */
+.dropbtn2 {
+	background-color: white;
+	color: black;
+	font-size: 18px;
+	border: none;
+	width: 144px;
+	height: 44px;
+}
 /* SECONDARY NAVIGATION - The container <div> - needed to position the dropdown content */
 .dropdown {
 	position: relative;
@@ -283,9 +291,18 @@ footer {
 	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
 	z-index: 9999;
 }
-
+.dropdown-content2 {
+	display: none;
+	position: fixed;
+	top: 250px;
+	left: auto;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+	z-index: 9999;
+}
 /* SECONDARY NAVIGATION - Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a .dropdown-content2{
 	color: black;
 	font-size: 18px;
 	padding: 12px 10px;
@@ -294,17 +311,17 @@ footer {
 }
 
 /* SECONDARY NAVIGATION - Change color of dropdown links on hover */
-.dropdown-content a:hover {
+.dropdown-content a:hover .dropdown-content2{
 	background-color: #eee;
 }
 
 /* SECONDARY NAVIGATION - Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content .dropdown-content2{
     display: block;
 }
 
 /* SECONDARY NAVIGATION - Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {color: orange;
+.dropdown:hover .dropbtn .dropbtn2 {color: orange;
 }
 
 /* Breadcrumb styling */
